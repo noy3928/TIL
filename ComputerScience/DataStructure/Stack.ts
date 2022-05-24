@@ -44,4 +44,6 @@
     console.log(stack.pop())
     console.log(stack.size)
   }
+
+  //[출처 : 드림엘리코딩 타입스크립트 강좌에서 배운 stack을 직접 구현하기]
 }
