@@ -75,9 +75,32 @@ EDB (external daba bus) : 이것은 수 많은 선으로 이루어져있다. 그
 
 clock speed : the maximun number of clock cycles that it can handle in a certain time period.
 
-<div class="breaker"></div>
+<details>
+<summary>what is overclock? </summary>
+<div markdown="1">
+
+Your computer’s CPU comes from the factory set to run at a certain maximum speed. If you run your CPU at that speed with proper cooling, it should perform fine without giving you any problems.
+
+However, you’re often not limited to that CPU speed. You can increase the CPU’s speed by setting a higher clock rate or multiplier in the computer’s BIOS, forcing it to perform more operations per second.
+
+</div>
+</details>
+
+<br>
+
+# Quiz
+
+1. Where does the CPU store its computations?
+   register
+2. Which mechanisms do we use to transport binary data and memory addresses? Check all that apply.
+   Address Bus
+
+   <br>
+   <br>
+   <br>
 
 ## 새롭게 알게 된 단어
 
 - daunting : 위압적인 (daunting to learn)
 - Ignite : 점화하다
+- stereotype : 고정관념
