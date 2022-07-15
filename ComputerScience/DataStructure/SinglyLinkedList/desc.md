@@ -28,3 +28,14 @@
 - create a new node using the value passed to the function
 - if there is no head property on the list, set the head and tail to be the newly created node
 - otherwise set the next property on the tail to be the new node and set the tail property on the list to be the newly created node
+
+## Pop
+
+- removing a node from the end of the Linked List!
+
+- if there are no nodes in the list, return undefined
+- Loop through the list until you reach the tail
+- set the next property of the 2nd to last node to be null
+- set the tail to be the 2nd to last node
+- decrement the length of the list by 1
+- return the value of the node removed
