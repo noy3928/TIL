@@ -12,15 +12,17 @@ class SinglyLinkedList {
     this.length = 0
   }
   push(val) {
+    let newNode = new Node(val)
+
     if (!this.head) {
-      this.head = new Node(val)
+      this.head = newNode
       this.tail = this.head
-      this.length++
     } else {
-      this.tail.next = new Node(val)
-      this.tail = this.tail.next
-      this.length++
+      this.tail.next = newNode
+      this.tail = newNode
     }
+    this.length++
+    return this
   }
 }
 
