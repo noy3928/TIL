@@ -21,3 +21,10 @@
 - do not have indexes!
 - connected via nodes with a next pointer
 - random access is not allowed
+
+## Pushing pseudocode
+
+- this function should accept a value
+- create a new node using the value passed to the function
+- if there is no head property on the list, set the head and tail to be the newly created node
+- otherwise set the next property on the tail to be the new node and set the tail property on the list to be the newly created node
