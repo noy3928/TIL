@@ -6,6 +6,8 @@
 - 만약 A객체의 상태가 변할 때 B함수를 실행시키고 싶다면, 이 옵저버 패턴을 이용하면 된다.
 - addEventListener도 옵저버 패턴의 한 예이다.
 
+When a subject needs to notify observers about something interesting happening, it broadcasts a notification to the observers (which can include specific data related to the topic of the notification).
+
 ### 옵저버 :
 
 - 객체의 변화를 감지할 감시자
@@ -166,3 +168,175 @@ mother.subscribe(child1)
 mother.subscribe(child2)
 mother.subscribe(child3)
 ```
+
+## Pattern
+
+옵저버 패턴을 사용하면, 우리는 옵저버라는 객체로 또 다른 객체(observable)에 구독을 걸 수 있다.  
+그리고 뭔가 이벤트가 일어나면 observable은 notify 한다 그것의 모든 옵저버에게
+
+An observable object usually contains 3 important parts:
+
+옵저버는 3가지 중요한 요소를 가진다.
+
+- observers : 옵저버의 배열이다. 이것들은 특정 이벤트가 일어나면 알림을 받게 될 것이다.
+- subscribe() : 메서드. observers list에 observers를 더하기 위한 것이다.
+- notify() : 메서드. 특정 이벤트가 일어났을 때, 옵저버에게 알림을 주는 역할을 한다.
+
+```javascript
+class Observable {
+  constructor() {
+    this.observers = []
+  }
+
+  subscribe(func) {
+    this.observers.push(func)
+  }
+
+  unsubscribe(func) {
+    this.observers = this.observers.filter(observer => observer !== func)
+  }
+
+  notify(data) {
+    this.observers.forEach(observer => observer(data))
+  }
+}
+```
+
+놀랍다. 이제 우리는 더할 수 있다. 옵저버의 리스트를 구독 메서드를 통해서.
+그리고 지울 수 있다. 구독 메서드를 통해서  
+그리고 알람을 줄 수 있다. 알림 메서드를 통해서.
+
+이제 한번 만들어보자. 이 객체를 가지고.
+
+여기 아주 간단한 앱이 있다. 버튼과 스위치만 가지고 있다.
+
+```javascript
+export default function App() {
+  return (
+    <div className="App">
+      <Button>Click me!</Button>
+      <FormControlLabel control={<Switch />} />
+    </div>
+  )
+}
+```
+
+우리는 지금 유저 인터렉션을 계속 추적하기를 원하고 있다.
+유저가 버튼이나 스위치를 클릭할 때마다, 우리는 이것의 로그를 받기 원한다.  
+더 나아가 알림을 만들기 원한다.
+
+```javascript
+import { ToastContainer, toast } from "react-toastify"
+
+function logger(data) {
+  console.log(`${Date.now()} ${data}`)
+}
+
+function toastify(data) {
+  toast(data)
+}
+
+export default function App() {
+  return (
+    <div className="App">
+      <Button>Click me!</Button>
+      <FormControlLabel control={<Switch />} />
+    </div>
+  )
+}
+```
+
+아직 옵저버가 적용되지 않은 상태이다. 여기서 구독을 할 필요가 있다.
+
+```javascript
+import { ToastContainer, toast } from "react-toastify"
+
+function logger(data) {
+  console.log(`${Date.now()} ${data}`)
+}
+
+function toastify(data) {
+  toast(data)
+}
+
+observable.subscribe(logger)
+observable.subscribe(toastify)
+
+export default function App() {
+  return (
+    <div className="App">
+      <Button>Click me!</Button>
+      <FormControlLabel control={<Switch />} />
+    </div>
+  )
+}
+```
+
+만약 이벤트가 일어나면, logger와 toastify 함수가 알림을 받게 될 것이다.  
+이제 우리는 그냥 함수를 구현하기만 하면 된다.
+어떤 함수? 실제로 알림을 주는 함수.
+
+handleClick와 handleToggle함수이다.  
+이 함수들은 notify를 호출해야 한다.  
+그리고 데이터를 넣어줘야 한다. 옵저버가 받을 수 있도록
+
+```javascript
+import { ToastContainer, toast } from "react-toastify"
+
+function logger(data) {
+  console.log(`${Date.now()} ${data}`)
+}
+
+function toastify(data) {
+  toast(data)
+}
+
+observable.subscribe(logger)
+observable.subscribe(toastify)
+
+export default function App() {
+  function handleClick() {
+    observable.notify("User clicked button!")
+  }
+
+  function handleToggle() {
+    observable.notify("User toggled switch!")
+  }
+
+  return (
+    <div className="App">
+      <Button>Click me!</Button>
+      <FormControlLabel control={<Switch />} />
+    </div>
+  )
+}
+```
+
+- 이 옵저버 패턴은 많은 곳에서 유용하지만, 이것은 특히 비동기처리나 이벤트 드리븐한 코드를 작성해야할 때 유용하다.
+- 뭔가 다운로드가 끝났을 때 알림을 준다던지, 특정 유저가 메시지를 보냈을 때 알림을 준다던지 하는 행동들에 대해서 이 옵저버 패턴을 적용하면 굉장히 유용하다.
+
+찬성 :
+
+- 옵저버 패턴은 관심사의 분리를 강제하는 훌륭한 방법이다.
+- 옵저버 객체는 the observable 객체와 강하게 결합되지 않는다.
+- the observable 객체는 그저 이벤트를 모니터링할 뿐이다.
+- 그리고 옵저버는 그저 받은 데이터를 처리할 뿐이다.
+
+반대 :
+
+- 옵저버가 복잡해지면, 성능상의 이슈를 일으킬 수 있다.
+
+## Oreilly
+
+- 옵저버는 객체(subject라고도 알려진)가 객체의 리스트를 유지하는 디자인 패턴이다, 그리고 자동으로 알려준다 state에 변화가 있을 때마다.
+- subject가 observer에게 뭔가 일어났다는 것을 알리고 싶을때, 이것은 전파한다 알림을 옵저버에게. (그 옵저버는 특정 데이터를 포함하고 있다 알림과 연관이 있는)
+- 우리가 더 이상 구독해놓았던 대상의 변화를 알림 받기 원하지 않을 때, subject를 옵저버의 리스트에서 지우면 된다.
+- 이것은 언어에 구애받지않고 유익함을 제공한다.
+  - 특정 피사체에 관심을 등록하면, 그 피사체에 대해서 변경이 일어날 때마다 알림을 받을 수 있고, 더 이상 관심이 없을 때도 그것을 지울 수 있다.
+
+다음과 같은 구성요소가 있다.
+
+Subject :
+
+- observer의 리스트를 유지하고,
+- Maintains a list of observers, facilitates adding or removing observers
