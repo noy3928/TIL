@@ -49,3 +49,15 @@
 - Set the head property to be the current head's next property
 - Decrement the length by 1
 - Return the value of the node removed
+
+<br>
+
+## Unshift
+
+- this function should accept a value
+- create a new node using the value passed to the function
+- if there is no head property on the list, set the head and tail to be the newly created node
+- otherwise set the newly created node's next property to bet the current head property on the list
+- set the head property on the list to be that newly created node
+- increment the length of the list by 1
+- return the linked list
