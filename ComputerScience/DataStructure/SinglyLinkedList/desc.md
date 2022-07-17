@@ -39,3 +39,13 @@
 - set the tail to be the 2nd to last node
 - decrement the length of the list by 1
 - return the value of the node removed
+
+<br>
+
+## Shift
+
+- If there are no nodes, return undefined
+- Store the current head property in a variable
+- Set the head property to be the current head's next property
+- Decrement the length by 1
+- Return the value of the node removed
