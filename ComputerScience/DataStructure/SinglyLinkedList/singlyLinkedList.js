@@ -72,6 +72,19 @@ class SinglyLinkedList {
     return this
   }
 
+  get(index) {
+    if (index < 0 || index >= this.length) return null
+    else {
+      let count = 0
+      let val = this.head
+      while (count < index) {
+        val = val.next
+        count++
+      }
+      return val
+    }
+  }
+
   traverse() {
     let current = this.head
     while (current) {
