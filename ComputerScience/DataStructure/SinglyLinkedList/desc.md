@@ -69,3 +69,12 @@
 - this function should accept an index
 - if the index is less than zero or greater than or equal to the length of the list, return null
 - loop through the list until you reach the index and return the node at that specific index
+
+<br>
+
+## Set
+
+- this function should accept a value and an index.
+- use your get function to find the specific node.
+- if the node is not found, return false
+- if the node is found, set the value of that node to be the value passed to the function and return true
