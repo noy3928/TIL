@@ -91,3 +91,15 @@
 - set the next property on the new node to be the previous next
 - increment the length
 - return true
+
+<br>
+
+## Remove
+
+- if the index is less than zero or greater than the length, return undefined
+- if the index is the same as the length -1, pop
+- if the index is 0, shift
+- otherwise, using the get method, access the node at the index -1
+- set the next property on that node to be the next of the next node
+- decrement the length
+- return the value of the node removed
