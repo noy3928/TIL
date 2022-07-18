@@ -103,3 +103,17 @@
 - set the next property on that node to be the next of the next node
 - decrement the length
 - return the value of the node removed
+
+<br>
+
+## Reverse
+
+- swap the head and tail
+- create a variable called next
+- create a variable called prev
+- create a variable called node and initialize it to the head property
+- loop through the list
+- set next to be the next property on whatever node is
+- set the next property on the node to be whatever prev is
+- set prev to be the value of the node variable
+- set the node variable to be the value of the next variable
