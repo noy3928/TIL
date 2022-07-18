@@ -64,7 +64,7 @@
 
 <br>
 
-## Get
+## Get O(N)
 
 - this function should accept an index
 - if the index is less than zero or greater than or equal to the length of the list, return null
@@ -81,7 +81,7 @@
 
 <br>
 
-## Insert
+## Insert O(1)
 
 - If the index is less than zero or greater than the length, return false
 - If the index is the same as the length, push a new node to the end of the list
@@ -94,7 +94,7 @@
 
 <br>
 
-## Remove
+## Remove O(1) or O(N)
 
 - if the index is less than zero or greater than the length, return undefined
 - if the index is the same as the length -1, pop
@@ -117,3 +117,11 @@
 - set the next property on the node to be whatever prev is
 - set prev to be the value of the node variable
 - set the node variable to be the value of the next variable
+
+<br>
+
+## Recap
+
+- singly linked lists are an excellent alternative to arrays when insertion and deletion at the beginning are frequently required
+- arrays contain a built in index whereas linked lists do not
+- the idea of a list data structure that consists of nodes is the foundation for other data structures like stacks and queues
