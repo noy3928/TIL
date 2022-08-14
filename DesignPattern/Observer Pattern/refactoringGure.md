@@ -61,3 +61,5 @@ subscriber가 publisher의 state를 관찰하는 것을 허락할 것이다.
 출판사쪽에서는 구독자 목록을 보유하고 있고, 그 구독자들이 어떤 잡지에 관심이 있는지를 알고 있다.
 
 The publisher maintains a list of subscribers and knows which magazines they’re interested in. Subscribers can leave the list at any time when they wish to stop the publisher sending new magazine issues to them.
+
+## Structure
