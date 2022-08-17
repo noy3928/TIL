@@ -63,3 +63,31 @@ subscriber가 publisher의 state를 관찰하는 것을 허락할 것이다.
 The publisher maintains a list of subscribers and knows which magazines they’re interested in. Subscribers can leave the list at any time when they wish to stop the publisher sending new magazine issues to them.
 
 ## Structure
+
+1. publisher는 다른 객체들에게 이벤트를 알려준다. 이런 이벤트들은 publisher가 특정 상태를 변경시키거나, 특정 행위를 실행할 때 발생한다. publisher들은 새로운 subscriber가 구독하고 구독을 끊을 수 있는 구독 구조를 가지고 있다.
+
+2. 새로운 이벤트가 발생하면, publisher는 구독리스트를 검토하고 각각의 subscriber 객체의 인터페이스에 정의된 알림 메서드를 호출한다.
+
+3. Subsriber 인터페이스는 알림 인터페이스를 선언한다. 대부분의 경우에, 단일한 업데이트 메서드로 이루어져있다. 그 메서드는 몇개의 파라미터를 가질 것이다. 이 파라미터는 publisher가 업데이트와 함께 이벤트의 세부정보를 전달할 수 있게 해준다.
+
+4. Concrete Subscriber는 publisher가 보낸 알람에 맞춰서 특정 액션을 수행한다. 이 concrete subscriber들은 반드시 같은 인터페이스로 구현되어야 한다. 그렇게 함으로써 publisher가 구체적인 클래스에 결합되지 않도록 만들어야 한다.
+
+5. 일반적으로, subscriber는 업데이트를 정확하게 하기 위해서 몇몇 문맥적 정보를 필요로한다. 이런 이유로, publisher는 자주 문맥적 데이터를 알림 메서드의 인자로 보내준다. publisher는 자기 스스로를 인자로 보낼 수 있기 때문에, subscriber가 어떤 데이터라도 직접 가져오게 할 수 있다.
+
+6. Client는 publisher과 subscriber 객체들을 분리시켜서 만들 수 있다. 그러고나면 publisher의 업데이트를 위해서 subscribers를 등록한다.
+
+## Applicability
+
+- 하나의 객체에서의 변화가 다른 객체의 변화를 일으켜야할 때, 그리고 실제 객체들의 모음이 사전에 알려져 있지 않거나, 변화가 동적으로 이루어질 때 사용하기 좋다.
+
+그래픽적인 유저 인터페이스의 클래스를 이용해서 작업할 때 이런 문제를 자주 겪을 수 있다.  
+예를 들어서, 당신이 커스텀 버튼 클래스를 만들었다고 치자. 그리고 당신은 그 버튼에 어떤 코드를 걸었다고 전제해보겠다.  
+그렇게 해서 유저가 버튼을 클릭할 때마다 그 코드가 실행되게 하려고 한다.
+
+옵저버 패턴은 어떤
+
+The Observer pattern lets any object that implements the subscriber interface subscribe for event notifications in publisher objects. You can add the subscription mechanism to your buttons, letting the clients hook up their custom code via custom subscriber classes.
+
+- Use the pattern when some objects in your app must observe others, but only for a limited time or in specific cases.
+
+The subscription list is dynamic, so subscribers can join or leave the list whenever they need to.
