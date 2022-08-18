@@ -16,3 +16,16 @@
 - set the newTail's next to null
 - decrement the length
 - return the value removed
+
+## Shifting
+
+- if length is 0, return undefined
+- Store the current head property in a variable
+- if the length is one
+  - set the head to be null
+  - set the tail to be null
+- update the head to be the next of the old head
+- set the head's prev property to null
+- set the old head's next to null
+- decrement the length
+- return old head
