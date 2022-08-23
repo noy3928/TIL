@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(240, 244, 247);
+        background: linear-gradient(-70deg, #202020, #000000);
+      }
+      .circle {
+        position: absolute;
+        background-color: #238643;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        z-index: 2;
+      }
+
+      .mouse-position {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 200px;
+        height: 100px;
+        border-radius: 4px;
+        padding: 4px 16px;
+        color: white;
+        background: rgba(255, 255, 255, 0.1);
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 80px rgba(0, 0, 0, 0.25);
+        overflow: hidden;
+      }
+
+      .mouse-position h4 {
+        color: white;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="circle"></div>
+      <div class="mouse-position">
+        <h4>Mouse Position</h4>
+        <div class="position"></div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
