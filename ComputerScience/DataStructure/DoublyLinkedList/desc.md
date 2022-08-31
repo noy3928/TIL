@@ -79,3 +79,9 @@
 - set next and prev to null on the found node
 - decrement the length
 - return the removed node.
+
+## singly vs doubly
+
+- doubly linked lists are almost identical to singly linked lists except there is an additional pointer to previous nodes;
+- better than singly linked lists for finding nodes and can be done in half the time!
+- however, they do take up more memory considering the extra pointer
