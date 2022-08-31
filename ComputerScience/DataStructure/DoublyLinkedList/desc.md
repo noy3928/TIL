@@ -29,3 +29,14 @@
 - set the old head's next to null
 - decrement the length
 - return old head
+
+## unshift
+
+- create a new node with the value passed to the function
+- if the length is 0
+  - set the head to be the new node
+  - set the tail to be the new node
+- otherwise
+  - set the prev property on the head of the list to be the new node
+  - set the next property on the new node to be the head property
+  - update the head to be the new node
