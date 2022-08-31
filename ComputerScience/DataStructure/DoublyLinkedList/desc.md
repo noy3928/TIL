@@ -48,5 +48,13 @@
   - loop through the list starting from the head and loop towards the middle
   - return the node once it is found
 - if the index is greater than half the length of the list
+
   - loop through the list starting from the tail and loop towards the middle
   - return the node once it is found
+
+  ## set
+
+  - create a variable which is the result of the get method at the index passed to the function
+    - if the get method returns a valid node, set the value of that node to be the value passed to the function
+    - return true
+  - otherwise, return false
