@@ -52,9 +52,19 @@
   - loop through the list starting from the tail and loop towards the middle
   - return the node once it is found
 
-  ## set
+## set
 
-  - create a variable which is the result of the get method at the index passed to the function
-    - if the get method returns a valid node, set the value of that node to be the value passed to the function
-    - return true
-  - otherwise, return false
+- create a variable which is the result of the get method at the index passed to the function
+  - if the get method returns a valid node, set the value of that node to be the value passed to the function
+  - return true
+- otherwise, return false
+
+## Insert
+
+- if the index is less than zero or greater than or equal to the length return false
+- if the index is 0, unshift
+- if the index is the same as the length, push
+- use the get method to access the index -1
+- set the next and prev properties on the correct nodes to link everything together
+- increment the length
+- return true
