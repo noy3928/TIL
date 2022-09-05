@@ -26,20 +26,32 @@ public class Bag {
     private Invitation invitation;
     private Ticket ticket;
 
-    public boolean hasInvitation(){
+    public Long hold(Ticket ticket){
+        if(hasInvitation()){
+            setTicket(ticket);
+            return OL;
+        }else{
+            setTicket(ticket);
+            minusAmount(ticket.getFee());
+            return ticket.getFee();
+        }
+    }
+
+    private boolean hasInvitation(){
         return invitation != null;
+    }
+
+
+    private void setTicket(Ticket ticket){
+        this.ticket = ticket
+    }
+
+    private void minusAmount(Long amount){
+        this.amount -= amount;
     }
 
     public boolean hasTicket(){
         return ticket != null;
-    }
-
-    public void setTicket(Ticket ticket){
-        this.ticket = ticket
-    }
-
-    public void minusAmount(Long amount){
-        this.amount -= amount;
     }
 
     public void plusAmount(Long amount){
@@ -81,16 +93,11 @@ public class Audience {
     관람객 스스로가 가방 안에 초대장이 있는지 확인한다. 
     제3자가 가방을 열어보도록 허용하지 않는다.  
     외부에서는 더 이상 관람객이 Bag을 소유하고 있다는 사실을 알 필요가 없다. 
+
+    bag의 구현을 캡슐화한 이후로, audience도 bag의 인터페이스에만 의존하게 된다. 
     */
     public Long buy(Ticket ticket){
-        if(bag.hasInvitation()){
-            bag.setTicket(ticket);
-            return OL
-        }else{
-            bag.setTicket(ticket);
-            bag.minusAmount(ticket.getFee());
-            return ticket.getFee();
-        }
+        return bag.hold(ticket);
     }
 }
 
