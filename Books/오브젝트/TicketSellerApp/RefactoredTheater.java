@@ -116,17 +116,22 @@ public class TicketOffice {
         this.tickets.addAll(Arrays.asList(tickets));
     }
 
-    public Ticket getTickets(){
+    public void sellTicketTo(Audience audience){
+        plusAmount(audience.buy(getTicket()));
+    }
+
+    private Ticket getTickets(){
         return tickets.remove(0)
+    }
+
+    private void plusAmount(Long amount){
+        this.amount += amount;
     }
 
     public void minusAmount(Long amount){
         this.amount -= amount;
     }
 
-    public void plusAmount(Long amount){
-        this.amount += amount;
-    }
 }
 
 /*
@@ -155,7 +160,7 @@ public class TicketSeller{
     TicketSeller는 audience의 인터페이스에만 의존하게 되었다.  
     */
     public void sellTo(Audience audience){
-        ticketOffice.plusAmount(audience.buy(ticketOffice.getTicket()));
+        ticketOffice.sellTicketTo(audience));
     }
 }
 
