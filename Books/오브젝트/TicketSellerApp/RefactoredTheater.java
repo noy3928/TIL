@@ -76,6 +76,22 @@ public class Audience {
     public Bag getBag(){
         return bag;
     }
+
+    /*
+    관람객 스스로가 가방 안에 초대장이 있는지 확인한다. 
+    제3자가 가방을 열어보도록 허용하지 않는다.  
+    외부에서는 더 이상 관람객이 Bag을 소유하고 있다는 사실을 알 필요가 없다. 
+    */
+    public Long buy(Ticket ticket){
+        if(bag.hasInvitation()){
+            bag.setTicket(ticket);
+            return OL
+        }else{
+            bag.setTicket(ticket);
+            bag.minusAmount(ticket.getFee());
+            return ticket.getFee();
+        }
+    }
 }
 
 
@@ -128,16 +144,11 @@ public class TicketSeller{
     //     return ticketOffice;
     // }
 
+    /*
+    TicketSeller는 audience의 인터페이스에만 의존하게 되었다.  
+    */
     public void sellTo(Audience audience){
-        if(audience.getBag().hasInvitation()){
-            Ticket ticket = ticketSeller.getTicketOffice().getTicket();
-            audience.getBag().setTicket(ticket);
-        }else{
-            Ticket ticket = ticketSeller.getTicketOffice().getTicket();
-            audience.getBag().minusAmount(ticket.getFee());
-            ticketSeller.getTicketOffice().plusAmount(ticket.getFee());
-            audience.getBag().setTicket(ticket);
-        }
+        ticketOffice.plusAmount(audience.buy(ticketOffice.getTicket()));
     }
 }
 
