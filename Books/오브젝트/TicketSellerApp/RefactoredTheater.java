@@ -140,7 +140,7 @@ public class TicketOffice {
 판매원을 구현한 TicketSeller 클래스는 자신이 일하는 매표소를 알고 있어야 한다. 
 */
 
-public class TicketSeller{
+public class TicketSeller {
     private TicketOffice ticketOffice;
 
     public TicketSeller(TicketOffice ticketOffice){
@@ -160,7 +160,7 @@ public class TicketSeller{
     TicketSeller는 audience의 인터페이스에만 의존하게 되었다.  
     */
     public void sellTo(Audience audience){
-        ticketOffice.sellTicketTo(audience));
+        ticketOffice.sellTicketTo(audience);
     }
 }
 
