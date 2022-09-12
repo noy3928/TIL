@@ -124,3 +124,65 @@ public abstract class DiscountPolicy{
 
     abstract protected Money getDiscountAmount(Screening Screening); // protected는 자식만 접근허용 
 }
+
+public interface DiscountCondition{
+    boolean isSatisfiedBy(Screening Screening);
+}
+
+public class SequenceCondition implements DiscountCondition {
+    private int sequence;
+
+    public SequenceCondition(int sequence){
+        this.sequence = sequence;
+    }
+
+    public boolean isSatisfiedBy(Screening screening){
+        return screening.isSequence(sequence);
+    }
+}
+
+public class PeriodCondition implements DiscountCondition {
+    private DayOfWeek dayOfWeek;
+    private LocalTime startTime;
+    private LocalTime endTime;
+
+    public PeriodCodition(DayOfWeek dayOfWeek, LocalTime startTime, LocalTime endTime){
+        this.dayOfWeek = dayOfWeek;
+        this.startTime = startTime;
+        this.endTime = endTime;
+    }
+
+    public boolean isSatisfiedBy(Screening screening){
+        return screening.getStartTime().getDayOfWeek().equals(dayOfWeek) && 
+            startTime.compareTo(screening.getStartTime().toLocalTime()) <= 0 && 
+            endTime.compareTo(screening.getStartTime().toLocaleTime()) >= 0;
+    }
+}
+
+public class AmountDiscountPolicy extends DiscountPolicy {
+    private Money discountAmount;
+
+    public AmountDiscountPolicy(Money discount, DiscountCondition ...conditions){
+        super(conditions);
+        this.discountAmount = discountAmount;
+    }
+
+    @Override
+    protected Money getDiscountAmount(Screening screening){
+        return discountAmount;
+    }
+}
+
+public class PercentDiscountPolicy extends DiscountPolicy {
+    private double percent;
+
+    public PercentDiscountPolicy(double percent, DiscountCondition ...conditions){
+        super(conditions);
+        this.percent = percent;
+    }
+
+    @Override
+    protected Money getDiscountAmount(Screening screening){
+        return screening.getMovieFee().times(percent);
+    }
+}
