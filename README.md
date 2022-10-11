@@ -10,4 +10,4 @@
 
 ## 컴퓨터 과학 
 
-### [운영체제](https://github.com/noy3928/TIL/tree/main/ComputerScience/OperatingSystem) 
+[운영체제](https://github.com/noy3928/TIL/tree/main/ComputerScience/OperatingSystem) 
