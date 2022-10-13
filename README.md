@@ -4,7 +4,8 @@
 
 ## 클린 아키텍처
 
-[오브젝트](https://github.com/noy3928/TIL/tree/main/Books/Object)
+[오브젝트](https://github.com/noy3928/TIL/tree/main/Books/Object)   
+[함수형 자바스크립트](https://github.com/noy3928/TIL/tree/main/Books/FunctionalJavascript)
 
 <br>
 
