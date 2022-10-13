@@ -11,3 +11,19 @@
 <br>
 
 [서문정리](https://github.com/noy3928/TIL/blob/main/Books/ThinkLikeAProgrammer/intro.md)
+
+## 1장 - 모델이란 무엇인가 :
+
+1장에서는 모델이란 무엇인가를 소개하고 있었다.  
+모델이란 쉽게 말하면, 사물을 추상화하여 표현한 것을 말한다.
+그렇게 추상화시키는 목적은 쉽고 명확한 의사전달이다.
+
+이렇게 모델이란 무엇인가를 생각해볼 때, 모델은 형식이라고도 말할 수 있다고 하면서,
+여러가지 사례들을 소개한다.
+
+그리고 모델기반사고법에서는 어떻게 모델이 사용되는지 잠깐 소개한다.
+그리고 2장에서는 모델기반사고법으로 모델을 작성하는 방법을 알아보겠다는 말로 1장을 마무리한다.
+
+[1장 정리](https://github.com/noy3928/TIL/blob/main/Books/ThinkLikeAProgrammer/1.%EB%AA%A8%EB%8D%B8%EC%9D%B4%EB%9E%80%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.md)
+
+<br>
