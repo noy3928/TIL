@@ -1,5 +1,7 @@
 # Think Like a Programmer
 
+<img src="./img/book-cover.png" width="50%"/>
+
 ## 이 책을 읽기 시작한 이유 :
 
 나는 항상 사고방식에 대해 공부하는 것을 좋아한다.  
