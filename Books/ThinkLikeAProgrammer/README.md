@@ -1,6 +1,6 @@
 # Think Like a Programmer
 
-<img src="./img/book-cover.png" width="50%"/>
+<img src="./img/book-cover.png" width="20%"/>
 
 ## 이 책을 읽기 시작한 이유 :
 
