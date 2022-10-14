@@ -26,7 +26,7 @@
 
 <br>
 
-## [2장 - 모델 작성법](<(https://github.com/noy3928/TIL/blob/main/Books/ThinkLikeAProgrammer/2.%EB%AA%A8%EB%8D%B8%EC%9E%91%EC%84%B1%EB%B2%95.md)>) :
+## [2장 - 모델 작성법 : ](https://github.com/noy3928/TIL/blob/main/Books/ThinkLikeAProgrammer/2.%EB%AA%A8%EB%8D%B8%EC%9E%91%EC%84%B1%EB%B2%95.md)
 
 2장에서는 모델을 작성하는 방법을 소개하고 있다.  
 먼저 모델을 작성할 때 알아야 할 전제가 있다.  
