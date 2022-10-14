@@ -12,7 +12,7 @@
 
 [서문정리](https://github.com/noy3928/TIL/blob/main/Books/ThinkLikeAProgrammer/intro.md)
 
-## 1장 - 모델이란 무엇인가 :
+## [1장 - 모델이란 무엇인가 :](https://github.com/noy3928/TIL/blob/main/Books/ThinkLikeAProgrammer/1.%EB%AA%A8%EB%8D%B8%EC%9D%B4%EB%9E%80%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.md)
 
 1장에서는 모델이란 무엇인가를 소개하고 있었다.  
 모델이란 쉽게 말하면, 사물을 추상화하여 표현한 것을 말한다.
@@ -24,11 +24,9 @@
 그리고 모델기반사고법에서는 어떻게 모델이 사용되는지 잠깐 소개한다.
 그리고 2장에서는 모델기반사고법으로 모델을 작성하는 방법을 알아보겠다는 말로 1장을 마무리한다.
 
-[1장 정리](https://github.com/noy3928/TIL/blob/main/Books/ThinkLikeAProgrammer/1.%EB%AA%A8%EB%8D%B8%EC%9D%B4%EB%9E%80%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.md)
-
 <br>
 
-## 2장 - 모델 작성법 :
+## [2장 - 모델 작성법](<(https://github.com/noy3928/TIL/blob/main/Books/ThinkLikeAProgrammer/2.%EB%AA%A8%EB%8D%B8%EC%9E%91%EC%84%B1%EB%B2%95.md)>) :
 
 2장에서는 모델을 작성하는 방법을 소개하고 있다.  
 먼저 모델을 작성할 때 알아야 할 전제가 있다.  
@@ -38,5 +36,3 @@
    - 요소는 명사로 작성한다
 2. 각 요소들 사이의 관계를 명확히 정의한다.
 3. 일목요연하게 요소들을 배치한다.
-
-[2장 정리]()
