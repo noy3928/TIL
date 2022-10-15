@@ -1,5 +1,7 @@
 # 테스트 주도 개발
 
+<img src="./img/TDD.png" width="20%" />
+
 ## 동기 :
 
 최근 테스트코드를 작성 중이다. 생각보다 테스트코드를 작성하는 일은 만만한 일이 아니었다.  
@@ -9,7 +11,7 @@
 
 <br>
 
-## 저자의 글 :
+## [저자의 글 :](https://github.com/noy3928/TIL/blob/main/Books/Test-DrivenDevelopment:ByExample/%EC%A0%80%EC%9E%90%EC%9D%98%EA%B8%80.md)
 
 저자의 글에선 TDD가 가져다주는 가치가 무엇인지 설명한다.  
 이것이 궁극적으로 목표하는 바는 "작동하는 깔끔한 코드"  
@@ -20,7 +22,7 @@ TDD는 작동하는 깔끔한 코드를 더욱 쉽게 달성하게 도와준다.
 
 ## 1부
 
-### 1.다중통화를 지원하는 Money 객체 :
+### [1.다중통화를 지원하는 Money 객체 :](https://github.com/noy3928/TIL/blob/main/Books/Test-DrivenDevelopment:ByExample/1%EB%B6%80-%ED%99%94%ED%8F%90%EC%98%88%EC%A0%9C/1.%EB%8B%A4%EC%A4%91%ED%86%B5%ED%99%94%EB%A5%BC%EC%A7%80%EC%9B%90%ED%95%98%EB%8A%94Money%EA%B0%9D%EC%B2%B4.md)
 
 가장 첫번째 파트에서는 테스트코드를 작성하는 주기를 간단하게 보여준다.  
 우선 실패하는 코드를 작성한 후,  
