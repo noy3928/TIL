@@ -41,7 +41,7 @@
 
 <br>
 
-## [3장 - 모델을 사용하면 얻게되는 장점 : ]
+## [3장 - 모델을 사용하면 얻게되는 장점 : ](https://github.com/noy3928/TIL/blob/main/Books/ThinkLikeAProgrammer/1.%EB%AA%A8%EB%8D%B8%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4%20%EC%96%BB%EA%B2%8C%EB%90%98%EB%8A%94%20%EC%9E%A5%EC%A0%90.md)
 
 3장에서는 모델을 사용할 때의 장점을 소개하고 있다.  
 그런데 사실 이 장은 조금 루즈하게 느껴졌다.  
