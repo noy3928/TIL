@@ -31,7 +31,7 @@ TDD는 작동하는 깔끔한 코드를 더욱 쉽게 달성하게 도와준다.
 
 <br>
 
-### 2.타락한 객체 :
+### [2.타락한 객체 :](https://github.com/noy3928/TIL/blob/main/Books/Test-DrivenDevelopment:ByExample/1%EB%B6%80-%ED%99%94%ED%8F%90%EC%98%88%EC%A0%9C/2.%ED%83%80%EB%9D%BD%ED%95%9C%EA%B0%9D%EC%B2%B4.md)
 
 객체의 부작용에 대한 내용을 다루고 있다.  
 불변하지 않은 객체에 대해서 테스트할 때 어떻게 할 것인가 대한 이야기
