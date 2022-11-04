@@ -8,7 +8,7 @@
 
 
 ![](Assets/Http3-layer.png)
-<img src="../Assets/" />
+<img src="./Assets/Http3-layer.png" />
 
 
 ### 메모를 한 이유 : 
