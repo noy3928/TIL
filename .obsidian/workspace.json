@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1eac2d4a94f724c0",
+        "id": "9c32062579feab99",
         "type": "tabs",
         "children": [
           {
-            "id": "3b383a5be2ca24d8",
+            "id": "5f79a7638852388a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,28 +16,6 @@
                 "file": "Daily-Note/UDP allow multidirectional.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "981bd93a47722b5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/TCP레벨의 HOLB.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e919d53da317ac18",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/udp-mulidirectional.png"
               }
             }
           }
@@ -158,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3b383a5be2ca24d8",
+  "active": "5f79a7638852388a",
   "lastOpenFiles": [
-    "Daily-Note/Slow Start.md",
-    "Daily-Note/TCP레벨의 HOLB.md",
-    "assets/udp-mulidirectional.png",
+    "Assets/udp-mulidirectional.md",
     "Daily-Note/UDP allow multidirectional.md",
+    "Daily-Note/TCP레벨의 HOLB.md",
+    "Assets/udp-mulidirectional.png",
+    "\"../assets/udp-mulidirectional\".md",
+    "Daily-Note/Slow Start.md",
     "Daily-Note/의존성 역전 원칙.md",
     "template/제텔카스텐.md",
     "Books/Object/4.설계품질과트레이드오프/table.md",
-    "Books/Object/3.역할,책임,협력/table.md",
-    "Books/Object/2.객체지향 프로그래밍/Summary.md",
-    "Books/Object/2.객체지향 프로그래밍/table.md"
+    "Books/Object/3.역할,책임,협력/table.md"
   ]
 }

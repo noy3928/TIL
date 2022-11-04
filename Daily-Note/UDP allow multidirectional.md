@@ -6,7 +6,12 @@
 ### 인용 : 
 >  Unlike TCP’s ordered message exchange scheme, UDP allows multidirectional broadcasting of messages, which feature, among other things, helps address head-of-line blocking (HoL) issues at the packet level.
 
-![](../assets/udp-mulidirectional)
+
+![]()
+
+
+
+
 
 
 ### 메모를 한 이유 : 
