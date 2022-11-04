@@ -11,8 +11,12 @@
             "id": "ee50ba3f78e7294a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "소프트스킬/핵심역량/영향력.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "소프트스킬/핵심역량/영향력.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "소프트스킬/핵심역량/영향력.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "소프트스킬/핵심역량/영향력.md"
+              }
             }
           }
         ]
@@ -130,15 +138,15 @@
   },
   "active": "ee50ba3f78e7294a",
   "lastOpenFiles": [
+    "소프트스킬/핵심역량/고객중심.md",
+    "소프트스킬/핵심역량/결과도출.md",
+    "소프트스킬/c언어를 공부해야하는이유.md",
     "Daily-Note/UDP allow multidirectional.md",
     "Assets/udp-mulidirectional.md",
     "Daily-Note/TCP레벨의 HOLB.md",
     "Assets/udp-mulidirectional.png",
     "\"../assets/udp-mulidirectional\".md",
     "Daily-Note/Slow Start.md",
-    "Daily-Note/의존성 역전 원칙.md",
-    "template/제텔카스텐.md",
-    "Books/Object/4.설계품질과트레이드오프/table.md",
-    "Books/Object/3.역할,책임,협력/table.md"
+    "Daily-Note/의존성 역전 원칙.md"
   ]
 }
