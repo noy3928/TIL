@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1e032fbbfe103740",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/GA는 어떻게 동작하는가-1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "01f364707caf9453",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/GA는 어떻게 동작하는가-2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "소프트스킬/핵심역량/영향력.md",
+                "file": "Daily-Note/GA는 어떻게 동작하는가-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "소프트스킬/핵심역량/영향력.md",
+                "file": "Daily-Note/GA는 어떻게 동작하는가-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "소프트스킬/핵심역량/영향력.md"
+                "file": "Daily-Note/GA는 어떻게 동작하는가-2.md"
               }
             }
           }
@@ -136,8 +161,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ee50ba3f78e7294a",
+  "active": "01f364707caf9453",
   "lastOpenFiles": [
+    "Daily-Note/GA는 어떻게 동작하는가-1.md",
+    "소프트스킬/핵심역량/영향력.md",
     "소프트스킬/핵심역량/고객중심.md",
     "소프트스킬/핵심역량/결과도출.md",
     "소프트스킬/c언어를 공부해야하는이유.md",
@@ -145,8 +172,6 @@
     "Assets/udp-mulidirectional.md",
     "Daily-Note/TCP레벨의 HOLB.md",
     "Assets/udp-mulidirectional.png",
-    "\"../assets/udp-mulidirectional\".md",
-    "Daily-Note/Slow Start.md",
-    "Daily-Note/의존성 역전 원칙.md"
+    "\"../assets/udp-mulidirectional\".md"
   ]
 }
