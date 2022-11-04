@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/QUIC는 커널 차원에서의 변경을 요구하지 않는다.md",
+                "file": "ComputerScience/Network/커넥션 성능 향상.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/QUIC는 커널 차원에서의 변경을 요구하지 않는다.md",
+                "file": "ComputerScience/Network/커넥션 성능 향상.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/QUIC는 커널 차원에서의 변경을 요구하지 않는다.md",
+                "file": "ComputerScience/Network/커넥션 성능 향상.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/QUIC는 커널 차원에서의 변경을 요구하지 않는다.md"
+                "file": "ComputerScience/Network/커넥션 성능 향상.md"
               }
             }
           }
@@ -199,15 +199,15 @@
   },
   "active": "d0dd19e5359c565e",
   "lastOpenFiles": [
-    "Daily-Note/TCP레벨의 HOLB.md",
-    "Daily-Note/UDP allow multidirectional.md",
+    "ComputerScience/Network/네트워크질문.md",
+    "Daily-Note/QUIC는 커널 차원에서의 변경을 요구하지 않는다.md",
+    "Daily-Note/HTTP3 레이어구성.md",
+    "Daily-Note/HTTP2에서 데이터 전송에 실패했을때.md",
+    "Daily-Note/GA는 어떻게 동작하는가-2.md",
     "Daily-Note/의존성 역전 원칙.md",
     "Daily-Note/GA는 어떻게 동작하는가-1.md",
-    "Daily-Note/GA는 어떻게 동작하는가-2.md",
-    "Daily-Note/HTTP2에서 데이터 전송에 실패했을때.md",
-    "Daily-Note/HTTP3 레이어구성.md",
     "Daily-Note/Slow Start.md",
-    "소프트스킬/핵심역량/영향력.md",
-    "소프트스킬/핵심역량/고객중심.md"
+    "Daily-Note/TCP레벨의 HOLB.md",
+    "Daily-Note/UDP allow multidirectional.md"
   ]
 }
