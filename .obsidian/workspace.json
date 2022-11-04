@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/무제파일.md",
+                "file": "Daily-Note/TCP레벨의 HOLB.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/무제파일.md",
+                "file": "Daily-Note/TCP레벨의 HOLB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/무제파일.md",
+                "file": "Daily-Note/TCP레벨의 HOLB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/무제파일.md"
+                "file": "Daily-Note/TCP레벨의 HOLB.md"
               }
             }
           }
@@ -187,15 +187,15 @@
   },
   "active": "9816ed4141c7fdb6",
   "lastOpenFiles": [
+    "Daily-Note/HTTP2에서 데이터 전송에 실패했을때.md",
     "Daily-Note/HTTP3 레이어구성.md",
-    "Daily-Note/Slow Start.md",
-    "Daily-Note/TCP레벨의 HOLB.md",
     "Daily-Note/UDP allow multidirectional.md",
+    "Daily-Note/TCP레벨의 HOLB.md",
+    "Daily-Note/Slow Start.md",
     "Daily-Note/의존성 역전 원칙.md",
     "Daily-Note/GA는 어떻게 동작하는가-2.md",
     "Daily-Note/GA는 어떻게 동작하는가-1.md",
     "소프트스킬/핵심역량/영향력.md",
-    "소프트스킬/핵심역량/고객중심.md",
-    "소프트스킬/핵심역량/결과도출.md"
+    "소프트스킬/핵심역량/고객중심.md"
   ]
 }
