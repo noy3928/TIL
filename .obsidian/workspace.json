@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/GA는 어떻게 동작하는가-2.md",
+                "file": "Daily-Note/GA는 어떻게 동작하는가-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/GA는 어떻게 동작하는가-2.md",
+                "file": "Daily-Note/GA는 어떻게 동작하는가-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/GA는 어떻게 동작하는가-2.md"
+                "file": "Daily-Note/GA는 어떻게 동작하는가-1.md"
               }
             }
           }
@@ -161,8 +161,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "01f364707caf9453",
+  "active": "1e032fbbfe103740",
   "lastOpenFiles": [
+    "Daily-Note/GA는 어떻게 동작하는가-2.md",
     "Daily-Note/GA는 어떻게 동작하는가-1.md",
     "소프트스킬/핵심역량/영향력.md",
     "소프트스킬/핵심역량/고객중심.md",
@@ -171,7 +172,6 @@
     "Daily-Note/UDP allow multidirectional.md",
     "Assets/udp-mulidirectional.md",
     "Daily-Note/TCP레벨의 HOLB.md",
-    "Assets/udp-mulidirectional.png",
-    "\"../assets/udp-mulidirectional\".md"
+    "Assets/udp-mulidirectional.png"
   ]
 }

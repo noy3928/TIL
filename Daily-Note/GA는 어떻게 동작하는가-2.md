@@ -8,10 +8,11 @@
 
 
 ### 메모를 한 이유 : 
-
+- tag를 심어두면, 방문자의 브라우저에서 이 tag가 실행된다. 그리고 데이터를 수집해서 구글의 데이터 수집 서버에 보낸다. 
 
 
 ### 출처(참고문헌) : 
+[# Google Analytics](https://www.techtarget.com/searchbusinessanalytics/definition/Google-Analytics)
 
 
 ### Link : 
