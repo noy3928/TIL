@@ -178,14 +178,15 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "7b28b030600b7b70",
+  "active": "ce47a6b9bcd692a2",
   "lastOpenFiles": [
     "Daily-Note/컴포넌트 테스트.md",
     "Daily-Note/소프트웨어 품질과 테스트.md",
