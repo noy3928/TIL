@@ -150,9 +150,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bf8b01664ad76858",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/제네레이터.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -218,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/사용자정의 이터러블.md",
+                "file": "Daily-Note/제네레이터.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/사용자정의 이터러블.md",
+                "file": "Daily-Note/제네레이터.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/사용자정의 이터러블.md"
+                "file": "Daily-Note/제네레이터.md"
               }
             }
           }
@@ -269,8 +281,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8bfa6015c8e165d3",
+  "active": "bf8b01664ad76858",
   "lastOpenFiles": [
+    "Daily-Note/사용자정의 이터러블.md",
     "Daily-Note/Map 자료구조와 이터러블.md",
     "Daily-Note/for of문과 이터러블,이터레이터.md",
     "Daily-Note/고계함수와 클로저.md",
@@ -279,7 +292,6 @@
     "Daily-Note/Functor의 정의.md",
     "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
     "Daily-Note/개발자의 성장과 피드백.md",
-    "Daily-Note/의존성 역전 원칙.md",
-    "Daily-Note/HTTP3 레이어구성.md"
+    "Daily-Note/의존성 역전 원칙.md"
   ]
 }
