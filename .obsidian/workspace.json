@@ -32,30 +32,6 @@
             }
           },
           {
-            "id": "346d70717e669664",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/HTTP3 레이어구성.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9816ed4141c7fdb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/TCP레벨의 HOLB.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "50d1282e580b81f4",
             "type": "leaf",
             "state": {
@@ -78,33 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "84d18c8e6f3008c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/문제해결능력 - 조은.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01f364707caf9453",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/GA는 어떻게 동작하는가-2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/이 정도는 대답할 수 있어야한다 - 프론트엔드.md",
+                "file": "Daily-Note/의존성 역전 원칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/이 정도는 대답할 수 있어야한다 - 프론트엔드.md",
+                "file": "Daily-Note/의존성 역전 원칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/이 정도는 대답할 수 있어야한다 - 프론트엔드.md"
+                "file": "Daily-Note/의존성 역전 원칙.md"
               }
             }
           }
@@ -221,17 +173,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "50d1282e580b81f4",
+  "active": "1e032fbbfe103740",
   "lastOpenFiles": [
-    "Daily-Note/문제해결능력 - 조은.md",
-    "Daily-Note/개발자의 성장과 피드백.md",
+    "Daily-Note/HTTP3 레이어구성.md",
     "Daily-Note/TCP레벨의 HOLB.md",
-    "ComputerScience/Network/커넥션 성능 향상.md",
     "Daily-Note/이 정도는 대답할 수 있어야한다 - 프론트엔드.md",
+    "Daily-Note/개발자의 성장과 피드백.md",
+    "Daily-Note/GA는 어떻게 동작하는가-2.md",
+    "Daily-Note/문제해결능력 - 조은.md",
+    "ComputerScience/Network/커넥션 성능 향상.md",
     "ComputerScience/Network/네트워크질문.md",
     "Daily-Note/QUIC는 커널 차원에서의 변경을 요구하지 않는다.md",
-    "Daily-Note/HTTP3 레이어구성.md",
-    "Daily-Note/HTTP2에서 데이터 전송에 실패했을때.md",
-    "Daily-Note/GA는 어떻게 동작하는가-2.md"
+    "Daily-Note/HTTP2에서 데이터 전송에 실패했을때.md"
   ]
 }
