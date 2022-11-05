@@ -61,22 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/개발자의 성장과 피드백.md",
+                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "f78e513615275916",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -142,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md"
+              }
             }
           }
         ]
@@ -189,14 +185,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f78e513615275916",
+  "active": "01c48e6d4b4cc3ad",
   "lastOpenFiles": [
+    "Daily-Note/개발자의 성장과 피드백.md",
     "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
     "Daily-Note/의존성 역전 원칙.md",
     "Daily-Note/HTTP3 레이어구성.md",
     "Daily-Note/TCP레벨의 HOLB.md",
     "Daily-Note/이 정도는 대답할 수 있어야한다 - 프론트엔드.md",
-    "Daily-Note/개발자의 성장과 피드백.md",
     "Daily-Note/GA는 어떻게 동작하는가-2.md",
     "Daily-Note/문제해결능력 - 조은.md",
     "ComputerScience/Network/커넥션 성능 향상.md",
