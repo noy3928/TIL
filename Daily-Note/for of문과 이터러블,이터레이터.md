@@ -21,8 +21,12 @@
 ```javascript
 const arr = [1,2,3]
 let iter1 = arr[Symbol.iterator]()
-for (const a of iter1) l
+iter1.next()
+iter1.next()
+iter1.next()
+for (const a of iter1) log(a) // 아무것도 출력되지 않는다. 
 ```
+
 
 
 ### 메모를 한 이유 : 
