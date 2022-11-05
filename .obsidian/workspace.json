@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/소프트웨어 품질과 테스트.md",
+                "file": "Daily-Note/소프트웨어의 품질.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b418d1c21ed8605",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/콘웨이의 법칙.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/소프트웨어 품질과 테스트.md",
+                "file": "Daily-Note/콘웨이의 법칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/소프트웨어 품질과 테스트.md",
+                "file": "Daily-Note/콘웨이의 법칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/소프트웨어 품질과 테스트.md"
+                "file": "Daily-Note/콘웨이의 법칙.md"
               }
             }
           }
@@ -149,9 +161,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "77df859881ad6747",
+  "active": "6b418d1c21ed8605",
   "lastOpenFiles": [
     "Daily-Note/소프트웨어의 품질.md",
+    "Daily-Note/소프트웨어 품질과 테스트.md",
     "Daily-Note/map함수의 다형성.md",
     "ComputerScience/OperatingSystem/입출력시스템과 저장장치/입출력시스템.md",
     "ComputerScience/Network/네트워크질문.md",
@@ -159,7 +172,6 @@
     "OOP/의존성 역전 원칙.md",
     "Lecture/컴포넌트,다시생각하기-원지혁.md",
     "Daily-Note/제네레이터.md",
-    "Daily-Note/사용자정의 이터러블.md",
-    "Daily-Note/Map 자료구조와 이터러블.md"
+    "Daily-Note/사용자정의 이터러블.md"
   ]
 }
