@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1893486d786275af",
+        "id": "2e77611761c74afa",
         "type": "tabs",
         "children": [
           {
-            "id": "bf8b01664ad76858",
+            "id": "e019701b94ff6efe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/제네레이터.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/제네레이터.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/제네레이터.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Daily-Note/제네레이터.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -136,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bf8b01664ad76858",
+  "active": "e019701b94ff6efe",
   "lastOpenFiles": [
+    "ComputerScience/OperatingSystem/입출력시스템과 저장장치/입출력시스템.md",
+    "ComputerScience/Network/네트워크질문.md",
+    "ComputerScience/DesignPattern/ProxyPattern.md",
+    "OOP/의존성 역전 원칙.md",
+    "Lecture/컴포넌트,다시생각하기-원지혁.md",
+    "Daily-Note/제네레이터.md",
     "Daily-Note/사용자정의 이터러블.md",
     "Daily-Note/Map 자료구조와 이터러블.md",
     "Daily-Note/for of문과 이터러블,이터레이터.md",
-    "Daily-Note/고계함수와 클로저.md",
-    "Daily-Note/일급함수.md",
-    "Daily-Note/Monad의 정의.md",
-    "소프트스킬/핵심역량/영향력.md",
-    "Daily-Note/의존성 역전 원칙.md",
-    "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
-    "Daily-Note/Functor의 정의.md"
+    "Daily-Note/고계함수와 클로저.md"
   ]
 }
