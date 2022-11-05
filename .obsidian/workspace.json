@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "77df859881ad6747",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/소프트웨어 품질과 테스트.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/소프트웨어의 품질.md",
+                "file": "Daily-Note/소프트웨어 품질과 테스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/소프트웨어의 품질.md",
+                "file": "Daily-Note/소프트웨어 품질과 테스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/소프트웨어의 품질.md"
+                "file": "Daily-Note/소프트웨어 품질과 테스트.md"
               }
             }
           }
@@ -136,8 +149,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e019701b94ff6efe",
+  "active": "77df859881ad6747",
   "lastOpenFiles": [
+    "Daily-Note/소프트웨어의 품질.md",
     "Daily-Note/map함수의 다형성.md",
     "ComputerScience/OperatingSystem/입출력시스템과 저장장치/입출력시스템.md",
     "ComputerScience/Network/네트워크질문.md",
@@ -146,7 +160,6 @@
     "Lecture/컴포넌트,다시생각하기-원지혁.md",
     "Daily-Note/제네레이터.md",
     "Daily-Note/사용자정의 이터러블.md",
-    "Daily-Note/Map 자료구조와 이터러블.md",
-    "Daily-Note/for of문과 이터러블,이터레이터.md"
+    "Daily-Note/Map 자료구조와 이터러블.md"
   ]
 }
