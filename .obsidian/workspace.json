@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/문제해결능력 - 조은.md",
+                "file": "Daily-Note/이 정도는 대답할 수 있어야한다 - 프론트엔드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/문제해결능력 - 조은.md",
+                "file": "Daily-Note/이 정도는 대답할 수 있어야한다 - 프론트엔드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/문제해결능력 - 조은.md"
+                "file": "Daily-Note/이 정도는 대답할 수 있어야한다 - 프론트엔드.md"
               }
             }
           }
@@ -221,10 +221,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "84d18c8e6f3008c6",
+  "active": "50d1282e580b81f4",
   "lastOpenFiles": [
-    "Daily-Note/개발자의 성장과 피드백.md",
     "Daily-Note/문제해결능력 - 조은.md",
+    "Daily-Note/개발자의 성장과 피드백.md",
     "Daily-Note/TCP레벨의 HOLB.md",
     "ComputerScience/Network/커넥션 성능 향상.md",
     "Daily-Note/이 정도는 대답할 수 있어야한다 - 프론트엔드.md",
