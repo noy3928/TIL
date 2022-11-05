@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/추상화와 개방폐쇄원칙.md",
+                "file": "Daily-Note/개방폐쇄원칙.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/추상화와 개방폐쇄원칙.md",
+                "file": "Daily-Note/개방폐쇄원칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/추상화와 개방폐쇄원칙.md",
+                "file": "Daily-Note/개방폐쇄원칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/추상화와 개방폐쇄원칙.md"
+                "file": "Daily-Note/개방폐쇄원칙.md"
               }
             }
           }
@@ -200,6 +200,7 @@
   },
   "active": "70054978a379db6a",
   "lastOpenFiles": [
+    "Daily-Note/추상화와 개방폐쇄원칙.md",
     "Daily-Note/개방폐쇄원칙.md",
     "Daily-Note/컴포넌트 테스트.md",
     "Daily-Note/소프트웨어 품질과 테스트.md",
@@ -208,7 +209,6 @@
     "Daily-Note/map함수의 다형성.md",
     "ComputerScience/OperatingSystem/입출력시스템과 저장장치/입출력시스템.md",
     "ComputerScience/Network/네트워크질문.md",
-    "ComputerScience/DesignPattern/ProxyPattern.md",
-    "OOP/의존성 역전 원칙.md"
+    "ComputerScience/DesignPattern/ProxyPattern.md"
   ]
 }
