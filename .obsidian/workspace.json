@@ -66,9 +66,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f78e513615275916",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +142,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +158,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,9 +179,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -185,8 +189,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4f4328be5dd49466",
+  "active": "f78e513615275916",
   "lastOpenFiles": [
+    "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
     "Daily-Note/의존성 역전 원칙.md",
     "Daily-Note/HTTP3 레이어구성.md",
     "Daily-Note/TCP레벨의 HOLB.md",
@@ -195,7 +200,6 @@
     "Daily-Note/GA는 어떻게 동작하는가-2.md",
     "Daily-Note/문제해결능력 - 조은.md",
     "ComputerScience/Network/커넥션 성능 향상.md",
-    "ComputerScience/Network/네트워크질문.md",
-    "Daily-Note/QUIC는 커널 차원에서의 변경을 요구하지 않는다.md"
+    "ComputerScience/Network/네트워크질문.md"
   ]
 }
