@@ -86,9 +86,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3ccfeb5bbf473625",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/이벤트 루프에 대한 예시코드.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -154,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/Keyboard access fundamentals.md",
+                "file": "Daily-Note/이벤트 루프에 대한 예시코드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/Keyboard access fundamentals.md",
+                "file": "Daily-Note/이벤트 루프에 대한 예시코드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/Keyboard access fundamentals.md"
+                "file": "Daily-Note/이벤트 루프에 대한 예시코드.md"
               }
             }
           }
@@ -206,10 +218,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0520b31fb649ebbb",
+  "active": "3ccfeb5bbf473625",
   "lastOpenFiles": [
-    "Daily-Note/웹접근성의 기본적인 개념.md",
     "Daily-Note/Keyboard access fundamentals.md",
+    "Daily-Note/웹접근성의 기본적인 개념.md",
     "Daily-Note/삽입정렬.md",
     "template/제텔카스텐.md",
     "Daily-Note/Special sort.md",
