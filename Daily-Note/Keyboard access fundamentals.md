@@ -14,7 +14,22 @@
 
 - 논리적인 순서로 탭 순서를 배치하는 것이 중요하다. 이것을 위해서 알아야하는 2가지 사실이 있다. 
 	- DOM에서 요소들의 순서를 논리적으로 배치하기 
-	- 포커스되어서
+	- 포커스되어서는 안되는 요소들에 대한 가시성을 올바르게 설정할 것 
+
+
+- 만약에 tab순서를 앞에 배치하고 싶은 경우가 있다면, 해당 요소를 가장 앞에다가 두어야 한다. 특정 css나 js 트릭을 이용해서 앞에다가 배치하지 않도록 하자. 
+```html
+논리적인 탭 순서
+<button>Kiwi</button>  
+<button>Peach</button>  
+<button>Coconut</button>
+
+비논리적 탭 순서 
+<button style="float: right">Kiwi</button>  
+<button>Peach</button>  
+<button>Coconut</button>
+```
+
 
 
 ### 내 생각과 정리 : 
