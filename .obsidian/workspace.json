@@ -20,74 +20,6 @@
             }
           },
           {
-            "id": "0ec7b01f03edc3fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7357b3d3eb2872aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/버블정렬.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d4dbc9c7800ebe8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "3e536e6c2a470dbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/삽입정렬.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f06a72cd0278c554",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/웹접근성의 기본적인 개념.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0520b31fb649ebbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/Keyboard access fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3ccfeb5bbf473625",
             "type": "leaf",
             "state": {
@@ -99,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/이벤트 루프에 대한 예시코드.md",
+                "file": "Daily-Note/개방폐쇄원칙을 리액트에 적용해보자.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/이벤트 루프에 대한 예시코드.md",
+                "file": "Daily-Note/개방폐쇄원칙을 리액트에 적용해보자.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/이벤트 루프에 대한 예시코드.md"
+                "file": "Daily-Note/개방폐쇄원칙을 리액트에 적용해보자.md"
               }
             }
           }
@@ -218,17 +149,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3ccfeb5bbf473625",
+  "active": "550386694a33521f",
   "lastOpenFiles": [
-    "Daily-Note/Keyboard access fundamentals.md",
-    "Daily-Note/웹접근성의 기본적인 개념.md",
+    "Daily-Note/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md",
+    "Daily-Note/버블정렬.md",
     "Daily-Note/삽입정렬.md",
+    "Daily-Note/웹접근성의 기본적인 개념.md",
+    "Daily-Note/Keyboard access fundamentals.md",
+    "Daily-Note/이벤트 루프에 대한 예시코드.md",
     "template/제텔카스텐.md",
     "Daily-Note/Special sort.md",
-    "Daily-Note/버블정렬.md",
-    "Daily-Note/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md",
     "Daily-Note/개방폐쇄원칙을 리액트에 적용해보자.md",
-    "Daily-Note/추상화와 개방폐쇄원칙.md",
-    "Daily-Note/개방폐쇄원칙.md"
+    "Daily-Note/추상화와 개방폐쇄원칙.md"
   ]
 }
