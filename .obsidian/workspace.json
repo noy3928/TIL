@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "aea698b981977bd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/모나드란 무엇인가? - Naver D2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3ccfeb5bbf473625",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -97,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/개방폐쇄원칙을 리액트에 적용해보자.md",
+                "file": "Daily-Note/모나드란 무엇인가? - Naver D2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/개방폐쇄원칙을 리액트에 적용해보자.md",
+                "file": "Daily-Note/모나드란 무엇인가? - Naver D2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/개방폐쇄원칙을 리액트에 적용해보자.md"
+                "file": "Daily-Note/모나드란 무엇인가? - Naver D2.md"
               }
             }
           }
@@ -149,8 +163,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "550386694a33521f",
+  "active": "aea698b981977bd6",
   "lastOpenFiles": [
+    "Daily-Note/개방폐쇄원칙을 리액트에 적용해보자.md",
     "Daily-Note/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md",
     "Daily-Note/버블정렬.md",
     "Daily-Note/삽입정렬.md",
@@ -159,7 +174,6 @@
     "Daily-Note/이벤트 루프에 대한 예시코드.md",
     "template/제텔카스텐.md",
     "Daily-Note/Special sort.md",
-    "Daily-Note/개방폐쇄원칙을 리액트에 적용해보자.md",
     "Daily-Note/추상화와 개방폐쇄원칙.md"
   ]
 }
