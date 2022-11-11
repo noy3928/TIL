@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/귀차니스트를 위한 펑터.md",
+                "file": "Daily-Note/아리스토텔레스, 범주론.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/귀차니스트를 위한 펑터.md",
+                "file": "Daily-Note/아리스토텔레스, 범주론.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/귀차니스트를 위한 펑터.md",
+                "file": "Daily-Note/아리스토텔레스, 범주론.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/귀차니스트를 위한 펑터.md"
+                "file": "Daily-Note/아리스토텔레스, 범주론.md"
               }
             }
           }
@@ -139,6 +139,7 @@
   },
   "active": "a0673a16a189b90f",
   "lastOpenFiles": [
+    "Daily-Note/귀차니스트를 위한 펑터.md",
     "Daily-Note/모나드란 무엇인가? - Naver D2.md",
     "Daily-Note/아리스토텔레스, 범주론.md",
     "Daily-Note/20세기 이후의 함수 - 범주론.md",
@@ -147,7 +148,6 @@
     "Assets/haskell-learning-curve.png.md",
     "Assets/haskell-learning-curve.png.png",
     "Assets/H2Fail.png",
-    "Assets/Http3-layer.png",
-    "Assets/udp-mulidirectional.png"
+    "Assets/Http3-layer.png"
   ]
 }
