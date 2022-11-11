@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "da2a64066099cd49",
+        "id": "e15e4a5eafbc0e87",
         "type": "tabs",
         "children": [
           {
-            "id": "187198df9c31d4e0",
+            "id": "a0673a16a189b90f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/모나드란 무엇인가? - Naver D2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19ac50cf2c06409f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/아리스토텔레스, 범주론.md",
+                "file": "Daily-Note/귀차니스트를 위한 펑터.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/아리스토텔레스, 범주론.md",
+                "file": "Daily-Note/귀차니스트를 위한 펑터.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/아리스토텔레스, 범주론.md",
+                "file": "Daily-Note/귀차니스트를 위한 펑터.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/아리스토텔레스, 범주론.md"
+                "file": "Daily-Note/귀차니스트를 위한 펑터.md"
               }
             }
           }
@@ -151,17 +138,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "19ac50cf2c06409f",
+  "active": "a0673a16a189b90f",
   "lastOpenFiles": [
     "Daily-Note/모나드란 무엇인가? - Naver D2.md",
+    "Daily-Note/아리스토텔레스, 범주론.md",
+    "Daily-Note/20세기 이후의 함수 - 범주론.md",
     "Daily-Note/3분 모나드.md",
     "Assets/monad-async.png",
     "Assets/haskell-learning-curve.png.md",
     "Assets/haskell-learning-curve.png.png",
     "Assets/H2Fail.png",
     "Assets/Http3-layer.png",
-    "Assets/udp-mulidirectional.png",
-    "Daily-Note/JS개발자는 아직도 모나드를 모르겠어요.md",
-    "Daily-Note/개방폐쇄원칙을 리액트에 적용해보자.md"
+    "Assets/udp-mulidirectional.png"
   ]
 }
