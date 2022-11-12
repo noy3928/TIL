@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "186b4f87614f1aa6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture/함수형프로그래밍-유인동/지연성/range와 느긋한 L.range.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/오픈소스를 잘 활용하려면.md",
+                "file": "Lecture/함수형프로그래밍-유인동/지연성/range와 느긋한 L.range.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/오픈소스를 잘 활용하려면.md",
+                "file": "Lecture/함수형프로그래밍-유인동/지연성/range와 느긋한 L.range.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/오픈소스를 잘 활용하려면.md"
+                "file": "Lecture/함수형프로그래밍-유인동/지연성/range와 느긋한 L.range.md"
               }
             }
           }
@@ -186,8 +198,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "60ef1e589485b556",
+  "active": "186b4f87614f1aa6",
   "lastOpenFiles": [
+    "Daily-Note/오픈소스를 잘 활용하려면.md",
     "Lecture/함수형프로그래밍-유인동/장바구니/HTML에 출력하기.md",
     "Lecture/함수형프로그래밍-유인동/장바구니/총 수량, 총 가격.md",
     "Lecture/함수형프로그래밍-유인동/표현력높이기/함수조합으로 함수를 만들어보기.md",
@@ -196,7 +209,6 @@
     "Lecture/함수형프로그래밍-유인동/표현력높이기/go 함수.md",
     "Daily-Note/클린아키텍처란 무엇인가?.md",
     "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
-    "Lecture/함수형프로그래밍-유인동/표현력높이기/go 함수로 읽기 좋게 작성해보기.md",
-    "FP/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md"
+    "Lecture/함수형프로그래밍-유인동/표현력높이기/go 함수로 읽기 좋게 작성해보기.md"
   ]
 }
