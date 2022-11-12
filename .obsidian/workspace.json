@@ -59,8 +59,12 @@
             "id": "60ef1e589485b556",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/오픈소스를 잘 활용하려면.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -130,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daily-Note/오픈소스를 잘 활용하려면.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daily-Note/오픈소스를 잘 활용하려면.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Daily-Note/오픈소스를 잘 활용하려면.md"
+              }
             }
           }
         ],
@@ -178,7 +186,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "45df47fa09589985",
+  "active": "60ef1e589485b556",
   "lastOpenFiles": [
     "Lecture/함수형프로그래밍-유인동/장바구니/HTML에 출력하기.md",
     "Lecture/함수형프로그래밍-유인동/장바구니/총 수량, 총 가격.md",
