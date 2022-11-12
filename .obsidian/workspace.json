@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6dfc88b326c75e77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/클린아키텍처란 무엇인가?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
+                "file": "Daily-Note/클린아키텍처란 무엇인가?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
+                "file": "Daily-Note/클린아키텍처란 무엇인가?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md"
+                "file": "Daily-Note/클린아키텍처란 무엇인가?.md"
               }
             }
           }
@@ -137,13 +150,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "46efda6401acf8d9",
+  "active": "6dfc88b326c75e77",
   "lastOpenFiles": [
+    "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
     "Daily-Note/3분 모나드.md",
     "template/제텔카스텐.md",
     "Daily-Note/아리스토텔레스, 범주론.md",
     "README.md",
-    "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
     "Daily-Note/삽입정렬.md",
     "Books/Object/10.상속과 코드 재사용/ㅅ.md",
     "Books/Object/README.md",
