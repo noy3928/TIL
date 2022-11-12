@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/삽입정렬.md",
+                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/삽입정렬.md",
+                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/삽입정렬.md",
+                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/삽입정렬.md"
+                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md"
               }
             }
           }
@@ -152,9 +152,9 @@
   },
   "active": "7e9cedbcdab66dce",
   "lastOpenFiles": [
+    "Daily-Note/삽입정렬.md",
     "Daily-Note/아리스토텔레스, 범주론.md",
     "Books/Object/10.상속과 코드 재사용/ㅅ.md",
-    "Daily-Note/삽입정렬.md",
     "Books/Object/README.md",
     "Books/Object/10.상속과 코드 재사용/table.md",
     "FP/귀차니스트를 위한 펑터.md",
