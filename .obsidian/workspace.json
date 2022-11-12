@@ -54,9 +54,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "60ef1e589485b556",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/장바구니/총 수량, 총 가격.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +146,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/장바구니/총 수량, 총 가격.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +167,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/장바구니/총 수량, 총 가격.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -174,17 +178,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5ecadb0c088d206a",
+  "active": "45df47fa09589985",
   "lastOpenFiles": [
-    "Lecture/함수형프로그래밍-유인동/표현력높이기/함수조합으로 함수를 만들어보기.md",
+    "Lecture/함수형프로그래밍-유인동/장바구니/HTML에 출력하기.md",
     "Lecture/함수형프로그래밍-유인동/장바구니/총 수량, 총 가격.md",
+    "Lecture/함수형프로그래밍-유인동/표현력높이기/함수조합으로 함수를 만들어보기.md",
     "Lecture/함수형프로그래밍-유인동/표현력높이기/go + curry로 읽기 좋게 작성해보기.md",
     "Lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
     "Lecture/함수형프로그래밍-유인동/표현력높이기/go 함수.md",
     "Daily-Note/클린아키텍처란 무엇인가?.md",
     "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
     "Lecture/함수형프로그래밍-유인동/표현력높이기/go 함수로 읽기 좋게 작성해보기.md",
-    "FP/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md",
-    "Books/FunctionalJavascript/1.함수형길들이기.md"
+    "FP/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md"
   ]
 }
