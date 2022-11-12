@@ -8,48 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "46efda6401acf8d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6dfc88b326c75e77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/클린아키텍처란 무엇인가?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b59eb4c59479896",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/go 함수.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "69af42403f18fd81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Lecture/함수형프로그래밍-유인동/pipe 함수.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4cb169cfddd953c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture/함수형프로그래밍-유인동/go 함수로 읽기 좋게 작성해보기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d2389c73dbbbc7ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture/함수형프로그래밍-유인동/go + curry로 읽기 좋게 작성해보기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ecadb0c088d206a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture/함수형프로그래밍-유인동/함수조합으로 함수를 만들어보기.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/pipe 함수.md",
+                "file": "Lecture/함수형프로그래밍-유인동/함수조합으로 함수를 만들어보기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/pipe 함수.md",
+                "file": "Lecture/함수형프로그래밍-유인동/함수조합으로 함수를 만들어보기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/pipe 함수.md"
+                "file": "Lecture/함수형프로그래밍-유인동/함수조합으로 함수를 만들어보기.md"
               }
             }
           }
@@ -174,17 +174,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "69af42403f18fd81",
+  "active": "5ecadb0c088d206a",
   "lastOpenFiles": [
+    "Lecture/함수형프로그래밍-유인동/go + curry로 읽기 좋게 작성해보기.md",
+    "Lecture/함수형프로그래밍-유인동/함수조합으로 함수를 만들어보기.md",
+    "Lecture/함수형프로그래밍-유인동/pipe 함수.md",
     "Lecture/함수형프로그래밍-유인동/go 함수.md",
-    "FP/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md",
-    "Books/FunctionalJavascript/1.함수형길들이기.md",
     "Daily-Note/클린아키텍처란 무엇인가?.md",
     "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
-    "Daily-Note/3분 모나드.md",
-    "template/제텔카스텐.md",
-    "Daily-Note/아리스토텔레스, 범주론.md",
-    "README.md",
-    "Daily-Note/삽입정렬.md"
+    "Lecture/함수형프로그래밍-유인동/go 함수로 읽기 좋게 작성해보기.md",
+    "FP/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md",
+    "Books/FunctionalJavascript/1.함수형길들이기.md",
+    "Daily-Note/3분 모나드.md"
   ]
 }
