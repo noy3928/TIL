@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "76d1b3eb49c41bd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture/함수형프로그래밍-유인동/지연성2/map과 filter를 Lazy하게 바꾸기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "661b091013adfbe0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture/함수형프로그래밍-유인동/지연성2/flatten 함수.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -111,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성2/find함수.md",
+                "file": "Lecture/함수형프로그래밍-유인동/지연성2/flatten 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성2/find함수.md",
+                "file": "Lecture/함수형프로그래밍-유인동/지연성2/flatten 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성2/find함수.md"
+                "file": "Lecture/함수형프로그래밍-유인동/지연성2/flatten 함수.md"
               }
             }
           }
@@ -163,8 +187,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d0850647348a7e08",
+  "active": "661b091013adfbe0",
   "lastOpenFiles": [
+    "Lecture/함수형프로그래밍-유인동/지연성2/map과 filter를 Lazy하게 바꾸기.md",
+    "Lecture/함수형프로그래밍-유인동/지연성2/find함수.md",
     "Lecture/함수형프로그래밍-유인동/지연성2/다형성 높은 Join 함수.md",
     "Lecture/함수형프로그래밍-유인동/지연성2/queryStr 함수.md",
     "Lecture/함수형프로그래밍-유인동/지연성2/결과를 만드는 함수 reduce, take.md",
@@ -172,8 +198,6 @@
     "Lecture/함수형프로그래밍-유인동/지연성/ES6의 기본 규약을 통해 구현하는 지연 평가의 장점.md",
     "Lecture/함수형프로그래밍-유인동/지연성/map, filter 계열 함수들이 가지는 결합법칙.md",
     "Lecture/함수형프로그래밍-유인동/지연성/각각의 함수들을 응용 사용해보며 차이점을 확인해보기.md",
-    "Lecture/함수형프로그래밍-유인동/지연성/L.map, L.filter.md",
-    "Lecture/함수형프로그래밍-유인동/지연성/range와 느긋한 L.range.md",
-    "Lecture/함수형프로그래밍-유인동/지연성/take.md"
+    "Lecture/함수형프로그래밍-유인동/지연성/L.map, L.filter.md"
   ]
 }
