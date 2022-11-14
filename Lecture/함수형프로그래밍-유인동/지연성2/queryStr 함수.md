@@ -30,3 +30,4 @@ log(queryStr({limit:10, offset:10, type:'notice'})) // limit=10&offset=10&type=n
 
 
 ### Link : 
+[[다형성 높은 Join 함수]]
