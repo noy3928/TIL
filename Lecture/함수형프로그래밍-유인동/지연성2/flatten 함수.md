@@ -21,7 +21,7 @@ var it = L.flatten([1,2], 3, 4, [5,6], [7,8,9])
 const flatten = pipe(L.flatten, takeAll)
 ```
 
-`yield *iterable` 은 ``
+`yield *iterable` 은 `for (const val of iterable) yield val;` 와 같다.
 
 ```javascript
 yield *iterable 
