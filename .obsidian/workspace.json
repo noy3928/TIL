@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "76151890e8fea0d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/합성 관점에서의 Promise와 모나드.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/값으로서의 Promise 활용.md",
+                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/합성 관점에서의 Promise와 모나드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/값으로서의 Promise 활용.md",
+                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/합성 관점에서의 Promise와 모나드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/값으로서의 Promise 활용.md"
+                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/합성 관점에서의 Promise와 모나드.md"
               }
             }
           }
@@ -151,10 +162,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "69349935eeccd13e",
+  "active": "76151890e8fea0d8",
   "lastOpenFiles": [
-    "Lecture/함수형프로그래밍-유인동/비동기-동시성2/비동기를 값으로 만드는 Promise.md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성2/값으로서의 Promise 활용.md",
+    "Lecture/함수형프로그래밍-유인동/비동기-동시성2/비동기를 값으로 만드는 Promise.md",
     "Lecture/함수형프로그래밍-유인동/README.md",
     "Lecture/함수형프로그래밍-유인동/지연성2/flatten 함수.md",
     "Lecture/함수형프로그래밍-유인동/지연성2/flatMap.md",
