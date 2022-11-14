@@ -8,115 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "18d0e2eb9cda868d",
+            "id": "e7011f647fd63a34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성/range와 느긋한 L.range.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a751ba84e8fd8a9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성/take.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b77e8836c5eb960",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성/제너레이터와 이터레이터 프로토콜로 구현하는 지연평가.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56a8bb5553f6e3d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성/L.map, L.filter.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d866ba20bf5d31f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성/각각의 함수들을 응용 사용해보며 차이점을 확인해보기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf3c00a59c223e30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성/map, filter 계열 함수들이 가지는 결합법칙.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca12672275a360d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성/ES6의 기본 규약을 통해 구현하는 지연 평가의 장점.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9b1f73b9c5afe26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60a4f690f4566065",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성2/결과를 만드는 함수 reduce, take.md",
+                "file": "Lecture/함수형프로그래밍-유인동/지연성2/queryStr 함수.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성2/결과를 만드는 함수 reduce, take.md",
+                "file": "Lecture/함수형프로그래밍-유인동/지연성2/queryStr 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성2/결과를 만드는 함수 reduce, take.md",
+                "file": "Lecture/함수형프로그래밍-유인동/지연성2/queryStr 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성2/결과를 만드는 함수 reduce, take.md"
+                "file": "Lecture/함수형프로그래밍-유인동/지연성2/queryStr 함수.md"
               }
             }
           }
@@ -234,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "60a4f690f4566065",
+  "active": "e7011f647fd63a34",
   "lastOpenFiles": [
+    "Lecture/함수형프로그래밍-유인동/지연성2/결과를 만드는 함수 reduce, take.md",
     "Lecture/함수형프로그래밍-유인동/README.md",
-    "Lecture/함수형프로그래밍-유인동/무제파일.md",
     "Lecture/함수형프로그래밍-유인동/지연성/ES6의 기본 규약을 통해 구현하는 지연 평가의 장점.md",
     "Lecture/함수형프로그래밍-유인동/지연성/map, filter 계열 함수들이 가지는 결합법칙.md",
     "Lecture/함수형프로그래밍-유인동/지연성/각각의 함수들을 응용 사용해보며 차이점을 확인해보기.md",
     "Lecture/함수형프로그래밍-유인동/지연성/L.map, L.filter.md",
-    "Lecture/함수형프로그래밍-유인동/지연성/제너레이터와 이터레이터 프로토콜로 구현하는 지연평가.md",
-    "Lecture/함수형프로그래밍-유인동/지연성/take.md",
     "Lecture/함수형프로그래밍-유인동/지연성/range와 느긋한 L.range.md",
-    "Lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md"
+    "Lecture/함수형프로그래밍-유인동/지연성/take.md",
+    "Lecture/함수형프로그래밍-유인동/지연성/제너레이터와 이터레이터 프로토콜로 구현하는 지연평가.md",
+    "Lecture/함수형프로그래밍-유인동/지연성2/queryStr 함수.md"
   ]
 }
