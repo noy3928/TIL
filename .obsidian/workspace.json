@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "69349935eeccd13e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/값으로서의 Promise 활용.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/비동기를 값으로 만드는 Promise.md",
+                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/값으로서의 Promise 활용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/비동기를 값으로 만드는 Promise.md",
+                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/값으로서의 Promise 활용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/비동기를 값으로 만드는 Promise.md"
+                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/값으로서의 Promise 활용.md"
               }
             }
           }
@@ -138,8 +151,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3086f96c0fa16a99",
+  "active": "69349935eeccd13e",
   "lastOpenFiles": [
+    "Lecture/함수형프로그래밍-유인동/비동기-동시성2/비동기를 값으로 만드는 Promise.md",
+    "Lecture/함수형프로그래밍-유인동/비동기-동시성2/값으로서의 Promise 활용.md",
     "Lecture/함수형프로그래밍-유인동/README.md",
     "Lecture/함수형프로그래밍-유인동/지연성2/flatten 함수.md",
     "Lecture/함수형프로그래밍-유인동/지연성2/flatMap.md",
@@ -147,8 +162,6 @@
     "Lecture/함수형프로그래밍-유인동/지연성2/map과 filter를 Lazy하게 바꾸기.md",
     "Lecture/함수형프로그래밍-유인동/지연성2/find함수.md",
     "Lecture/함수형프로그래밍-유인동/지연성2/다형성 높은 Join 함수.md",
-    "Lecture/함수형프로그래밍-유인동/지연성2/queryStr 함수.md",
-    "Lecture/함수형프로그래밍-유인동/지연성2/결과를 만드는 함수 reduce, take.md",
-    "Lecture/함수형프로그래밍-유인동/지연성/ES6의 기본 규약을 통해 구현하는 지연 평가의 장점.md"
+    "Lecture/함수형프로그래밍-유인동/지연성2/queryStr 함수.md"
   ]
 }
