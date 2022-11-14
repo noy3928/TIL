@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d0850647348a7e08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture/함수형프로그래밍-유인동/지연성2/find함수.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성2/다형성 높은 Join 함수.md",
+                "file": "Lecture/함수형프로그래밍-유인동/지연성2/find함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성2/다형성 높은 Join 함수.md",
+                "file": "Lecture/함수형프로그래밍-유인동/지연성2/find함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/지연성2/다형성 높은 Join 함수.md"
+                "file": "Lecture/함수형프로그래밍-유인동/지연성2/find함수.md"
               }
             }
           }
@@ -150,10 +163,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fdb4605da3d3db4e",
+  "active": "d0850647348a7e08",
   "lastOpenFiles": [
-    "Lecture/함수형프로그래밍-유인동/지연성2/queryStr 함수.md",
     "Lecture/함수형프로그래밍-유인동/지연성2/다형성 높은 Join 함수.md",
+    "Lecture/함수형프로그래밍-유인동/지연성2/queryStr 함수.md",
     "Lecture/함수형프로그래밍-유인동/지연성2/결과를 만드는 함수 reduce, take.md",
     "Lecture/함수형프로그래밍-유인동/README.md",
     "Lecture/함수형프로그래밍-유인동/지연성/ES6의 기본 규약을 통해 구현하는 지연 평가의 장점.md",
