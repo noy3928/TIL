@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/합성 관점에서의 Promise와 모나드.md",
+                "file": "FP/모나드란 무엇인가? - Naver D2.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/합성 관점에서의 Promise와 모나드.md",
+                "file": "FP/모나드란 무엇인가? - Naver D2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/합성 관점에서의 Promise와 모나드.md",
+                "file": "FP/모나드란 무엇인가? - Naver D2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/합성 관점에서의 Promise와 모나드.md"
+                "file": "FP/모나드란 무엇인가? - Naver D2.md"
               }
             }
           }
@@ -164,6 +164,8 @@
   },
   "active": "76151890e8fea0d8",
   "lastOpenFiles": [
+    "Daily-Note/3분 모나드.md",
+    "Lecture/함수형프로그래밍-유인동/비동기-동시성2/합성 관점에서의 Promise와 모나드.md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성2/값으로서의 Promise 활용.md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성2/비동기를 값으로 만드는 Promise.md",
     "Lecture/함수형프로그래밍-유인동/README.md",
@@ -171,8 +173,6 @@
     "Lecture/함수형프로그래밍-유인동/지연성2/flatMap.md",
     "Lecture/함수형프로그래밍-유인동/지연성2/이터러블 중심의 실무코드.md",
     "Lecture/함수형프로그래밍-유인동/지연성2/map과 filter를 Lazy하게 바꾸기.md",
-    "Lecture/함수형프로그래밍-유인동/지연성2/find함수.md",
-    "Lecture/함수형프로그래밍-유인동/지연성2/다형성 높은 Join 함수.md",
-    "Lecture/함수형프로그래밍-유인동/지연성2/queryStr 함수.md"
+    "Lecture/함수형프로그래밍-유인동/지연성2/find함수.md"
   ]
 }
