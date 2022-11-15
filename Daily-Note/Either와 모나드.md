@@ -25,7 +25,79 @@ class Either {
 	}
 
 	static right(a){
-		return new Right()
+		return new Right(a);
+	}
+
+	static fromNullabe(val){ // 값이 올바르면 Right, 아니면 Left를 취한다.
+		return val !== null && val !== undefined ? Either.right(val) : Either.left(val);
+	}
+
+	static of(a){ // 주어진 값을 right에 넣고 새 인스턴스를 만든다.
+		return Either.right(a) 
+	}
+}
+
+class Left extends Either {
+	map(_) { // 함수를 매핑하여 값을 반환하는 메서드이지만, Left는 반환할 값 자체가 없다.
+		return this;
+	}
+
+	get value() {
+		throw new TypeError ("Left(a) 값을 가져올 수 없습니다")
+	}
+
+	getOrElse(other){ // Right 값이 있으면 가져오고, 없으면 주어진 기본값을 반환한다.
+		return other 
+	}
+
+	orElse(f) { 
+		return f(this._value); // Left 값에 주어진 함수를 적용한다. Right는 아무 일도 안일어난다.
+	}
+
+	chain(f){ // Right 에는 함수를 적용하고 그 값을 반환한다. Left는 아무 일도 안 한다. 
+		return this;
+	}
+
+	getOrElseThrow(a){ // Left에서만 주어진 값으로 예외를 던진다. Right는 예외 없이 그냥 정상 값을 반환한다. 
+		throw new Error(a);
+	}
+
+	filter(f){ // 주어진 술어를 만족하는 값이 존재하면 해당 값이 담긴 Right를 반환하고, 그 외에는 빈 Left를 반환한다. 
+		return this;
+	}
+
+	toString(){
+		return `Either.Left(${this._value}`
+	}
+}
+
+class Right extends Either {
+	map(f){ // Right 값에 함수를 매핑하여 반환한다. Left에는 아무일도 안일어난다.
+		return Either.of(f(this._value))
+	}
+
+	getOrElse(other){ // Right 값을 얻는다. 없으면 주어진 기본값 other를 반환한다. 
+		return this._value
+	}
+
+	orElse(){ // Left에 주어진 함수를 적용하는 메서드이다. Right에는 아무 일도 안 한다. 
+		return this;
+	}
+
+	chain(f){ // Right에 함수를 적용하고 그 값을 반환한다. Left에는 아무 일도 안한다. 
+		return f(this._value);
+	}
+
+	getOrElseThrow(_){
+		return this._value
+	}
+
+	filter(f){
+		return Either.fromNullabe(f(this.value) ? this._value : null);
+	}
+
+	toString(){
+		return `Either.Right(${this.value})`
 	}
 }
 
