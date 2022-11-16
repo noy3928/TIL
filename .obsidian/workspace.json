@@ -4,95 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4790813fb9016bdb",
+        "id": "a5e175c005fece14",
         "type": "tabs",
         "children": [
           {
-            "id": "3086f96c0fa16a99",
+            "id": "9e68a221275947ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f54c9ef849f7d10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성1/합성 관점에서의 Promise와 모나드.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e463ef92f60d04e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ed6d5f56121aa06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성1/합성 관점에서의 Promise와 모나드.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cded6b2417d49a75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성1/Kleisli Composition 관점에서의 Promise.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69349935eeccd13e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성1/값으로서의 Promise 활용.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6008ba8a8984a640",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/FunctionalJavascript/README.md",
+                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성1/Kleisli Composition 관점에서의 Promise.md",
+                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성1/Kleisli Composition 관점에서의 Promise.md",
+                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성1/Kleisli Composition 관점에서의 Promise.md"
+                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md"
               }
             }
           }
@@ -211,17 +138,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cded6b2417d49a75",
+  "active": "45df47fa09589985",
   "lastOpenFiles": [
-    "Lecture/함수형프로그래밍-유인동/비동기-동시성1/합성 관점에서의 Promise와 모나드.md",
-    "Daily-Note/Lighthouse returned error NO_FCP.md",
-    "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md",
-    "Books/FunctionalJavascript/6.빈틈없는 코드 만들기.md",
-    "Lecture/함수형프로그래밍-유인동/비동기-동시성1/값으로서의 Promise 활용.md",
     "Books/FunctionalJavascript/README.md",
-    "README.md",
-    "Lecture/함수형프로그래밍-유인동/README.md",
+    "Lecture/함수형프로그래밍-유인동/비동기-동시성1/값으로서의 Promise 활용.md",
     "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
-    "Lecture/함수형프로그래밍-유인동/비동기-동시성1/비동기를 값으로 만드는 Promise.md"
+    "Lecture/함수형프로그래밍-유인동/비동기-동시성1/합성 관점에서의 Promise와 모나드.md",
+    "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md",
+    "Lecture/함수형프로그래밍-유인동/비동기-동시성1/Kleisli Composition 관점에서의 Promise.md",
+    "Daily-Note/Lighthouse returned error NO_FCP.md",
+    "Books/FunctionalJavascript/6.빈틈없는 코드 만들기.md",
+    "README.md",
+    "Lecture/함수형프로그래밍-유인동/README.md"
   ]
 }
