@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/오브젝트-코드스피츠/1회차.md",
+                "file": "Lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/오브젝트-코드스피츠/1회차.md",
+                "file": "Lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/오브젝트-코드스피츠/1회차.md",
+                "file": "Lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/오브젝트-코드스피츠/1회차.md"
+                "file": "Lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md"
               }
             }
           }
@@ -165,6 +164,8 @@
   },
   "active": "26b8f4cc6171ff88",
   "lastOpenFiles": [
+    "Lecture/함수형프로그래밍-유인동/표현력높이기/go 함수.md",
+    "Lecture/오브젝트-코드스피츠/1회차.md",
     "Lecture/오브젝트-코드스피츠/README.md",
     "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md",
     "README.md",
@@ -172,8 +173,6 @@
     "Books/FunctionalJavascript/README.md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성1/값으로서의 Promise 활용.md",
     "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
-    "Lecture/함수형프로그래밍-유인동/비동기-동시성1/합성 관점에서의 Promise와 모나드.md",
-    "Lecture/함수형프로그래밍-유인동/비동기-동시성1/Kleisli Composition 관점에서의 Promise.md",
-    "Daily-Note/Lighthouse returned error NO_FCP.md"
+    "Lecture/함수형프로그래밍-유인동/비동기-동시성1/합성 관점에서의 Promise와 모나드.md"
   ]
 }
