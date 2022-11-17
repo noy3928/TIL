@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md",
+                "file": "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md",
+                "file": "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md",
+                "file": "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md"
+                "file": "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md"
               }
             }
           }
@@ -138,8 +138,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "45df47fa09589985",
+  "active": "9e68a221275947ec",
   "lastOpenFiles": [
+    "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md",
     "Books/FunctionalJavascript/README.md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성1/값으로서의 Promise 활용.md",
     "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md",
@@ -148,7 +149,6 @@
     "Lecture/함수형프로그래밍-유인동/비동기-동시성1/Kleisli Composition 관점에서의 Promise.md",
     "Daily-Note/Lighthouse returned error NO_FCP.md",
     "Books/FunctionalJavascript/6.빈틈없는 코드 만들기.md",
-    "README.md",
-    "Lecture/함수형프로그래밍-유인동/README.md"
+    "README.md"
   ]
 }
