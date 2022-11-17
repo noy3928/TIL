@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9e68a221275947ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8484e7e7a351f22d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/오브젝트-코드스피츠/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "26b8f4cc6171ff88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Lecture/오브젝트-코드스피츠/1회차.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Lecture/오브젝트-코드스피츠/1회차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Lecture/오브젝트-코드스피츠/1회차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Lecture/오브젝트-코드스피츠/1회차.md"
               }
             }
           }
@@ -164,12 +139,12 @@
   },
   "active": "26b8f4cc6171ff88",
   "lastOpenFiles": [
+    "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md",
+    "Lecture/오브젝트-코드스피츠/README.md",
+    "Lecture/오브젝트-코드스피츠/1회차.md",
+    "README.md",
     "Lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
     "Lecture/함수형프로그래밍-유인동/표현력높이기/go 함수.md",
-    "Lecture/오브젝트-코드스피츠/1회차.md",
-    "Lecture/오브젝트-코드스피츠/README.md",
-    "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md",
-    "README.md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md",
     "Books/FunctionalJavascript/README.md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성1/값으로서의 Promise 활용.md",
