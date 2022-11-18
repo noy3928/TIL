@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "61d75f0f6af5ab53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture/오브젝트-코드스피츠/2회차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/오브젝트-코드스피츠/1회차.md",
+                "file": "Lecture/오브젝트-코드스피츠/2회차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/오브젝트-코드스피츠/1회차.md",
+                "file": "Lecture/오브젝트-코드스피츠/2회차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/오브젝트-코드스피츠/1회차.md"
+                "file": "Lecture/오브젝트-코드스피츠/2회차.md"
               }
             }
           }
@@ -137,11 +150,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "26b8f4cc6171ff88",
+  "active": "61d75f0f6af5ab53",
   "lastOpenFiles": [
+    "Lecture/오브젝트-코드스피츠/1회차.md",
     "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md",
     "Lecture/오브젝트-코드스피츠/README.md",
-    "Lecture/오브젝트-코드스피츠/1회차.md",
     "README.md",
     "Lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
     "Lecture/함수형프로그래밍-유인동/표현력높이기/go 함수.md",
