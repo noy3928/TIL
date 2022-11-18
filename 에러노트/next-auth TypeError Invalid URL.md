@@ -61,3 +61,8 @@ return {
 ```
 
 
+- 해당 함수에서는 들어온 string을 파싱해주고 있다. URL객체로 파싱해주고 있다. 
+	- 그리고 만약 pathname이 그냥 메인이면 defaultURL의 pathname을 사용한다. 
+	- 그게 아니라 다른 url이면 받아온 url의 pathname을 사용한다. 
+
+- MDN을 살펴보니, new URL을 만들때 잘못된 형식의 string 값이 들어오면 TypeError를 내뱉는다고 한다. 아무래도 이 parseUrl을 사용하는 곳에서 잘못된 string 값을 넣어주고 있는 것 같다. 
