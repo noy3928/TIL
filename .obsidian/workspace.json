@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b8397fcc0fe5bc66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "에러노트/next-auth TypeError Invalid URL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/오브젝트-코드스피츠/2회차.md",
+                "file": "에러노트/next-auth TypeError Invalid URL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/오브젝트-코드스피츠/2회차.md",
+                "file": "에러노트/next-auth TypeError Invalid URL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/오브젝트-코드스피츠/2회차.md"
+                "file": "에러노트/next-auth TypeError Invalid URL.md"
               }
             }
           }
@@ -150,8 +162,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "61d75f0f6af5ab53",
+  "active": "b8397fcc0fe5bc66",
   "lastOpenFiles": [
+    "무제파일.md",
+    "Lecture/오브젝트-코드스피츠/2회차.md",
     "Lecture/오브젝트-코드스피츠/1회차.md",
     "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md",
     "Lecture/오브젝트-코드스피츠/README.md",
@@ -159,8 +173,6 @@
     "Lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
     "Lecture/함수형프로그래밍-유인동/표현력높이기/go 함수.md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md",
-    "Books/FunctionalJavascript/README.md",
-    "Lecture/함수형프로그래밍-유인동/비동기-동시성1/값으로서의 Promise 활용.md",
-    "Books/FunctionalJavascript/5. 복잡성을 줄이는 디자인 패턴.md"
+    "Books/FunctionalJavascript/README.md"
   ]
 }
