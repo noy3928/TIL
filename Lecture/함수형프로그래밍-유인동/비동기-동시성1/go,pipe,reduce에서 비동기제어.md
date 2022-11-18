@@ -100,7 +100,7 @@ const reduce = curry((f, acc, iter) => {
 		iter = iter[Symbol.iterator]();
 	}
 
-	return go1( function recur(acc){
+	return go1(acc ,function recur(acc){
 		while(!(cur = iter.next()).done){
 			const a = cur.value; 
 			acc = f(acc,a); 
@@ -108,17 +108,28 @@ const reduce = curry((f, acc, iter) => {
 		}
 	return acc 
 	}(acc)
+	)
 })
+```
+
+아직도 완성되지 않았다. 
+다음으로는 reject가 실행되었을 때의 코드를 만들어야하는데, 
+기존에는 reject가 실행되면 코드가 그 자리에서 끝나게 된다. 
+
+```javascript
+	go(1, 
+		a => a + 10,
+		a => Promise.resolve(a + 100),
+		a => a + 1000,
+		log,).catch(a => console.log(a))
 ```
 
 
 
 
-
-
-
 ### 내 생각과 정리 : 
-
+- 이번 강의는 생각보다 어려웠던 것 같다. 
+	- 그래서 일부러 더 천천히 듣고, 핵심만 정리하기 보다는 조금 더 세세하게 정리하려고 노력했던 것 같다. 
 
 ### 출처(참고문헌) : 
 
