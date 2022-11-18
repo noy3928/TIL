@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cca3226dbff1b382",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/지연평가+Promise(L.map,map,take).md",
+                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/지연평가+Promise(L.map,map,take).md",
+                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/비동기-동시성2/지연평가+Promise(L.map,map,take).md"
+                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md"
               }
             }
           }
@@ -151,8 +163,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "14f9fb20697a4b70",
+  "active": "cca3226dbff1b382",
   "lastOpenFiles": [
+    "Lecture/함수형프로그래밍-유인동/비동기-동시성2/지연평가+Promise(L.map,map,take).md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md",
     "Lecture/함수형프로그래밍-유인동/README.md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성1/promise.then의 중요한 규칙.md",
@@ -161,7 +174,6 @@
     "에러노트/next-auth TypeError Invalid URL.md",
     "무제파일.md",
     "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md",
-    "Lecture/오브젝트-코드스피츠/README.md",
-    "README.md"
+    "Lecture/오브젝트-코드스피츠/README.md"
   ]
 }

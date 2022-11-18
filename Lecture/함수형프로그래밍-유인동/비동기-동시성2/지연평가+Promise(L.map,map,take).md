@@ -28,12 +28,20 @@ go([Promise.resolve(1),Promise.resolve(2),Promise.resolve(3)],
 
 ```javascript
 L.map = curry(function *(f, iter){
-	for
-
+	for(const a of iter){
+		yield f(a)
+	}
 }
-
 ```
+이렇게 만들어져있던 L.map 함수를 이전에 만들었던 go1 함수를 이용해서 만들어보자
 
+```javascript
+L.map = curry(function *(f, iter){
+	for(const a of iter){
+		yield go1(a, f)
+	}
+}
+```
 
 
 
