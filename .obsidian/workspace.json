@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c3f9aea386996b8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/YouDon'tKnowJs-1/타입과문법/Chapter.1 타입.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -106,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -123,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/HTTP3 Connection Establishment.md",
+                "file": "Books/YouDon'tKnowJs-1/타입과문법/Chapter.1 타입.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/HTTP3 Connection Establishment.md",
+                "file": "Books/YouDon'tKnowJs-1/타입과문법/Chapter.1 타입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/HTTP3 Connection Establishment.md"
+                "file": "Books/YouDon'tKnowJs-1/타입과문법/Chapter.1 타입.md"
               }
             }
           }
@@ -175,8 +186,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "99e9b97131844051",
+  "active": "c3f9aea386996b8c",
   "lastOpenFiles": [
+    "Daily-Note/HTTP3 Connection Establishment.md",
     "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성2/지연평가+Promise(L.map,map,take).md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md",
@@ -185,7 +197,6 @@
     "Lecture/오브젝트-코드스피츠/1회차.md",
     "Lecture/오브젝트-코드스피츠/2회차.md",
     "에러노트/next-auth TypeError Invalid URL.md",
-    "무제파일.md",
-    "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md"
+    "무제파일.md"
   ]
 }
