@@ -83,12 +83,71 @@ public abstract class Phone {
 		return result;
 	}
 
-	
+	abstract protected Money calculateCallFee(Call call);
 }
 
+public class RegularPhone extends Phone {
+	private Money amount;
+	private Duration seconds;
+
+	public RegularPhone(Money amount, Duration seconds){
+		this.amount = amount;
+		this.seconds = seconds;
+	}
+
+	@Override
+	protected Money calculateCallFee(Call call){
+		return amount.times(call.getDuration().getSeconds() / seconds.getSeconds())
+	}
+}
+
+...
 
 
 ```
+
+
+### 기본 정책에 세금 정책 조합하기 
+
+- 일반 요금제에 세금 정책을 조합해야한다면? 
+	- RegularPhone 클래스를 상속받은 TaxableRegularPhone 클래스를 추가하는 것. 
+
+```java
+public class TaxableRegularPhone extends RegularPhone {
+	private double taxRate;
+
+	public TaxableRegularPhone(Money amount, Duration seconds, double taxRate){
+		super(amount, seconds);
+		this.taxRate = taxRate;
+	}
+
+	...
+}
+```
+
+- super를 호출하면 부모의 메서드를 재사용할 수 있지만, 결합도가 높아진다. 
+	- 결합도를 낮추는 방법은 추상 메서드를 제공하는 것 
+
+- 그런데 그 방법을 위해서 부모 클래스에 추상 메서드를 추가하면, 
+	- 상속을 받고 있던 모든 자식 클래스에 변경사항이 전파된다. 
+		- 자식들이 추상 메서드를 오버라이딩해야하는 문제가 발생하는 것이다. 
+
+
+- 클래스 폭발 
+	- 클래스 폭발 문제는 자식 클래스가 부모 클래스의 구현에 강하게 결합되도록 강요하는 상속의 근본적인 한계 때문에 발생하는 문제다. 
+
+
+## 03. 합성 관계로 변경하기 
+
+- 합성은 컴파일타임 관계를 런타임 관계로 변경한다. 
+	- 합성을 사용하면 구현이 아닌 퍼블릭 인터페이스에 의존하게 할 수 있다. 
+
+- 상속을 이용하는 것은 컴파일타임 의존성과 런타임 의존성을 동일하게 만들겠다고 선언하는 것이다. 
+
+- 합성의 본질 : 
+	- 구현 시점에 정책들의 관계를 고정시킬 필요가 없어진다. 
+	- 실행 시점에 정책들의 관계를 유연하게 변경할 수 있게 된다. 
+
 
 
 
