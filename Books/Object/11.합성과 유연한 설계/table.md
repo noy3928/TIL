@@ -187,10 +187,13 @@ public class Phone {
 
 
 
-
+<br>
 
 
 ---
+<br>
+
+
 ## 내 생각과 정리 : 
 
 - 이번 장은 지난장과 더불어 생각보다 그렇게 와닿지는 않았던 것 같다. 
@@ -244,4 +247,78 @@ const WelcomeMessage = ({ userName }) => {
 ```
 - 합성을 이용하면 prop drilling 문제를 해결할 수 있다. 
 
+	- [Component composition in React](https://imkev.dev/component-composition)
+		- 컴포넌트 합성 패턴은 단일책임원칙을 강제하기도 한다. 
+			- 무슨 말이냐, 딱 필요한 부분만 자신이 감당하고, 나머지는 children이 알아서 하라는 것이다. 이런 이유로 합성은 단일책임 원칙을 지키는데에도 도움이 된다. 
 
+```javascript
+export default function Users({ quantity, children }) {
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    fetch(`${API_URL}${quantity}`).then(async (response) => {
+      if (response.ok) {
+        const { results } = await response.json();
+        setUsers(results);
+      }
+    });
+  }, [quantity]);
+
+  return children({ users });
+}
+
+export default function App() {
+  return (
+    <div className="app">
+      <Users quantity={3}>
+        {({ users }) => (
+          <div className="container">
+            {users && Boolean(users.length) && (
+              <ul className="list">
+                {users.map((n) => (
+                  <li key={n.login.username} className="item">
+                    <UserCard
+                      username={n.login.username}
+                      city={n.location.city}
+                      profilePicture={n.picture.thumbnail}
+                    />
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        )}
+      </Users>
+    </div>
+  );
+}
+```
+- 위 코드를 보면 합성을 통해서 관심사의 분리가 제대로 이루어지고 있음을 알 수 있다. 
+
+- 이외에도 다수의 컴포넌트를 render prop 패턴으로 넘겨줄 수 있음을 보여주고 있다. 
+```javascript
+export default function MyComponent({ headerFn, children }) {
+  return (
+    <>
+      <div className="header">{headerFn}</div>
+      <hr />
+      <div className="container">{children}</div>
+    </>
+  );
+}
+
+export default function App() {
+  return (
+    <div className="app">
+      <h1>Component Composition</h1>
+      <MyComponent headerFn={<Title title="Random title #1" />}>
+        <p className="text">
+          Lorem ipsum...
+        </p>
+      </MyComponent>
+    </div>
+  );
+}
+```
+- 이 코드를 보고나니, 내 프로젝트에서도 적용할만한 부분이 생각났다. 
+	- Hero를 받는 부분에서 사용할 수 있겠다는 생각이 들었다. 
