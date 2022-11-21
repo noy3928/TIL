@@ -199,16 +199,49 @@ public class Phone {
 
 
 - 그러면 이 시점에서 내가 던져야하는 질문은 이 합성은 리액트에서는 어떻게 사용하는가 하는 것이다. 
-- 이에 대한 자료가 여기 있다.
-	- [Composition vs Inheritance](https://reactjs.org/docs/composition-vs-inheritance.html)
+- 검색해보니, 생각보다 양질의 자료가 많았다. 그리고 많은 사람들이 해당 주제에 관심을 가지고 있다는 것을 알 수 있었다. 이에 대한 자료가 여기 있다.
+	- [Composition vs Inheritance](https://reactjs.org/docs/composition-vs-inheritance.html) 👍
 		- 우리는 리액트에서 합성을 사용하기 위해 children와 props를 이용할 수 있다. 
 			- 미래의 시점에 무엇이 들어올 지 모른다는 점에서 런타임 의존적인 방법이다.
 			- 유연한 방법이라고 할 수 있다. 
 		- 리액트팀에 있어선 상속을 추천할 만한 사례를 찾지 못했다고 이야기하고 있다. 
-	- [React Component Composition Explained]()
+	- [React Component Composition Explained](https://felixgerschau.com/react-component-composition/) 👍👍👍
+		- 컴포넌트 합성이란 무엇인가? 
+			- props로써 다른 컴포넌트에 컴포넌트를 넘겨주는 것을 컴포넌트 합성이라고 부를 수 있다. 
+				- children을 사용하는 것도 마찬가지로 합성이다. 
+				- 유연성이 높다. 
+		- 이 아티클에서는 합성이 props drilling을 개선하는데 도움을 준다고도 설명하고 있다. 
+			- prop drilling이란 다양한 계층의 컴포넌트에 props를 내려주는 현상을 이야기한다. 
+		- 합성은 리렌더링 방지에도 도움이된다. 
+			- 리액트는 오직 props가 변경되었을 때만 렌더링한다. 
+			- 고로 합성을 통해서 컴포넌트를 분리하고, 특정 컴포넌트로 합성시켜주면 불필요한 리렌더링을 방지할 수 있다. 
+	
+```javascript
+// 합성이 prop drilling을 개선해주는 사례
+
+const App = () => {
+  const userName = 'Joe';
+
+  return (
+    <WelcomePage title={<WelcomeMessage userName={userName} />} />
+  );
+}
+
+const WelcomePage = ({ title }) => {
+  return (
+    <>
+      {title}
+      {/** Some other welcome page code */}
+    </>
+  );
+}
+
+const WelcomeMessage = ({ userName }) => {
+  return (
+    <h1>Hey, {userName}!</h1>
+  );
+}
+```
+- 합성을 이용하면 prop drilling 문제를 해결할 수 있다. 
 
 
-
-- 퍼블릭 인터페이스를 재사용한다는 것은 어떤 의미인가? 
-- 인터페이스에 의존하면 뭐가 좋은가? 
-- 리액트에서 코드 재사용을 위해 합성을 한다는 것은 어떤 의미일까?
