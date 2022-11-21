@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
+                "file": "Books/YouDon'tKnowJs-1/타입과문법/Chapter.2 값.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
+                "file": "Books/YouDon'tKnowJs-1/타입과문법/Chapter.2 값.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
+                "file": "Books/YouDon'tKnowJs-1/타입과문법/Chapter.2 값.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md"
+                "file": "Books/YouDon'tKnowJs-1/타입과문법/Chapter.2 값.md"
               }
             }
           }
@@ -212,6 +212,7 @@
   },
   "active": "08a465c9f32fc246",
   "lastOpenFiles": [
+    "Lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
     "Lecture/함수형프로그래밍-유인동/장바구니/총 수량, 총 가격.md",
     "Daily-Note/헤딩 요소를 적절하게 배치할 것.md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성2/지연평가+Promise(L.map,map,take).md",
@@ -220,7 +221,6 @@
     "Daily-Note/HTTP3 Connection Establishment.md",
     "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md",
-    "Lecture/함수형프로그래밍-유인동/README.md",
-    "Lecture/함수형프로그래밍-유인동/비동기-동시성1/promise.then의 중요한 규칙.md"
+    "Lecture/함수형프로그래밍-유인동/README.md"
   ]
 }
