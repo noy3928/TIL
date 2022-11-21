@@ -63,7 +63,32 @@ public class Properties {
 	- 하나의 기능을 추가하거나 수정하기 위해 불필요하게 많은 수의 클래스를 추가하거나 수정해야한다. 
 	- 단일 상속만 지원하는 언어에서는 상속으로 인해 오히려 중복 코드의 양이 늘어날 수 있다. 
 
+- 설계는 다양한 조합을 수용할 수 있도록 유연해야한다. 
 
+### 상속으로 기본 정책 구현해보기 
+
+
+```java
+public abstract class Phone {
+	private List<Call> calls = new ArrayList<>();
+
+	public Money calculateFee(){
+		Money result = Money.ZERO;
+
+
+		for(Call call : calls){
+			result = result.plus(calculateCallFee(call));
+		}
+	
+		return result;
+	}
+
+	
+}
+
+
+
+```
 
 
 
