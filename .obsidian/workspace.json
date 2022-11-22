@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Object/11.합성과 유연한 설계/table.md",
+                "file": "Books/Object/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Object/11.합성과 유연한 설계/table.md",
+                "file": "Books/Object/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Object/11.합성과 유연한 설계/table.md",
+                "file": "Books/Object/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Object/11.합성과 유연한 설계/table.md"
+                "file": "Books/Object/README.md"
               }
             }
           }
@@ -224,6 +224,7 @@
   },
   "active": "c4ae58cc880148bf",
   "lastOpenFiles": [
+    "Books/Object/11.합성과 유연한 설계/table.md",
     "Books/YouDon'tKnowJs-1/타입과문법/Chapter.2 값.md",
     "Lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
     "Lecture/함수형프로그래밍-유인동/장바구니/총 수량, 총 가격.md",
@@ -232,7 +233,6 @@
     "Books/YouDon'tKnowJs-1/타입과문법/Chapter.1 타입.md",
     "Daily-Note/HTTP3 Connection Establishment.md",
     "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
-    "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md",
-    "Lecture/함수형프로그래밍-유인동/README.md"
+    "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md"
   ]
 }
