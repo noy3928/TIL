@@ -4,114 +4,64 @@
 ---- 
 
 ### 메모 : 
-selector를 사용하지 않고 atom을 변경하기 
-```javascript
-import React, { useCallback, useEffect, useMemo, useState } from "react"; 
-import { useRecoilState, useRecoilValue } from "recoil"; 
-import { userList } from "../modules/UserList/atom"; 
-const numberList = [1, 2, 3, 4, 5, 6, 7, 8, 9]; 
 
-export default function List() { 
-const [number, setNumber] = useState(1); 
-const [list, setList] = useRecoilState(userList); 
-const handleChange = useCallback( (event: React.ChangeEvent<HTMLSelectElement>) => { 
-	const number = Number(event.currentTarget.value); setNumber(number); 
-}, [] ); 
-
-useEffect(() => {
-	setList(() => list.filter((li) => li.phone.includes(`${number}`))); 
-}, [list, number]); 
-
-return ( 
-	<div> 
-		<h2>Select number</h2> 
-		<select onChange={handleChange} value={number}> 
-			{numberList.map((num) => ( 
-			<option value={num} key={num}> {num} </option>))
-			} 
-		</select> 
-		<h1>Select List</h1> 
-		<hr /> 
-		{list.map(({ id, addr, name, phone }) => 
-		( <div> 
-			<p>id: {id}</p> 
-			<p>name: {name}</p> 
-			<p>addr: {addr}</p> 
-			<p>phone: {phone}</p> 
-			<hr /> 
-		</div> ))
-		} 
-		</div> ); 
-		}
-```
-- 이렇게 atom을 직접 변경하는 경우 해당 atom을 사용하고 있는 모든 컴포넌트에서 렌더링이 일어나게 될 것이다. 
-
-이 코드를 셀렉터를 이용해서 다시 수정해보자. 
-
-```javascript 
-// Component 
-import React, { useCallback, useEffect, useMemo, useState } from "react"; 
-import { useRecoilState, useRecoilValue } from "recoil"; 
-import { userSelector as selector } from "../modules/UserList/selector"; 
-const numberList = [1, 2, 3, 4, 5, 6, 7, 8, 9]; 
-
-export default function List() {
-const [number, setNumber] = useState(1); 
-const userSelector = useRecoilValue(selector(number)); 
-const handleChange = useCallback( (event: React.ChangeEvent<HTMLSelectElement>) => {
-	const number = Number(event.currentTarget.value); 
-	setNumber(number); 
-}, [] ); 
-
-return ( 
-	<div> 
-		<h2>Select number</h2> 
-			<select onChange={handleChange} value={number}> 
-			{numberList.map((num) => ( <option value={num} key={num}> {num} </option> ))} 
-			</select> 
-			<h1>Select List</h1> 
-			<hr /> 
-			{userSelector.map(({ id, addr, name, phone }) => (
-			 <div> 
-				 <p>id: {id}</p> 
-				 <p>name: {name}</p> 
-				 <p>addr: {addr}</p> 
-				 <p>phone: {phone}</p> 
-				 <hr /> 
-			 </div> ))
-			 } 
-			 </div> ); 
-			 }
-
-```
+> **Selector**는 파생된 상태(**derived state**)의 일부를 나타낸다. 파생된 상태를 어떤 방법으로든 주어진 상태를 수정하는 순수 함수에 전달된 상태의 결과물로 생각할 수 있다.
 
 
 ```javascript
-// Selector 
-import { selectorFamily } from "recoil"; 
-import { IUser } from "../type"; 
-import { userList } from "./atom"; 
-
-export const userSelector = selectorFamily<IUser[], number>({ 
-	key: "userSelector", 
-	get: (param: number) => 
-	({ get }) => 
-	get(userList).filter((person) => 
-	person.phone.includes(`${param}`)), } );
+const todoListStatsState = selector({  
+	key: 'todoListStatsState',  
+	get: ({get}) => {  
+		const todoList = get(todoListState);  
+		const totalNum = todoList.length;  
+		const totalCompletedNum = todoList.filter((item) => item.isComplete).length;  
+		const totalUncompletedNum = totalNum - totalCompletedNum;  
+		const percentCompleted = totalNum === 0 ? 0 : totalCompletedNum / totalNum;  
+  
+return {  
+	totalNum,  
+	totalCompletedNum,  
+	totalUncompletedNum,  
+	percentCompleted,  
+};  
+},  
+});
 ```
 
-- 셀렉터에 값을 제공하고, 셀렉터에 반환하는 값을 화면에 보여주는 역할만 하고있다. 
-- 해당 컴포넌트에서 수행하는 연산이 줄어들고, 관리 포인트가 분리되었다. 
-- selector는 내부에서 get이라는 메서드를 파라미터로 받는다. 
-- get메서드를 활용해 atom을 사용할 수 있다. 
-- 여러 atom을 가공해 사용해야하는 경우 더욱 효과적으로 사용할 수 있다. 
-- 
+
+- 원본 데이터는 마일인데, 화면 상에는 킬로미터로 표시해야하는 경우 : 
+	- 이런 경우에 selector를 사용하기 용이하다. 
+
+```javascript
+const mphState = atom({
+  key: 'mphState',
+  default: 0,
+});
+
+const kphState = selector({
+  key: 'kphState',
+  get: ({ get }) => {
+    const mph = get(mphState);
+    return mph * 1.609; // 1마일은 약 1.609킬로부터
+  },
+});
+```
+이렇게 작성해둔 stateㄴ
 
 
 ### 내 생각과 정리 : 
 
+- 파생된 상태라는 단어가 좀 어색하다. 분명 뜻은 이해했는데, 단어가 그렇게 와닿지 않는다. 
+	- 원래 recoil이 가지고 있는 state가 있는데, 그 state에서 비롯해 새롭게 만들어진 state를 말하는 것 같다. 
+		- ex. 필터링된 state, article state가 있다면 그 state의 갯수. 
+- 이는 기존에 있던 데이터에 의존하는 동적인 데이터를 만들 수 있게 해준다. 
+
+
 
 ### 출처(참고문헌) : 
+[Selectors](https://recoiljs.org/ko/docs/basic-tutorial/selectors/)
 [Recoil 정확하게 사용하기! (feat. Selector)](https://tech.osci.kr/2022/09/02/recoil-selector/)
+[Recoil의 쓰기 가능한 셀렉터](https://blog.rhostem.com/posts/2021-11-24-recoil-writable-selector)
+
 
 ### Link : 
