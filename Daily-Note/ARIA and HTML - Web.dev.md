@@ -29,8 +29,17 @@
 - 접근성 트리는 또한 플랫폼 별 접근성 API에서 AT가 이해할 수 있는 표현을 제공하기 위해서 사용되기도 한다. 
 - aria 자체로는 요소의 기능이나 외형을 변경시키지 않는다. 
 	- 이것은 단지 AT의 이용자들이 aria가 있는 것과 없는 것의 차이를 알 수 있도록 해줄 뿐이다. 
-	- 이것이 의미하는 바는 개발자
+	- 이것이 의미하는 바는 요소가 더욱 접근성 있기 위해서는 개발자에게 적절한 코드를 작성하고, 스타일을 변경할 책임이 있다는 것이다.
+- aria의 3가지 주요 기능은 roles, properties, state/value이다. 
 
+- role : 
+```javascript
+<div role="button">Self-destruct</div>
+```
+
+- properties : 
+```javascript
+```
 
 
 
