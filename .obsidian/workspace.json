@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e2e577c19c3303e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/To increase A11Y, use rem instead of px.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -151,8 +162,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d674ae4b51185132",
+  "active": "e2e577c19c3303e9",
   "lastOpenFiles": [
+    "Daily-Note/Web Accessibility Criteria - Resizable Text.md",
+    "Daily-Note/To increase A11Y, use rem instead of px.md",
     "Daily-Note/ARIA and HTML - Web.dev.md",
     "Daily-Note/How is digital accessibility measured?.md",
     "Daily-Note/What is digital accessibility, and why does it matter?.md",
@@ -160,8 +173,6 @@
     "Daily-Note/사용자정의 이터러블.md",
     "Daily-Note/이 정도는 대답할 수 있어야한다 - 프론트엔드.md",
     "Lecture/함수형프로그래밍-유인동/지연성/제너레이터와 이터레이터 프로토콜로 구현하는 지연평가.md",
-    "Lecture/함수형프로그래밍-유인동/지연성/각각의 함수들을 응용 사용해보며 차이점을 확인해보기.md",
-    "Daily-Note/Map 자료구조와 이터러블.md",
-    "Books/YouDon'tKnowJs-1/타입과문법/Chapter.2 값.md"
+    "Lecture/함수형프로그래밍-유인동/지연성/각각의 함수들을 응용 사용해보며 차이점을 확인해보기.md"
   ]
 }
