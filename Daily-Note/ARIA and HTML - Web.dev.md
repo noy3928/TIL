@@ -37,11 +37,32 @@
 <div role="button">Self-destruct</div>
 ```
 
-- properties : 
+- properties : 속성은 객체에 대한 특성이나 관계를 나타낸다.
 ```javascript
+<div role="button" aria-describedby >Self-destruct</div>
+
+<div id="more-info">This page will self-destruct in 10 seconds.</div>
 ```
 
+- states/values : 요소와 관련있는 현재 상태나 데이터 값을 정의한다. 
+```javascript
+<div role="button" aria-describedby="more-info" aria-pressed="false">  
+Self-destruct  
+</div>  
+  
+<div id="more-info">  
+This page will self-destruct in 10 seconds.  
+</div>
+```
 
+- 이 이 ARIA의 3 요소들은 한줄의 코드에서 사용될 수 있지만, 필수는 아니다. 대신에 최종 접근성 목표를 달성할 때까지 ARIA의 역할, 속성, 상태/값을 계층화하도록 해라. 
+- 정확하게 ARIA가 부여되면 AT를 이용하는 유저들이 웹사이트에 필요한 정보들을 받을 수 있다. 
+
+
+## When to use ARIA 
+
+- 2014에 HTML5 로 변경되면서 많은 변화들이 생겼고, 몇몇 부분에서는 ARIA를 덜 신경써도 되게 되었다. 
+- 그렇다면 우리가 ARIA를 정말 
 
 
 ### 내 생각과 정리 : 
