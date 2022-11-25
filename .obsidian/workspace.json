@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/How is digital accessibility measured?.md",
+                "file": "Daily-Note/Map 자료구조와 이터러블.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/How is digital accessibility measured?.md",
+                "file": "Daily-Note/Map 자료구조와 이터러블.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/How is digital accessibility measured?.md",
+                "file": "Daily-Note/Map 자료구조와 이터러블.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/How is digital accessibility measured?.md"
+                "file": "Daily-Note/Map 자료구조와 이터러블.md"
               }
             }
           }
@@ -164,15 +164,15 @@
   },
   "active": "fcd143197b96721a",
   "lastOpenFiles": [
-    "Daily-Note/프론트엔드 JD 정리.md",
+    "Daily-Note/사용자정의 이터러블.md",
     "Daily-Note/How is digital accessibility measured?.md",
+    "Daily-Note/프론트엔드 JD 정리.md",
     "Daily-Note/What is digital accessibility, and why does it matter?.md",
     "Books/YouDon'tKnowJs-1/타입과문법/Chapter.2 값.md",
     "Daily-Note/리코일 selector.md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성1/go,pipe,reduce에서 비동기제어.md",
     "Lecture/함수형프로그래밍-유인동/비동기-동시성2/지연평가+Promise(L.map,map,take).md",
     "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
-    "Daily-Note/HTTP3 Connection Establishment.md",
-    "Books/YouDon'tKnowJs-1/타입과문법/Chapter.1 타입.md"
+    "Daily-Note/HTTP3 Connection Establishment.md"
   ]
 }
