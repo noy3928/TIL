@@ -62,7 +62,40 @@ This page will self-destruct in 10 seconds.
 ## When to use ARIA 
 
 - 2014에 HTML5 로 변경되면서 많은 변화들이 생겼고, 몇몇 부분에서는 ARIA를 덜 신경써도 되게 되었다. 
-- 그렇다면 우리가 ARIA를 정말 
+- 그렇다면 우리가 ARIA를 정말 사용해야 할 때는 언제일까? 
+	- 이것을 위해서 WAI 그룹이 5가지 원칙을 소개해주었다. 
+
+
+### Rule 1: Don't use ARIA 
+
+- aria를 요소에 더하는 것이 본질적으로 접근성을 더 높여주는 것은 아니다. 
+	- aria 요소가 70% 넘어가면 에러가 더 많이 감지되기도 한다. 
+	- 이는 aria의 부적절한 사용으로 인한 것이다. 
+
+- 이 원칙에 예외가 있긴하다. 
+	- 만약 HTML 요소가 접근성에 대한 지원을 해주지 않는다면 필요하다. 
+	- 
+
+
+### Rule 2: Don't add (unnecessary) ARIA to HTML 
+
+- 대부분의 상황에서 HTML 요소들은 기본적으로 잘 동작하고, ARIA를 필요로 하지않는다. 
+	- 실제로 ARIA를 사용하는 개발자는 인터렉티브 요소의 경우 요소를 기능적으로 만들기 위해 추가 코드를 추가해야하는 경우가 많다. 
+	- 의도대로 HTML을 사용한다면 더 적은 코드를 사용하면서도, 더 나은 퍼포먼스를 제공할 수 있다. 
+
+
+### Rule 3: Always support keyboard navigation 
+
+- 모든 상호작용적인  ARIA 컨트롤은 무조건 키보드로도 접근 가능해야한다. 
+	- 일반적으로 키보드 포커스를 받지 않는 요소에 필요하다면, tabindex=0을 넣을 수 있다. 
+
+
+### Rule 4: Don't hide focusable elements 
+
+- 포커스가 필요하거나, tabindex=0이 지정된 요소를 감추어선 안된다. 
+	- 그러면 AT rlrlrk
+
+
 
 
 ### 내 생각과 정리 : 
