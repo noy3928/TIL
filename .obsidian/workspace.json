@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d674ae4b51185132",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/To increase A11Y, use rem instead of px.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/ARIA and HTML - Web.dev.md",
+                "file": "Daily-Note/To increase A11Y, use rem instead of px.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/ARIA and HTML - Web.dev.md",
+                "file": "Daily-Note/To increase A11Y, use rem instead of px.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/ARIA and HTML - Web.dev.md"
+                "file": "Daily-Note/To increase A11Y, use rem instead of px.md"
               }
             }
           }
@@ -138,14 +151,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bf383830c9f80564",
+  "active": "d674ae4b51185132",
   "lastOpenFiles": [
+    "Daily-Note/ARIA and HTML - Web.dev.md",
     "Daily-Note/How is digital accessibility measured?.md",
     "Daily-Note/What is digital accessibility, and why does it matter?.md",
     "Daily-Note/프론트엔드 JD 정리.md",
     "Daily-Note/사용자정의 이터러블.md",
     "Daily-Note/이 정도는 대답할 수 있어야한다 - 프론트엔드.md",
-    "Daily-Note/ARIA and HTML - Web.dev.md",
     "Lecture/함수형프로그래밍-유인동/지연성/제너레이터와 이터레이터 프로토콜로 구현하는 지연평가.md",
     "Lecture/함수형프로그래밍-유인동/지연성/각각의 함수들을 응용 사용해보며 차이점을 확인해보기.md",
     "Daily-Note/Map 자료구조와 이터러블.md",
