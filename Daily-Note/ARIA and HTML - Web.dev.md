@@ -93,7 +93,31 @@ This page will self-destruct in 10 seconds.
 ### Rule 4: Don't hide focusable elements 
 
 - 포커스가 필요하거나, tabindex=0이 지정된 요소를 감추어선 안된다. 
-	- 그러면 AT rlrlrk
+	- 그러면 AT 기기가 그냥 지나칠 가능성이 있다. 
+
+
+### Rule 5: Use accessible names for interactive elements 
+
+- 상호작용이 필요한 요소의 목적은 유저가 그것을 사용하기 전에 전달되어야 한다. 
+	- AT 기기를 이용하는 모든 사람들을 위해서 모든 요소들이 접근가능한 이름을 가지도록 해라.
+	- 요소들의 accessible name을 확인하는 방법은 크롬 개발자툴에서 접근성 트리를 확인하거나, 스크린 리더로 테스트 해보는 방법도 있다. 
+
+
+
+## ARIA의 복잡성 
+
+- ARIA는 복잡하다, 그리고 너는 항상 이것을 사용할 때 주의해야 한다. 
+	- 코드 예제에서 사용하는 것들은 이해하기 어렵지 않겠지만, 실제로 사용하려하면 금방 복잡해질 것이다. 
+
+- 주의해야 할 많은 것들이 있다. 
+	- 키보드 상호작용
+	- 터치 인터페이스 
+	- AT/browser support
+	- 번역 필요 
+	- 환경적 제한 
+	- 레거시 코드 
+	- 사용자 선호
+
 
 
 
@@ -101,7 +125,6 @@ This page will self-destruct in 10 seconds.
 ### 내 생각과 정리 : 
 
 
-### 출처(참고문헌) : 
 
 ### 추가로 찾아본 내용 : 
 
