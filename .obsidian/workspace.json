@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9f97ae7f6c91949d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/동적 프로그래밍.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/To increase A11Y, use rem instead of px.md",
+                "file": "Daily-Note/동적 프로그래밍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/To increase A11Y, use rem instead of px.md",
+                "file": "Daily-Note/동적 프로그래밍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/To increase A11Y, use rem instead of px.md"
+                "file": "Daily-Note/동적 프로그래밍.md"
               }
             }
           }
@@ -162,10 +174,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e2e577c19c3303e9",
+  "active": "9f97ae7f6c91949d",
   "lastOpenFiles": [
-    "Daily-Note/Web Accessibility Criteria - Resizable Text.md",
     "Daily-Note/To increase A11Y, use rem instead of px.md",
+    "Daily-Note/Web Accessibility Criteria - Resizable Text.md",
     "Daily-Note/ARIA and HTML - Web.dev.md",
     "Daily-Note/How is digital accessibility measured?.md",
     "Daily-Note/What is digital accessibility, and why does it matter?.md",
