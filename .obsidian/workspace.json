@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "924e0bfe666751f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/Content structure - web.dev.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -122,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/동적 프로그래밍.md",
+                "file": "Daily-Note/Content structure - web.dev.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/동적 프로그래밍.md",
+                "file": "Daily-Note/Content structure - web.dev.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/동적 프로그래밍.md"
+                "file": "Daily-Note/Content structure - web.dev.md"
               }
             }
           }
@@ -174,8 +187,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9f97ae7f6c91949d",
+  "active": "924e0bfe666751f8",
   "lastOpenFiles": [
+    "Daily-Note/동적 프로그래밍.md",
     "Daily-Note/To increase A11Y, use rem instead of px.md",
     "Daily-Note/Web Accessibility Criteria - Resizable Text.md",
     "Daily-Note/ARIA and HTML - Web.dev.md",
@@ -184,7 +198,6 @@
     "Daily-Note/프론트엔드 JD 정리.md",
     "Daily-Note/사용자정의 이터러블.md",
     "Daily-Note/이 정도는 대답할 수 있어야한다 - 프론트엔드.md",
-    "Lecture/함수형프로그래밍-유인동/지연성/제너레이터와 이터레이터 프로토콜로 구현하는 지연평가.md",
-    "Lecture/함수형프로그래밍-유인동/지연성/각각의 함수들을 응용 사용해보며 차이점을 확인해보기.md"
+    "Lecture/함수형프로그래밍-유인동/지연성/제너레이터와 이터레이터 프로토콜로 구현하는 지연평가.md"
   ]
 }
