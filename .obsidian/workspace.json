@@ -8,55 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bf383830c9f80564",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/ARIA and HTML - Web.dev.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d674ae4b51185132",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/To increase A11Y, use rem instead of px.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2e577c19c3303e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/To increase A11Y, use rem instead of px.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f97ae7f6c91949d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/동적 프로그래밍.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "924e0bfe666751f8",
+            "id": "3d569514fe8182bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3d569514fe8182bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/FunctionalJavascript/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -146,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/FunctionalJavascript/README.md",
+                "file": "Daily-Note/Content structure - web.dev.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/FunctionalJavascript/README.md",
+                "file": "Daily-Note/Content structure - web.dev.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/FunctionalJavascript/README.md"
+                "file": "Daily-Note/Content structure - web.dev.md"
               }
             }
           }
@@ -200,15 +140,15 @@
   },
   "active": "3d569514fe8182bc",
   "lastOpenFiles": [
-    "Books/FunctionalJavascript/6.빈틈없는 코드 만들기.md",
     "Books/FunctionalJavascript/README.md",
-    "Books/FunctionalJavascript/5.복잡성을 줄이는 디자인 패턴.md",
-    "README.md",
+    "Books/FunctionalJavascript/6.빈틈없는 코드 만들기.md",
     "Books/FunctionalJavascript/7.함수형 최적화.md",
-    "Daily-Note/Content structure - web.dev.md",
     "Daily-Note/동적 프로그래밍.md",
+    "Daily-Note/ARIA and HTML - Web.dev.md",
     "Daily-Note/To increase A11Y, use rem instead of px.md",
-    "Daily-Note/Web Accessibility Criteria - Resizable Text.md",
-    "Daily-Note/ARIA and HTML - Web.dev.md"
+    "Daily-Note/Content structure - web.dev.md",
+    "Books/FunctionalJavascript/1.함수형길들이기.md",
+    "Books/FunctionalJavascript/5.복잡성을 줄이는 디자인 패턴.md",
+    "README.md"
   ]
 }
