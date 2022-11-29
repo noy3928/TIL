@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/The Document - web.dev.md",
+                "file": "OOP/의존성 역전 원칙.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "이터레",
+                "query": "의존성 역전",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/The Document - web.dev.md",
+                "file": "OOP/의존성 역전 원칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/The Document - web.dev.md",
+                "file": "OOP/의존성 역전 원칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/The Document - web.dev.md"
+                "file": "OOP/의존성 역전 원칙.md"
               }
             }
           }
@@ -153,6 +154,7 @@
   },
   "active": "a494e3f1e020fbaf",
   "lastOpenFiles": [
+    "Daily-Note/The Document - web.dev.md",
     "Daily-Note/Content structure - web.dev.md",
     "Books/FunctionalJavascript/README.md",
     "Books/FunctionalJavascript/6.빈틈없는 코드 만들기.md",
@@ -161,7 +163,6 @@
     "Daily-Note/ARIA and HTML - Web.dev.md",
     "Daily-Note/To increase A11Y, use rem instead of px.md",
     "Books/FunctionalJavascript/1.함수형길들이기.md",
-    "Books/FunctionalJavascript/5.복잡성을 줄이는 디자인 패턴.md",
-    "README.md"
+    "Books/FunctionalJavascript/5.복잡성을 줄이는 디자인 패턴.md"
   ]
 }
