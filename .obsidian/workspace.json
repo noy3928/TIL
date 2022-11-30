@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2053d7e573d0be44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/Images - web.dev.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,12 +78,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/The Document - web.dev.md",
+                "file": "Daily-Note/Images - web.dev.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/The Document - web.dev.md",
+                "file": "Daily-Note/Images - web.dev.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/The Document - web.dev.md"
+                "file": "Daily-Note/Images - web.dev.md"
               }
             }
           }
@@ -138,8 +151,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c82b694bb04864bc",
+  "active": "2053d7e573d0be44",
   "lastOpenFiles": [
+    "Daily-Note/The Document - web.dev.md",
     "Daily-Note/Keyboard access fundamentals.md",
     "Daily-Note/What is digital accessibility, and why does it matter?.md",
     "Daily-Note/UDP allow multidirectional.md",
@@ -148,7 +162,6 @@
     "Daily-Note/Either와 모나드.md",
     "Daily-Note/Content structure - web.dev.md",
     "Daily-Note/ARIA and HTML - Web.dev.md",
-    "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md",
-    "Daily-Note/소프트웨어의 품질.md"
+    "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md"
   ]
 }
