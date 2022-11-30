@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5fc23e4741f53a99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/Color and contrast.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/Images - web.dev.md",
+                "file": "Daily-Note/Color and contrast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/Images - web.dev.md",
+                "file": "Daily-Note/Color and contrast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/Images - web.dev.md"
+                "file": "Daily-Note/Color and contrast.md"
               }
             }
           }
@@ -138,11 +151,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dcbcb0c6c7b8c0c5",
+  "active": "5fc23e4741f53a99",
   "lastOpenFiles": [
+    "Daily-Note/Images - web.dev.md",
     "Daily-Note/UDP allow multidirectional.md",
     "Daily-Note/The Document - web.dev.md",
-    "Daily-Note/Images - web.dev.md",
     "Daily-Note/Keyboard access fundamentals.md",
     "Daily-Note/What is digital accessibility, and why does it matter?.md",
     "Daily-Note/To increase A11Y, use rem instead of px.md",
