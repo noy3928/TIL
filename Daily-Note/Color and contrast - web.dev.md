@@ -47,11 +47,15 @@
 
 ## Color-focused media queries 
 
-- 
+- 색 대비 비율을 체크하거나 스크린에서 색의 사용을 확인하는 것을 넘어서, 미디어 쿼리를 사용하는 것을 고려할 필요가 있다. 
+- 예를 들어서, `@prefers-color-scheme` 미디어 쿼리를 사용하는 것은, 다크 테마를 사용할 수 있고, 이것은 도움이 된다. photophobia를 겪고 있는 사람들에게 도움이 되고, 빛을 민감성을 가진 사람들에게 도움이 될 수 있다. 
+- 색깔과 관련된 몇가지 종류의 미디어 쿼리들이 존재한다. 
 
 
 
-### 내 생각과 정리 : 
+### 추가리딩 : 
+[prefet color scheme](https://developer.mozilla.org/ko/docs/Web/CSS/@media/prefers-color-scheme#browser_compatibility)
+
 
 
 ### 출처(참고문헌) : 
