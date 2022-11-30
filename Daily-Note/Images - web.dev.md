@@ -183,7 +183,45 @@
 
 
 - 다른 방법은 `aria-describedby`  속성을 이미지요소에 사용하는 것이다. 
-	- 개발적으로 id에 연결시킬 수 있다. 그리고 그 id 요소는 설명을 포 포함하고 있는 
+	- 개발적으로 id에 연결시킬 수 있다. 그리고 그 id 요소는 설명을 포함하고 있다.
+	- 이 방법은 강력한 연결을 만든다. 이미지와 전체 설명 사이에서 강력한 연결을 만들어준다. 
+	- 확장된 설명은 화면에 보여질 수도 있고, 감춰질 수도 있다. 
+
+
+```javascript
+<div class="grid">
+  <div class="grid-item">
+    <figure role="group">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Coccinellidae_%28Ladybug%29_Anatomy.svg" alt="Diagram of the anatomy of a ladybug.">
+      <br><br>
+      <figcaption>
+        <a href="ladybug-science.html">Learn more about the anatomy of a ladybug</a>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+```
+
+- 또 다른 방법은 figure와 figcaption을 사용하는 것이다. 
+	- 이 요소들은 aria-describedby와 비슷하게 동작한다. 이것들은 의미적으로 그룹지어준다. 
+		- 이미지와 그것의 설명 사이에 강한 연결을 만들어준다. 
+	- figure를 지원하지 않는 브라우저에서도 호환하도록 만들어주기 위해서는 role="group"을 더해주면 된다. 
+
+
+## Alternative text best practices
+
+- 대체 텍스트를 포함하는 것 만으로는 충분하지 않다. 
+	- 텍스트 자체도 충분히 의미있는 것이 중요하다. 
+	- 예를 들어서, 만약 너의 이미지가 되게 많은 설명이 필요한 벌레에 대한 이미지인데, 그냥 '벌레' 라고만 해버리면, 의도를 명확하게 전달할 수 없을 것이다. 
+- 대체 텍스트는 시각적인 정보와 연결성이 있고, 가능한 한 간결하게 작성되는 것이 중요하다. 
+	- 스크린 리더가 읽을 수 있는 글자에 제한은 없지만, 일반적으로는 150자나 그 안으로 작성되는 것이 권장된다. 
+	- 추가적인 맥락이 필요하다면, 복잡한 이미지 패턴을 사용하더나, 캡션을 넣거나 다른 방법들을 사용해야한다. 
+- 몇몇 추가적인 대체 텍스트에 대한 모범은 다음과 같은 내용을 포함한다. 
+	- image of 나 photo of 같은 단어를 사용하지 말자. 
+	- 이미지의 이름을 지을 때, 가능한 모순이 없고 정확하게 지어라. 
+	- non-apha 문자를 사용하는 것을 피하고, - 를 사용해라. _ 대신
+	- 적절한 구두점을 사용해라. 그렇지 않으면, 이미지 설명글이 그냥 쭉- 읽히게 될 것이다. 
+	- 대체 텍스트를 로봇처럼 작성하지 말고, 사람처럼 작성해라. 키워드 스터핑 같은 건 사용하지 않도록 하자. 
 
 
 ### 내 생각과 정리 : 
