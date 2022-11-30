@@ -135,7 +135,55 @@
 - 첫번째, 대안적인 설명들을 이미지에 더할 수 있는 방법은 시각적으로 텍스트를 감추는 것이다. 
 	- 이런 방법을 사용할 때, 텍스트는 아마도 스크린 리더에 의해서 읽히게 될 것이다. 왜냐하면 이것은 dom에 있기 때문이다. 하지만, 이것은 시각적으로는 css의 도움으로 감추어져있다. 
 - 코드 스니펫을 보면,  "홈페이지로 이동하세요" 라는 글자가 타이틀 속성에 들어가 있음을 알 수 있다. 
-	- 
+	- 그리고 이미지의 alt text는 Lovely Ladybugs for your Lawn.라고 적혀있다. 
+	- 만약에 스크린 리더에서  로고의 코드를 듣는다면, 하나의 이미지에서 시각적이고, 행동적인 것 둘 다 들을 수 있을 것이다. 
+
+
+```javascript
+<div class="grid">
+  <div class="grid-item" title="Navigate to the homepage">
+    <a href="/">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Ladybug_Logo.png" alt="Lovely Ladybugs for your Lawn" /></a>
+  </div>
+</div>
+```
+
+
+## Complex images 
+
+- 복잡한 이미지는 장식적이고, 설명적이고, 기능적인 이미지보다 더 많은 정보를 필요로 한다. 
+	- 모든 메시지를 전달하기 위한 길고 짧은 대체 문구를 넣어줘야한다. 
+	- 복잡한 이미지는 인포그래픽들과, 지도, 그래프 같은 복잡한 그림들이 포함된다. 
+
+```javascript
+<div class="grid">
+  <div class="grid-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Coccinellidae_%28Ladybug%29_Anatomy.svg" alt="Diagram of the anatomy of a ladybug.">
+  <br><br>
+  <a href="ladybug-science.html">Learn more about the anatomy of a ladybug</a>
+  </div>
+</div>
+```
+
+```javascript
+<img src=".../Ladybug_Anatomy.svg" alt="Diagram of the anatomy of a ladybug."><a href="ladybug-science.html">Learn more about the anatomy of a ladybug</a>
+```
+
+- 이미지에 추가적인 설명을 더할 수 있는 한 가지 방법은 그것에 대한 긴 설명을 다른 곳에서 연결 짔는 방법이 있다. 
+	- 이런 방법은 좋은 선택이다. 이것은 AT 유저에게만 도움이 되는 것은 아니다. 장애가 아닌 이들에게도 도움이 된다. 
+
+```javascript
+<div class="grid">
+  <div class="grid-item">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Coccinellidae_%28Ladybug%29_Anatomy.svg" alt="Diagram of the anatomy of a ladybug." aria-describedby="description">
+    <p id="description">In this course, you will learn more about the anatomy of a ladybug, including the head, antenna, eye, pronotum, elytra, leg, abdomen, and wing.</p>
+  </div>
+</div>
+```
+
+
+- 다른 방법은 `aria-describedby`  속성을 이미지요소에 사용하는 것이다. 
+	- 개발적으로 id에 연결시킬 수 있다. 그리고 그 id 요소는 설명을 포 포함하고 있는 
 
 
 ### 내 생각과 정리 : 
