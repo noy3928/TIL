@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a941f53b61dfda41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/코어자바스크립트/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26fa6108cd7da6ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/코어자바스크립트/1.데이터 타입.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/Animation and motion - web.dev.md",
+                "file": "Books/코어자바스크립트/1.데이터 타입.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/Animation and motion - web.dev.md",
+                "file": "Books/코어자바스크립트/1.데이터 타입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/Animation and motion - web.dev.md"
+                "file": "Books/코어자바스크립트/1.데이터 타입.md"
               }
             }
           }
@@ -162,17 +186,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "31d5fa56efad3f68",
+  "active": "26fa6108cd7da6ae",
   "lastOpenFiles": [
+    "Books/코어자바스크립트/README.md",
+    "Books/코어자바스크립트/1.데이터 타입.md",
+    "Books/ThinkLikeAProgrammer/README.md",
+    "Daily-Note/Animation and motion - web.dev.md",
     "Daily-Note/Color and contrast - web.dev.md",
     "Daily-Note/Images - web.dev.md",
     "Daily-Note/UDP allow multidirectional.md",
     "Daily-Note/The Document - web.dev.md",
     "Daily-Note/Keyboard access fundamentals.md",
-    "Daily-Note/What is digital accessibility, and why does it matter?.md",
-    "Daily-Note/To increase A11Y, use rem instead of px.md",
-    "Daily-Note/How is digital accessibility measured?.md",
-    "Daily-Note/Either와 모나드.md",
-    "Daily-Note/Content structure - web.dev.md"
+    "Daily-Note/What is digital accessibility, and why does it matter?.md"
   ]
 }
