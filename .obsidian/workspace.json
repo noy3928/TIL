@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/코어자바스크립트/1.데이터 타입.md",
+                "file": "Books/코어자바스크립트/2.실행 컨텍스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/코어자바스크립트/1.데이터 타입.md",
+                "file": "Books/코어자바스크립트/2.실행 컨텍스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/코어자바스크립트/1.데이터 타입.md",
+                "file": "Books/코어자바스크립트/2.실행 컨텍스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/코어자바스크립트/1.데이터 타입.md"
+                "file": "Books/코어자바스크립트/2.실행 컨텍스트.md"
               }
             }
           }
@@ -200,6 +200,7 @@
   },
   "active": "48b9757717b1a81a",
   "lastOpenFiles": [
+    "Daily-Note/3분 모나드.md",
     "Books/코어자바스크립트/2.실행 컨텍스트.md",
     "Books/코어자바스크립트/1.데이터 타입.md",
     "Books/코어자바스크립트/README.md",
@@ -208,7 +209,6 @@
     "Daily-Note/Color and contrast - web.dev.md",
     "Daily-Note/Images - web.dev.md",
     "Daily-Note/UDP allow multidirectional.md",
-    "Daily-Note/The Document - web.dev.md",
-    "Daily-Note/Keyboard access fundamentals.md"
+    "Daily-Note/The Document - web.dev.md"
   ]
 }
