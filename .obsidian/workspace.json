@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "28c5d75fe3b21ab4",
+        "id": "42b71aa6448bfff2",
         "type": "tabs",
         "children": [
           {
-            "id": "dcbcb0c6c7b8c0c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/Images - web.dev.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5fc23e4741f53a99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/코어자바스크립트/1.데이터 타입.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31d5fa56efad3f68",
+            "id": "30327840d7d74946",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,45 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a941f53b61dfda41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/코어자바스크립트/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26fa6108cd7da6ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/코어자바스크립트/1.데이터 타입.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48b9757717b1a81a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/코어자바스크립트/2.실행 컨텍스트.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -147,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/코어자바스크립트/1.데이터 타입.md",
+                "file": "Daily-Note/Animation and motion - web.dev.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/코어자바스크립트/1.데이터 타입.md",
+                "file": "Daily-Note/Animation and motion - web.dev.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/코어자바스크립트/1.데이터 타입.md"
+                "file": "Daily-Note/Animation and motion - web.dev.md"
               }
             }
           }
@@ -199,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5fc23e4741f53a99",
+  "active": "30327840d7d74946",
   "lastOpenFiles": [
-    "Daily-Note/Color and contrast - web.dev.md",
+    "Daily-Note/무제파일.md",
+    "Daily-Note/Animation and motion - web.dev.md",
+    "Books/코어자바스크립트/1.데이터 타입.md",
     "Daily-Note/Images - web.dev.md",
+    "Books/코어자바스크립트/README.md",
+    "Daily-Note/Color and contrast - web.dev.md",
     "Books/코어자바스크립트/2.실행 컨텍스트.md",
     "Daily-Note/3분 모나드.md",
-    "Books/코어자바스크립트/1.데이터 타입.md",
-    "Books/코어자바스크립트/README.md",
     "Books/ThinkLikeAProgrammer/README.md",
-    "Daily-Note/Animation and motion - web.dev.md",
-    "Daily-Note/UDP allow multidirectional.md",
-    "Daily-Note/The Document - web.dev.md"
+    "Daily-Note/UDP allow multidirectional.md"
   ]
 }
