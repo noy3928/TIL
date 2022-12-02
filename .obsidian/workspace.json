@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/Color and contrast - web.dev.md",
+                "file": "Books/코어자바스크립트/1.데이터 타입.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/Color and contrast - web.dev.md",
+                "file": "Books/코어자바스크립트/1.데이터 타입.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/Color and contrast - web.dev.md",
+                "file": "Books/코어자바스크립트/1.데이터 타입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/Color and contrast - web.dev.md"
+                "file": "Books/코어자바스크립트/1.데이터 타입.md"
               }
             }
           }
@@ -200,6 +201,7 @@
   },
   "active": "5fc23e4741f53a99",
   "lastOpenFiles": [
+    "Daily-Note/Color and contrast - web.dev.md",
     "Daily-Note/Images - web.dev.md",
     "Books/코어자바스크립트/2.실행 컨텍스트.md",
     "Daily-Note/3분 모나드.md",
@@ -207,7 +209,6 @@
     "Books/코어자바스크립트/README.md",
     "Books/ThinkLikeAProgrammer/README.md",
     "Daily-Note/Animation and motion - web.dev.md",
-    "Daily-Note/Color and contrast - web.dev.md",
     "Daily-Note/UDP allow multidirectional.md",
     "Daily-Note/The Document - web.dev.md"
   ]
