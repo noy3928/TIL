@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/코어자바스크립트/2.실행 컨텍스트.md",
+                "file": "Daily-Note/Color and contrast - web.dev.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/코어자바스크립트/2.실행 컨텍스트.md",
+                "file": "Daily-Note/Color and contrast - web.dev.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/코어자바스크립트/2.실행 컨텍스트.md"
+                "file": "Daily-Note/Color and contrast - web.dev.md"
               }
             }
           }
@@ -198,16 +198,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "48b9757717b1a81a",
+  "active": "5fc23e4741f53a99",
   "lastOpenFiles": [
-    "Daily-Note/3분 모나드.md",
+    "Daily-Note/Images - web.dev.md",
     "Books/코어자바스크립트/2.실행 컨텍스트.md",
+    "Daily-Note/3분 모나드.md",
     "Books/코어자바스크립트/1.데이터 타입.md",
     "Books/코어자바스크립트/README.md",
     "Books/ThinkLikeAProgrammer/README.md",
     "Daily-Note/Animation and motion - web.dev.md",
     "Daily-Note/Color and contrast - web.dev.md",
-    "Daily-Note/Images - web.dev.md",
     "Daily-Note/UDP allow multidirectional.md",
     "Daily-Note/The Document - web.dev.md"
   ]
