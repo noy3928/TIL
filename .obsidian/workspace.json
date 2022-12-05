@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/Animation and motion - web.dev.md",
+                "file": "Web-Accessibility/Animation and motion - web.dev.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/동적프로그래밍 - FreeCodeCamp.md",
+                "file": "Daily-Note/Typography - web.dev.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/동적프로그래밍 - FreeCodeCamp.md",
+                "file": "Daily-Note/Typography - web.dev.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/동적프로그래밍 - FreeCodeCamp.md",
+                "file": "Daily-Note/Typography - web.dev.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/동적프로그래밍 - FreeCodeCamp.md"
+                "file": "Daily-Note/Typography - web.dev.md"
               }
             }
           }
@@ -165,15 +165,15 @@
   },
   "active": "b8dec0685224779d",
   "lastOpenFiles": [
+    "Daily-Note/Typography - web.dev.md",
+    "Daily-Note/동적프로그래밍 - FreeCodeCamp.md",
+    "Assets/스크린샷 2022-12-05 오후 1.58.41.png",
+    "Assets/스크린샷 2022-12-05 오후 3.34.47.png",
+    "Assets/스크린샷 2022-12-05 오후 3.27.41.png",
+    "Assets/스크린샷 2022-12-05 오후 3.24.27.png",
+    "Assets/스크린샷 2022-12-05 오후 3.00.30.png",
     "Daily-Note/SOLID 정리.md",
-    "Daily-Note/Animation and motion - web.dev.md",
-    "Daily-Note/무제파일.md",
-    "Books/코어자바스크립트/1.데이터 타입.md",
-    "Daily-Note/Images - web.dev.md",
-    "Books/코어자바스크립트/README.md",
-    "Daily-Note/Color and contrast - web.dev.md",
-    "Books/코어자바스크립트/2.실행 컨텍스트.md",
-    "Daily-Note/3분 모나드.md",
-    "Books/ThinkLikeAProgrammer/README.md"
+    "Web-Accessibility/Animation and motion - web.dev.md",
+    "Books/코어자바스크립트/1.데이터 타입.md"
   ]
 }
