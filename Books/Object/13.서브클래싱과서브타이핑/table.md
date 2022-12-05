@@ -389,17 +389,130 @@ return (
 		- 하지만 우리는 이 원칙이 항상 지켜져야만 하는 것은 아니라는 사실을 인정해야 한다. 
 			- 대게는 하위 컴포넌트를 상위 컴포넌트가 가지고 있지 않은 기능을 추가하기 위해서 만들게 된다. 
 			- 그리고 이런 경우에는 슈퍼 컴포넌트의 인터페이스를 깨트리게 된다. 
-- 
 
 
+### 인터페이스 분리 원칙 : 
+
+- 클라이언트는 그들이 사용하지 않는 인터페이스에 의존해서는 안된다. 
+	- 리액트에선 컴포넌트는 그들이 사용하지 않는 프롭스에 의존해서는 안된다. 
+- ISP가 해결하고자 하는 문제를 알아보자. 
+
+```javascript
+type Video = {
+	title: string
+	duration: number
+	coverUrl: string
+}
+
+type Props = {
+	items: Array<Video>
+}
+
+const VideoList = ({ items }) => {
+return (
+	<ul>
+		{items.map(item =>
+		<Thumbnail
+		key={item.title}
+		video={item}
+		/>
+		)}
+	</ul>
+)
+}
+```
 
 
+Thumbnail 컴포넌트는 다음과 같다. 
+
+```javascript
+type Props = {
+	video: Video
+}
+
+const Thumbnail = ({ video }: Props) => {
+	return <img src={video.coverUrl} />
+}
+```
+
+- Thumbnail는 작고 간단하지만, 한 가지 문제가 있다. 
+	- 전체 비디오 객체를 props로 받고, 그 객체의 프로퍼티 중 하나만 효율적으로 사용하길 기대하고 있다. 
+- 이것이 왜 문제가 되는지를 이해하기 위해서, 비디오에 더하여 상상해보자. 
+	- 라이브 스트림을 위해서 섬네일을 표시하기로 결정했을 뿐만 아니라, 동일한 리스트에서 혼합된 두 종류의 미디어 리소스의 미리보기도 표시하기로 했다. 
+
+```javascript
+type LiveStream = {
+	name: string
+	previewUrl: string
+}
+```
+
+그리고 아래는 수정된 비디오 리스트 컴포넌트이다. 
+
+```javascript
+type Props = {
+	items: Array<Video | LiveStream>
+}
+
+const VideoList = ({ items }) => {
+return (
+	<ul>
+		{items.map(item => {
+			if ('coverUrl' in item) {
+			// it's a video
+			return <Thumbnail video={item} />
+			} else {
+			// it's a live stream, but what can we do with it?
+			}
+		})}
+	</ul>
+	)
+}
+```
+
+- 보다시피, 문제가 있다. 
+	- 비디오와 라이브 스트림 객체를 쉽게 구분할 수 있지만, 
+		- 라이브스트림 타입는 Thumbnail 컴포넌트에 넣을 수 없다. 
+		- 왜냐하면 비디오와 라이브스트림은 호환되지 않기 때문이다. 
+			- 먼저는 그들이 다른 타입을 가지고 있기 때문이고, 
+			- 두번째로는 다른 프로퍼티로써 미리보기 URL을 가지고 있기 때문이다. 
+			- 이것이 문제의 핵심이다. 
+			- 컴포넌트가 실제로 필요로 하는 것보다도, 더 많이 의존하게 만드는 것은 재사용성이 훨씬 떨어지게 만드는 원인이 된다. 그리고 이것이 문제의 핵심이다. 
+
+```javascript
+type Props = {
+	coverUrl: string
+}
+
+const Thumbnail = ({ coverUrl }: Props) => {
+	return <img src={coverUrl} />
+}
+```
+
+```javascript
+type Props = {
+	items: Array<Video | LiveStream>
+}
+
+const VideoList = ({ items }) => {
+return (
+		<ul>
+			{items.map(item => {
+			if ('coverUrl' in item) {
+			// it's a video
+			return <Thumbnail coverUrl={item.coverUrl} />
+			} else {
+			// it's a live stream
+			return <Thumbnail coverUrl={item.previewUrl} />
+			}
+			})}
+		</ul>
+		)
+	}
+```
 
 
-
-
-
-
+### [How to Apply Interface Segregation Principle in ReactJS](https://betterprogramming.pub/how-to-apply-interface-segregation-principle-in-reactjs-fadf77113c5d)
 
 
 
