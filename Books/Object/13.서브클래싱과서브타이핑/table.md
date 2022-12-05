@@ -513,10 +513,60 @@ return (
 
 
 ### [How to Apply Interface Segregation Principle in ReactJS](https://betterprogramming.pub/how-to-apply-interface-segregation-principle-in-reactjs-fadf77113c5d)
+- 리액트에선 실제로 인터페이스를 사용하지 않는다. 
+- 때문에 이것을 '필요하지 않은 것은 의존하게 만들지 말 것' 이라고 바꿔서 생각해볼 수 있다. 
+- 만약 PersonalDetails를 테스트하고자 한다면, 
+	- 해당 컴포넌트에는 필요하지도 않은 내용들까지 모킹해야 할 것이다. 
+
+#### 이것을 어떻게 해결할 수 있을까?
+
+- 필요한 녀석에게만 보낼 수 있도록 분리할 것 
+
+```javascript
+import React from "react";
+
+const user ={
+	personalDetails : {
+		name: "Some Name",
+		age: "60",
+		address: "Some address"
+	},
+	bankingDetails : {
+		bankName: "Bank Name",
+		bankAccountNumber: "1234567809"
+	}
+	}
+
+export const User= () => {
+
+return <>
+		<PersonalDetails user={user.personalDetails} />
+		<BankingDetails user={user.bankingDetails} />
+	</>
+}
+```
 
 
+만약 받아오는 데이터를 직접 조작하기 어려운 경우에는 다음과 같이 만들어준다. 
 
+```javascript
+import React from "react";
 
+const user ={
+	name: "Some Name",
+	age: "60",
+	address: "Some address",
+	bankName: "Bank Name",
+	bankAccountNumber: "1234567809"
+}
+
+export const User= () => {
+return <>
+		<PersonalDetails name={user.name} age={user.age} address={user.address} />
+		<BankingDetails bankName={user.bankName} bankAccountNumber={user.bankAccountNumber} />
+		</>
+}
+```
 
 
 
