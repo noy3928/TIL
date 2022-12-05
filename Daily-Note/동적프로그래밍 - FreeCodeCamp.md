@@ -78,7 +78,21 @@ gridTraveler(0,1) -> 0
 gridTraveler(3,3) -> ? 
 
 ![[스크린샷 2022-12-05 오후 3.27.41.png]]
-처음에 3,3의 위치에 있다가 아래로 내려오면, 다시 2,
+처음에 3,3의 위치에 있다가 아래로 내려오면, 다시 2,3에서 시작하는 것과 다를바 없는 상황이 된다. 
+오른쪽으로 움직이면 gridTraveler(2,2) 가 되고, 거기서 아래로 움직이면 gridTraveler(1,2) 가 된다. 
+
+
+![[스크린샷 2022-12-05 오후 3.34.47.png]]
+
+```javascript
+const gridTraveler = (m,n) => {
+	if(m === 1 && n === 1) return 1;
+	if(m === 0 || n === 0) return 0
+	return gridTraveler(m - 1, n) + gridTraveler(m, n-1) 
+}
+```
+이렇게 문제를 풀 수는 있지만, n이 커지면 시간복잡도가 너무 많이 늘어난다. 
+
 
 
 
