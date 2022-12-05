@@ -54,8 +54,31 @@ const fib = (n, memo={}) => {
 ```
 이런 방식으로 memo를 활용해서 구할 수 있게 되었다. 
 
+메모이제이션 하는 방식으로 구현하게 되면, 시간복잡도가 확 줄어들게 된다.
+![[스크린샷 2022-12-05 오후 3.00.30.png]]
+이런 방식으로 시간복잡도가 N으로 구성되게 되었다.    
 
 
+## GridTraveler 
+
+say that you are a traveler on a 2D grid. you begin in the top-left corner and your goal is to travel to the bottom-right corner. you may only move down or right. 
+
+in how many ways can you travel to the goal on a grid with dimensions m * n ? 
+
+write a function 'gridTraveler(m,n)' that calculates this. 
+
+이것을 계산해보면 아래와 같은 그림이 된다.
+![[스크린샷 2022-12-05 오후 3.24.27.png]]
+
+
+작은 입력값에서부터 생각해보자. 
+gridTraveler(1,1) -> 1 
+gridTraveler(0,1) -> 0 
+
+gridTraveler(3,3) -> ? 
+
+![[스크린샷 2022-12-05 오후 3.27.41.png]]
+처음에 3,3의 위치에 있다가 아래로 내려오면, 다시 2,
 
 
 
