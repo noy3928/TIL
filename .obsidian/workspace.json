@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "30327840d7d74946",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web-Accessibility/Animation and motion - web.dev.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c9f1ba528972dd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/SOLID 정리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b8dec0685224779d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/Typography - web.dev.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88005bc7542d64b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/Object/13.서브클래싱과서브타이핑/table.md",
+                "file": "Books/Object/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Object/13.서브클래싱과서브타이핑/table.md",
+                "file": "Books/Object/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Object/13.서브클래싱과서브타이핑/table.md",
+                "file": "Books/Object/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Object/13.서브클래싱과서브타이핑/table.md"
+                "file": "Books/Object/README.md"
               }
             }
           }
@@ -174,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "88005bc7542d64b9",
+  "active": "b8dec0685224779d",
   "lastOpenFiles": [
-    "Books/Object/13.서브클래싱과서브타이핑/table.md",
+    "Web-Accessibility/Animation and motion - web.dev.md",
+    "Daily-Note/SOLID 정리.md",
+    "Books/Object/README.md",
     "Daily-Note/Typography - web.dev.md",
+    "Books/Object/13.서브클래싱과서브타이핑/table.md",
     "Daily-Note/동적프로그래밍 - FreeCodeCamp.md",
     "Assets/스크린샷 2022-12-05 오후 1.58.41.png",
     "Assets/스크린샷 2022-12-05 오후 3.34.47.png",
     "Assets/스크린샷 2022-12-05 오후 3.27.41.png",
-    "Assets/스크린샷 2022-12-05 오후 3.24.27.png",
-    "Assets/스크린샷 2022-12-05 오후 3.00.30.png",
-    "Daily-Note/SOLID 정리.md",
-    "Web-Accessibility/Animation and motion - web.dev.md"
+    "Assets/스크린샷 2022-12-05 오후 3.24.27.png"
   ]
 }
