@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web-Accessibility/Video and audio - web.dev.md",
+                "file": "Books/FunctionalJavascript/7.함수형 최적화.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3411ce4d97fa55a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/FunctionalJavascript/8.비동기 이벤트와 데이터를 관리.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web-Accessibility/Video and audio - web.dev.md",
+                "file": "Books/FunctionalJavascript/8.비동기 이벤트와 데이터를 관리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web-Accessibility/Video and audio - web.dev.md",
+                "file": "Books/FunctionalJavascript/8.비동기 이벤트와 데이터를 관리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web-Accessibility/Video and audio - web.dev.md"
+                "file": "Books/FunctionalJavascript/8.비동기 이벤트와 데이터를 관리.md"
               }
             }
           }
@@ -137,8 +150,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4a8437925bb63379",
+  "active": "3411ce4d97fa55a8",
   "lastOpenFiles": [
+    "Books/FunctionalJavascript/7.함수형 최적화.md",
+    "Web-Accessibility/Video and audio - web.dev.md",
     "Books/Object/README.md",
     "Web-Accessibility/Animation and motion - web.dev.md",
     "Daily-Note/SOLID 정리.md",
@@ -146,8 +161,6 @@
     "Books/Object/13.서브클래싱과서브타이핑/table.md",
     "Daily-Note/동적프로그래밍 - FreeCodeCamp.md",
     "Assets/스크린샷 2022-12-05 오후 1.58.41.png",
-    "Assets/스크린샷 2022-12-05 오후 3.34.47.png",
-    "Assets/스크린샷 2022-12-05 오후 3.27.41.png",
-    "Assets/스크린샷 2022-12-05 오후 3.24.27.png"
+    "Assets/스크린샷 2022-12-05 오후 3.34.47.png"
   ]
 }
