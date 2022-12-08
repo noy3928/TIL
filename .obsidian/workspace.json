@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "689fb75ed9d5ae1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/코어자바스크립트/5.클로저.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/코어자바스크립트/3.this.md",
+                "file": "Books/코어자바스크립트/5.클로저.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/코어자바스크립트/3.this.md",
+                "file": "Books/코어자바스크립트/5.클로저.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/코어자바스크립트/3.this.md"
+                "file": "Books/코어자바스크립트/5.클로저.md"
               }
             }
           }
@@ -137,17 +150,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fa13af8fd6c5e02a",
+  "active": "689fb75ed9d5ae1e",
   "lastOpenFiles": [
+    "Books/코어자바스크립트/3.this.md",
+    "Books/코어자바스크립트/5.클로저.md",
     "Books/코어자바스크립트/2.실행 컨텍스트.md",
     "Books/코어자바스크립트/1.데이터 타입.md",
-    "Books/코어자바스크립트/3.this.md",
     "Books/코어자바스크립트/README.md",
     "Web-Accessibility/Video and audio - web.dev.md",
     "Web-Accessibility/Animation and motion - web.dev.md",
     "Books/FunctionalJavascript/7.함수형 최적화.md",
     "Daily-Note/3분 모나드.md",
-    "Daily-Note/웹접근성의 기본적인 개념.md",
-    "Daily-Note/실무에서 바로쓰는 프론트엔드 클린코드.md"
+    "Daily-Note/웹접근성의 기본적인 개념.md"
   ]
 }
