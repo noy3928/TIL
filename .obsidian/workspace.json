@@ -25,14 +25,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/코어자바스크립트/5.클로저.md",
+                "file": "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7ffd89594391124",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/CORS - MDN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7524de7e318dad5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34f225c60a153667",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FP/클로저 - 함수형 자바스크립트 프로그래밍.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/코어자바스크립트/5.클로저.md",
+                "file": "Daily-Note/CORS - MDN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/코어자바스크립트/5.클로저.md",
+                "file": "Daily-Note/CORS - MDN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/코어자바스크립트/5.클로저.md"
+                "file": "Daily-Note/CORS - MDN.md"
               }
             }
           }
@@ -150,17 +186,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "689fb75ed9d5ae1e",
+  "active": "b7ffd89594391124",
   "lastOpenFiles": [
-    "Books/코어자바스크립트/3.this.md",
+    "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md",
     "Books/코어자바스크립트/5.클로저.md",
+    "FP/클로저 - 함수형 자바스크립트 프로그래밍.md",
+    "Books/코어자바스크립트/3.this.md",
     "Books/코어자바스크립트/2.실행 컨텍스트.md",
     "Books/코어자바스크립트/1.데이터 타입.md",
     "Books/코어자바스크립트/README.md",
     "Web-Accessibility/Video and audio - web.dev.md",
     "Web-Accessibility/Animation and motion - web.dev.md",
-    "Books/FunctionalJavascript/7.함수형 최적화.md",
-    "Daily-Note/3분 모나드.md",
-    "Daily-Note/웹접근성의 기본적인 개념.md"
+    "Books/FunctionalJavascript/7.함수형 최적화.md"
   ]
 }
