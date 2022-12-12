@@ -11,8 +11,12 @@
             "id": "16545d5a5c7f21a1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/2022.12.12-TIL.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#compound-component-pattern이",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daily-Note/2022.12.12-TIL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daily-Note/2022.12.12-TIL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Daily-Note/2022.12.12-TIL.md"
+              }
             }
           }
         ],
@@ -129,7 +137,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "16545d5a5c7f21a1",
+  "active": "45df47fa09589985",
   "lastOpenFiles": [
     "Books/코어자바스크립트/3.this.md",
     "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md",
