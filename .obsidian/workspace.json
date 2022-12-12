@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Object/14.일관성있는협력/table.md",
+                "file": "Books/Object/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Object/14.일관성있는협력/table.md",
+                "file": "Books/Object/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Object/14.일관성있는협력/table.md",
+                "file": "Books/Object/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Object/14.일관성있는협력/table.md"
+                "file": "Books/Object/README.md"
               }
             }
           }
@@ -200,6 +200,7 @@
   },
   "active": "c4d9b1a751581bd1",
   "lastOpenFiles": [
+    "Books/Object/14.일관성있는협력/table.md",
     "Daily-Note/CORS - MDN.md",
     "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md",
     "Books/코어자바스크립트/5.클로저.md",
@@ -208,7 +209,6 @@
     "Books/코어자바스크립트/2.실행 컨텍스트.md",
     "Books/코어자바스크립트/1.데이터 타입.md",
     "Books/코어자바스크립트/README.md",
-    "Web-Accessibility/Video and audio - web.dev.md",
-    "Web-Accessibility/Animation and motion - web.dev.md"
+    "Web-Accessibility/Video and audio - web.dev.md"
   ]
 }
