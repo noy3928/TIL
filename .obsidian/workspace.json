@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/반응형웹디자인-이단마콧/3.가변 이미지.md",
+                "file": "Books/반응형웹디자인-이단마콧/4.미디어쿼리.md",
                 "mode": "source",
                 "source": false
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/반응형웹디자인-이단마콧/3.가변 이미지.md",
+                "file": "Books/반응형웹디자인-이단마콧/4.미디어쿼리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/반응형웹디자인-이단마콧/3.가변 이미지.md",
+                "file": "Books/반응형웹디자인-이단마콧/4.미디어쿼리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/반응형웹디자인-이단마콧/3.가변 이미지.md"
+                "file": "Books/반응형웹디자인-이단마콧/4.미디어쿼리.md"
               }
             }
           }
@@ -248,6 +248,7 @@
   },
   "active": "28c010a152a180b5",
   "lastOpenFiles": [
+    "Books/반응형웹디자인-이단마콧/3.가변 이미지.md",
     "Books/반응형웹디자인-이단마콧/2.가변그리드.md",
     "Books/반응형웹디자인-이단마콧/1.반응형웹.md",
     "Daily-Note/반응형을 위한 메타태그.md",
@@ -256,7 +257,6 @@
     "Daily-Note/CORS - MDN.md",
     "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md",
     "Books/코어자바스크립트/5.클로저.md",
-    "FP/클로저 - 함수형 자바스크립트 프로그래밍.md",
-    "Books/코어자바스크립트/3.this.md"
+    "FP/클로저 - 함수형 자바스크립트 프로그래밍.md"
   ]
 }
