@@ -56,6 +56,42 @@
             }
           },
           {
+            "id": "c65b5d6aa8aa4703",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/반응형을 위한 메타태그.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d247d73f04386dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/반응형웹디자인-이단마콧/1.반응형웹.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f85fdbac43bbc773",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/반응형웹디자인-이단마콧/2.가변그리드.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7524de7e318dad5e",
             "type": "leaf",
             "state": {
@@ -80,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -109,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "웹접근성",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Object/README.md",
+                "file": "Books/반응형웹디자인-이단마콧/2.가변그리드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Object/README.md",
+                "file": "Books/반응형웹디자인-이단마콧/2.가변그리드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Object/README.md"
+                "file": "Books/반응형웹디자인-이단마콧/2.가변그리드.md"
               }
             }
           }
@@ -198,17 +234,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c4d9b1a751581bd1",
+  "active": "f85fdbac43bbc773",
   "lastOpenFiles": [
+    "Books/반응형웹디자인-이단마콧/1.반응형웹.md",
+    "Daily-Note/반응형을 위한 메타태그.md",
+    "Books/Object/README.md",
     "Books/Object/14.일관성있는협력/table.md",
     "Daily-Note/CORS - MDN.md",
     "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md",
     "Books/코어자바스크립트/5.클로저.md",
     "FP/클로저 - 함수형 자바스크립트 프로그래밍.md",
     "Books/코어자바스크립트/3.this.md",
-    "Books/코어자바스크립트/2.실행 컨텍스트.md",
-    "Books/코어자바스크립트/1.데이터 타입.md",
-    "Books/코어자바스크립트/README.md",
-    "Web-Accessibility/Video and audio - web.dev.md"
+    "Books/코어자바스크립트/2.실행 컨텍스트.md"
   ]
 }
