@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/CORS는 왜 이렇게 우리를 힘들게 하는걸까?.md",
+                "file": "Lecture/오브젝트-코드스피츠/2회차.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/CORS는 왜 이렇게 우리를 힘들게 하는걸까?.md",
+                "file": "Lecture/오브젝트-코드스피츠/2회차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/CORS는 왜 이렇게 우리를 힘들게 하는걸까?.md",
+                "file": "Lecture/오브젝트-코드스피츠/2회차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/CORS는 왜 이렇게 우리를 힘들게 하는걸까?.md"
+                "file": "Lecture/오브젝트-코드스피츠/2회차.md"
               }
             }
           }
@@ -140,15 +139,15 @@
   },
   "active": "6cdf834f68dfbdfd",
   "lastOpenFiles": [
-    "Daily-Note/CORS - MDN.md",
+    "Lecture/오브젝트-코드스피츠/1회차.md",
+    "Lecture/오브젝트-코드스피츠/2회차.md",
     "Daily-Note/CORS는 왜 이렇게 우리를 힘들게 하는걸까?.md",
+    "Daily-Note/CORS - MDN.md",
     "Daily-Note/2022.12.12-TIL.md",
     "Books/코어자바스크립트/3.this.md",
     "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md",
     "Books/Object/README.md",
     "Daily-Note/반응형을 위한 메타태그.md",
-    "FP/클로저 - 함수형 자바스크립트 프로그래밍.md",
-    "Books/반응형웹디자인-이단마콧/1.반응형웹.md",
-    "Books/반응형웹디자인-이단마콧/2.가변그리드.md"
+    "FP/클로저 - 함수형 자바스크립트 프로그래밍.md"
   ]
 }
