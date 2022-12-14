@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8a285822b8bf220f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Object/14.일관성있는협력/table.md",
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Object/14.일관성있는협력/table.md",
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Object/14.일관성있는협력/table.md"
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md"
               }
             }
           }
@@ -137,8 +151,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6cdf834f68dfbdfd",
+  "active": "8a285822b8bf220f",
   "lastOpenFiles": [
+    "Books/Object/14.일관성있는협력/table.md",
     "Books/반응형웹디자인-이단마콧/4.미디어쿼리.md",
     "Books/반응형웹디자인-이단마콧/2.가변그리드.md",
     "Books/반응형웹디자인-이단마콧/1.반응형웹.md",
@@ -147,7 +162,6 @@
     "Daily-Note/CORS는 왜 이렇게 우리를 힘들게 하는걸까?.md",
     "Daily-Note/CORS - MDN.md",
     "Daily-Note/2022.12.12-TIL.md",
-    "Books/코어자바스크립트/3.this.md",
-    "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md"
+    "Books/코어자바스크립트/3.this.md"
   ]
 }
