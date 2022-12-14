@@ -31,10 +31,15 @@
 	- 응답받는 리소스를 분석해서 CORS 정책 위반이라고 판단되면 해당 응답을 사용하지 않고 그냥 버린다. 
 
 
+## CORS의 동작 원리
+
 - CORS의 동작 원리 : 
 	- 클라이언트가 다른 출처의 리소스를 요청 할 때는 HTTP 프로토콜을 사용하여 요청을 보낸다. 이 때 브라우저는 `Origin` 이라는 필드에 요청을 보내는 출처를 함께 담아서 보낸다. `Origin: https://evan-moon.github.io` 
 	- 이후 서버가 응답을 할 때 응답 헤더의 `Access-Control-Allow-Origin` 이라는 값에 '이 리소스를 접근하는 것이 허용된 출처'를 내려준다. 
 		- 이후 브라우저는 자신이 보냈던 요청의 `Origin`과 `Access-Control-Allow-Origin` 을 비교해 본 후 이 응답이 유효한 응답인지를 결정한다. 
+
+
+## CORS 동작의 세 가지 시나리오
 
 - CORS 동작의 세 가지 시나리오 : 
 	- Preflight Request : 
@@ -46,15 +51,62 @@
 			- ![[스크린샷 2022-12-13 오후 2.50.49.png]]
 			- 우리가 fetch API를 사용해 브라우저에게 리소스를 받아오라는 명령을 내린다면, 브라우저는 서버에게 예비 요청을 먼저 보내고, 서버는 이 예비 요청에 대한 응답으로 무엇을 허용하고, 어떤 것들을 금지하고 있는지에 대한 정보를 응답헤더에 담아서 브라우저에 보내준다. 
 			- 그 다음 브라우저가 해당 허용 정책을 비교한 후, 이 요청을 보내는 것이 안전하다고 판단되면 같은 엔드포인트로 다시 요청을 보낸다. 
+		- 예비 요청을 보내면, 서버는 예비 요청에 대한 응답을 보내준다. 
+			- 이때 눈여겨 보아야 할 것은 서버가 보내준 응답 헤더에 포함된 `Access-Control-Allow-Origin : https://evanmoon.tistory.com` 이다. 
+			- 확인해보니 이 출처과 초기에 보냈던 origin과 출처가 다른 것이다. 때문에 브라우저는 이 요청이 CORS 정책을 위반했다고 판단하고 에러를 내뱉는다. 
+	- Simple Request : 
+		- 해당 시나리오는 그냥 예비 요청이 없는 시나리오라고 생각하면 된다. 
+		- 예비요청 없이 곧바로 본 요청을 보내고 본 요청에서 CORS 정책을 위반하는지 그냥 확인하는 것이다. 
+		- 하지만 예비요청을 생략할 수 있는 경우는 많지 않다. 생각보다 까다로운 [특정 조건](https://evan-moon.github.io/2020/05/21/about-cors/#simple-request)을 만족하는 경우에는 예비요청을 생략할 수 있다고 한다. 
+	- Credentialed Request : 
+		- 보안을 조금 더 강화하고 싶을 때 사용하는 방법이다. 이것은 인증된 요청을 사용하는 방법이다. 
+		- 기본적으로 브라우저가 제공하는 `XMLHttpRequest`객체나 `fetch` API 같은 것들은 브라우저의 쿠키 정보나 인증과 관련된 헤더를 함부로 요청에 담지 않는다. 
+		- 이때 요청에 인증과 관련된 정보를 담을 수 있게 해주는 옵션이 `credentials` 이다. 이 옵션에 담을 수 있는 값은 3가지 이다. 
+			- same-origin : 같은 출처 간 요청에만 인증 정보를 담을 수 있다. 
+			- include : 모든 요청에 인증 정보를 담을 수 있다. 
+			- omit : 모든 요청에 인증 정보를 담지 않는다. 
+		- 만약 이런 crendential 옵션이 들어가면서 인증에 대한 정보가 추가되면 CORS를 위해서 확인하는 것이 동일한 출처인지만 확인하는 것이 아닌, 더 까다로운 절차를 거치게 되는 것이다. 
+		- 만약 `Access-Control-Allow-Origin`에 * 라는 값을 넣어두게 되면, 모든 출처에 대해서 허용하는 격이 된다. 
+			- 그런데 이런 상황에서 `credentials : includes `라는 옵션이 붙게되면, 동일출처 여부와 상관없이 무조건 요청에 인증 정보가 포함되도록 설정해야 한다. 
+			- 이렇게 `credentials` 라는 옵션이 붙게되면, CORS 정책 위반 여부를 검사하는 룰에 2가지가 추가된다. 
+				-  `Access-Control-Allow-Origin`에 * 라는 값을 사용할 수 없으며, 명시적인 URL 이어야 한다. 
+				- `Access-Control-Allow-Credentials: true` 가 존재해야 한다. 
+
+
+## CORS를 해결할 수 있는 방법 : 
+
+- Access-Control-Allow-Origin 세팅하기 : 
+	- 해당 헤더에 알맞은 값을 세팅해주는 것이 정석이다. 
+	- 만약 * 라는 값을 사용하게 되면, 잠재적으로 이슈가 발생할 여지가 생긴다. 
+	- 가급적이면 출처를 명시해주기 
+- [Webpack Dev Server로 리버스 프록싱하기](https://evan-moon.github.io/2020/05/21/about-cors/#webpack-dev-server%EB%A1%9C-%EB%A6%AC%EB%B2%84%EC%8A%A4-%ED%94%84%EB%A1%9D%EC%8B%B1%ED%95%98%EA%B8%B0) : 
+	- 프론트에서 CORS 정책을 우회하는 방법 
+
+```javascript
+module.exports = {
+  devServer: {
+    proxy: {
+      '/api': {
+        target: 'https://api.evan.com',
+        changeOrigin: true,
+        pathRewrite: { '^/api': '' },
+      },
+    }
+  }
+}
+```
+- 이렇게 하면 브라우저는 `localhost:8000/api` 로 요청을 보낸 것으로 알고 있지만, 사실 뒤에서 윕팩이 `https://api.evan.com` 으로 요청을 프록싱해주기 대문에 마치 CORS 정책을 지킨 것처럼 브라우저를 속일 수 있다. 그리고 우리는 원하는 서버와 자유롭게 통신이 가능해진다. 
+
 
 
 ### 내 생각과 정리 : 
 
 - cors는 리소스의 안정성을 보장하기 위한 정책이라고 할 수 있다. 
 - 다른 출처의 리소스를 가져옴으로써 발생할 수 있는 문제는 무엇인가? 
-- 
+
 
 ### 출처(참고문헌) : 
+[CORS는 왜 이렇게 우리를 힘들게 하는걸까?](https://evan-moon.github.io/2020/05/21/about-cors/)
 
 
 ### Link : 
