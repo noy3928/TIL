@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
+                "file": "Daily-Note/CORS는 왜 이렇게 우리를 힘들게 하는걸까?.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
+                "file": "Daily-Note/CORS는 왜 이렇게 우리를 힘들게 하는걸까?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
+                "file": "Daily-Note/CORS는 왜 이렇게 우리를 힘들게 하는걸까?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md"
+                "file": "Daily-Note/CORS는 왜 이렇게 우리를 힘들게 하는걸까?.md"
               }
             }
           }
@@ -153,6 +153,7 @@
   },
   "active": "8a285822b8bf220f",
   "lastOpenFiles": [
+    "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
     "Books/Object/14.일관성있는협력/table.md",
     "Books/반응형웹디자인-이단마콧/4.미디어쿼리.md",
     "Books/반응형웹디자인-이단마콧/2.가변그리드.md",
@@ -161,7 +162,6 @@
     "Lecture/오브젝트-코드스피츠/1회차.md",
     "Daily-Note/CORS는 왜 이렇게 우리를 힘들게 하는걸까?.md",
     "Daily-Note/CORS - MDN.md",
-    "Daily-Note/2022.12.12-TIL.md",
-    "Books/코어자바스크립트/3.this.md"
+    "Daily-Note/2022.12.12-TIL.md"
   ]
 }
