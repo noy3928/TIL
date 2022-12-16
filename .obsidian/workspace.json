@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Books/코어자바스크립트/3.this.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0e9893678c97acf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md",
                 "mode": "source",
                 "source": false
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md",
+                "file": "Books/코어자바스크립트/3.this.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md",
+                "file": "Books/코어자바스크립트/3.this.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md"
+                "file": "Books/코어자바스크립트/3.this.md"
               }
             }
           }
@@ -140,14 +152,14 @@
   "active": "d20bf414af6ffcaf",
   "lastOpenFiles": [
     "Books/코어자바스크립트/5.클로저.md",
+    "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md",
+    "Daily-Note/객체지향의 맥락에서 클로저는 왜 중요한가?.md",
     "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
     "Daily-Note/CORS는 왜 이렇게 우리를 힘들게 하는걸까?.md",
     "Books/Object/14.일관성있는협력/table.md",
     "Books/반응형웹디자인-이단마콧/4.미디어쿼리.md",
     "Books/반응형웹디자인-이단마콧/2.가변그리드.md",
     "Books/반응형웹디자인-이단마콧/1.반응형웹.md",
-    "Lecture/오브젝트-코드스피츠/2회차.md",
-    "Lecture/오브젝트-코드스피츠/1회차.md",
-    "Daily-Note/CORS - MDN.md"
+    "Lecture/오브젝트-코드스피츠/2회차.md"
   ]
 }
