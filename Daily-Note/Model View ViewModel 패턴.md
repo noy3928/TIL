@@ -35,4 +35,18 @@
 		- 더구나 모델의 변경이 자동으로 뷰에 반영되게 해준다. 
 - MVVM 패턴에서 데이터 바인딩을 이용하기 위해서, ViewModel은 properties와 commands를 통해 모델의 데이터와 행동을 view에 노출해야한다.
 	- 이렇게 되면 view는 데이터 바인딩 프레임워크를 이용해서 이런 properties와 commands를 바인드할 수 있다.
-- 예를 들어서, 
+- 예를 들어서, view가 유저의 이름을 보여주는 text field를 가지고 있다고 가정해보자. 
+	- ViewModel은 아마도 name 프로퍼티를 노출할 것이다. 
+		- 이 프로퍼티는 유저의 이름을 나타낸다. 
+	- 그리고 view는 이 프로퍼티를 데이터 바인딩에 사용할 수 있을 것이다. 
+	- Name 프로퍼티가 ViewModel에서 업데이트 되면, text field는 자동적으로 새로운 값을 업데이트 할 것이다. 
+- 결론적으로 데이터 바인딩은 view와 모델이 소통할 때 단순하게 만드는 강력한 도구이다. 그리고 이것을 통해서 소프트웨어의 생산과 유지보수를 쉽게 만든다. 
+
+
+## MVVM 패턴에서 ViewModel은 어떻게 property를 view에게 expose하는가? 
+
+- ViewModel은 view가 모델의 데이터와 행동에 접근하는 것을 허용하기 위해서 properties를  view에게 노출한다.
+- 3가지 방법으로 expose할 수 있다. 
+	1. 스탠다드 properties를 이용함으로 : ViewModel은 standard properties를 정의할 수 있다. 이 standard properties는 model의 data와 behavior를 나타낸다. 예를 들어서, 이 standard properties는 `Name` 프로퍼티를 정의할 수 있다. view는 이 프로퍼티를 데이터 바인딩을 위해서 바인드할 수 있다. 
+	2. observables를 이용함으로 : ViewModel은 프로퍼티를 view에게 expose하기 위해서 관찰자 객체를 사용할 수 있다. 관찰자 객체는 `INotifyPropertyChange` 인터페이스를 구현한 객체이다. 그리고 이것은 
+
