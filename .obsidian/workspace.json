@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/코어자바스크립트/6.프로토타입.md",
+                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/코어자바스크립트/6.프로토타입.md",
+                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/코어자바스크립트/6.프로토타입.md",
+                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/코어자바스크립트/6.프로토타입.md"
+                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md"
               }
             }
           }
@@ -139,6 +139,7 @@
   },
   "active": "7402cc7724874fb3",
   "lastOpenFiles": [
+    "Books/코어자바스크립트/6.프로토타입.md",
     "FP/클로저 - 함수형 자바스크립트 프로그래밍.md",
     "Daily-Note/덕 타이핑이란 무엇인가?.md",
     "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
@@ -147,7 +148,6 @@
     "FP/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md",
     "Daily-Note/Model View ViewModel 패턴.md",
     "Daily-Note/인사이드 자바스크립트에서 설명하는 클로저.md",
-    "Daily-Note/Model-View-Presenter 패턴.md",
-    "Books/Object/15.디자인패턴과프레임워크/table.md"
+    "Daily-Note/Model-View-Presenter 패턴.md"
   ]
 }
