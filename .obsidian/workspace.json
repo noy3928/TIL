@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/5.상속.md",
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/5.상속.md",
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/5.상속.md",
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/5.상속.md"
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md"
               }
             }
           }
@@ -152,6 +152,7 @@
   },
   "active": "786d5da9821e13b5",
   "lastOpenFiles": [
+    "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/5.상속.md",
     "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/README.md",
     "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/3장.객체의 이해.md",
     "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/4.생성자와 프로토타입.md",
@@ -160,7 +161,6 @@
     "에러노트/sitemap 동적으로 생성하기 안되는 문제.md",
     "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/1장.원시타입과 참조타입.md",
     "Lecture/객체지향자바스크립트-코드스피츠/README.md",
-    "Daily-Note/프로토타입 면접 질문.md",
-    "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/2장.함수.md"
+    "Daily-Note/프로토타입 면접 질문.md"
   ]
 }
