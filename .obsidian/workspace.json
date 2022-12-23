@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "be7bfd0426b46c77",
+        "id": "9f20f0bb5e9f5efd",
         "type": "tabs",
         "children": [
           {
-            "id": "0ed88198cc052a71",
+            "id": "a1d9bfd35e019f46",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f064a6adf1e0d76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/6.객체 패턴.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/6.객체 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/6.객체 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/6.객체 패턴.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -150,9 +129,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8f064a6adf1e0d76",
+  "active": "a1d9bfd35e019f46",
   "lastOpenFiles": [
     "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/README.md",
+    "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/6.객체 패턴.md",
     "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/5.상속.md",
     "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/4.생성자와 프로토타입.md",
     "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
@@ -160,7 +140,6 @@
     "Lecture/객체지향자바스크립트-코드스피츠/2회차.md",
     "Books/Object/6.메시지와인터페이스/table.md",
     "에러노트/sitemap 동적으로 생성하기 안되는 문제.md",
-    "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/1장.원시타입과 참조타입.md",
-    "Lecture/객체지향자바스크립트-코드스피츠/README.md"
+    "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/1장.원시타입과 참조타입.md"
   ]
 }
