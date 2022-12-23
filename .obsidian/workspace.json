@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/5.상속.md",
+                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f064a6adf1e0d76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/6.객체 패턴.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/5.상속.md",
+                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/6.객체 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/5.상속.md",
+                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/6.객체 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/5.상속.md"
+                "file": "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/6.객체 패턴.md"
               }
             }
           }
@@ -137,13 +150,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0ed88198cc052a71",
+  "active": "8f064a6adf1e0d76",
   "lastOpenFiles": [
     "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/README.md",
-    "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
     "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/5.상속.md",
-    "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/3장.객체의 이해.md",
     "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/4.생성자와 프로토타입.md",
+    "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
+    "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/3장.객체의 이해.md",
     "Lecture/객체지향자바스크립트-코드스피츠/2회차.md",
     "Books/Object/6.메시지와인터페이스/table.md",
     "에러노트/sitemap 동적으로 생성하기 안되는 문제.md",
