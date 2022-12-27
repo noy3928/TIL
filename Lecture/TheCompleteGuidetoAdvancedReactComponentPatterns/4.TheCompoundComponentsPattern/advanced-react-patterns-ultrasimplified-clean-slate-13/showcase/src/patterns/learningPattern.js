@@ -1,6 +1,12 @@
-import React, { useState, useLayoutEffect, useCallback } from "react"
+import React, {
+  useState,
+  useLayoutEffect,
+  useCallback,
+  createContext,
+} from "react"
 import mojs from "mo-js"
 import styles from "./index.css"
+import { MediumClap } from "medium-clap"
 
 const initialState = {
   count: 0,
@@ -101,7 +107,10 @@ const useClapAnimation = ({ clapEl, countEl, clapTotalEl }) => {
   return animationTimeline
 }
 
-const MediumClap = () => {
+const MediumClapContext = createContext()
+const { Provider } = MediumClapContext // 이 provider를 통해서 감싸고 있는 자식들에게 value를 공유해 줄 것이다.
+
+const MediumClap = ({ children }) => {
   const MAXIMUM_USER_CLAP = 50
   const [clapState, setClapState] = useState(initialState)
   const { count, countTotal, isClicked } = clapState
@@ -134,16 +143,16 @@ const MediumClap = () => {
   }
 
   return (
-    <button
-      ref={setRef}
-      data-refkey="clapRef"
-      className={styles.clap}
-      onClick={handleClapClick}
-    >
-      <ClapIcon isClicked={isClicked} />
-      <ClapCount count={count} setRef={setRef} />
-      <CountTotal countTotal={countTotal} setRef={setRef} />
-    </button>
+    <Provider>
+      <button
+        ref={setRef}
+        data-refkey="clapRef"
+        className={styles.clap}
+        onClick={handleClapClick}
+      >
+        {children}
+      </button>
+    </Provider>
   )
 }
 
