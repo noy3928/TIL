@@ -1,4 +1,5 @@
 import React, {
+  useRef,
   useState,
   useLayoutEffect,
   useCallback,
@@ -130,8 +131,13 @@ const MediumClap = ({ children, onClap }) => {
     clapTotalEl: clapTotalRef,
   })
 
+  const componentJustMounted = useRef(true)
+
   useEffect(() => {
-    onClap && onClap(clapState)
+    if (!componentJustMounted.current) {
+      onClap && onClap(clapState)
+    }
+    componentJustMounted.current = false
   }, [count])
 
   const handleClapClick = () => {
