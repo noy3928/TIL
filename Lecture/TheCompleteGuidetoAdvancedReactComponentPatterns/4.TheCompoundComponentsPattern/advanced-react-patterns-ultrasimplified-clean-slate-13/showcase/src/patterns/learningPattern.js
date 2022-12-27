@@ -185,8 +185,15 @@ const CountTotal = ({ countTotal, setRef }) => {
  * Usage
  */
 
+// 이 부분을 수정해야한다. 통으로 들어가게 하는 것이 아니라, 내부의 컴포넌트가 보일 수 있게 만들어주어야 한다.
 const Usage = () => {
-  return <MediumClap />
+  return (
+    <MediumClap>
+      <ClapIcon />
+      <ClapTotal />
+      <ClapIcon />
+    </MediumClap>
+  )
 }
 
 export default Usage
