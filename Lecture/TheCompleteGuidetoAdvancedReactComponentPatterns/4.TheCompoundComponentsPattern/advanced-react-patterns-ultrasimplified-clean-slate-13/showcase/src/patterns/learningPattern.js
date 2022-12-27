@@ -143,7 +143,7 @@ const MediumClap = ({ children }) => {
   }
 
   return (
-    <Provider>
+    <Provider value={{ ...clapState, setRef }}>
       <button
         ref={setRef}
         data-refkey="clapRef"
