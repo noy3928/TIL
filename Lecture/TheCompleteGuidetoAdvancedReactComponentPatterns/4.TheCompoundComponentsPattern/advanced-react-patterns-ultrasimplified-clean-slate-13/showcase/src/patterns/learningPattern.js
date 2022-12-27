@@ -232,7 +232,7 @@ const Usage = () => {
         <MediumClap.Count />
         <MediumClap.Total />
       </MediumClap>
-      <div>{`You have clapped ${count}`}</div>
+      {!!count && <div>{`You have clapped ${count}`}</div>}
     </div>
   )
 }
