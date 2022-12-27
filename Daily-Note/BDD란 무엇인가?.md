@@ -70,7 +70,7 @@ describe("ItemList", () => {
 이것이 BDD의 한 예시이다. 
 
 
-## "Jest-plugin-context" 라는 라이브러리를 활용한 
+## "Jest-plugin-context" 라는 라이브러리를 활용한 BDD 테스트 코드 작성 예시 
 
 
 

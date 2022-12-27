@@ -13,13 +13,122 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/BDD란 무엇인가?.md",
+                "file": "ComputerScience/Network/TCP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a946aaa4affce3e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e8feb254e07f915",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cbcacfb93b5534d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc17c8230e866ee1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34b6b518760e2320",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc813c1a3b3542b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5efc183948694c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/QUIC은 항상 encrypted 된다..md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ec12cd0bcef0388",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ac723f0cf918e7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/Network/HTTP3/The underlying transport protocol - QUIC.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -69,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -86,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/BDD란 무엇인가?.md",
+                "file": "Daily-Note/QUIC은 항상 encrypted 된다..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/BDD란 무엇인가?.md",
+                "file": "Daily-Note/QUIC은 항상 encrypted 된다..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/BDD란 무엇인가?.md"
+                "file": "Daily-Note/QUIC은 항상 encrypted 된다..md"
               }
             }
           }
@@ -138,17 +246,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "77154ec2c2dd1fb8",
+  "active": "a5efc183948694c0",
   "lastOpenFiles": [
-    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/4.refactor to compound pattern.md",
-    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/3.how to implement the pattern.md",
-    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md",
-    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/2.why compound component?.md",
-    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/1.introduction/note.md",
-    "Daily-Note/React Hooks-Compound Components.md",
-    "Daily-Note/합성 컴포넌트로 재사용성 극대화하기.md",
-    "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
-    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/무제파일.md",
-    "Daily-Note/sitemap은 어떻게 동작하는가?.md"
+    "ComputerScience/Network/HTTP3/QUIC는 커널 차원에서의 변경을 요구하지 않는다.md",
+    "Daily-Note/Level-up-your-React-architecture-with-MVVM.md",
+    "ComputerScience/Network/Slow Start.md",
+    "ComputerScience/Network/HTTP3/HTTP3 Connection Establishment.md",
+    "ComputerScience/Network/HTTP3/Recap of the main benefits of HTTP3.md",
+    "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
+    "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
+    "ComputerScience/Network/HTTP3/What is HTTP3 and why was it developed.md",
+    "ComputerScience/Network/HTTP3/Compatibility with existing HTTP infrastructure.md",
+    "ComputerScience/Network/HTTP3/Improved performance and security.md"
   ]
 }
