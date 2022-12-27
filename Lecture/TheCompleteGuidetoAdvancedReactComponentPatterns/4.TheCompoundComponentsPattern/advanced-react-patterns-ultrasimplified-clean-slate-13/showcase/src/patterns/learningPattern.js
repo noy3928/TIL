@@ -110,7 +110,7 @@ const useClapAnimation = ({ clapEl, countEl, clapTotalEl }) => {
 const MediumClapContext = createContext()
 const { Provider } = MediumClapContext // 이 provider를 통해서 감싸고 있는 자식들에게 value를 공유해 줄 것이다.
 
-const MediumClap = ({ children }) => {
+const MediumClap = ({ children, onClap }) => {
   const MAXIMUM_USER_CLAP = 50
   const [clapState, setClapState] = useState(initialState)
   const { count } = clapState
@@ -129,6 +129,10 @@ const MediumClap = ({ children }) => {
     countEl: clapCountRef,
     clapTotalEl: clapTotalRef,
   })
+
+  useEffect(() => {
+    onClap && onClap(clapState)
+  }, [count])
 
   const handleClapClick = () => {
     animationTimeline.replay()
@@ -211,12 +215,19 @@ MediumClap.Total = CountTotal
 
 // 이 부분을 수정해야한다. 통으로 들어가게 하는 것이 아니라, 내부의 컴포넌트가 보일 수 있게 만들어주어야 한다.
 const Usage = () => {
+  const [count, setCount] = useState()
+  const handleClap = clapState => {
+    setCount(clapState.count)
+  }
   return (
-    <MediumClap>
-      <MediumClap.Icon />
-      <MediumClap.Count />
-      <MediumClap.Total />
-    </MediumClap>
+    <div style={{ width: "100%" }}>
+      <MediumClap onClap={handleClap}>
+        <MediumClap.Icon />
+        <MediumClap.Count />
+        <MediumClap.Total />
+      </MediumClap>
+      <div>{`You have clapped ${count}`}</div>
+    </div>
   )
 }
 
