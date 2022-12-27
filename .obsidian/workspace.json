@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/4.refactor to compound pattern.md",
+                "file": "Daily-Note/BDD란 무엇인가?.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/4.refactor to compound pattern.md",
+                "file": "Daily-Note/BDD란 무엇인가?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/4.refactor to compound pattern.md",
+                "file": "Daily-Note/BDD란 무엇인가?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/4.refactor to compound pattern.md"
+                "file": "Daily-Note/BDD란 무엇인가?.md"
               }
             }
           }
@@ -140,14 +140,14 @@
   },
   "active": "77154ec2c2dd1fb8",
   "lastOpenFiles": [
-    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/2.why compound component?.md",
     "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/4.refactor to compound pattern.md",
     "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/3.how to implement the pattern.md",
+    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md",
+    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/2.why compound component?.md",
     "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/1.introduction/note.md",
     "Daily-Note/React Hooks-Compound Components.md",
     "Daily-Note/합성 컴포넌트로 재사용성 극대화하기.md",
     "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
-    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md",
     "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/무제파일.md",
     "Daily-Note/sitemap은 어떻게 동작하는가?.md"
   ]
