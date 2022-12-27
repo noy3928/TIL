@@ -168,7 +168,8 @@ const MediumClap = ({ children }) => {
  * subcomponents
  */
 
-const ClapIcon = ({ isClicked }) => {
+const ClapIcon = () => {
+  const { isClicked } = useContext(MediumClapContext)
   return (
     <span>
       <svg
@@ -182,7 +183,8 @@ const ClapIcon = ({ isClicked }) => {
     </span>
   )
 }
-const ClapCount = ({ count, setRef }) => {
+const ClapCount = () => {
+  const { count, setRef } = useContext(MediumClapContext)
   return (
     <span ref={setRef} data-refkey="clapCountRef" className={styles.count}>
       + {count}
@@ -190,7 +192,8 @@ const ClapCount = ({ count, setRef }) => {
   )
 }
 
-const CountTotal = ({ countTotal, setRef }) => {
+const CountTotal = () => {
+  const { countTotal, setRef } = useContext(MediumClapContext)
   return (
     <span ref={setRef} data-refkey="clapTotalRef" className={styles.total}>
       {countTotal}
@@ -207,8 +210,8 @@ const Usage = () => {
   return (
     <MediumClap>
       <ClapIcon />
-      <ClapTotal />
-      <ClapIcon />
+      <ClapCount />
+      <CountTotal />
     </MediumClap>
   )
 }
