@@ -209,9 +209,9 @@ const CountTotal = () => {
 const Usage = () => {
   return (
     <MediumClap>
-      <ClapIcon />
-      <ClapCount />
-      <CountTotal />
+      <MediumClap.Icon />
+      <MediumClap.Count />
+      <MediumClap.Total />
     </MediumClap>
   )
 }
