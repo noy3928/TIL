@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md",
+                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md",
+                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md",
+                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md"
+                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md"
               }
             }
           }
@@ -188,8 +188,8 @@
   },
   "active": "2260037e9f96f425",
   "lastOpenFiles": [
-    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/2.why compound component?.md",
     "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md",
+    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/2.why compound component?.md",
     "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/1.introduction/note.md",
     "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/무제파일.md",
     "Daily-Note/React Hooks-Compound Components.md",
