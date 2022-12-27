@@ -4,131 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6c7e9b22e6717785",
+        "id": "8795ddeae2ac850e",
         "type": "tabs",
         "children": [
           {
-            "id": "77154ec2c2dd1fb8",
+            "id": "a9a8bbba9abc7d82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/Network/TCP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a946aaa4affce3e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e8feb254e07f915",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cbcacfb93b5534d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc17c8230e866ee1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34b6b518760e2320",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc813c1a3b3542b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5efc183948694c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/QUIC은 항상 encrypted 된다..md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ec12cd0bcef0388",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ac723f0cf918e7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ComputerScience/Network/HTTP3/The underlying transport protocol - QUIC.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/QUIC은 항상 encrypted 된다..md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/QUIC은 항상 encrypted 된다..md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/QUIC은 항상 encrypted 된다..md"
+                "file": "README.md"
               }
             }
           }
@@ -246,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a5efc183948694c0",
+  "active": "a9a8bbba9abc7d82",
   "lastOpenFiles": [
-    "ComputerScience/Network/HTTP3/QUIC는 커널 차원에서의 변경을 요구하지 않는다.md",
-    "Daily-Note/Level-up-your-React-architecture-with-MVVM.md",
-    "ComputerScience/Network/Slow Start.md",
-    "ComputerScience/Network/HTTP3/HTTP3 Connection Establishment.md",
-    "ComputerScience/Network/HTTP3/Recap of the main benefits of HTTP3.md",
+    "ComputerScience/Network/TCP.md",
+    "ComputerScience/Network/HTTP3/The underlying transport protocol - QUIC.md",
+    "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md",
+    "Daily-Note/Lighthouse returned error NO_FCP.md",
     "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
-    "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
-    "ComputerScience/Network/HTTP3/What is HTTP3 and why was it developed.md",
-    "ComputerScience/Network/HTTP3/Compatibility with existing HTTP infrastructure.md",
-    "ComputerScience/Network/HTTP3/Improved performance and security.md"
+    "Web-Accessibility/헤딩 요소를 적절하게 배치할 것.md",
+    "Getify's-Law.md",
+    "Daily-Note/GA는 어떻게 동작하는가-2.md",
+    "Daily-Note/GA는 어떻게 동작하는가-1.md",
+    "Daily-Note/무제파일.md"
   ]
 }
