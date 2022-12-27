@@ -201,6 +201,10 @@ const CountTotal = () => {
   )
 }
 
+MediumClap.Icon = ClapIcon
+MediumClap.Count = ClapCount
+MediumClap.Total = CountTotal
+
 /**
  * Usage
  */
