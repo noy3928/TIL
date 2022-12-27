@@ -113,7 +113,7 @@ const { Provider } = MediumClapContext // 이 provider를 통해서 감싸고 �
 const MediumClap = ({ children }) => {
   const MAXIMUM_USER_CLAP = 50
   const [clapState, setClapState] = useState(initialState)
-  const { count, countTotal, isClicked } = clapState
+  const { count } = clapState
 
   const [{ clapRef, clapCountRef, clapTotalRef }, setRefState] = useState({})
 
@@ -142,8 +142,16 @@ const MediumClap = ({ children }) => {
     }))
   }
 
+  const memoizedValue = useMemo(
+    () => ({
+      ...clapState,
+      setRef,
+    }),
+    [clapState, setRef]
+  )
+
   return (
-    <Provider value={{ ...clapState, setRef }}>
+    <Provider value={memoizedValue}>
       <button
         ref={setRef}
         data-refkey="clapRef"
