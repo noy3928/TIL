@@ -8,67 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cfb6d9266c5ab49a",
+            "id": "77154ec2c2dd1fb8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/합성 컴포넌트로 재사용성 극대화하기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11c5e590ee2849a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/React Hooks-Compound Components.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a3f8dc3dd4b382e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/1.introduction/note.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2260037e9f96f425",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c47b86008d56fd37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/2.why compound component?.md",
+                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/4.refactor to compound pattern.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -134,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
+                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/4.refactor to compound pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
+                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/4.refactor to compound pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md"
+                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/4.refactor to compound pattern.md"
               }
             }
           }
@@ -186,17 +138,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2260037e9f96f425",
+  "active": "77154ec2c2dd1fb8",
   "lastOpenFiles": [
-    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md",
     "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/2.why compound component?.md",
+    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/4.refactor to compound pattern.md",
+    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/3.how to implement the pattern.md",
     "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/1.introduction/note.md",
-    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/무제파일.md",
     "Daily-Note/React Hooks-Compound Components.md",
     "Daily-Note/합성 컴포넌트로 재사용성 극대화하기.md",
-    "Daily-Note/sitemap은 어떻게 동작하는가?.md",
-    "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/README.md",
-    "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/6.객체 패턴.md",
-    "Books/객체지향자바스크립트의원리-니콜라스.C.자카스/5.상속.md"
+    "Daily-Note/HTTP3은 왜 UDP를 선택한 것일까?.md",
+    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md",
+    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/무제파일.md",
+    "Daily-Note/sitemap은 어떻게 동작하는가?.md"
   ]
 }
