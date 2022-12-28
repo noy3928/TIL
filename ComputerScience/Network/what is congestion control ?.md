@@ -1,0 +1,7 @@
+Congestion control is a mechanism used to regulate the flow of data in computer networks in order to prevent network congestion and improve the overall performance of the network. Network congestion occurs when there is more data being transmitted over a network than the network can handle, which can result in delays, packet loss, and other performance issues.
+
+Congestion control mechanisms are used to prevent or mitigate these issues by regulating the rate at which data is transmitted. They do this by adjusting the rate at which data is sent based on various factors, such as the available bandwidth, the number of packets in the network, and the round-trip time (RTT) between the sender and receiver.
+
+There are various congestion control algorithms and protocols that are used to implement congestion control, such as TCP (Transmission Control Protocol) and QUIC (Quick UDP Internet Connections). These algorithms and protocols use various techniques, such as rate limiting, window size adjustments, and packet dropping, to regulate the flow of data and prevent network congestion.
+
+Overall, congestion control is an important mechanism that helps to improve the performance and reliability of computer networks by preventing network congestion and ensuring the efficient transmission of data.
