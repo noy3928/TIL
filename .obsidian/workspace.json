@@ -4,24 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2b39e41787540437",
+        "id": "3ffabf948fcf09ef",
         "type": "tabs",
         "children": [
           {
-            "id": "ed8b79262693e697",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "e388f2cbaf8be28a",
+            "id": "78315371516dba64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/Network/what is congestion control ?.md",
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/3회차.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -93,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/3회차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/3회차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/3회차.md"
+              }
             }
           }
         ],
@@ -151,11 +148,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ed8b79262693e697",
+  "active": "78315371516dba64",
   "lastOpenFiles": [
+    "ComputerScience/Network/what is congestion control ?.md",
     "무제 파일.canvas",
     "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md",
-    "ComputerScience/Network/what is congestion control ?.md",
     "ComputerScience/Network/what is flow control in http?.md",
     "ComputerScience/Network/HTTP3/HTTP3 Connection Establishment.md",
     "ComputerScience/Network/HTTP3/Compatibility with existing HTTP infrastructure.md",
