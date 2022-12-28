@@ -11,12 +11,8 @@
             "id": "ed8b79262693e697",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -97,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -161,15 +153,15 @@
   },
   "active": "ed8b79262693e697",
   "lastOpenFiles": [
+    "무제 파일.canvas",
+    "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md",
     "ComputerScience/Network/what is congestion control ?.md",
     "ComputerScience/Network/what is flow control in http?.md",
-    "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md",
     "ComputerScience/Network/HTTP3/HTTP3 Connection Establishment.md",
     "ComputerScience/Network/HTTP3/Compatibility with existing HTTP infrastructure.md",
     "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
     "Lecture/객체지향자바스크립트-코드스피츠/3회차.md",
     "Lecture/객체지향자바스크립트-코드스피츠/2회차.md",
-    "Lecture/객체지향자바스크립트-코드스피츠/README.md",
-    "OOP/strategy pattern이란 무엇인가?.md"
+    "Lecture/객체지향자바스크립트-코드스피츠/README.md"
   ]
 }
