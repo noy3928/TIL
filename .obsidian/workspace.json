@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/객체지향자바스크립트-코드스피츠/3회차.md",
+                "file": "OOP/strategy pattern이란 무엇인가?.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/객체지향자바스크립트-코드스피츠/3회차.md",
+                "file": "OOP/strategy pattern이란 무엇인가?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/객체지향자바스크립트-코드스피츠/3회차.md",
+                "file": "OOP/strategy pattern이란 무엇인가?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/객체지향자바스크립트-코드스피츠/3회차.md"
+                "file": "OOP/strategy pattern이란 무엇인가?.md"
               }
             }
           }
@@ -150,6 +149,8 @@
   },
   "active": "78315371516dba64",
   "lastOpenFiles": [
+    "Lecture/객체지향자바스크립트-코드스피츠/3회차.md",
+    "OOP/template method란 무엇인가?.md",
     "ComputerScience/Network/what is congestion control ?.md",
     "무제 파일.canvas",
     "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md",
@@ -157,8 +158,6 @@
     "ComputerScience/Network/HTTP3/HTTP3 Connection Establishment.md",
     "ComputerScience/Network/HTTP3/Compatibility with existing HTTP infrastructure.md",
     "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
-    "Lecture/객체지향자바스크립트-코드스피츠/3회차.md",
-    "Lecture/객체지향자바스크립트-코드스피츠/2회차.md",
-    "Lecture/객체지향자바스크립트-코드스피츠/README.md"
+    "Lecture/객체지향자바스크립트-코드스피츠/2회차.md"
   ]
 }
