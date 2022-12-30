@@ -1,3 +1,4 @@
+#프로토타입 #자바스크립트-면접질문 
 
 The `Object.create()` method allows you to create a new object with a specified prototype. It is a useful alternative to using a constructor function to create an object, especially when you want to create an object with a specific prototype but don't need to define any additional properties or methods for the object.
 

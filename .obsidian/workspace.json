@@ -174,15 +174,15 @@
   },
   "active": "5d8186c0c40bdfaa",
   "lastOpenFiles": [
-    "Books/코어자바스크립트/6.프로토타입.md",
+    "자바스크립트/Object.create()를 통해서 새로운 객체를 생성하는 것과, constructure 함수를 통해서 생성하는 것은 어떤 차이가 존재하는가?.md",
     "자바스크립트/프로토타입과 dunder 프로토는 어떤 차이가 있는가?.md",
+    "Books/코어자바스크립트/6.프로토타입.md",
     "Daily-Note/부분 적용 함수와 커링은 어떤 차이점이 있는가?.md",
     "Daily-Note/버블정렬.md",
     "Daily-Note/반응형을 위한 메타태그.md",
     "Daily-Note/리코일 selector.md",
     "자바스크립트/고계함수와 클로저.md",
     "OOP/개방폐쇄원칙.md",
-    "자바스크립트/제네레이터.md",
-    "Daily-Note/컴포넌트 테스트.md"
+    "자바스크립트/제네레이터.md"
   ]
 }
