@@ -20,24 +20,12 @@
             }
           },
           {
-            "id": "57d6967ac3d16644",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/코어자바스크립트/6.프로토타입.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f2bf7d8dd36f96cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바스크립트/new 키워드를 통해서 인스턴스를 생성할 때 일어나는 일은 무엇인가?.md",
+                "file": "Books/코어자바스크립트/6.프로토타입.md",
                 "mode": "source",
                 "source": false
               }
@@ -196,13 +184,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "57d6967ac3d16644",
+  "active": "f2bf7d8dd36f96cd",
   "lastOpenFiles": [
     "자바스크립트/new 키워드를 통해서 인스턴스를 생성할 때 일어나는 일은 무엇인가?.md",
-    "Books/코어자바스크립트/6.프로토타입.md",
     "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
     "자바스크립트/프로토타입과 dunder 프로토는 어떤 차이가 있는가?.md",
     "자바스크립트/Object.create()를 통해서 새로운 객체를 생성하는 것과, constructure 함수를 통해서 생성하는 것은 어떤 차이가 존재하는가?.md",
+    "Books/코어자바스크립트/6.프로토타입.md",
     "Daily-Note/부분 적용 함수와 커링은 어떤 차이점이 있는가?.md",
     "Daily-Note/버블정렬.md",
     "Daily-Note/반응형을 위한 메타태그.md",
