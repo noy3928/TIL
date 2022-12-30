@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
+                "file": "Books/코어자바스크립트/6.프로토타입.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2bf7d8dd36f96cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "자바스크립트/new 키워드를 통해서 인스턴스를 생성할 때 일어나는 일은 무엇인가?.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
+                "file": "Books/코어자바스크립트/6.프로토타입.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
+                "file": "Books/코어자바스크립트/6.프로토타입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md"
+                "file": "Books/코어자바스크립트/6.프로토타입.md"
               }
             }
           }
@@ -183,8 +196,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e8f541933f9d6f32",
+  "active": "57d6967ac3d16644",
   "lastOpenFiles": [
+    "자바스크립트/new 키워드를 통해서 인스턴스를 생성할 때 일어나는 일은 무엇인가?.md",
     "Books/코어자바스크립트/6.프로토타입.md",
     "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
     "자바스크립트/프로토타입과 dunder 프로토는 어떤 차이가 있는가?.md",
@@ -193,7 +207,6 @@
     "Daily-Note/버블정렬.md",
     "Daily-Note/반응형을 위한 메타태그.md",
     "Daily-Note/리코일 selector.md",
-    "자바스크립트/고계함수와 클로저.md",
-    "OOP/개방폐쇄원칙.md"
+    "자바스크립트/고계함수와 클로저.md"
   ]
 }
