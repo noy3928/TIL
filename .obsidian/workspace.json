@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8c115fb961398006",
+        "id": "6d4ea4683c51eb1d",
         "type": "tabs",
         "children": [
           {
-            "id": "e8f541933f9d6f32",
+            "id": "d7be466717a7e66f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2bf7d8dd36f96cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d8186c0c40bdfaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "자바스크립트/프로토타입과 dunder 프로토는 어떤 차이가 있는가?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50084294be237db2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "자바스크립트/Object.create()를 통해서 새로운 객체를 생성하는 것과, constructure 함수를 통해서 생성하는 것은 어떤 차이가 존재하는가?.md",
+                "file": "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
+                "file": "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
+                "file": "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md"
+                "file": "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md"
               }
             }
           }
@@ -184,17 +147,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f2bf7d8dd36f96cd",
+  "active": "d7be466717a7e66f",
   "lastOpenFiles": [
-    "Books/코어자바스크립트/6.프로토타입.md",
+    "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
+    "ComputerScience/Network/HTTP3/HTTP3 Connection Establishment.md",
+    "ComputerScience/Network/HTTP3/HTTP3 레이어구성.md",
+    "ComputerScience/Network/HTTP3/Compatibility with existing HTTP infrastructure.md",
+    "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
+    "ComputerScience/Network/HTTP3/연결수립 시 TCP와 QUIC은 어떤 차이점이 있는가?.md",
     "자바스크립트/Object.create()를 통해서 새로운 객체를 생성하는 것과, constructure 함수를 통해서 생성하는 것은 어떤 차이가 존재하는가?.md",
-    "자바스크립트/new 키워드를 통해서 인스턴스를 생성할 때 일어나는 일은 무엇인가?.md",
-    "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
     "자바스크립트/프로토타입과 dunder 프로토는 어떤 차이가 있는가?.md",
-    "Daily-Note/부분 적용 함수와 커링은 어떤 차이점이 있는가?.md",
-    "Daily-Note/버블정렬.md",
-    "Daily-Note/반응형을 위한 메타태그.md",
-    "Daily-Note/리코일 selector.md",
-    "자바스크립트/고계함수와 클로저.md"
+    "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
+    "Books/코어자바스크립트/6.프로토타입.md"
   ]
 }
