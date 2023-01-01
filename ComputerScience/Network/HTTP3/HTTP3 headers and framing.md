@@ -10,16 +10,8 @@ framing layer의 사용은 HTTP3가 mulitiplexing을 할 수 있도록 허용해
 
 결국에, 헤더의 사용과 프레이밍의 사용은 데이터 전송의 효율성과 신뢰성을 향상시키는데에 도움이 된다. 또한 멀티 플렉싱과 흐름제어와 같은 새로운 기능도 가능하게 만들어주는 것이다. [[what is flow control in http?]]  
 
-
-## framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가? 
-
-In HTTP/3, the framing layer is responsible for multiplexing, which is the process of transmitting multiple streams of data concurrently over a single connection. The framing layer is a layer of the HTTP/3 protocol stack that sits above the transport layer (QUIC) and below the HTTP layer.
-
-The framing layer enables multiplexing by dividing the data into frames, which are then transmitted over the connection. Each frame is assigned a stream identifier, which allows the receiver to identify the stream that the frame belongs to. The receiver can then reassemble the frames for each stream in the correct order to reconstruct the original data.
-
-The framing layer also includes flow control and error correction mechanisms, which help to ensure the efficient and reliable transmission of data. For example, the framing layer can use a sliding window mechanism to regulate the rate at which data is transmitted, and can include error correction codes to detect and correct errors in the transmitted data.
-
-Overall, the framing layer in HTTP/3 enables multiplexing by dividing the data into frames and assigning stream identifiers, and also includes flow control and error correction mechanisms to improve the efficiency and reliability of data transmission.
+- 추가질문 : 
+	- [[framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가? ]]
 
 
 ## 헤더의 사용과 프레이밍의 사용이 흐름 제어와 같은 새로운 기능을 가능하게 만들어주는 이유는 무엇인가? 

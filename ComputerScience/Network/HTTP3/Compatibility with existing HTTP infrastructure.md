@@ -1,8 +1,12 @@
+HTTP3는 기존의 HTTP 인프라 구조와 상호보완되도록 설계되었다. 이것이 의미하는 바는 HTTP를 지원하는 기존의 서버, 클라이언트, 네트워크 장비들을 이용할 수 있다는 것을 의미하는 것이다. 
 
-HTTP/3 is designed to be compatible with existing HTTP infrastructure, which means that it can be used with existing servers, clients, and network equipment that support HTTP.
+HTTP3의 중대한 목표는, 기존의 인프라 구조를 변경하지 않으면서도 배포될 수 있도록 하는 것이다. 이것을 달성하기 위해서 HTTP3는 이전 프로토콜 버전과 같은 HTTP 시맨틱을 사용한다. 이것이 의미하는 것은 HTTP3가 기존의 HTTP 어플리케이션을 이용할 수 있고, API들을 이용할 수 있다는 것이다. 
 
-One of the main goals of HTTP/3 was to ensure that it could be deployed without requiring significant changes to the existing infrastructure. To achieve this, HTTP/3 was designed to use the same HTTP semantics as previous versions of the protocol, which means that it can be used with existing HTTP applications and APIs.
+그러나, 기존의 인프라 구조에서 HTTP3를 배포하려할 때, 몇 가지 고려사항이 있다. 예를 들어서, 오래된 서버나 클라이언트는 HTTP3를 지원하지 않거나, HTTP3를 지원가능하게 만들기 위해서 추가적인 환경 설정이 필요할 것이다. 게다가, HTTP3를 지원하지 않는 장비나 환경적인 측면에서 성능이나 호환성 이슈가 있을 것이다. 
 
-However, there are some considerations to be aware of when deploying HTTP/3 in an existing infrastructure. For example, some older servers or clients may not support HTTP/3, or may require additional configuration to enable HTTP/3 support. Additionally, there may be performance or compatibility issues with certain network equipment or configurations that do not support HTTP/3.
+결론적으로 HTTP3는 기존의 HTTP3 인프라 구조와 호환이 가능하도록 설계되었다. 하지만, 이것은 아마도 몇몇 추가적인 환경설정이나, 테스트가 필요할 것으로 보인다. 
 
-Overall, HTTP/3 is designed to be compatible with existing HTTP infrastructure, but it may require some additional configuration or testing to ensure that it is deployed smoothly and performs optimally.
+
+
+- 질문 : 
+	- 왜 TCP에서 기능을 추가하려할 때, 기존의 인프라 구조에서 추가적인 환경 설정이 필요했나? 어떤 문제점이 있었던 것인가? 

@@ -13,7 +13,67 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
+                "file": "ComputerScience/Network/HTTP3/HTTP3 multiplexing and flow control.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4fa913df19a6fe95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/DesignPattern/Observer Pattern/Advantage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a4e38b97f45b90c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d353c502bd825234",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02be0fe7d19c610e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/Network/HTTP3/What is HTTP3 and why was it developed.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11ed71c48cc672f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
+                "file": "ComputerScience/Network/HTTP3/HTTP3 multiplexing and flow control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
+                "file": "ComputerScience/Network/HTTP3/HTTP3 multiplexing and flow control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md"
+                "file": "ComputerScience/Network/HTTP3/HTTP3 multiplexing and flow control.md"
               }
             }
           }
@@ -149,15 +209,15 @@
   },
   "active": "d7be466717a7e66f",
   "lastOpenFiles": [
+    "ComputerScience/DesignPattern/Observer Pattern/Advantage.md",
+    "ComputerScience/Network/what is flow control in http?.md",
+    "ComputerScience/Network/HTTP3/HTTP3 multiplexing and flow control.md",
     "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
-    "ComputerScience/Network/HTTP3/HTTP3 Connection Establishment.md",
-    "ComputerScience/Network/HTTP3/HTTP3 레이어구성.md",
-    "ComputerScience/Network/HTTP3/Compatibility with existing HTTP infrastructure.md",
+    "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md",
+    "ComputerScience/Network/HTTP3/What is HTTP3 and why was it developed.md",
+    "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md",
+    "ComputerScience/Network/HTTP3/The underlying transport protocol - QUIC.md",
     "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
-    "ComputerScience/Network/HTTP3/연결수립 시 TCP와 QUIC은 어떤 차이점이 있는가?.md",
-    "자바스크립트/Object.create()를 통해서 새로운 객체를 생성하는 것과, constructure 함수를 통해서 생성하는 것은 어떤 차이가 존재하는가?.md",
-    "자바스크립트/프로토타입과 dunder 프로토는 어떤 차이가 있는가?.md",
-    "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
-    "Books/코어자바스크립트/6.프로토타입.md"
+    "ComputerScience/Network/HTTP3/Compatibility with existing HTTP infrastructure.md"
   ]
 }
