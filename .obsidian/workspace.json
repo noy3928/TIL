@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/Network/HTTP3/HTTP3 multiplexing and flow control.md",
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerScience/Network/HTTP3/HTTP3 multiplexing and flow control.md",
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerScience/Network/HTTP3/HTTP3 multiplexing and flow control.md",
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerScience/Network/HTTP3/HTTP3 multiplexing and flow control.md"
+                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md"
               }
             }
           }
@@ -209,9 +209,9 @@
   },
   "active": "d7be466717a7e66f",
   "lastOpenFiles": [
+    "ComputerScience/Network/HTTP3/HTTP3 multiplexing and flow control.md",
     "ComputerScience/DesignPattern/Observer Pattern/Advantage.md",
     "ComputerScience/Network/what is flow control in http?.md",
-    "ComputerScience/Network/HTTP3/HTTP3 multiplexing and flow control.md",
     "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
     "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md",
     "ComputerScience/Network/HTTP3/What is HTTP3 and why was it developed.md",
