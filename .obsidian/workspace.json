@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d7be466717a7e66f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OOP/의존성 역전 원칙.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4fa913df19a6fe95",
             "type": "leaf",
             "state": {
@@ -108,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "의존성 역전 원칙",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -125,8 +113,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -146,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OOP/의존성 역전 원칙.md",
+                "file": "ComputerScience/DesignPattern/Observer Pattern/Advantage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OOP/의존성 역전 원칙.md",
+                "file": "ComputerScience/DesignPattern/Observer Pattern/Advantage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OOP/의존성 역전 원칙.md"
+                "file": "ComputerScience/DesignPattern/Observer Pattern/Advantage.md"
               }
             }
           }
@@ -208,8 +195,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d7be466717a7e66f",
+  "active": "4fa913df19a6fe95",
   "lastOpenFiles": [
+    "OOP/의존성 역전 원칙.md",
     "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
     "ComputerScience/Network/HTTP3/HTTP3 multiplexing and flow control.md",
     "ComputerScience/DesignPattern/Observer Pattern/Advantage.md",
@@ -218,7 +206,6 @@
     "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md",
     "ComputerScience/Network/HTTP3/What is HTTP3 and why was it developed.md",
     "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md",
-    "ComputerScience/Network/HTTP3/The underlying transport protocol - QUIC.md",
-    "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md"
+    "ComputerScience/Network/HTTP3/The underlying transport protocol - QUIC.md"
   ]
 }
