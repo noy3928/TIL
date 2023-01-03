@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
+                "file": "OOP/의존성 역전 원칙.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "의존성 역전 원칙",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -125,7 +125,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -145,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
+                "file": "OOP/의존성 역전 원칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
+                "file": "OOP/의존성 역전 원칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture/객체지향자바스크립트-코드스피츠/1회차.md"
+                "file": "OOP/의존성 역전 원칙.md"
               }
             }
           }
@@ -209,6 +210,7 @@
   },
   "active": "d7be466717a7e66f",
   "lastOpenFiles": [
+    "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
     "ComputerScience/Network/HTTP3/HTTP3 multiplexing and flow control.md",
     "ComputerScience/DesignPattern/Observer Pattern/Advantage.md",
     "ComputerScience/Network/what is flow control in http?.md",
@@ -217,7 +219,6 @@
     "ComputerScience/Network/HTTP3/What is HTTP3 and why was it developed.md",
     "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md",
     "ComputerScience/Network/HTTP3/The underlying transport protocol - QUIC.md",
-    "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
-    "ComputerScience/Network/HTTP3/Compatibility with existing HTTP infrastructure.md"
+    "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md"
   ]
 }
