@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "b42a44884d711067",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/객체지향의 사실과 오해/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ac6d3474d24cdfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/객체지향의 사실과 오해/2.이상한 나라의 객체.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5a4e38b97f45b90c",
             "type": "leaf",
             "state": {
@@ -80,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -146,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/객체지향의 사실과 오해/1.협력하는 객체들의 공동체.md",
+                "file": "Books/객체지향의 사실과 오해/2.이상한 나라의 객체.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/객체지향의 사실과 오해/1.협력하는 객체들의 공동체.md",
+                "file": "Books/객체지향의 사실과 오해/2.이상한 나라의 객체.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/객체지향의 사실과 오해/1.협력하는 객체들의 공동체.md"
+                "file": "Books/객체지향의 사실과 오해/2.이상한 나라의 객체.md"
               }
             }
           }
@@ -208,17 +232,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "113e3e3917ed941f",
+  "active": "5ac6d3474d24cdfc",
   "lastOpenFiles": [
+    "Books/객체지향의 사실과 오해/README.md",
     "README.md",
+    "Books/객체지향의 사실과 오해/1.협력하는 객체들의 공동체.md",
     "ComputerScience/Network/네트워크질문.md",
     "ComputerScience/Network/커넥션 성능 향상.md",
     "ComputerScience/DesignPattern/Observer Pattern/Advantage.md",
     "OOP/의존성 역전 원칙.md",
     "Lecture/객체지향자바스크립트-코드스피츠/1회차.md",
     "ComputerScience/Network/HTTP3/HTTP3 multiplexing and flow control.md",
-    "ComputerScience/Network/what is flow control in http?.md",
-    "ComputerScience/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
-    "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md"
+    "ComputerScience/Network/what is flow control in http?.md"
   ]
 }
