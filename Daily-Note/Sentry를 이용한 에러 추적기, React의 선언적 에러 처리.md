@@ -2,6 +2,10 @@
 > 본 문서는 카카오에서 발표한  [Sentry를 이용한 에러 추적기, React의 선언적 에러 처리](https://if.kakao.com/2022/session/84) 를 듣고 정리한 글이다. 
 
 
+## 요약정리 : 
+
+본 영상은 카카오페이팀에서 어떻게 에러를 처리했는지에 대한 내용을 다루고 있다.  첫번째 파트에서는 어떻게 에러를 수집하고, 분석했는지를 설명하고 있다. 막무가내로 에러를 수집하고 분석하다보면 에러를 정확하고 빠르게 파악하는 것에 시간이 많이 들고 어렵게된다. 때문에 더욱 효율적으로 에러를 수집하기 위해서 sentry에서 제공해주는 여러가지 분류기법과 필터링을 활용하고 있다. 두번째 파트에서는 어떻게 하면 효율적으로 에러를 처리할 수 있는지에 대해서 다루고 있다. 단순히 인터셉트를 통해서 에러를 처리하다보면 투박하게 에러를 처리하게 된다. 더욱 세부적으로 처리할 수 있고, 명령형이 아닌 선언적인 방식으로 에러를 처리하기 위해서 에러바운더리를 활용한 방법을 소개하고 있다. 이런 에러 바운더리를 활용하면 선언적으로 에러를 처리할 수 있을 뿐만 아니라, 전역적이지 않고, 로컬의 영역에서도 에러를 처리할 수 있게 만들어준다. 
+
 
 ## 카카오페이팀은 왜 에러처리에 관심을 가지게 되었을까? 
 
@@ -270,4 +274,125 @@ const ComponentWithPossiblyError = () => {
 ```
 
 
+### react-error-boundary 
+
+Error Boundaries의 Fallback Component를 직관적으로 작성할 수 있도록 도와주는 라이브러리이다. 
+
+```javascript 
+import {ReactErrorBoundary} from "react-error-boundary";
+
+const FallbackComponent = () => {
+	return (
+		<div>에러페이지</div>
+	)
+}
+
+export const App = () => {
+	return (
+		<ReactErrorBoundary fallback={<FallbackComponent/>}>
+			<Routes>
+			{/*중략*/}
+			</Routes>
+		</ReactErrorBoundary>
+	)
+
+}
+```
+
  
+## 선언적 에러 처리를 적용해보자! 
+
+### axios interceptor의 로직을 줄이기 
+
+네트워크 에러에 대한 지연 처리 외에는 어떤 에러도 처리하지 않도록 바꾸었다. 
+
+```javascript 
+if(isAxiosError(error) && isNetwortError(error)){
+	setTimeout(() => reject(error), 200);
+}else{
+	reject(error)
+}
+```
+
+
+### Error 바운더리의 관심사를 분리 
+
+에러 바운더리를 관심사별로 분리하기 위해 중첩으로 구성하였다. 
+
+```javascript
+import {Outlet} from "react-router-dom";
+
+import {ApiErrorBoundary, RootErrorBoundary} from "~/shared/components"
+
+export const AppLayout = () => {
+	return (
+		<RootErrorBoundary> // 그외 frontend Error 
+			<ApiErrorBoundary> // api 에서 발생하는 Error
+				<Outlet />
+			</ApiErrorBoundary>
+		</RootErrorBoundary>
+	)
+}
+```
+
+
+### Fallback 컴포넌트에서 세부적인 에러를 처리하기 [23:00](https://youtu.be/012IPbMX_y4?t=1399)
+
+
+Api 에러를 처리하는 에러 바운더리(Root Level)
+```javascript
+const ApiErrorBoundary = ({children}) => {
+	const {reset} = useQueryErrorBoundary();
+	const {key} = useLocation();
+
+	return (
+		<ReactErrorBoundary
+			FallbackComponent={FallbackComponent}
+			onReset={reset}
+			resetKeys={[key]}
+			>	
+		{children}
+		</ReactErrorBoundary>
+	)
+}
+```
+
+
+```javascript 
+function FallbackComponent({error, resetErrorBoundary}){
+	useEffect(() => {
+		captureApiError(props.error); // 모니터링 서비스에 에러 데이터 전송
+	},[])
+
+	if(!isAxiosError(error)){
+		throw error; // 상위 에러 바운더리인 글로벌 에러로 전파 
+	}
+
+	/*중략*/
+
+	return (
+		<CommonErrorHandler 
+			resetErrorBoundary={resetErrorBoundary}
+		/>
+	)
+}
+```
+
+적용해 본 로컬레벨의 에러 바운더리 
+```javascript 
+const ProductList = () => {
+	return (
+		<>
+			<Container>
+				<Banners/>
+				<Title/>
+				<FundCompareButton/>
+				<LocalApiErrorBoundary height={300} >
+					<AllProductList />
+				</LocalApiErrorBoundary >
+			</Container>
+			<Footer/>
+		</>
+	)
+}
+```

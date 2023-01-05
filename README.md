@@ -29,11 +29,13 @@
 
 
 <br>
+
 ## 아티클 : 
 
 
 
 ## 세션 : 
 
-[Sentry를 이용한 에러 추적기, React의 선언적 에러 처리]()
+[Sentry를 이용한 에러 추적기, React의 선언적 에러 처리](https://github.com/noy3928/TIL/blob/main/Daily-Note/Sentry%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%97%90%EB%9F%AC%20%EC%B6%94%EC%A0%81%EA%B8%B0%2C%20React%EC%9D%98%20%EC%84%A0%EC%96%B8%EC%A0%81%20%EC%97%90%EB%9F%AC%20%EC%B2%98%EB%A6%AC.md)    
+
 

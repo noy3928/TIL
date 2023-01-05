@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/Sentry를 이용한 에러 추적기, React의 선언적 에러 처리.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/Sentry를 이용한 에러 추적기, React의 선언적 에러 처리.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/Sentry를 이용한 에러 추적기, React의 선언적 에러 처리.md"
+                "file": "README.md"
               }
             }
           }
@@ -217,10 +217,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "45df47fa09589985",
+  "active": "2b09753920bf200a",
   "lastOpenFiles": [
-    "README.md",
     "Daily-Note/Sentry를 이용한 에러 추적기, React의 선언적 에러 처리.md",
+    "README.md",
     "Daily-Note/A React Developer’s First Take on Solid.md",
     "Books/객체지향의 사실과 오해/3.타입과 추상화.md",
     "Books/객체지향의 사실과 오해/README.md",
