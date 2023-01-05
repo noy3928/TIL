@@ -25,51 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Books/객체지향의 사실과 오해/3.타입과 추상화.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "01de315e46e53b41",
+            "id": "c7082ba3cdca1a82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/Sentry를 이용한 에러 추적기, React의 선언적 에러 처리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bcf9f995a44594d0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "113e3e3917ed941f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/객체지향의 사실과 오해/1.협력하는 객체들의 공동체.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b42a44884d711067",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/객체지향의 사실과 오해/README.md",
+                "file": "Daily-Note/덕 타이핑이란 무엇인가?.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -155,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Books/객체지향의 사실과 오해/3.타입과 추상화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Books/객체지향의 사실과 오해/3.타입과 추상화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Books/객체지향의 사실과 오해/3.타입과 추상화.md"
               }
             }
           }
@@ -219,15 +186,15 @@
   },
   "active": "2b09753920bf200a",
   "lastOpenFiles": [
-    "Daily-Note/Sentry를 이용한 에러 추적기, React의 선언적 에러 처리.md",
-    "README.md",
-    "Daily-Note/A React Developer’s First Take on Solid.md",
+    "Daily-Note/덕 타이핑이란 무엇인가?.md",
     "Books/객체지향의 사실과 오해/3.타입과 추상화.md",
+    "README.md",
+    "Books/객체지향의 사실과 오해/1.협력하는 객체들의 공동체.md",
     "Books/객체지향의 사실과 오해/README.md",
+    "Daily-Note/Sentry를 이용한 에러 추적기, React의 선언적 에러 처리.md",
+    "Daily-Note/A React Developer’s First Take on Solid.md",
     "Books/객체지향의 사실과 오해/2.이상한 나라의 객체.md",
     "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md",
-    "ComputerScience/Network/HTTP3/What is HTTP3 and why was it developed.md",
-    "ComputerScience/Network/HTTP3/HTTP3 headers and framing.md",
-    "Books/객체지향의 사실과 오해/1.협력하는 객체들의 공동체.md"
+    "ComputerScience/Network/HTTP3/What is HTTP3 and why was it developed.md"
   ]
 }
