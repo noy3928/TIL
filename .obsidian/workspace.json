@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Books/객체지향의 사실과 오해/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5266e38fb40d43d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Books/객체지향의 사실과 오해/4.역할,책임,협력.md",
                 "mode": "source",
                 "source": false
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/객체지향의 사실과 오해/4.역할,책임,협력.md",
+                "file": "Books/객체지향의 사실과 오해/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/객체지향의 사실과 오해/4.역할,책임,협력.md",
+                "file": "Books/객체지향의 사실과 오해/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/객체지향의 사실과 오해/4.역할,책임,협력.md"
+                "file": "Books/객체지향의 사실과 오해/README.md"
               }
             }
           }
@@ -149,6 +161,7 @@
   },
   "active": "0f532ff056ae72d1",
   "lastOpenFiles": [
+    "Books/객체지향의 사실과 오해/4.역할,책임,협력.md",
     "Books/객체지향의 사실과 오해/README.md",
     "Daily-Note/덕 타이핑이란 무엇인가?.md",
     "Books/객체지향의 사실과 오해/3.타입과 추상화.md",
@@ -157,7 +170,6 @@
     "Books/객체지향의 사실과 오해/1.협력하는 객체들의 공동체.md",
     "Daily-Note/Sentry를 이용한 에러 추적기, React의 선언적 에러 처리.md",
     "Daily-Note/A React Developer’s First Take on Solid.md",
-    "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md",
-    "ComputerScience/Network/HTTP3/What is HTTP3 and why was it developed.md"
+    "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md"
   ]
 }
