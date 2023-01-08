@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "1189037f5144051c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily-Note/How React Uses Closures to Avoid Bugs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5266e38fb40d43d1",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/객체지향의 사실과 오해/README.md",
+                "file": "Daily-Note/How React Uses Closures to Avoid Bugs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/객체지향의 사실과 오해/README.md",
+                "file": "Daily-Note/How React Uses Closures to Avoid Bugs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/객체지향의 사실과 오해/README.md"
+                "file": "Daily-Note/How React Uses Closures to Avoid Bugs.md"
               }
             }
           }
@@ -159,10 +172,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0f532ff056ae72d1",
+  "active": "1189037f5144051c",
   "lastOpenFiles": [
-    "Books/객체지향의 사실과 오해/4.역할,책임,협력.md",
     "Books/객체지향의 사실과 오해/README.md",
+    "Books/객체지향의 사실과 오해/4.역할,책임,협력.md",
     "Daily-Note/덕 타이핑이란 무엇인가?.md",
     "Books/객체지향의 사실과 오해/3.타입과 추상화.md",
     "Books/객체지향의 사실과 오해/2.이상한 나라의 객체.md",
