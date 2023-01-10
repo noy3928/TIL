@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "53bfbded5b86c297",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture/원티드프리온보딩-리액트쿼리/1.개발자 취업과정에서 기술과제가 가지는 의미.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "39b809d8fdafd42b",
             "type": "leaf",
             "state": {
@@ -55,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Object/README.md",
+                "file": "Lecture/원티드프리온보딩-리액트쿼리/1.개발자 취업과정에서 기술과제가 가지는 의미.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Object/README.md",
+                "file": "Lecture/원티드프리온보딩-리액트쿼리/1.개발자 취업과정에서 기술과제가 가지는 의미.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Object/README.md"
+                "file": "Lecture/원티드프리온보딩-리액트쿼리/1.개발자 취업과정에서 기술과제가 가지는 의미.md"
               }
             }
           }
@@ -183,8 +196,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1189037f5144051c",
+  "active": "53bfbded5b86c297",
   "lastOpenFiles": [
+    "Books/Object/README.md",
     "Daily-Note/Sentry를 이용한 에러 추적기, React의 선언적 에러 처리.md",
     "README.md",
     "Books/코어자바스크립트/2.실행 컨텍스트.md",
@@ -193,7 +207,6 @@
     "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
     "OOP/객체지향의 맥락에서 클로저는 왜 중요한가?.md",
     "자바스크립트/new 키워드를 통해서 인스턴스를 생성할 때 일어나는 일은 무엇인가?.md",
-    "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md",
-    "Books/코어자바스크립트/5.클로저.md"
+    "FP/함수형의 맥락에서 클로저는 왜 중요한가?.md"
   ]
 }
