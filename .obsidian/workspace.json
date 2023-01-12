@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md",
+                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md",
+                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md",
+                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md"
+                "file": "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md"
               }
             }
           }
@@ -147,17 +147,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b00c3465dd7b77b0",
+  "active": "45df47fa09589985",
   "lastOpenFiles": [
+    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/3.how to implement the pattern.md",
+    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/2.why compound component?.md",
+    "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md",
+    "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md",
     "ComputerScience/Network/HTTP3/Compatibility with existing HTTP infrastructure.md",
     "ComputerScience/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
     "Daily-Note/jest.spyOn은 뭐하는 메서드인가?.md",
     "Books/객체지향의 사실과 오해/4.역할,책임,협력.md",
     "FP/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md",
-    "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
-    "Books/Object/README.md",
-    "Lecture/원티드프리온보딩-리액트쿼리/1.개발자 취업과정에서 기술과제가 가지는 의미.md",
-    "Daily-Note/Sentry를 이용한 에러 추적기, React의 선언적 에러 처리.md",
-    "README.md"
+    "자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md"
   ]
 }
