@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/객체지향의-사실과-오해/6.객체지도.md",
+                "file": "Books/객체지향의-사실과-오해/5.책임과 메시지.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/객체지향의-사실과-오해/6.객체지도.md",
+                "file": "Books/객체지향의-사실과-오해/5.책임과 메시지.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/객체지향의-사실과-오해/6.객체지도.md"
+                "file": "Books/객체지향의-사실과-오해/5.책임과 메시지.md"
               }
             }
           }
@@ -172,8 +172,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "bffc9717021b65c2",
+  "active": "3faa41f6db72c26e",
   "lastOpenFiles": [
+    "Books/객체지향의-사실과-오해/6.객체지도.md",
     "Books/객체지향의-사실과-오해/5.책임과 메시지.md",
     "Books/객체지향의-사실과-오해/4.역할,책임,협력.md",
     "README.md",
@@ -182,7 +183,6 @@
     "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/1.compound components in plain approachable language.md",
     "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/3.how to implement the pattern.md",
     "Lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/4.TheCompoundComponentsPattern/2.why compound component?.md",
-    "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md",
-    "ComputerScience/Network/HTTP3/Compatibility with existing HTTP infrastructure.md"
+    "ComputerScience/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md"
   ]
 }
