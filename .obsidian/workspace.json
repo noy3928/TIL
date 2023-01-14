@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/객체지향의-사실과-오해/README.md",
+                "file": "FrontEnd/리액트/Build-your-own-react.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/객체지향의-사실과-오해/README.md",
+                "file": "FrontEnd/리액트/Build-your-own-react.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/객체지향의-사실과-오해/README.md",
+                "file": "FrontEnd/리액트/Build-your-own-react.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/객체지향의-사실과-오해/README.md"
+                "file": "FrontEnd/리액트/Build-your-own-react.md"
               }
             }
           }
@@ -172,14 +171,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4f45d39c2a0ee4cc",
+  "active": "a51d0d08dd7b5893",
   "lastOpenFiles": [
-    "Books/객체지향의-사실과-오해/7.함께모으기.md",
+    "README.md",
+    "FrontEnd/리액트/Build-your-own-react.md",
     "Books/객체지향의-사실과-오해/README.md",
+    "Books/객체지향의-사실과-오해/7.함께모으기.md",
     "Books/객체지향의-사실과-오해/5.책임과 메시지.md",
     "Books/객체지향의-사실과-오해/6.객체지도.md",
-    "Daily-Note/Build your own react.md",
-    "README.md",
     "Books/객체지향의-사실과-오해/4.역할,책임,협력.md",
     "Books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
     "FP/3분 모나드.md",
