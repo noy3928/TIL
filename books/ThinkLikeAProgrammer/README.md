@@ -12,9 +12,9 @@
 
 <br>
 
-[서문정리](https://github.com/noy3928/TIL/blob/main/Books/ThinkLikeAProgrammer/intro.md)
+[서문정리](https://github.com/noy3928/TIL/blob/main/books/ThinkLikeAProgrammer/intro.md)
 
-## [1장 - 모델이란 무엇인가 :](https://github.com/noy3928/TIL/blob/main/Books/ThinkLikeAProgrammer/1.%EB%AA%A8%EB%8D%B8%EC%9D%B4%EB%9E%80%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.md)
+## [1장 - 모델이란 무엇인가 :](https://github.com/noy3928/TIL/blob/main/books/ThinkLikeAProgrammer/1.%EB%AA%A8%EB%8D%B8%EC%9D%B4%EB%9E%80%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.md)
 
 1장에서는 모델이란 무엇인가를 소개하고 있었다.  
 모델이란 쉽게 말하면, 사물을 추상화하여 표현한 것을 말한다.
@@ -28,7 +28,7 @@
 
 <br>
 
-## [2장 - 모델 작성법 : ](https://github.com/noy3928/TIL/blob/main/Books/ThinkLikeAProgrammer/2.%EB%AA%A8%EB%8D%B8%EC%9E%91%EC%84%B1%EB%B2%95.md)
+## [2장 - 모델 작성법 : ](https://github.com/noy3928/TIL/blob/main/books/ThinkLikeAProgrammer/2.%EB%AA%A8%EB%8D%B8%EC%9E%91%EC%84%B1%EB%B2%95.md)
 
 2장에서는 모델을 작성하는 방법을 소개하고 있다.  
 먼저 모델을 작성할 때 알아야 할 전제가 있다.  
@@ -41,7 +41,7 @@
 
 <br>
 
-## [3장 - 모델을 사용하면 얻게되는 장점 : ](https://github.com/noy3928/TIL/blob/main/Books/ThinkLikeAProgrammer/3.%EB%AA%A8%EB%8D%B8%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4%20%EC%96%BB%EA%B2%8C%EB%90%98%EB%8A%94%20%EC%9E%A5%EC%A0%90.md)
+## [3장 - 모델을 사용하면 얻게되는 장점 : ](https://github.com/noy3928/TIL/blob/main/books/ThinkLikeAProgrammer/3.%EB%AA%A8%EB%8D%B8%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4%20%EC%96%BB%EA%B2%8C%EB%90%98%EB%8A%94%20%EC%9E%A5%EC%A0%90.md)
 
 3장에서는 모델을 사용할 때의 장점을 소개하고 있다.  
 그런데 사실 이 장은 조금 루즈하게 느껴졌다.  
@@ -53,7 +53,7 @@
 
 <br>
 
-## [4장 - 더 좋은 모델을 만들기 위해서는? :](https://github.com/noy3928/TIL/blob/main/Books/ThinkLikeAProgrammer/4.%EB%8D%94%EC%A2%8B%EC%9D%80%EB%AA%A8%EB%8D%B8%EC%9D%84%EB%A7%8C%EB%93%A4%EA%B8%B0%EC%9C%84%ED%95%B4%EC%84%9C%EB%8A%94%3F.md)
+## [4장 - 더 좋은 모델을 만들기 위해서는? :](https://github.com/noy3928/TIL/blob/main/books/ThinkLikeAProgrammer/4.%EB%8D%94%EC%A2%8B%EC%9D%80%EB%AA%A8%EB%8D%B8%EC%9D%84%EB%A7%8C%EB%93%A4%EA%B8%B0%EC%9C%84%ED%95%B4%EC%84%9C%EB%8A%94%3F.md)
 
 4장에서는 모델을 더 잘 작성하기 위해서 생각해보면 좋을 요소들을 소개해주고 있었다.
 잘 작성하기 위해서는 4가지를 충족해야한다.
