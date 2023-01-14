@@ -34,7 +34,8 @@
 ## 아티클 : 
 [js개발자는 아직도 모나드를 모르겠어요](https://github.com/noy3928/TIL/blob/main/FP/JS%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%8A%94%20%EC%95%84%EC%A7%81%EB%8F%84%20%EB%AA%A8%EB%82%98%EB%93%9C%EB%A5%BC%20%EB%AA%A8%EB%A5%B4%EA%B2%A0%EC%96%B4%EC%9A%94.md)  
 [3분 모나드](https://github.com/noy3928/TIL/blob/main/FP/3%EB%B6%84%20%EB%AA%A8%EB%82%98%EB%93%9C.md)    
-[build your own react](.  ) 
+[build your own react](https://github.com/noy3928/TIL/blob/main/FrontEnd/%EB%A6%AC%EC%95%A1%ED%8A%B8/Build-your-own-react.md)    
+
 
 ## 세션 : 
 

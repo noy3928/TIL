@@ -7,7 +7,7 @@
 >  Unlike TCP’s ordered message exchange scheme, UDP allows multidirectional broadcasting of messages, which feature, among other things, helps address head-of-line blocking (HoL) issues at the packet level.
 
 
-![](Assets/udp-mulidirectional.png)
+![](udp-mulidirectional.png)
 
 
 

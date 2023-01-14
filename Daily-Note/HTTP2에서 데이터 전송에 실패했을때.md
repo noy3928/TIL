@@ -6,7 +6,7 @@
 ### 인용 : 
 >  TCP's receiver sliding window does not progress if a segment with a lower sequence number hasn't arrived / been received yet, even if segments with higher number have. This can cause the TCP stream to hang momentarily or even close, even if only one segment failed to arrive. This problem is known as packet-level Head-of-Line (HoL) blocking of the TCP stream.
 
-![](Assets/H2Fail.png)
+![](H2Fail.png)
 
 
 ### 메모를 한 이유 : 
