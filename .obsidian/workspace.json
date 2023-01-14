@@ -23,24 +23,16 @@
             "id": "4f45d39c2a0ee4cc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/객체지향의-사실과-오해/README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "eb86618d14d09f9b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/객체지향의-사실과-오해/7.함께모으기.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -171,7 +163,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "45df47fa09589985",
+  "active": "a51d0d08dd7b5893",
   "lastOpenFiles": [
     "front-end/리액트/Build-your-own-react.md",
     "README.md",
