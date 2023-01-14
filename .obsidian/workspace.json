@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily-Note/Build your own react.md",
+                "file": "Books/객체지향의-사실과-오해/6.객체지도.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily-Note/Build your own react.md",
+                "file": "Books/객체지향의-사실과-오해/6.객체지도.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily-Note/Build your own react.md",
+                "file": "Books/객체지향의-사실과-오해/6.객체지도.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily-Note/Build your own react.md"
+                "file": "Books/객체지향의-사실과-오해/6.객체지도.md"
               }
             }
           }
@@ -149,11 +149,11 @@
   },
   "active": "a51d0d08dd7b5893",
   "lastOpenFiles": [
+    "Daily-Note/Build your own react.md",
     "README.md",
     "Books/객체지향의-사실과-오해/4.역할,책임,협력.md",
     "Books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
     "Books/객체지향의-사실과-오해/6.객체지도.md",
-    "Daily-Note/Build your own react.md",
     "Books/객체지향의-사실과-오해/5.책임과 메시지.md",
     "FP/3분 모나드.md",
     "FP/JS개발자는 아직도 모나드를 모르겠어요.md",
