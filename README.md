@@ -17,7 +17,7 @@
 [책 : 함수형 자바스크립트](https://github.com/noy3928/TIL/tree/main/books/FunctionalJavascript)  
 [책 : 쏙쏙 들어오는 함수형 코딩]()  
 [강의 : 함수형 프로그래밍 - 유인동](https://github.com/noy3928/TIL/tree/main/lecture/%ED%95%A8%EC%88%98%ED%98%95%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9C%A0%EC%9D%B8%EB%8F%99)  
-[아티클 : FreeCodeCamp Functional programing tutorial](https://github.com/noy3928/TIL/blob/main/programming-paradigm/functional-programming/FreeCodeCamp.md)  
+[튜토리얼 : FreeCodeCamp Functional programing tutorial](https://github.com/noy3928/TIL/blob/main/programming-paradigm/functional-programming/FreeCodeCamp.md)  
 <br>
 
 ## Computer Science
