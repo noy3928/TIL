@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "323ad6c40484f8d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4f45d39c2a0ee4cc",
             "type": "leaf",
             "state": {
@@ -60,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -126,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
+                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
+                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md"
+                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md"
               }
             }
           }
@@ -188,8 +201,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8a667f48c5201ac2",
+  "active": "323ad6c40484f8d2",
   "lastOpenFiles": [
+    "books/쏙쏙-들어오는-함수형-코딩/README.md",
     "books/쏙쏙-들어오는-함수형-코딩/3.액션과계산,데이터의-차이를-알기.md",
     "books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
     "README.md",
@@ -198,7 +212,6 @@
     "books/객체지향의-사실과-오해/7.함께모으기.md",
     "books/객체지향의-사실과-오해/5.책임과 메시지.md",
     "books/객체지향의-사실과-오해/6.객체지도.md",
-    "books/객체지향의-사실과-오해/4.역할,책임,협력.md",
-    "programming-paradigm/functional-programming/3분 모나드.md"
+    "books/객체지향의-사실과-오해/4.역할,책임,협력.md"
   ]
 }
