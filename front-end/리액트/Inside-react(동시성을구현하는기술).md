@@ -3,6 +3,12 @@
 > 본 글은 inside react(동시성을 구현하는 기술)이라는 강연을 듣고 정리한 문서입니다. 
 
 
+## 요약 정리 :
+
+이 강의는 리액트에서의 동시성과 18버전에 대한 개략적인 이해를 위해서 시청했다. 덕분에 동시성과 병렬성의 차이가 무엇인지 이해할 수 있었고, 이 동시성의 개념을 리액트에서는 왜 도입하려고 했는지를 이해할 수 있었다. 리액트에서는 blocking rendering 문제를 해결하기 위해 동시성을 활용했다. 그리고 18버전에서 이 동시성을 지원하는 다양한 기능들이 출시되었다. 더 나아가 이런 동시성이 지원됨으로 인해서 서버사이드 렌더링시 선택적인 하이드레이션이 가능하게 되었는데, 이것이 어떻게 가능해졌는지도 소개한다. 
+
+---
+
 
 ## 1. 5년의 실험
 
@@ -232,10 +238,9 @@ const Comment = lazy(() => import("./Comments.js"));
 	- safari, ie 지원안함 
 	- callback 호출 주기가 불안정 
 	- 브라우저 탭 전환 시 비활성 탭의 호출 주기가 매우 낮아짐 
-- 스케줄러 
 
+https://ajaxlab.github.io/deview2021/eventloop/ 
 
--   스케쥴러와 우선순위
--   Fiber Architecture
--   Double Buffering Model
--   Lane Priority Model
+### Fiber Architecture
+
+![[스크린샷 2023-01-16 오후 11.17.44.png]]
