@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/playwright-vs-cypress.md",
+                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/playwright-vs-cypress.md",
+                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/playwright-vs-cypress.md",
+                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/playwright-vs-cypress.md"
+                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md"
               }
             }
           }
@@ -186,6 +187,7 @@
   },
   "active": "b8c44f4f497f5de9",
   "lastOpenFiles": [
+    "daily-note/playwright-vs-cypress.md",
     "books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
     "books/쏙쏙-들어오는-함수형-코딩/3.액션과계산,데이터의-차이를-알기.md",
     "books/쏙쏙-들어오는-함수형-코딩/README.md",
@@ -194,7 +196,6 @@
     "front-end/리액트/Inside-react(동시성을구현하는기술).md",
     "front-end/리액트/Build-your-own-react.md",
     "books/객체지향의-사실과-오해/README.md",
-    "books/객체지향의-사실과-오해/7.함께모으기.md",
-    "books/객체지향의-사실과-오해/5.책임과 메시지.md"
+    "books/객체지향의-사실과-오해/7.함께모으기.md"
   ]
 }
