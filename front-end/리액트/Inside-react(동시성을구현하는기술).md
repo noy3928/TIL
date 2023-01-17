@@ -51,6 +51,9 @@
 ![[스크린샷 2023-01-16 오후 9.50.09.png]]
 
 
+
+
+
 ### Blocking Rendering 문제
 
 - 블로킹 렌더링 : 한번 렌더링에 돌입하고 나서 멈출 수 없는 현상 
@@ -58,10 +61,14 @@
 	- https://ajaxlab.github.io/deview2021/blocking/
 	- 화면이 오래 블록되면 사용자 경험이 악화된다. 
 
+
 ### 적당한 지연은 어떤가요?
 
 - 디바운스와 쓰로틀을 이용해서 적당한 지연을 구현해보기도 했지만, 모두 불안정한 사용자 경험을 유발했었다. 
 - 그래서 리액트 팀은 동시성 렌더링으로 이문제를 해결하조가 했다.
+
+
+
 
 
 ### 동시성 렌더링으로 해결해 보자
@@ -159,9 +166,10 @@ https://ajaxlab.github.io/deview2021/concurrent/
 	- Load Transition , Refresh Transition 
 
 
+
 ### Streaming SSR with Selective Hydration
 
-- 기존 SSR의 문제 : (아직 이 부분 이해가 안됨)
+- 기존 SSR의 문제 : 
 	- 어떤 것이라도 보여주기 위해 모든 data를 fetch 해야 함 
 	- 어떤 것이라도 hydrate 하기 전에 필요한 모든 것을 로드해야 함 
 	- 어떤 것이라도 상호작용하기 위해 모든 부분을 hydrate해야 함 
@@ -170,6 +178,7 @@ https://ajaxlab.github.io/deview2021/concurrent/
 		- 기존의 renderToString() 대신 pipeToNodeWritable() 사용 
 	- client : Selective Hydration 
 		- createRoot()와 용량이 크거나 처리가 느린 부분을 Suspense로 감싸기 
+
 - Case1 : 필요한 데이터를 모두 불러오기 전에 HTML 스트리밍하기 
 ```javascript 
 <Post/>
@@ -183,6 +192,8 @@ https://ajaxlab.github.io/deview2021/concurrent/
 	- 스트리밍을 시작한다는 것은 무슨 말일까?
 		- When we say "streaming" in the context of server-side rendering, it refers to the process of sending the rendered HTML to the client in chunks, rather than waiting for the entire HTML to be generated before sending it. This allows the browser to start displaying the content to the user as soon as it receives the first chunk of HTML, rather than having to wait for the entire HTML to be generated and sent from the server. This way, users can see some of the content of the page faster, making for a more seamless and responsive experience.
 	- HTML 스트림을 시작한다는 것은 무슨 말이지? 
+
+
 
 - Case2(선택적 하이드레이션) : React.lazy와 함께 모든 코드가 로드되기 전에 Hydrate 
 	- 서스펜스로 감싼 컴포넌트 이외의 부분이 먼저 렌더링되고, 먼저 하이드레이션 된다. 이것이 선택적 하이드레이션이다. 
@@ -211,6 +222,7 @@ const Comment = lazy(() => import("./Comments.js"));
 ![[스크린샷 2023-01-16 오후 10.52.33.png]]
 
 
+
 ### React 18의 Suspense 변화
 
 - 추가될 기능 :
@@ -218,6 +230,7 @@ const Comment = lazy(() => import("./Comments.js"));
 	- Built-in throttling : 스피너가 너무 자주 나타나지 않도록 조절  
 - 추가되지 않는 기능 : 
 	- 데이터 패칭과 관련된 전략은 x 
+
 
 ## 4. React 동시성의 기반 기술
 
