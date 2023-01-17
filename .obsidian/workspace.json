@@ -54,22 +54,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4f45d39c2a0ee4cc",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "eb86618d14d09f9b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ],
         "currentTab": 3
@@ -202,12 +186,12 @@
   },
   "active": "323ad6c40484f8d2",
   "lastOpenFiles": [
+    "README.md",
     "assets/스크린샷 2023-01-16 오후 9.49.57.png",
     "front-end/리액트/Inside-react(동시성을구현하는기술).md",
     "books/쏙쏙-들어오는-함수형-코딩/README.md",
     "books/쏙쏙-들어오는-함수형-코딩/3.액션과계산,데이터의-차이를-알기.md",
     "books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
-    "README.md",
     "front-end/리액트/Build-your-own-react.md",
     "books/객체지향의-사실과-오해/README.md",
     "books/객체지향의-사실과-오해/7.함께모으기.md",

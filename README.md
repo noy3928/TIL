@@ -22,14 +22,14 @@
 
 ## Computer Science
 
-[운영체제](https://github.com/noy3928/TIL/tree/main/computer-science/OperatingSystem)
-[네트워크](https://github.com/noy3928/TIL/tree/main/computer-science/Network)
+[운영체제](https://github.com/noy3928/TIL/tree/main/computer-science/OperatingSystem)  
+[네트워크](https://github.com/noy3928/TIL/tree/main/computer-science/Network) 
 
 <br>
 
 ## Books for Dev
 
-[Think Like A Programmer](https://github.com/noy3928/TIL/tree/main/books/ThinkLikeAProgrammer)  
+[Think Like A Programmer](https://github.com/noy3928/TIL/tree/main/books/ThinkLikeAProgrammer)
 [테스트 주도 개발](https://github.com/noy3928/TIL/tree/main/books/Test-DrivenDevelopment:ByExample)
 
 <br>
