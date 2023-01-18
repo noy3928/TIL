@@ -29,8 +29,9 @@
 
 ## Books for Dev
 
-[Think Like A Programmer](https://github.com/noy3928/TIL/tree/main/books/ThinkLikeAProgrammer)
-[테스트 주도 개발](https://github.com/noy3928/TIL/tree/main/books/Test-DrivenDevelopment:ByExample)
+[Think Like A Programmer](https://github.com/noy3928/TIL/tree/main/books/ThinkLikeAProgrammer)     
+[테스트 주도 개발](https://github.com/noy3928/TIL/tree/main/books/Test-DrivenDevelopment:ByExample)     
+[프로그래머, 열정을 말하다](https://github.com/noy3928/TIL/tree/main/books/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%2C%EC%97%B4%EC%A0%95%EC%9D%84%EB%A7%90%ED%95%98%EB%8B%A4)   
 
 <br>
 

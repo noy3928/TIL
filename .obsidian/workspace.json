@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md"
+                "file": "README.md"
               }
             }
           }
@@ -198,6 +198,7 @@
   },
   "active": "80b32282536d2f27",
   "lastOpenFiles": [
+    "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md",
     "front-end/리액트/Inside-react(동시성을구현하는기술).md",
     "daily-note/playwright-vs-cypress.md",
     "books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
@@ -206,7 +207,6 @@
     "README.md",
     "assets/스크린샷 2023-01-16 오후 9.49.57.png",
     "front-end/리액트/Build-your-own-react.md",
-    "books/객체지향의-사실과-오해/README.md",
-    "books/객체지향의-사실과-오해/7.함께모으기.md"
+    "books/객체지향의-사실과-오해/README.md"
   ]
 }
