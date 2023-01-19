@@ -48,4 +48,9 @@
 [FECONF 2021 : 컴포넌트, 다시생각하기 ](./Lecture/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%2C%EB%8B%A4%EC%8B%9C%EC%83%9D%EA%B0%81%ED%95%98%EA%B8%B0-%EC%9B%90%EC%A7%80%ED%98%81.md)   
 [DEVIEW 2021 : Inside React 동시성을 구현하는 기술](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/Inside-react(%EB%8F%99%EC%8B%9C%EC%84%B1%EC%9D%84%EA%B5%AC%ED%98%84%ED%95%98%EB%8A%94%EA%B8%B0%EC%88%A0).md)   
 
+<br>
+
+## Study 
+
+[쏙쏙 들어오는 함수형 코딩 - 스터디](https://github.com/noy3928/TIL/tree/main/study/%EC%8F%99%EC%8F%99%EB%93%A4%EC%96%B4%EC%98%A4%EB%8A%94%ED%95%A8%EC%88%98%ED%98%95%EC%BD%94%EB%94%A9)   
 
