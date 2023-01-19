@@ -273,3 +273,37 @@ function render(element, container) {
 마지막으로 해줄 부분은 element의 Props를 노드에게 할당해주는 것이다. children인지 아닌지를 확인하고, children이 아닌 props를 가진 경우에만 props들을 해당 node에 할당해준다.  
 
 
+## Step III: Concurrent Mode
+
+
+이제 우리는 리팩터링을 해볼 필요가 있다. 현재의 코드에서 문제가 되는 지점이 있다면, 바로 재귀적으로 렌더링 작업을 한다는 것이다. 재귀적으로 렌더링을 하는 것이 왜 문제가 되는 것일까? 이것이 문제가 되는 이유는 컴포넌트 트리에 대한 렌더링이 한번 시작되고 나면 그것을 멈출 수 없다는 것이 문제가 된다. 만약에 컴포넌트 트리가 거대하다면, 그만큼 메인 스레드는 블록될 것이다. 때문에 렌더링 작업이 진행되는 동안에 유저의 입력이 들어온다면, 유저의 입력에 대해서 즉각적으로 대응해줄 수 없게된다. 유저의 입력에 대해서 우선순위를 높일 수 없게 되는 것이다. 이것을 위해서 필요한 것이 필요한 순가에는 렌더링 작업을 멈출 수 있게 해주는 것이다. 
+
+그래서 우리는 작업을 나누어볼 것이다. 이렇게 작업을 나눈 이후에는 브라우저가 필요시에 렌더링 작업을 멈추도록 할 수 있게 될 것이다. 
+
+
+```javascript
+let nextUnitOfWork = null
+​
+function workLoop(deadline) {
+  let shouldYield = false
+  while (nextUnitOfWork && !shouldYield) {
+    nextUnitOfWork = performUnitOfWork(
+      nextUnitOfWork
+    )
+    shouldYield = deadline.timeRemaining() < 1
+  }
+  requestIdleCallback(workLoop)
+}
+​
+requestIdleCallback(workLoop)
+​
+function performUnitOfWork(nextUnitOfWork) {
+  // TODO
+}
+```
+
+
+requestIdleCallback을 setTimeout과 비슷한 api라고 생각할 수 있는데, 다른 지점이 있다. requestIdleCallback은 콜백으로 넘어온 동작을 수행하기 전에 브라우저의 메인 스레드가 idle time에 들어갔는지를 묻는다. 그리고 idle 타임이 존재할 때 해당 작업을 수행하는 방식으로 이루어진다. 사실 실제로는 리액트 팀은 더 이상 requestIdleCallback을 사용하지 않는다. scheduler 패키지를 이용하고 있는데, 개념상으로는 거의 똑같다고 생각하면 된다. 
+
+
+
