@@ -20,36 +20,24 @@
             }
           },
           {
+            "id": "38bd8292a68bc835",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b8c44f4f497f5de9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80b32282536d2f27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/3.액션과계산,데이터의-차이를-알기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3121d3a7efd4b83a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/3.액션과계산,데이터의-차이를-알기.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/4.액션에서-계산-빼내기.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md"
+                "file": "books/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md"
               }
             }
           }
@@ -208,17 +196,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3121d3a7efd4b83a",
+  "active": "38bd8292a68bc835",
   "lastOpenFiles": [
-    "books/쏙쏙-들어오는-함수형-코딩/4.액션에서 계산 빼내기.md",
     "books/쏙쏙-들어오는-함수형-코딩/3.액션과계산,데이터의-차이를-알기.md",
-    "README.md",
-    "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md",
-    "front-end/리액트/Inside-react(동시성을구현하는기술).md",
-    "daily-note/playwright-vs-cypress.md",
+    "books/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md",
     "books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
     "books/쏙쏙-들어오는-함수형-코딩/README.md",
-    "assets/스크린샷 2023-01-16 오후 9.49.57.png",
-    "front-end/리액트/Build-your-own-react.md"
+    "books/쏙쏙-들어오는-함수형-코딩/4.액션에서-계산-빼내기.md",
+    "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md",
+    "front-end/리액트/Inside-react(동시성을구현하는기술).md",
+    "README.md",
+    "daily-note/playwright-vs-cypress.md",
+    "assets/스크린샷 2023-01-16 오후 9.49.57.png"
   ]
 }
