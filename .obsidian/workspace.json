@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/프로그래머,열정을말하다/2.자신에게-투자하라.md",
+                "file": "books/프로그래머,열정을말하다/READMD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/프로그래머,열정을말하다/2.자신에게-투자하라.md",
+                "file": "books/프로그래머,열정을말하다/READMD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/프로그래머,열정을말하다/2.자신에게-투자하라.md"
+                "file": "books/프로그래머,열정을말하다/READMD.md"
               }
             }
           }
@@ -196,11 +196,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "27e669a0100fecfe",
+  "active": "d12c9354209d9c25",
   "lastOpenFiles": [
-    "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md",
     "books/프로그래머,열정을말하다/2.자신에게-투자하라.md",
     "books/프로그래머,열정을말하다/READMD.md",
+    "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md",
     "README.md",
     "study/쏙쏙들어오는함수형코딩/README.md",
     "study/쏙쏙들어오는함수형코딩/1주차.md",
