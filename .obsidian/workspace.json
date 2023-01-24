@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "79b3f30c5690e8ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "front-end/리액트/useSyncExternalStore.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d12c9354209d9c25",
             "type": "leaf",
             "state": {
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/프로그래머,열정을말하다/3.실행.md",
+                "file": "front-end/리액트/useSyncExternalStore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/프로그래머,열정을말하다/3.실행.md",
+                "file": "front-end/리액트/useSyncExternalStore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/프로그래머,열정을말하다/3.실행.md"
+                "file": "front-end/리액트/useSyncExternalStore.md"
               }
             }
           }
@@ -196,8 +208,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d8fa68231e067242",
+  "active": "79b3f30c5690e8ed",
   "lastOpenFiles": [
+    "books/프로그래머,열정을말하다/3.실행.md",
     "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md",
     "books/프로그래머,열정을말하다/2.자신에게-투자하라.md",
     "books/쏙쏙-들어오는-함수형-코딩/README.md",
@@ -206,7 +219,6 @@
     "study/쏙쏙들어오는함수형코딩/README.md",
     "study/쏙쏙들어오는함수형코딩/1주차.md",
     "books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
-    "books/쏙쏙-들어오는-함수형-코딩/4.액션에서-계산-빼내기.md",
-    "study/README.md"
+    "books/쏙쏙-들어오는-함수형-코딩/4.액션에서-계산-빼내기.md"
   ]
 }
