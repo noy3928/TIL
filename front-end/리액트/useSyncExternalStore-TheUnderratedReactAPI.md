@@ -55,7 +55,11 @@ function App() {
 이 예제를 보면 link를 클릭할 때, hash 값이 변경된다. 그러면 useLocation이 가지고 있는 속성 중에서 hash만 변경되는 것임이 분명하다. 그럼에도 불구하고, CurrentPathname 컴포넌트도 다시 렌더링이 된다. 
 
 
-## useSyncExternalStore 사용예시 
+## useSyncExternalStore 란 무엇인가? 
+
+-   `subscribe`: function to register a callback that is called whenever the store changes.
+-   `getSnapshot`: function that returns the current value of the store.
+-   `getServerSnapshot`: function that returns the snapshot used during server rendering.
 
 ```javascript 
 function subscribe(callback) {  
@@ -91,4 +95,82 @@ function ChatIndicator() {
 -  [`history.location`](https://github.com/remix-run/history/blob/main/docs/api-reference.md#historylocation) 를 통해서 현재의 위치의 스냅샷에 접근해야한다. 
 
 
-useHistorySelector를 상댖
+useHistorySelector를 상대적으로 간단하게 한번 구현해보자. 
+
+```javascript
+function useHistorySelector(selector) {
+  const history = useHistory();
+  return useSyncExternalStore(history.listen, () =>
+    selector(history)
+  );
+}
+```
+
+그리고 이것을 우리의 앱에 사용해보자. 
+
+```javascript
+function CurrentPathname() {
+  const pathname = useHistorySelector(
+    (history) => history.location.pathname
+  );
+  return <div>{pathname}</div>;
+}
+
+function CurrentHash() {
+  const hash = useHistorySelector(
+    (history) => history.location.hash
+  );
+  return <div>{hash}</div>;
+}
+```
+
+이렇게 바꾸고 나면 더 이상 hash 값에 변경이 없는 컴포넌트에 대해서는 렌더링이 일어나지 않게 된다. 
+
+
+
+## 또 다른 예시 : `scrollY`
+
+우리가 외부에서 구독할 수 있는 수없이 많은 데이터 저장소가 존재한다. 때문에 당신만의 selector 시스템을 구축해보자. 
+
+이번에는 페이지의 scrollY의 포지션 정보를 select 해오는 예제를 만들어보자. 
+
+
+```javascript 
+// A memoized constant fn prevents unsubscribe/resubscribe
+// In practice it is not a big deal
+function subscribe(onStoreChange) {
+  global.window?.addEventListener("scroll", onStoreChange);
+  return () =>
+    global.window?.removeEventListener(
+      "scroll",
+      onStoreChange
+    );
+}
+
+function useScrollY(selector = (id) => id) {
+  return useSyncExternalStore(
+    subscribe,
+    () => selector(global.window?.scrollY),
+    () => undefined
+  );
+}
+```
+
+이제 이것을 사용해보자 
+
+```javascript
+function ScrollY() {
+  const scrollY = useScrollY();
+  return <div>{scrollY}</div>;
+}
+
+function ScrollYFloored() {
+  const to = 100;
+  const scrollYFloored = useScrollY((y) =>
+    y ? Math.floor(y / to) * to : undefined
+  );
+  return <div>{scrollYFloored}</div>;
+}
+```
+
+

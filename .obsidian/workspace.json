@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "front-end/리액트/useSyncExternalStore-TheUnderratedReactAPI.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "front-end/리액트/useSyncExternalStore-TheUnderratedReactAPI.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "front-end/리액트/useSyncExternalStore-TheUnderratedReactAPI.md"
+                "file": "README.md"
               }
             }
           }
@@ -232,12 +232,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5894db87aa530acb",
+  "active": "777a767a4470b895",
   "lastOpenFiles": [
-    "front-end/리액트/Inside-react(동시성을구현하는기술).md",
-    "front-end/리액트/react18-서버컴포넌트준비하기.md",
     "front-end/리액트/useSyncExternalStore-TheUnderratedReactAPI.md",
     "README.md",
+    "front-end/리액트/Inside-react(동시성을구현하는기술).md",
+    "front-end/리액트/react18-서버컴포넌트준비하기.md",
     "front-end/리액트/useSyncExternalStore.md",
     "front-end/리액트/Build-your-own-react.md",
     "books/프로그래머,열정을말하다/3.실행.md",
