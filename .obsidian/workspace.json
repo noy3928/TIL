@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "777a767a4470b895",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "front-end/리액트/react18-서버컴포넌트준비하기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d12c9354209d9c25",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -147,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "front-end/리액트/useSyncExternalStore.md",
+                "file": "front-end/리액트/react18-서버컴포넌트준비하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "front-end/리액트/useSyncExternalStore.md",
+                "file": "front-end/리액트/react18-서버컴포넌트준비하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "front-end/리액트/useSyncExternalStore.md"
+                "file": "front-end/리액트/react18-서버컴포넌트준비하기.md"
               }
             }
           }
@@ -209,17 +220,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "79b3f30c5690e8ed",
+  "active": "777a767a4470b895",
   "lastOpenFiles": [
+    "front-end/리액트/useSyncExternalStore.md",
+    "front-end/리액트/react18-서버컴포넌트준비하기.md",
+    "front-end/리액트/Inside-react(동시성을구현하는기술).md",
+    "front-end/리액트/Build-your-own-react.md",
     "books/프로그래머,열정을말하다/3.실행.md",
     "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md",
     "books/프로그래머,열정을말하다/2.자신에게-투자하라.md",
     "books/쏙쏙-들어오는-함수형-코딩/README.md",
     "books/프로그래머,열정을말하다/READMD.md",
-    "README.md",
-    "study/쏙쏙들어오는함수형코딩/README.md",
-    "study/쏙쏙들어오는함수형코딩/1주차.md",
-    "books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
-    "books/쏙쏙-들어오는-함수형-코딩/4.액션에서-계산-빼내기.md"
+    "README.md"
   ]
 }
