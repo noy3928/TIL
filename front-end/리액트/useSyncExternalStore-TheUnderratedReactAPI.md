@@ -61,6 +61,8 @@ function App() {
 -   `getSnapshot`: function that returns the current value of the store.
 -   `getServerSnapshot`: function that returns the snapshot used during server rendering.
 
+
+
 ```javascript 
 function subscribe(callback) {  
 	window.addEventListener("online", callback);  
