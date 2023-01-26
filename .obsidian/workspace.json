@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/2주차.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02a506d550d0642c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,13 +90,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -100,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/2주차.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/2주차.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/2주차.md"
+                "file": "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md"
               }
             }
           }
@@ -162,17 +172,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8ce9557d272af67e",
+  "active": "02a506d550d0642c",
   "lastOpenFiles": [
-    "study/쏙쏙들어오는함수형코딩/1주차.md",
+    "README.md",
+    "().md",
     "study/쏙쏙들어오는함수형코딩/2주차.md",
+    "front-end/리액트/Guideline-from-the-70's-on-how-to-split-your-React-components.md",
+    "front-end/리액트/Build-your-own-react.md",
+    "study/쏙쏙들어오는함수형코딩/1주차.md",
     "daily-note/토스슬래시21-테스트커버리지100%.md",
     "study/쏙쏙들어오는함수형코딩/README.md",
-    "README.md",
     "books/프로그래머,열정을말하다/3.실행.md",
-    "books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
-    "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md",
-    "front-end/리액트/react18-서버컴포넌트준비하기.md",
-    "books/쏙쏙-들어오는-함수형-코딩/README.md"
+    "books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md"
   ]
 }
