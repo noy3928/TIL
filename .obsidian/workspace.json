@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/6.변경-가능한-데이터구조를-가진-언어에서-불변성유지하기.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/6.변경-가능한-데이터구조를-가진-언어에서-불변성유지하기.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/6.변경-가능한-데이터구조를-가진-언어에서-불변성유지하기.md"
+                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md"
               }
             }
           }
@@ -184,8 +184,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3e6256cf50ca65fb",
+  "active": "02a506d550d0642c",
   "lastOpenFiles": [
+    "books/쏙쏙-들어오는-함수형-코딩/6.변경-가능한-데이터구조를-가진-언어에서-불변성유지하기.md",
     "books/쏙쏙-들어오는-함수형-코딩/README.md",
     "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
     "README.md",
@@ -194,7 +195,6 @@
     "front-end/리액트/Guideline-from-the-70's-on-how-to-split-your-React-components.md",
     "front-end/리액트/Build-your-own-react.md",
     "study/쏙쏙들어오는함수형코딩/1주차.md",
-    "daily-note/토스슬래시21-테스트커버리지100%.md",
-    "study/쏙쏙들어오는함수형코딩/README.md"
+    "daily-note/토스슬래시21-테스트커버리지100%.md"
   ]
 }
