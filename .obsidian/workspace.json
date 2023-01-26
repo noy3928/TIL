@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3e6256cf50ca65fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/쏙쏙-들어오는-함수형-코딩/6.변경-가능한-데이터구조를-가진-언어에서-불변성유지하기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/6.변경-가능한-데이터구조를-가진-언어에서-불변성유지하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/6.변경-가능한-데이터구조를-가진-언어에서-불변성유지하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md"
+                "file": "books/쏙쏙-들어오는-함수형-코딩/6.변경-가능한-데이터구조를-가진-언어에서-불변성유지하기.md"
               }
             }
           }
@@ -172,8 +184,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "02a506d550d0642c",
+  "active": "3e6256cf50ca65fb",
   "lastOpenFiles": [
+    "books/쏙쏙-들어오는-함수형-코딩/README.md",
     "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
     "README.md",
     "().md",
@@ -182,7 +195,6 @@
     "front-end/리액트/Build-your-own-react.md",
     "study/쏙쏙들어오는함수형코딩/1주차.md",
     "daily-note/토스슬래시21-테스트커버리지100%.md",
-    "study/쏙쏙들어오는함수형코딩/README.md",
-    "books/프로그래머,열정을말하다/3.실행.md"
+    "study/쏙쏙들어오는함수형코딩/README.md"
   ]
 }
