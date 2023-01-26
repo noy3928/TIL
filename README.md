@@ -41,7 +41,8 @@
 [build your own react](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/Build-your-own-react.md)
 [react18 : 서버 컴포넌트 준비하기](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/react18-%EC%84%9C%EB%B2%84%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%A4%80%EB%B9%84%ED%95%98%EA%B8%B0.md)   
 [useSyncExternalStore - The underrated React API](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api#link1)    
-[Guideline from the 70's on how to split your React components]()
+[Guideline from the 70's on how to split your React components](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/Guideline-from-the-70's-on-how-to-split-your-React-components.md)  
+
 
 
 <br>
@@ -50,7 +51,7 @@
 
 [카카오 2022 if : Sentry를 이용한 에러 추적기, React의 선언적 에러 처리](https://github.com/noy3928/TIL/blob/main/daily-note/Sentry%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%97%90%EB%9F%AC%20%EC%B6%94%EC%A0%81%EA%B8%B0%2C%20React%EC%9D%98%20%EC%84%A0%EC%96%B8%EC%A0%81%20%EC%97%90%EB%9F%AC%20%EC%B2%98%EB%A6%AC.md)  
 [FECONF 2021 : 컴포넌트, 다시생각하기 ](./Lecture/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%2C%EB%8B%A4%EC%8B%9C%EC%83%9D%EA%B0%81%ED%95%98%EA%B8%B0-%EC%9B%90%EC%A7%80%ED%98%81.md)   
-[DEVIEW 2021 : Inside React 동시성을 구현하는 기술](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/Inside-react(%EB%8F%99%EC%8B%9C%EC%84%B1%EC%9D%84%EA%B5%AC%ED%98%84%ED%95%98%EB%8A%94%EA%B8%B0%EC%88%A0).md)   
+[DEVIEW. 2021 : Inside React 동시성을 구현하는 기술](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/Inside-react(%EB%8F%99%EC%8B%9C%EC%84%B1%EC%9D%84%EA%B5%AC%ED%98%84%ED%95%98%EB%8A%94%EA%B8%B0%EC%88%A0).md)   
 [토스SLASH 21 : 테스트 커버리지 100%](https://github.com/noy3928/TIL/blob/main/daily-note/%ED%86%A0%EC%8A%A4%EC%8A%AC%EB%9E%98%EC%8B%9C21-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BB%A4%EB%B2%84%EB%A6%AC%EC%A7%80100%25.md)  
 <br>
 

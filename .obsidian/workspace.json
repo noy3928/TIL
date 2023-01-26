@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md"
+                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md"
               }
             }
           }
@@ -174,6 +174,7 @@
   },
   "active": "02a506d550d0642c",
   "lastOpenFiles": [
+    "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
     "README.md",
     "().md",
     "study/쏙쏙들어오는함수형코딩/2주차.md",
@@ -182,7 +183,6 @@
     "study/쏙쏙들어오는함수형코딩/1주차.md",
     "daily-note/토스슬래시21-테스트커버리지100%.md",
     "study/쏙쏙들어오는함수형코딩/README.md",
-    "books/프로그래머,열정을말하다/3.실행.md",
-    "books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md"
+    "books/프로그래머,열정을말하다/3.실행.md"
   ]
 }
