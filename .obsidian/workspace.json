@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "a414435a12d998c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "front-end/리액트/react-render-props-in-typescript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "436bdbdc23d74a1d",
             "type": "leaf",
             "state": {
@@ -67,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2주차",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,8 +126,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/2주차.md",
+                "file": "front-end/리액트/react-render-props-in-typescript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/2주차.md",
+                "file": "front-end/리액트/react-render-props-in-typescript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/2주차.md"
+                "file": "front-end/리액트/react-render-props-in-typescript.md"
               }
             }
           }
@@ -196,17 +208,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "41b0a37a26228e80",
+  "active": "a414435a12d998c2",
   "lastOpenFiles": [
-    "lecture/오브젝트-코드스피츠/1회차.md",
+    "front-end/리액트/useSyncExternalStore-TheUnderratedReactAPI.md",
+    "front-end/리액트/Guideline-from-the-70's-on-how-to-split-your-React-components.md",
+    "front-end/리액트/react-render-props-in-typescript.md",
     "study/쏙쏙들어오는함수형코딩/2주차.md",
+    "lecture/오브젝트-코드스피츠/1회차.md",
     "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
     "books/쏙쏙-들어오는-함수형-코딩/README.md",
     "study/쏙쏙들어오는함수형코딩/1주차.md",
     "books/쏙쏙-들어오는-함수형-코딩/6.변경-가능한-데이터구조를-가진-언어에서-불변성유지하기.md",
-    "books/쏙쏙-들어오는-함수형-코딩/7.신뢰할-수-없는-코드를-쓰면서-불변성-지키기.md",
-    "daily-note/토스슬래시21-테스트커버리지100%.md",
-    "README.md",
-    "().md"
+    "books/쏙쏙-들어오는-함수형-코딩/7.신뢰할-수-없는-코드를-쓰면서-불변성-지키기.md"
   ]
 }
