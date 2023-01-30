@@ -42,7 +42,7 @@
 [react18 : 서버 컴포넌트 준비하기](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/react18-%EC%84%9C%EB%B2%84%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%A4%80%EB%B9%84%ED%95%98%EA%B8%B0.md)   
 [useSyncExternalStore - The underrated React API](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api#link1)    
 [Guideline from the 70's on how to split your React components](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/Guideline-from-the-70's-on-how-to-split-your-React-components.md)  
-
+[5 Advanced React Patterns]()
 
 
 <br>

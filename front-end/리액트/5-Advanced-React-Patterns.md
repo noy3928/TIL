@@ -51,5 +51,4 @@ export { Usage };
 ### 단점 :
 
 - 유연성이 너무 높아진다 : 이 정도 수준의 유연성은 개발자가 제대로 사용하지 않으면, 예상치 못하게 UI를 해칠수도 있다. 상황에 따라서는 이런 유연성이 필요없을 수도 있다. 
-- 무거워진 JSX : 이 패턴은 JSX를 반환하는 줄이 점점 길어진다. 특히 linter를 이용하
--   Heavier JSX: This pattern will increase the number of JSX rows, especially if you use a linter (`EsLint`**)** or a code formatted (`Prettier`).  It doesn’t seem like a big deal at the scale of a single component, but could definitely make a huge difference when you look at the big picture.
+- 무거워진 JSX : 이 패턴은 JSX를 반환하는 줄이 점점 길어진다. 보기 안좋을 수 있다. (근데, 내 눈엔 이뻐보임.)
