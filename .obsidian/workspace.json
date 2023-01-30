@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "front-end/리액트/react-render-props-in-typescript.md",
+                "file": "books/프로그래머,열정을말하다/3.실행.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "front-end/리액트/react-render-props-in-typescript.md",
+                "file": "books/프로그래머,열정을말하다/3.실행.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "front-end/리액트/react-render-props-in-typescript.md",
+                "file": "books/프로그래머,열정을말하다/3.실행.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "front-end/리액트/react-render-props-in-typescript.md"
+                "file": "books/프로그래머,열정을말하다/3.실행.md"
               }
             }
           }
@@ -210,9 +210,9 @@
   },
   "active": "a414435a12d998c2",
   "lastOpenFiles": [
+    "front-end/리액트/react-render-props-in-typescript.md",
     "front-end/리액트/useSyncExternalStore-TheUnderratedReactAPI.md",
     "front-end/리액트/Guideline-from-the-70's-on-how-to-split-your-React-components.md",
-    "front-end/리액트/react-render-props-in-typescript.md",
     "study/쏙쏙들어오는함수형코딩/2주차.md",
     "lecture/오브젝트-코드스피츠/1회차.md",
     "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
