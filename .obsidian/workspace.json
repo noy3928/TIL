@@ -8,19 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "41b0a37a26228e80",
+            "id": "a414435a12d998c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/2주차.md",
+                "file": "books/프로그래머,열정을말하다/READMD.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a414435a12d998c2",
+            "id": "4834ca5cd94979af",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,57 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "436bdbdc23d74a1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "050fb1ceb845914b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d88c5c9de80d261",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/6.변경-가능한-데이터구조를-가진-언어에서-불변성유지하기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89097782557bfd74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/7.신뢰할-수-없는-코드를-쓰면서-불변성-지키기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/프로그래머,열정을말하다/3.실행.md",
+                "file": "books/프로그래머,열정을말하다/READMD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/프로그래머,열정을말하다/3.실행.md",
+                "file": "books/프로그래머,열정을말하다/READMD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/프로그래머,열정을말하다/3.실행.md"
+                "file": "books/프로그래머,열정을말하다/READMD.md"
               }
             }
           }
@@ -210,15 +161,15 @@
   },
   "active": "a414435a12d998c2",
   "lastOpenFiles": [
+    "books/프로그래머,열정을말하다/3.실행.md",
+    "books/프로그래머,열정을말하다/READMD.md",
+    "study/쏙쏙들어오는함수형코딩/2주차.md",
+    "books/쏙쏙-들어오는-함수형-코딩/7.신뢰할-수-없는-코드를-쓰면서-불변성-지키기.md",
+    "books/쏙쏙-들어오는-함수형-코딩/6.변경-가능한-데이터구조를-가진-언어에서-불변성유지하기.md",
+    "books/쏙쏙-들어오는-함수형-코딩/README.md",
+    "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
     "front-end/리액트/react-render-props-in-typescript.md",
     "front-end/리액트/useSyncExternalStore-TheUnderratedReactAPI.md",
-    "front-end/리액트/Guideline-from-the-70's-on-how-to-split-your-React-components.md",
-    "study/쏙쏙들어오는함수형코딩/2주차.md",
-    "lecture/오브젝트-코드스피츠/1회차.md",
-    "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
-    "books/쏙쏙-들어오는-함수형-코딩/README.md",
-    "study/쏙쏙들어오는함수형코딩/1주차.md",
-    "books/쏙쏙-들어오는-함수형-코딩/6.변경-가능한-데이터구조를-가진-언어에서-불변성유지하기.md",
-    "books/쏙쏙-들어오는-함수형-코딩/7.신뢰할-수-없는-코드를-쓰면서-불변성-지키기.md"
+    "front-end/리액트/Guideline-from-the-70's-on-how-to-split-your-React-components.md"
   ]
 }
