@@ -133,4 +133,168 @@ function Fahrenheit({ value = 0 }) {
 }
 ```
 
-여기서 문제는 Input에 들어온 값을 Kelvin과 Fahrenheit에 공유해야한다는 것이다. 그런데 지금은 글러
+여기서 문제는 Input에 들어온 값을 Kelvin과 Fahrenheit에 공유해야한다는 것이다. 그런데 지금은 그럴 수가 없다. 어떻게해야할까? 
+
+### List State
+
+```javascript
+function Input({ value, handleChange }) {
+  return <input value={value} onChange={e => handleChange(e.target.value)} />;
+}
+
+export default function App() {
+  const [value, setValue] = useState("");
+
+  return (
+    <div className="App">
+      <h1>☃️ Temperature Converter 🌞</h1>
+      <Input value={value} handleChange={setValue} />
+      <Kelvin value={value} />
+      <Fahrenheit value={value} />
+    </div>
+  );
+}
+```
+
+값을 승급하고 그 값을 공유하도록 코드를 수정했다. 하지만 이렇게 할 때 문제가 될 수 있는 지점은 여러 자식이 있을 때 이런 방식으로 구현하는 것이 어려울 수 있고, 불필요하게 자식컴포넌트들 사이에 리렌더링을 일어나는 경우가 발생할 수도 있다. 그러면 당연히 성능에도 문제가 생길 것이다. 
+
+
+대신에 Render Prop을 사용해서 구현해보자.
+```js
+function Input(props) {
+  const [value, setValue] = useState("");
+
+  return (
+    <>
+      <input
+        type="text"
+        value={value}
+        onChange={e => setValue(e.target.value)}
+        placeholder="Temp in °C"
+      />
+      {props.render(value)}
+    </>
+  );
+}
+
+export default function App() {
+  return (
+    <div className="App">
+      <h1>☃️ Temperature Converter 🌞</h1>
+      <Input
+        render={value => (
+          <>
+            <Kelvin value={value} />
+            <Fahrenheit value={value} />
+          </>
+        )}
+      />
+    </div>
+  );
+}
+```
+
+
+### Children으로 사용해보기 
+
+우리는 함수를 children으로 내려줄 수 있다. 
+
+```js
+export default function App() {
+  return (
+    <div className="App">
+      <h1>☃️ Temperature Converter 🌞</h1>
+      <Input>
+        {value => (
+          <>
+            <Kelvin value={value} />
+            <Fahrenheit value={value} />
+          </>
+        )}
+      </Input>
+    </div>
+  );
+}
+```
+
+그리고 이렇게 사용하면 된다 
+```js
+function Input(props) {
+  const [value, setValue] = useState("");
+
+  return (
+    <>
+      <input
+        type="text"
+        value={value}
+        onChange={e => setValue(e.target.value)}
+        placeholder="Temp in °C"
+      />
+      {props.children(value)}
+    </>
+  );
+}
+```
+
+
+## Hook이랑 같이 사용하기 
+
+
+이것은 훅으로도 사용할 수 있다.
+
+```js
+import React from "react";
+import "./styles.css";
+
+import { Mutation } from "react-apollo";
+import { ADD_MESSAGE } from "./resolvers";
+
+export default class Input extends React.Component {
+  constructor() {
+    super();
+    this.state = { message: "" };
+  }
+
+  handleChange = (e) => {
+    this.setState({ message: e.target.value });
+  };
+
+  render() {
+    return (
+      <Mutation
+        mutation={ADD_MESSAGE}
+        variables={{ message: this.state.message }}
+        onCompleted={() =>
+          console.log(`Added with render prop: ${this.state.message} `)
+        }
+      >
+        {(addMessage) => (
+          <div className="input-row">
+            <input
+              onChange={this.handleChange}
+              type="text"
+              placeholder="Type something..."
+            />
+            <button onClick={addMessage}>Add</button>
+          </div>
+        )}
+      </Mutation>
+    );
+  }
+}
+```
+
+
+장점 :
+
+1.  여러 컴포넌트 간의 논리와 데이터 공유 용이.
+2.  render 또는 children prop을 통한 높은 재사용성.
+3.  Higher Order Components (HOC)와 비교했을 때 이름 충돌 방지.
+4.  HOC의 암시적 prop 문제를 해결하는 명시적인 prop 전달.
+5.  앱 논리와 컴포넌트 렌더링의 분리.
+
+단점:
+
+1.  React Hooks에 의해 대부분 대체됨.
+2.  라이프사이클 메서드를 추가할 수 없음.
+3.  데이터를 변경할 필요가 없는 컴포넌트에만 제한됨.
