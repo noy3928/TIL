@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "front-end/리액트/5-Advanced-React-Patterns.md",
+                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "동시성",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +126,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "front-end/리액트/5-Advanced-React-Patterns.md",
+                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "front-end/리액트/5-Advanced-React-Patterns.md",
+                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "front-end/리액트/5-Advanced-React-Patterns.md"
+                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md"
               }
             }
           }
@@ -210,9 +211,9 @@
   },
   "active": "38fabe157d3c8ad4",
   "lastOpenFiles": [
+    "front-end/리액트/5-Advanced-React-Patterns.md",
     "front-end/리액트/Render-Props-Pattern(patterns.dev).md",
     "front-end/리액트/react-render-props-in-typescript.md",
-    "front-end/리액트/5-Advanced-React-Patterns.md",
     "front-end/리액트/Build-your-own-react.md",
     "README.md",
     "books/프로그래머,열정을말하다/READMD.md",
