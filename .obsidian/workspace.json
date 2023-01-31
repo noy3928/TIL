@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "front-end/리액트/Render-Props-Pattern(patterns.dev).md",
+                "file": "front-end/리액트/5-Advanced-React-Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "front-end/리액트/Render-Props-Pattern(patterns.dev).md",
+                "file": "front-end/리액트/5-Advanced-React-Patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "front-end/리액트/Render-Props-Pattern(patterns.dev).md"
+                "file": "front-end/리액트/5-Advanced-React-Patterns.md"
               }
             }
           }
@@ -208,12 +208,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5ad503a9312d986e",
+  "active": "38fabe157d3c8ad4",
   "lastOpenFiles": [
+    "front-end/리액트/Render-Props-Pattern(patterns.dev).md",
     "front-end/리액트/react-render-props-in-typescript.md",
     "front-end/리액트/5-Advanced-React-Patterns.md",
     "front-end/리액트/Build-your-own-react.md",
-    "front-end/리액트/Render-Props-Pattern(patterns.dev).md",
     "README.md",
     "books/프로그래머,열정을말하다/READMD.md",
     "books/프로그래머,열정을말하다/3.실행.md",
