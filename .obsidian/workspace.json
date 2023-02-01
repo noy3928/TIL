@@ -4,71 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5d1532a90d5d49c1",
+        "id": "5a6d810784aef997",
         "type": "tabs",
         "children": [
           {
-            "id": "a414435a12d998c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/프로그래머,열정을말하다/READMD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7937c35526f17cac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38fabe157d3c8ad4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ad503a9312d986e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "front-end/리액트/Render-Props-Pattern(patterns.dev).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19ab0847abcd7c79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "front-end/리액트/Build-your-own-react.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4834ca5cd94979af",
+            "id": "86b6a1e70802a5fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "58ffba092b5ac5b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md",
+                "file": "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md",
+                "file": "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "front-end/리액트/Inside-react(동시성을구현하는기술).md"
+                "file": "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md"
               }
             }
           }
@@ -209,17 +160,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "38fabe157d3c8ad4",
+  "active": "58ffba092b5ac5b8",
   "lastOpenFiles": [
-    "front-end/리액트/5-Advanced-React-Patterns.md",
-    "front-end/리액트/Render-Props-Pattern(patterns.dev).md",
-    "front-end/리액트/react-render-props-in-typescript.md",
-    "front-end/리액트/Build-your-own-react.md",
-    "README.md",
-    "books/프로그래머,열정을말하다/READMD.md",
     "books/프로그래머,열정을말하다/3.실행.md",
+    "front-end/리액트/Build-your-own-react.md",
+    "front-end/리액트/Render-Props-Pattern(patterns.dev).md",
+    "books/프로그래머,열정을말하다/READMD.md",
+    "README.md",
+    "front-end/리액트/Inside-react(동시성을구현하는기술).md",
+    "front-end/리액트/5-Advanced-React-Patterns.md",
+    "front-end/리액트/react-render-props-in-typescript.md",
     "study/쏙쏙들어오는함수형코딩/2주차.md",
-    "books/쏙쏙-들어오는-함수형-코딩/7.신뢰할-수-없는-코드를-쓰면서-불변성-지키기.md",
-    "books/쏙쏙-들어오는-함수형-코딩/6.변경-가능한-데이터구조를-가진-언어에서-불변성유지하기.md"
+    "books/쏙쏙-들어오는-함수형-코딩/7.신뢰할-수-없는-코드를-쓰면서-불변성-지키기.md"
   ]
 }
