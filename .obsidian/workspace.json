@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5a6d810784aef997",
+        "id": "6ce50ea733054b8f",
         "type": "tabs",
         "children": [
           {
-            "id": "86b6a1e70802a5fc",
+            "id": "25ca2438d44c3aa4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/프로그래머,열정을말하다/3.실행.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "58ffba092b5ac5b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7f071ae444e8621",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/프로그래머,열정을말하다/READMD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5719234168eadd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/프로그래머,열정을말하다/5.자신의-강점을-유지보수하라.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/프로그래머,열정을말하다/5.자신의-강점을-유지보수하라.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/프로그래머,열정을말하다/5.자신의-강점을-유지보수하라.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "books/프로그래머,열정을말하다/5.자신의-강점을-유지보수하라.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -184,17 +139,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e5719234168eadd7",
+  "active": "25ca2438d44c3aa4",
   "lastOpenFiles": [
-    "books/프로그래머,열정을말하다/READMD.md",
-    "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md",
     "books/프로그래머,열정을말하다/3.실행.md",
+    "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md",
+    "books/프로그래머,열정을말하다/READMD.md",
+    "books/프로그래머,열정을말하다/5.자신의-강점을-유지보수하라.md",
     "front-end/리액트/Build-your-own-react.md",
     "front-end/리액트/Render-Props-Pattern(patterns.dev).md",
     "README.md",
     "front-end/리액트/Inside-react(동시성을구현하는기술).md",
     "front-end/리액트/5-Advanced-React-Patterns.md",
-    "front-end/리액트/react-render-props-in-typescript.md",
-    "study/쏙쏙들어오는함수형코딩/2주차.md"
+    "front-end/리액트/react-render-props-in-typescript.md"
   ]
 }
