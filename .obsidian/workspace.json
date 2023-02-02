@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
+                "file": "study/쏙쏙들어오는함수형코딩/3주차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6f918d6035ce325",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/쏙쏙들어오는함수형코딩/3주차.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
+                "file": "study/쏙쏙들어오는함수형코딩/3주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
+                "file": "study/쏙쏙들어오는함수형코딩/3주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md"
+                "file": "study/쏙쏙들어오는함수형코딩/3주차.md"
               }
             }
           }
@@ -198,15 +210,15 @@
   },
   "active": "b07f7a7532d8ba91",
   "lastOpenFiles": [
-    "books/쏙쏙-들어오는-함수형-코딩/README.md",
-    "books/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1).md",
     "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md",
+    "books/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1).md",
+    "study/쏙쏙들어오는함수형코딩/3주차.md",
+    "study/쏙쏙들어오는함수형코딩/2주차.md",
+    "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
+    "books/쏙쏙-들어오는-함수형-코딩/README.md",
     "assets/스크린샷 2023-01-26 오전 10.21.28.png",
     "assets/스크린샷 2023-01-26 오전 10.21.14.png",
     "books/프로그래머,열정을말하다/3.실행.md",
-    "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md",
-    "books/프로그래머,열정을말하다/READMD.md",
-    "books/프로그래머,열정을말하다/5.자신의-강점을-유지보수하라.md",
-    "front-end/리액트/Build-your-own-react.md"
+    "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md"
   ]
 }
