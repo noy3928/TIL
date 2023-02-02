@@ -25,6 +25,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b07f7a7532d8ba91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "91784f04097c37f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "books/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1).md",
                 "mode": "source",
                 "source": false
@@ -44,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1).md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1).md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1).md"
+                "file": "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md"
               }
             }
           }
@@ -172,9 +196,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c7d4edb313283475",
+  "active": "b07f7a7532d8ba91",
   "lastOpenFiles": [
     "books/쏙쏙-들어오는-함수형-코딩/README.md",
+    "books/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1).md",
     "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md",
     "assets/스크린샷 2023-01-26 오전 10.21.28.png",
     "assets/스크린샷 2023-01-26 오전 10.21.14.png",
@@ -182,7 +207,6 @@
     "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md",
     "books/프로그래머,열정을말하다/READMD.md",
     "books/프로그래머,열정을말하다/5.자신의-강점을-유지보수하라.md",
-    "front-end/리액트/Build-your-own-react.md",
-    "front-end/리액트/Render-Props-Pattern(patterns.dev).md"
+    "front-end/리액트/Build-your-own-react.md"
   ]
 }
