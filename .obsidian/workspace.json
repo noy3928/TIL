@@ -4,83 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6ce50ea733054b8f",
+        "id": "4f4aa5191eb896f0",
         "type": "tabs",
         "children": [
           {
-            "id": "25ca2438d44c3aa4",
+            "id": "c94a15d6451ef495",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7d4edb313283475",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b07f7a7532d8ba91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/3주차.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6f918d6035ce325",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/3주차.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91784f04097c37f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9dff60df5a29ff77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/3주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/3주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/3주차.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -208,14 +139,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b07f7a7532d8ba91",
+  "active": "c94a15d6451ef495",
   "lastOpenFiles": [
     "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md",
     "books/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1).md",
     "study/쏙쏙들어오는함수형코딩/3주차.md",
+    "books/쏙쏙-들어오는-함수형-코딩/README.md",
     "study/쏙쏙들어오는함수형코딩/2주차.md",
     "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
-    "books/쏙쏙-들어오는-함수형-코딩/README.md",
     "assets/스크린샷 2023-01-26 오전 10.21.28.png",
     "assets/스크린샷 2023-01-26 오전 10.21.14.png",
     "books/프로그래머,열정을말하다/3.실행.md",
