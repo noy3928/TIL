@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/프로그래머,열정을말하다/2.자신에게-투자하라.md",
+                "file": "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/프로그래머,열정을말하다/2.자신에게-투자하라.md",
+                "file": "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/프로그래머,열정을말하다/2.자신에게-투자하라.md",
+                "file": "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/프로그래머,열정을말하다/2.자신에게-투자하라.md"
+                "file": "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md"
               }
             }
           }
@@ -147,7 +147,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c94a15d6451ef495",
+  "active": "45df47fa09589985",
   "lastOpenFiles": [
     "books/프로그래머,열정을말하다/3.실행.md",
     "books/프로그래머,열정을말하다/2.자신에게-투자하라.md",
