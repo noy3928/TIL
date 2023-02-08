@@ -35,16 +35,17 @@
 
 <br>
 
-## Articles
+## Articles : 읽고 정돈한 아티클
 
-[js개발자는 아직도 모나드를 모르겠어요](https://github.com/noy3928/TIL/blob/main/programming-paradigm/functional-programming/JS%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%8A%94%20%EC%95%84%EC%A7%81%EB%8F%84%20%EB%AA%A8%EB%82%98%EB%93%9C%EB%A5%BC%20%EB%AA%A8%EB%A5%B4%EA%B2%A0%EC%96%B4%EC%9A%94.md)  
-[build your own react](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/Build-your-own-react.md)
-[react18 : 서버 컴포넌트 준비하기](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/react18-%EC%84%9C%EB%B2%84%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%A4%80%EB%B9%84%ED%95%98%EA%B8%B0.md)   
-[useSyncExternalStore - The underrated React API](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api#link1)    
-[Guideline from the 70's on how to split your React components](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/Guideline-from-the-70's-on-how-to-split-your-React-components.md)  
-[5 Advanced React Patterns]()
-
-
+|제목|분류|
+|-|-|
+|[js개발자는 아직도 모나드를 모르겠어요](https://github.com/noy3928/TIL/blob/main/programming-paradigm/functional-programming/JS%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%8A%94%20%EC%95%84%EC%A7%81%EB%8F%84%20%EB%AA%A8%EB%82%98%EB%93%9C%EB%A5%BC%20%EB%AA%A8%EB%A5%B4%EA%B2%A0%EC%96%B4%EC%9A%94.md) |함수형 |
+|[build your own react](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/Build-your-own-react.md)|리액트|
+|[react18 : 서버 컴포넌트 준비하기](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/react18-%EC%84%9C%EB%B2%84%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%A4%80%EB%B9%84%ED%95%98%EA%B8%B0.md)|리액트|   
+|[useSyncExternalStore - The underrated React API](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api#link1)    | 리액트|
+|[Guideline from the 70's on how to split your React components](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/Guideline-from-the-70's-on-how-to-split-your-React-components.md)  |리액트|
+|[5 Advanced React Patterns]()|리액트|
+|[개발자의 평생공부]()|커리어|
 <br>
 
 ## Sessions
@@ -57,5 +58,5 @@
 
 ## Study 
 
-[쏙쏙 들어오는 함수형 코딩 - 스터디](https://github.com/noy3928/TIL/tree/main/study/%EC%8F%99%EC%8F%99%EB%93%A4%EC%96%B4%EC%98%A4%EB%8A%94%ED%95%A8%EC%88%98%ED%98%95%EC%BD%94%EB%94%A9)   
+[쏙쏙 들어오는 함수형 코딩 - 함수형 스터디](https://github.com/noy3928/TIL/tree/main/study/%EC%8F%99%EC%8F%99%EB%93%A4%EC%96%B4%EC%98%A4%EB%8A%94%ED%95%A8%EC%88%98%ED%98%95%EC%BD%94%EB%94%A9)   
 
