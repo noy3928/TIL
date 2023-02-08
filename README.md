@@ -45,7 +45,7 @@
 |[useSyncExternalStore - The underrated React API](https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api#link1)    | 리액트|
 |[Guideline from the 70's on how to split your React components](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/Guideline-from-the-70's-on-how-to-split-your-React-components.md)  |리액트|
 |[5 Advanced React Patterns]()|리액트|
-|[개발자의 평생공부]()|커리어|
+|[개발자의 평생공부](https://github.com/noy3928/TIL/blob/main/soft-skills/%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%ED%8F%89%EC%83%9D%EA%B3%B5%EB%B6%80.md)|커리어|
 <br>
 
 ## Sessions
