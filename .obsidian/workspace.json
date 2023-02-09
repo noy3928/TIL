@@ -8,43 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c94a15d6451ef495",
+            "id": "15598706a136d6f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md",
+                "file": "study/쏙쏙들어오는함수형코딩/4주차.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "efb1b2e39c1cd46f",
+            "id": "3fc9a04707595103",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3255c8fa84089b48",
+            "id": "3992cd3b9a2f7367",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "soft-skills/개발자의평생공부.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "941cfde68799719f",
+            "id": "b8c3ca429f6da3e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,31 +56,30 @@
             }
           },
           {
-            "id": "e87b919a3f3ff8da",
+            "id": "95c91dab39be3467",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/12.함수형반복.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6779c32d28809af1",
+            "id": "c4493617b4c437d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
+                "file": "study/쏙쏙들어오는함수형코딩/4주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
+                "file": "study/쏙쏙들어오는함수형코딩/4주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md"
+                "file": "study/쏙쏙들어오는함수형코딩/4주차.md"
               }
             }
           }
@@ -208,17 +207,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6779c32d28809af1",
+  "active": "15598706a136d6f9",
   "lastOpenFiles": [
-    "books/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝.md",
-    "books/쏙쏙-들어오는-함수형-코딩/README.md",
-    "books/쏙쏙-들어오는-함수형-코딩/12.함수형반복.md",
-    "books/쏙쏙-들어오는-함수형-코딩/11.일급함수(2).md",
     "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
+    "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md",
+    "study/쏙쏙들어오는함수형코딩/4주차.md",
+    "books/쏙쏙-들어오는-함수형-코딩/11.일급함수(2).md",
+    "books/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝.md",
+    "books/쏙쏙-들어오는-함수형-코딩/12.함수형반복.md",
     "README.md",
-    "soft-skills/개발자의평생공부.md",
     "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md",
-    "books/프로그래머,열정을말하다/3.실행.md",
-    "books/프로그래머,열정을말하다/2.자신에게-투자하라.md"
+    "soft-skills/개발자의평생공부.md",
+    "books/쏙쏙-들어오는-함수형-코딩/README.md"
   ]
 }
