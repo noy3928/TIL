@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝.md",
+                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝.md"
+                "file": "books/쏙쏙-들어오는-함수형-코딩/README.md"
               }
             }
           }
@@ -210,6 +210,7 @@
   },
   "active": "6779c32d28809af1",
   "lastOpenFiles": [
+    "books/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝.md",
     "books/쏙쏙-들어오는-함수형-코딩/README.md",
     "books/쏙쏙-들어오는-함수형-코딩/12.함수형반복.md",
     "books/쏙쏙-들어오는-함수형-코딩/11.일급함수(2).md",
@@ -218,7 +219,6 @@
     "soft-skills/개발자의평생공부.md",
     "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md",
     "books/프로그래머,열정을말하다/3.실행.md",
-    "books/프로그래머,열정을말하다/2.자신에게-투자하라.md",
-    "books/프로그래머,열정을말하다/1.당신의-시장을-선택하라.md"
+    "books/프로그래머,열정을말하다/2.자신에게-투자하라.md"
   ]
 }
