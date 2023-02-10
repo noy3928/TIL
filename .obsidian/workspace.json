@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lecture/TDD로배우는프론트엔드/섹션1.md",
+                "file": "lecture/TDD로배우는프론트엔드/섹션1-효과적학습법.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a30eefbf756bbbc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lecture/TDD로배우는프론트엔드/섹션2-계산기어플리케이션TDD로구현하기.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lecture/TDD로배우는프론트엔드/섹션1.md",
+                "file": "lecture/TDD로배우는프론트엔드/섹션2-계산기어플리케이션TDD로구현하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lecture/TDD로배우는프론트엔드/섹션1.md",
+                "file": "lecture/TDD로배우는프론트엔드/섹션2-계산기어플리케이션TDD로구현하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lecture/TDD로배우는프론트엔드/섹션1.md"
+                "file": "lecture/TDD로배우는프론트엔드/섹션2-계산기어플리케이션TDD로구현하기.md"
               }
             }
           }
@@ -184,8 +196,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "da2dc5a6964bb613",
+  "active": "a30eefbf756bbbc5",
   "lastOpenFiles": [
+    "lecture/TDD로배우는프론트엔드/섹션1-효과적학습법.md",
+    "lecture/TDD로배우는프론트엔드/섹션2-계산기어플리케이션TDD로구현하기.md",
     "front-end/리액트/넥스트Js에서-성능최적화를-위한-전략.md",
     "front-end/리액트/10-Ways-to-Improve-Your-Next.JS-App-Performance.md",
     "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
@@ -193,8 +207,6 @@
     "books/쏙쏙-들어오는-함수형-코딩/12.함수형반복.md",
     "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md",
     "books/쏙쏙-들어오는-함수형-코딩/11.일급함수(2).md",
-    "study/쏙쏙들어오는함수형코딩/4주차.md",
-    "README.md",
-    "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md"
+    "study/쏙쏙들어오는함수형코딩/4주차.md"
   ]
 }
