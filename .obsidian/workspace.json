@@ -20,66 +20,31 @@
             }
           },
           {
-            "id": "3fc9a04707595103",
+            "id": "c1b84dfdff888aed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
+                "file": "front-end/리액트/10-Ways-to-Improve-Your-Next.JS-App-Performance.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3992cd3b9a2f7367",
+            "id": "89d7fe0e8a527c13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b8c3ca429f6da3e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/11.일급함수(2).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "95c91dab39be3467",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/12.함수형반복.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4493617b4c437d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝.md",
+                "file": "front-end/리액트/넥스트Js에서-성능최적화를-위한-전략.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -145,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/4주차.md",
+                "file": "front-end/리액트/넥스트Js에서-성능최적화를-위한-전략.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/4주차.md",
+                "file": "front-end/리액트/넥스트Js에서-성능최적화를-위한-전략.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/4주차.md"
+                "file": "front-end/리액트/넥스트Js에서-성능최적화를-위한-전략.md"
               }
             }
           }
@@ -207,17 +172,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "15598706a136d6f9",
+  "active": "89d7fe0e8a527c13",
   "lastOpenFiles": [
+    "front-end/리액트/10-Ways-to-Improve-Your-Next.JS-App-Performance.md",
     "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
-    "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md",
-    "study/쏙쏙들어오는함수형코딩/4주차.md",
-    "books/쏙쏙-들어오는-함수형-코딩/11.일급함수(2).md",
     "books/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝.md",
     "books/쏙쏙-들어오는-함수형-코딩/12.함수형반복.md",
+    "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md",
+    "books/쏙쏙-들어오는-함수형-코딩/11.일급함수(2).md",
+    "study/쏙쏙들어오는함수형코딩/4주차.md",
     "README.md",
     "books/프로그래머,열정을말하다/4.마케팅은-높으신-분들만-하는-게-아니다.md",
-    "soft-skills/개발자의평생공부.md",
-    "books/쏙쏙-들어오는-함수형-코딩/README.md"
+    "soft-skills/개발자의평생공부.md"
   ]
 }
