@@ -4,11 +4,6 @@
 
 <br>
 
-## 요약 :
-
-### 나만의 정리 :
-
-### 이 책을 통해서 배운 것 :
 
 ## [2장 - 객체지향 프로그래밍 :](https://github.com/noy3928/TIL/tree/main/books/Object/2.%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
 
