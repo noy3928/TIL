@@ -90,9 +90,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e6bb3656c43d906b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily-note/웹팩과-성능최적화.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -158,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/5주차.md",
+                "file": "daily-note/웹팩과-성능최적화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/5주차.md",
+                "file": "daily-note/웹팩과-성능최적화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/쏙쏙들어오는함수형코딩/5주차.md"
+                "file": "daily-note/웹팩과-성능최적화.md"
               }
             }
           }
@@ -220,8 +232,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "32ce44d931dc3d2d",
+  "active": "e6bb3656c43d906b",
   "lastOpenFiles": [
+    "study/쏙쏙들어오는함수형코딩/5주차.md",
     "books/쏙쏙-들어오는-함수형-코딩/16.타임라인-사이에-자원공유하기.md",
     "lecture/TDD로배우는프론트엔드/섹션2-계산기어플리케이션TDD로구현하기.md",
     "lecture/TDD로배우는프론트엔드/섹션1-효과적학습법.md",
@@ -230,7 +243,6 @@
     "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
     "books/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝.md",
     "books/쏙쏙-들어오는-함수형-코딩/12.함수형반복.md",
-    "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md",
-    "books/쏙쏙-들어오는-함수형-코딩/11.일급함수(2).md"
+    "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md"
   ]
 }
