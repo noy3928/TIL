@@ -78,9 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "32ce44d931dc3d2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/쏙쏙들어오는함수형코딩/5주차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -146,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/16.타임라인-사이에-자원공유하기.md",
+                "file": "study/쏙쏙들어오는함수형코딩/5주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/16.타임라인-사이에-자원공유하기.md",
+                "file": "study/쏙쏙들어오는함수형코딩/5주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/쏙쏙-들어오는-함수형-코딩/16.타임라인-사이에-자원공유하기.md"
+                "file": "study/쏙쏙들어오는함수형코딩/5주차.md"
               }
             }
           }
@@ -208,8 +220,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "98dbc59f0453fd3b",
+  "active": "32ce44d931dc3d2d",
   "lastOpenFiles": [
+    "books/쏙쏙-들어오는-함수형-코딩/16.타임라인-사이에-자원공유하기.md",
     "lecture/TDD로배우는프론트엔드/섹션2-계산기어플리케이션TDD로구현하기.md",
     "lecture/TDD로배우는프론트엔드/섹션1-효과적학습법.md",
     "front-end/리액트/넥스트Js에서-성능최적화를-위한-전략.md",
@@ -218,7 +231,6 @@
     "books/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝.md",
     "books/쏙쏙-들어오는-함수형-코딩/12.함수형반복.md",
     "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md",
-    "books/쏙쏙-들어오는-함수형-코딩/11.일급함수(2).md",
-    "study/쏙쏙들어오는함수형코딩/4주차.md"
+    "books/쏙쏙-들어오는-함수형-코딩/11.일급함수(2).md"
   ]
 }
