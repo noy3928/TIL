@@ -102,9 +102,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "06c41515d3a31050",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -225,15 +235,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:새 캔버스 만들기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
-      "canvas:Create new canvas": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e6bb3656c43d906b",
+  "active": "06c41515d3a31050",
   "lastOpenFiles": [
     "study/쏙쏙들어오는함수형코딩/5주차.md",
     "books/쏙쏙-들어오는-함수형-코딩/16.타임라인-사이에-자원공유하기.md",
