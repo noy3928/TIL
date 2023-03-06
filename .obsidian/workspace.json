@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/Network/TCP에서 패킷 손실이 발생했을 경우.md",
+                "file": "computer-science/Network/HTTP3/QUIC는 커널 차원에서의 변경을 요구하지 않는다.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6883285862ef3213",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer-science/Network/HTTP3/HTTP2에서의 HOLB를 QUIC에서는 어떻게 해결하는가?.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -123,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/Network/TCP에서 패킷 손실이 발생했을 경우.md",
+                "file": "computer-science/Network/HTTP3/HTTP2에서의 HOLB를 QUIC에서는 어떻게 해결하는가?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/Network/TCP에서 패킷 손실이 발생했을 경우.md",
+                "file": "computer-science/Network/HTTP3/HTTP2에서의 HOLB를 QUIC에서는 어떻게 해결하는가?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/Network/TCP에서 패킷 손실이 발생했을 경우.md"
+                "file": "computer-science/Network/HTTP3/HTTP2에서의 HOLB를 QUIC에서는 어떻게 해결하는가?.md"
               }
             }
           }
@@ -185,13 +197,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fccade49d6b48789",
+  "active": "6883285862ef3213",
   "lastOpenFiles": [
-    "computer-science/Network/HTTP3/연결수립 시 TCP와 QUIC은 어떤 차이점이 있는가?.md",
-    "computer-science/Network/TCP에서 패킷 손실이 발생했을 경우.md",
-    "computer-science/Network/HTTP3/무제 파일.md",
+    "computer-science/Network/HTTP3/QUIC는 커널 차원에서의 변경을 요구하지 않는다.md",
+    "computer-science/Network/HTTP3/HTTP2에서의 HOLB를 QUIC에서는 어떻게 해결하는가?.md",
     "computer-science/Network/HTTP3/HTTP3에선 어떻게 한번만에 연결을 수립할 수 있는가?.md",
     "computer-science/Network/HTTP3/HTTP3은 왜 UDP를 선택한 것일까?.md",
+    "computer-science/Network/TCP에서 패킷 손실이 발생했을 경우.md",
+    "computer-science/Network/HTTP3/연결수립 시 TCP와 QUIC은 어떤 차이점이 있는가?.md",
     "computer-science/Network/TCP.md",
     "computer-science/Network/네트워크질문.md",
     "computer-science/Network/The Road to QUIC.md",
