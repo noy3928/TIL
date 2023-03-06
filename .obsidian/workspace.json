@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/Network/The Road to QUIC.md",
+                "file": "computer-science/Network/HTTP3/연결수립 시 TCP와 QUIC은 어떤 차이점이 있는가?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fccade49d6b48789",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer-science/Network/TCP에서 패킷 손실이 발생했을 경우.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9fca38fe08cea9eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer-science/Network/로드밸런서.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 245.5,
     "collapsed": true
   },
   "right": {
@@ -99,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/Network/The Road to QUIC.md",
+                "file": "computer-science/Network/TCP에서 패킷 손실이 발생했을 경우.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/Network/The Road to QUIC.md",
+                "file": "computer-science/Network/TCP에서 패킷 손실이 발생했을 경우.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/Network/The Road to QUIC.md"
+                "file": "computer-science/Network/TCP에서 패킷 손실이 발생했을 경우.md"
               }
             }
           }
@@ -161,12 +185,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "dbdc7b71fa61e584",
+  "active": "fccade49d6b48789",
   "lastOpenFiles": [
+    "computer-science/Network/HTTP3/연결수립 시 TCP와 QUIC은 어떤 차이점이 있는가?.md",
+    "computer-science/Network/TCP에서 패킷 손실이 발생했을 경우.md",
+    "computer-science/Network/HTTP3/무제 파일.md",
+    "computer-science/Network/HTTP3/HTTP3에선 어떻게 한번만에 연결을 수립할 수 있는가?.md",
+    "computer-science/Network/HTTP3/HTTP3은 왜 UDP를 선택한 것일까?.md",
+    "computer-science/Network/TCP.md",
+    "computer-science/Network/네트워크질문.md",
+    "computer-science/Network/The Road to QUIC.md",
+    "computer-science/Network/로드밸런서.md",
     "스크린샷 2023-03-04 오후 11.11.03.png",
     "스크린샷 2023-03-04 오후 11.10.47.png",
     "computer-science/Network/what is TLS?.md",
-    "computer-science/Network/The Road to QUIC.md",
     "README.md",
     "daily-note/웹팩과-성능최적화.md",
     "study/쏙쏙들어오는함수형코딩/5주차.md",
