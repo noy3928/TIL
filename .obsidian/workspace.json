@@ -4,71 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "4f4aa5191eb896f0",
+        "id": "49a7878753b24863",
         "type": "tabs",
         "children": [
           {
-            "id": "392ec4261f68800a",
+            "id": "1be2e2e8c633802e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer-science/Network/what is TLS?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dbdc7b71fa61e584",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer-science/Network/HTTP3/연결수립 시 TCP와 QUIC은 어떤 차이점이 있는가?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fccade49d6b48789",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer-science/Network/HTTP3/QUIC는 커널 차원에서의 변경을 요구하지 않는다.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6883285862ef3213",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer-science/Network/The Road to QUIC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9fca38fe08cea9eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer-science/Network/로드밸런서.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/Network/The Road to QUIC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/Network/The Road to QUIC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "computer-science/Network/The Road to QUIC.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -196,33 +139,41 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6883285862ef3213",
+  "active": "1be2e2e8c633802e",
   "lastOpenFiles": [
-    "computer-science/Network/HTTP3/HTTP2에서의 HOLB를 QUIC에서는 어떻게 해결하는가?.md",
-    "computer-science/Network/HTTP3/QUIC는 커널 차원에서의 변경을 요구하지 않는다.md",
-    "computer-science/Network/HTTP3/HTTP3에선 어떻게 한번만에 연결을 수립할 수 있는가?.md",
-    "computer-science/Network/HTTP3/HTTP3은 왜 UDP를 선택한 것일까?.md",
-    "computer-science/Network/TCP에서 패킷 손실이 발생했을 경우.md",
-    "computer-science/Network/HTTP3/연결수립 시 TCP와 QUIC은 어떤 차이점이 있는가?.md",
-    "computer-science/Network/TCP.md",
+    "computer-science/Network/커넥션 성능 향상.md",
+    "computer-science/Network/Slow Start.md",
     "computer-science/Network/네트워크질문.md",
-    "computer-science/Network/The Road to QUIC.md",
-    "computer-science/Network/로드밸런서.md",
-    "스크린샷 2023-03-04 오후 11.11.03.png",
-    "스크린샷 2023-03-04 오후 11.10.47.png",
+    "computer-science/Network/HTTP3/HTTP3 headers and framing.md",
+    "computer-science/Network/HTTP3/HTTP3 multiplexing and flow control.md",
+    "computer-science/Network/HTTP3/HTTP3은 왜 UDP를 선택한 것일까?.md",
+    "computer-science/Network/HTTP3/Recap of the main benefits of HTTP3.md",
+    "computer-science/Network/HTTP3/QUIC는 커널 차원에서의 변경을 요구하지 않는다.md",
+    "computer-science/Network/HTTP3/Connection-Establish/Improved performance and security.md",
+    "computer-science/Network/HTTP3/Connection-Establish/HTTP3에선 어떻게 한번만에 연결을 수립할 수 있는가?.md",
+    "computer-science/Network/HTTP3/Connection-Establish/HTTP3 Connection Establishment.md",
+    "computer-science/Network/HTTP3/HTTP2에서의 HOLB를 QUIC에서는 어떻게 해결하는가?.md",
+    "computer-science/Network/HTTP3/Compatibility with existing HTTP infrastructure.md",
+    "computer-science/Network/HTTP3/Connection-ID",
+    "computer-science/Network/HTTP3/UDP allow multidirectional.md",
+    "computer-science/Network/HTTP3/The underlying transport protocol - QUIC.md",
+    "computer-science/Network/HTTP3/MultiPlexing",
+    "computer-science/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
+    "computer-science/Network/HTTP3/Connection-Establish",
+    "computer-science/Network/HTTP3/HTTP3 레이어구성.md",
+    "computer-science/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
+    "computer-science/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md",
+    "computer-science/Network/HTTP3/연결수립 시 TCP와 QUIC은 어떤 차이점이 있는가?.md",
+    "computer-science/Network/HTTP3/The Road to QUIC.md",
+    "computer-science/Network/what is congestion control ?.md",
+    "computer-science/Network/what is flow control in http?.md",
     "computer-science/Network/what is TLS?.md",
-    "README.md",
-    "daily-note/웹팩과-성능최적화.md",
-    "study/쏙쏙들어오는함수형코딩/5주차.md",
-    "books/쏙쏙-들어오는-함수형-코딩/16.타임라인-사이에-자원공유하기.md",
-    "lecture/TDD로배우는프론트엔드/섹션2-계산기어플리케이션TDD로구현하기.md",
-    "lecture/TDD로배우는프론트엔드/섹션1-효과적학습법.md",
-    "front-end/리액트/넥스트Js에서-성능최적화를-위한-전략.md",
-    "front-end/리액트/10-Ways-to-Improve-Your-Next.JS-App-Performance.md",
-    "study/쏙쏙들어오는함수형코딩/4주차.md",
-    "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
-    "books/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝.md",
-    "books/쏙쏙-들어오는-함수형-코딩/12.함수형반복.md",
-    "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md"
+    "computer-science/Network/TCP/TCP레벨의 HOLB.md",
+    "computer-science/Network/TCP/TCP.md",
+    "computer-science/Network/TCP",
+    "computer-science/Network/HTTP/헤더",
+    "computer-science/Network/HTTP",
+    "스크린샷 2023-03-04 오후 11.11.03.png",
+    "스크린샷 2023-03-04 오후 11.10.47.png"
   ]
 }

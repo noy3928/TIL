@@ -25,5 +25,3 @@
 ### 출처(참고문헌) : 
 [HTTP/3 Deep Dive | HTTP/3's value, features, and use cases](https://ably.com/topic/http3)
 
-
-### Link : 
