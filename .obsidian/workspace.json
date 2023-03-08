@@ -11,8 +11,12 @@
             "id": "1be2e2e8c633802e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "computer-science/Network/HTTP/HTTP 캐싱전략.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "computer-science/Network/HTTP/HTTP 캐싱전략.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "computer-science/Network/HTTP/HTTP 캐싱전략.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "computer-science/Network/HTTP/HTTP 캐싱전략.md"
+              }
             }
           }
         ],
@@ -141,6 +150,7 @@
   },
   "active": "1be2e2e8c633802e",
   "lastOpenFiles": [
+    "e2bN6glWoVbWIcwUF1uh.avif",
     "computer-science/Network/커넥션 성능 향상.md",
     "computer-science/Network/Slow Start.md",
     "computer-science/Network/네트워크질문.md",
@@ -169,7 +179,6 @@
     "computer-science/Network/what is flow control in http?.md",
     "computer-science/Network/what is TLS?.md",
     "computer-science/Network/TCP/TCP레벨의 HOLB.md",
-    "computer-science/Network/TCP/TCP.md",
     "computer-science/Network/TCP",
     "computer-science/Network/HTTP/헤더",
     "computer-science/Network/HTTP",
