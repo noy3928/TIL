@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "51f242a9d0fc5cd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "front-end/design-system/what is design system.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/Network/HTTP/HTTP 캐싱전략.md",
+                "file": "front-end/design-system/what is design system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/Network/HTTP/HTTP 캐싱전략.md",
+                "file": "front-end/design-system/what is design system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/Network/HTTP/HTTP 캐싱전략.md"
+                "file": "front-end/design-system/what is design system.md"
               }
             }
           }
@@ -148,8 +161,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1be2e2e8c633802e",
+  "active": "51f242a9d0fc5cd4",
   "lastOpenFiles": [
+    "computer-science/Network/HTTP/HTTP 캐싱전략.md",
+    "front-end/design-system/what is design system.md",
+    "front-end/design-system",
     "e2bN6glWoVbWIcwUF1uh.avif",
     "computer-science/Network/커넥션 성능 향상.md",
     "computer-science/Network/Slow Start.md",
@@ -178,7 +194,6 @@
     "computer-science/Network/what is congestion control ?.md",
     "computer-science/Network/what is flow control in http?.md",
     "computer-science/Network/what is TLS?.md",
-    "computer-science/Network/TCP/TCP레벨의 HOLB.md",
     "computer-science/Network/TCP",
     "computer-science/Network/HTTP/헤더",
     "computer-science/Network/HTTP",
