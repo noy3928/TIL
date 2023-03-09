@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "front-end/design-system/what is design system.md",
+                "file": "computer-science/Network/HTTP/헤더/Last-Modified.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c193c52e1f7c4ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer-science/Network/HTTP/헤더/If-Modified-Since.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5,
-    "collapsed": true
+    "width": 245.5
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "front-end/design-system/what is design system.md",
+                "file": "computer-science/Network/HTTP/헤더/If-Modified-Since.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "front-end/design-system/what is design system.md",
+                "file": "computer-science/Network/HTTP/헤더/If-Modified-Since.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "front-end/design-system/what is design system.md"
+                "file": "computer-science/Network/HTTP/헤더/If-Modified-Since.md"
               }
             }
           }
@@ -161,8 +172,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "51f242a9d0fc5cd4",
+  "active": "8c193c52e1f7c4ab",
   "lastOpenFiles": [
+    "computer-science/Network/HTTP/헤더/Last-Modified.md",
+    "computer-science/Network/HTTP/헤더/If-Modified-Since.md",
     "computer-science/Network/HTTP/HTTP 캐싱전략.md",
     "front-end/design-system/what is design system.md",
     "front-end/design-system",
@@ -192,8 +205,6 @@
     "computer-science/Network/HTTP3/연결수립 시 TCP와 QUIC은 어떤 차이점이 있는가?.md",
     "computer-science/Network/HTTP3/The Road to QUIC.md",
     "computer-science/Network/what is congestion control ?.md",
-    "computer-science/Network/what is flow control in http?.md",
-    "computer-science/Network/what is TLS?.md",
     "computer-science/Network/TCP",
     "computer-science/Network/HTTP/헤더",
     "computer-science/Network/HTTP",
