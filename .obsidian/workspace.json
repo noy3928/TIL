@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1be2e2e8c633802e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer-science/Network/HTTP/HTTP 캐싱전략.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51f242a9d0fc5cd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer-science/Network/HTTP/헤더/Last-Modified.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c193c52e1f7c4ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer-science/Network/HTTP/헤더/If-Modified-Since.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bb0ac7a00ef0e0d8",
             "type": "leaf",
             "state": {
@@ -56,31 +20,19 @@
             }
           },
           {
-            "id": "aac37d8e679def80",
+            "id": "6b8f67211bb976db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "error-note/storybook package.json error.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64925cff8d8cb204",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily-note/내가 만든 라이브러리 npm에 배포하기.md",
+                "file": "error-note/invalid next.config.js.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/내가 만든 라이브러리 npm에 배포하기.md",
+                "file": "error-note/invalid next.config.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/내가 만든 라이브러리 npm에 배포하기.md",
+                "file": "error-note/invalid next.config.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/내가 만든 라이브러리 npm에 배포하기.md"
+                "file": "error-note/invalid next.config.js.md"
               }
             }
           }
@@ -208,15 +160,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "64925cff8d8cb204",
+  "active": "6b8f67211bb976db",
   "lastOpenFiles": [
-    "error-note/무제 파일.md",
-    "daily-note/내가 만든 라이브러리 npm에 배포하기.md",
-    "error-note/storybook package.json error.md",
     "error-note/design system을 만들면서 발생하는 에러로깅.md",
+    "error-note/invalid next.config.js.md",
     "computer-science/Network/HTTP/헤더/If-Modified-Since.md",
-    "computer-science/Network/HTTP/헤더/Last-Modified.md",
     "computer-science/Network/HTTP/HTTP 캐싱전략.md",
+    "computer-science/Network/HTTP/헤더/Last-Modified.md",
+    "error-note/Error. Objects are not valid as a React child (found. object with keys {children}). If you meant to render a collection of children, use an array instead..md",
+    "error-note/storybook package.json error.md",
+    "daily-note/내가 만든 라이브러리 npm에 배포하기.md",
     "front-end/design-system/what is design system.md",
     "front-end/design-system",
     "e2bN6glWoVbWIcwUF1uh.avif",
@@ -240,7 +193,6 @@
     "computer-science/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
     "computer-science/Network/HTTP3/Connection-Establish",
     "computer-science/Network/HTTP3/HTTP3 레이어구성.md",
-    "computer-science/Network/HTTP3/HTTP3 글 작성을 위한 목차.md",
     "computer-science/Network/TCP",
     "computer-science/Network/HTTP/헤더",
     "computer-science/Network/HTTP",
