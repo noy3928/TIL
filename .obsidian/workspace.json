@@ -30,9 +30,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3bf6b478d4466b88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/타입스크립트프로그래밍/5장.클래스와인터페이스.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4efb7070c7341f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/타입스크립트프로그래밍/4.함수.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "error-note/invalid next.config.js.md",
+                "file": "error-note/design system을 만들면서 발생하는 에러로깅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "error-note/invalid next.config.js.md",
+                "file": "error-note/design system을 만들면서 발생하는 에러로깅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "error-note/invalid next.config.js.md"
+                "file": "error-note/design system을 만들면서 발생하는 에러로깅.md"
               }
             }
           }
@@ -160,10 +183,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6b8f67211bb976db",
+  "active": "bb0ac7a00ef0e0d8",
   "lastOpenFiles": [
-    "error-note/design system을 만들면서 발생하는 에러로깅.md",
     "error-note/invalid next.config.js.md",
+    "books/타입스크립트프로그래밍/4.함수.md",
+    "books/타입스크립트프로그래밍/5장.클래스와인터페이스.md",
+    "books/타입스크립트프로그래밍",
+    "error-note/design system을 만들면서 발생하는 에러로깅.md",
     "computer-science/Network/HTTP/헤더/If-Modified-Since.md",
     "computer-science/Network/HTTP/HTTP 캐싱전략.md",
     "computer-science/Network/HTTP/헤더/Last-Modified.md",
@@ -190,9 +216,7 @@
     "computer-science/Network/HTTP3/UDP allow multidirectional.md",
     "computer-science/Network/HTTP3/The underlying transport protocol - QUIC.md",
     "computer-science/Network/HTTP3/MultiPlexing",
-    "computer-science/Network/HTTP3/Comparison with HTTP1 and HTTP2.md",
     "computer-science/Network/HTTP3/Connection-Establish",
-    "computer-science/Network/HTTP3/HTTP3 레이어구성.md",
     "computer-science/Network/TCP",
     "computer-science/Network/HTTP/헤더",
     "computer-science/Network/HTTP",
