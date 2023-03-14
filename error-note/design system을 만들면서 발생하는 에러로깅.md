@@ -19,3 +19,20 @@
 
 ---
 
+```js
+error - ReferenceError: exports is not defined in ES module scope
+    at file:///Users/noyechan/Desktop/RECOEN/.yarn/cache/recoen-ui-npm-0.0.3-ff5c3e3c3c-157cc71ef5.zip/node_modules/recoen-ui/dist/cjs/index.js:2821:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:533:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:438:15) {
+  page: '/programming'
+}
+```
+
+우선은 cjs도 동일하게 지원하도록 만든 다음에 다시 설치를 하고 사용을 해보았다. 그랬더니 이전에 만났던 것과 동일한 에러를 만났다. 
+
+내가 원하는 것은 cjs안에 있는 파일을 사용하는게 아니라, esm안에 있는 파일을 이용하도록 만드는 것인데, 이것을 어떻게 사용하도록 만들 수 있을까? 아니 이게 문제가 맞는 것일까. 
+
