@@ -1,3 +1,4 @@
+디자인 시스템을 만들던 중 npm에 배포하고 다른 레포에서 해당 라이브러리의 컴포넌트를 사용해봤다. 그랬는데, 제대로 사용이 안되었다. 아래와 같은 에러가 나타났다. 
 
 > ReferenceError: exports is not defined in ES module scope
 
@@ -36,3 +37,24 @@ error - ReferenceError: exports is not defined in ES module scope
 
 내가 원하는 것은 cjs안에 있는 파일을 사용하는게 아니라, esm안에 있는 파일을 이용하도록 만드는 것인데, 이것을 어떻게 사용하도록 만들 수 있을까? 아니 이게 문제가 맞는 것일까. 
 
+
+---
+turbo repo 사용해보기 
+https://vercel.com/templates/react/turborepo-design-system
+
+이 사이트에서 turbo repo를 이용해서 디자인 시스템을 만드는 방법을 소개해주고 있었다. 해당 내용을 통해서 좀 살펴보니, 이곳에서는 cjs나 esm에 대한 폴더를 따로 만들어서 사용하고 있지않았다. 
+여기에서 영감을 얻어서 나도 그냥 폴더를 따로 만들지 말고 파일을 곧바로 만들어보자고 생각했다. 
+그래서 아래와 같이 package.json을 수정했다. 
+
+```js
+"main": "dist/index.cjs",
+"module": "dist/index.mjs",
+```
+
+그랬더니, 
+
+> ReferenceError: exports is not defined in ES module scope
+
+에러가 해결되었다ㅠ 
+
+한 3시간에 걸친 삽질이었다... 

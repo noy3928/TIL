@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "error-note/design system을 만들면서 발생하는 에러로깅.md",
+                "file": "error-note/ReferenceError- exports is not defined in ES module scope.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4b7b5fb30c6971b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "error-note/You appear to be using a native ECMAScript module configuration file, which is only supported when running Babel asynchronously..md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "error-note/design system을 만들면서 발생하는 에러로깅.md",
+                "file": "error-note/You appear to be using a native ECMAScript module configuration file, which is only supported when running Babel asynchronously..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "error-note/design system을 만들면서 발생하는 에러로깅.md",
+                "file": "error-note/You appear to be using a native ECMAScript module configuration file, which is only supported when running Babel asynchronously..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "error-note/design system을 만들면서 발생하는 에러로깅.md"
+                "file": "error-note/You appear to be using a native ECMAScript module configuration file, which is only supported when running Babel asynchronously..md"
               }
             }
           }
@@ -183,13 +196,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "bb0ac7a00ef0e0d8",
+  "active": "c4b7b5fb30c6971b",
   "lastOpenFiles": [
+    "error-note/ReferenceError- exports is not defined in ES module scope.md",
+    "error-note/You appear to be using a native ECMAScript module configuration file, which is only supported when running Babel asynchronously..md",
     "error-note/invalid next.config.js.md",
     "books/타입스크립트프로그래밍/4.함수.md",
     "books/타입스크립트프로그래밍/5장.클래스와인터페이스.md",
     "books/타입스크립트프로그래밍",
-    "error-note/design system을 만들면서 발생하는 에러로깅.md",
     "computer-science/Network/HTTP/헤더/If-Modified-Since.md",
     "computer-science/Network/HTTP/HTTP 캐싱전략.md",
     "computer-science/Network/HTTP/헤더/Last-Modified.md",
@@ -214,7 +228,6 @@
     "computer-science/Network/HTTP3/Compatibility with existing HTTP infrastructure.md",
     "computer-science/Network/HTTP3/Connection-ID",
     "computer-science/Network/HTTP3/UDP allow multidirectional.md",
-    "computer-science/Network/HTTP3/The underlying transport protocol - QUIC.md",
     "computer-science/Network/HTTP3/MultiPlexing",
     "computer-science/Network/HTTP3/Connection-Establish",
     "computer-science/Network/TCP",
