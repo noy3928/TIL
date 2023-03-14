@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bb0ac7a00ef0e0d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "error-note/design system을 만들면서 발생하는 에러로깅.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/Network/HTTP/헤더/If-Modified-Since.md",
+                "file": "error-note/design system을 만들면서 발생하는 에러로깅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/Network/HTTP/헤더/If-Modified-Since.md",
+                "file": "error-note/design system을 만들면서 발생하는 에러로깅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/Network/HTTP/헤더/If-Modified-Since.md"
+                "file": "error-note/design system을 만들면서 발생하는 에러로깅.md"
               }
             }
           }
@@ -172,10 +184,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8c193c52e1f7c4ab",
+  "active": "bb0ac7a00ef0e0d8",
   "lastOpenFiles": [
-    "computer-science/Network/HTTP/헤더/Last-Modified.md",
     "computer-science/Network/HTTP/헤더/If-Modified-Since.md",
+    "error-note/design system을 만들면서 발생하는 에러로깅.md",
+    "computer-science/Network/HTTP/헤더/Last-Modified.md",
     "computer-science/Network/HTTP/HTTP 캐싱전략.md",
     "front-end/design-system/what is design system.md",
     "front-end/design-system",
@@ -204,7 +217,6 @@
     "computer-science/Network/HTTP3/framing layer를 사용하는 것이 어떻게 멀티 플렉싱을 가능하게 만들어주는가?.md",
     "computer-science/Network/HTTP3/연결수립 시 TCP와 QUIC은 어떤 차이점이 있는가?.md",
     "computer-science/Network/HTTP3/The Road to QUIC.md",
-    "computer-science/Network/what is congestion control ?.md",
     "computer-science/Network/TCP",
     "computer-science/Network/HTTP/헤더",
     "computer-science/Network/HTTP",
