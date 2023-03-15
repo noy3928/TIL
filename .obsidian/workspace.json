@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "bb890e2afc2ec33d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "error-note/pragma and pragmaFrag cannot be set when runtime is automatic..md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6b8f67211bb976db",
             "type": "leaf",
             "state": {
@@ -210,8 +222,9 @@
   },
   "active": "095c57b42b550310",
   "lastOpenFiles": [
-    "error-note/You appear to be using a native ECMAScript module configuration file, which is only supported when running Babel asynchronously..md",
+    "error-note/pragma and pragmaFrag cannot be set when runtime is automatic..md",
     "error-note/error - TypeError - require(...).button is not a function.md",
+    "error-note/You appear to be using a native ECMAScript module configuration file, which is only supported when running Babel asynchronously..md",
     "error-note/ReferenceError- exports is not defined in ES module scope.md",
     "error-note/invalid next.config.js.md",
     "books/타입스크립트프로그래밍/4.함수.md",
@@ -238,7 +251,6 @@
     "computer-science/Network/HTTP3/Connection-Establish/HTTP3에선 어떻게 한번만에 연결을 수립할 수 있는가?.md",
     "computer-science/Network/HTTP3/Connection-Establish/HTTP3 Connection Establishment.md",
     "computer-science/Network/HTTP3/HTTP2에서의 HOLB를 QUIC에서는 어떻게 해결하는가?.md",
-    "computer-science/Network/HTTP3/Compatibility with existing HTTP infrastructure.md",
     "computer-science/Network/HTTP3/Connection-ID",
     "computer-science/Network/HTTP3/MultiPlexing",
     "computer-science/Network/HTTP3/Connection-Establish",
