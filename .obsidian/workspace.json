@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lecture/함수형프로그래밍-유인동/비동기-동시성2/지연평가+Promise(L.map,map,take).md",
+                "file": "programming-paradigm/functional-programming/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "filter",
+                "query": "백미",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,7 +174,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -194,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lecture/함수형프로그래밍-유인동/비동기-동시성2/지연평가+Promise(L.map,map,take).md",
+                "file": "programming-paradigm/functional-programming/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lecture/함수형프로그래밍-유인동/비동기-동시성2/지연평가+Promise(L.map,map,take).md",
+                "file": "programming-paradigm/functional-programming/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lecture/함수형프로그래밍-유인동/비동기-동시성2/지연평가+Promise(L.map,map,take).md"
+                "file": "programming-paradigm/functional-programming/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md"
               }
             }
           }
@@ -258,6 +259,7 @@
   },
   "active": "628fb471631b1ae1",
   "lastOpenFiles": [
+    "lecture/함수형프로그래밍-유인동/비동기-동시성2/지연평가+Promise(L.map,map,take).md",
     "lecture/함수형프로그래밍-유인동/장바구니/총 수량, 총 가격.md",
     "lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
     "lecture/함수형프로그래밍-유인동/표현력높이기/go 함수로 읽기 좋게 작성해보기.md",
@@ -283,7 +285,6 @@
     "books/객체지향의-사실과-오해/1.협력하는 객체들의 공동체.md",
     "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
     "books/객체지향의-사실과-오해/2.이상한 나라의 객체.md",
-    "books/객체지향의-사실과-오해/5.책임과 메시지.md",
     "lecture/코드스쿼드-클린프론트엔드",
     "books/타입스크립트프로그래밍",
     "front-end/design-system",
