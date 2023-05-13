@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "af23ec2063f5a68b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +166,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "db2e3db374cbb141",
+  "active": "af23ec2063f5a68b",
   "lastOpenFiles": [
     "back-end/HTTP request types.md",
     "back-end/Deploying app to internet.md",
