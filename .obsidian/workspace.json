@@ -4,143 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "49a7878753b24863",
+        "id": "f2b4a473fbdb3737",
         "type": "tabs",
         "children": [
           {
-            "id": "bb0ac7a00ef0e0d8",
+            "id": "db2e3db374cbb141",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "error-note/ReferenceError- exports is not defined in ES module scope.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4b7b5fb30c6971b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "error-note/You appear to be using a native ECMAScript module configuration file, which is only supported when running Babel asynchronously..md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "095c57b42b550310",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer-science/Network/HTTP3/Connection-Establish/HTTP3에선 어떻게 한번만에 연결을 수립할 수 있는가?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b46e0a9a51cd595",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming-paradigm/functional-programming/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c41540a6b90e50f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "628fb471631b1ae1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming-paradigm/functional-programming/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb52315a030960be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lecture/코드스쿼드-클린프론트엔드/1주차 마스터 피어세션.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb890e2afc2ec33d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "error-note/pragma and pragmaFrag cannot be set when runtime is automatic..md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b8f67211bb976db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "error-note/invalid next.config.js.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3bf6b478d4466b88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/타입스크립트프로그래밍/5장.클래스와인터페이스.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4efb7070c7341f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/타입스크립트프로그래밍/4.함수.md",
+                "file": "back-end/Middleware.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -214,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lecture/코드스쿼드-클린프론트엔드/1주차 마스터 피어세션.md",
+                "file": "back-end/Middleware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lecture/코드스쿼드-클린프론트엔드/1주차 마스터 피어세션.md",
+                "file": "back-end/Middleware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lecture/코드스쿼드-클린프론트엔드/1주차 마스터 피어세션.md"
+                "file": "back-end/Middleware.md"
               }
             }
           }
@@ -276,13 +156,23 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "bb52315a030960be",
+  "active": "db2e3db374cbb141",
   "lastOpenFiles": [
+    "back-end/HTTP request types.md",
+    "back-end/Middleware.md",
+    "books/타입스크립트프로그래밍/4.함수.md",
+    "books/타입스크립트프로그래밍/5장.클래스와인터페이스.md",
+    "error-note/invalid next.config.js.md",
+    "error-note/pragma and pragmaFrag cannot be set when runtime is automatic..md",
+    "error-note/ReferenceError- exports is not defined in ES module scope.md",
+    "error-note/You appear to be using a native ECMAScript module configuration file, which is only supported when running Babel asynchronously..md",
+    "computer-science/Network/HTTP3/Connection-Establish/HTTP3에선 어떻게 한번만에 연결을 수립할 수 있는가?.md",
     "programming-paradigm/functional-programming/함수형 프로그래밍의 백미 - 커링과 합성 (리액트).md",
+    "lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
     "lecture/코드스쿼드-클린프론트엔드/1주차 마스터 피어세션.md",
+    "back-end",
     "lecture/함수형프로그래밍-유인동/비동기-동시성2/지연평가+Promise(L.map,map,take).md",
     "lecture/함수형프로그래밍-유인동/장바구니/총 수량, 총 가격.md",
-    "lecture/함수형프로그래밍-유인동/표현력높이기/pipe 함수.md",
     "lecture/함수형프로그래밍-유인동/표현력높이기/go 함수로 읽기 좋게 작성해보기.md",
     "lecture/함수형프로그래밍-유인동/표현력높이기/go 함수.md",
     "lecture/함수형프로그래밍-유인동/표현력높이기/go + curry로 읽기 좋게 작성해보기.md",
@@ -295,15 +185,6 @@
     "books/FunctionalJavascript/5.복잡성을 줄이는 디자인 패턴.md",
     "books/FunctionalJavascript/3.자료구조는적게,일은더많이.md",
     "books/FunctionalJavascript/2.고계자바스크립트.Md",
-    "books/FunctionalJavascript/1.함수형길들이기.md",
-    "programming-paradigm/functional-programming/compose.md",
-    "lecture/함수형프로그래밍-유인동/지연성2/다형성 높은 Join 함수.md",
-    "lecture/코드스쿼드-클린프론트엔드/OT.md",
-    "books/코어자바스크립트/5.클로저.md",
-    "programming-paradigm/functional-programming/함수형 프로그래밍의 3가지 특성.md",
-    "books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
-    "books/객체지향의-사실과-오해/1.협력하는 객체들의 공동체.md",
-    "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
     "lecture/코드스쿼드-클린프론트엔드",
     "books/타입스크립트프로그래밍",
     "front-end/design-system",
@@ -313,7 +194,6 @@
     "computer-science/Network/HTTP3/Connection-Establish",
     "computer-science/Network/TCP",
     "computer-science/Network/HTTP/헤더",
-    "computer-science/Network/HTTP",
     "스크린샷 2023-03-04 오후 11.11.03.png",
     "스크린샷 2023-03-04 오후 11.10.47.png"
   ]
