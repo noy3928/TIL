@@ -23,9 +23,11 @@
             "id": "af23ec2063f5a68b",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.2.8"
+                "file": "front-end/자바스크립트/정규표현식.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/Deploying app to internet.md",
+                "file": "front-end/자바스크립트/정규표현식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/Deploying app to internet.md",
+                "file": "front-end/자바스크립트/정규표현식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "back-end/Deploying app to internet.md"
+                "file": "front-end/자바스크립트/정규표현식.md"
               }
             }
           }
@@ -168,6 +170,7 @@
   },
   "active": "af23ec2063f5a68b",
   "lastOpenFiles": [
+    "front-end/자바스크립트/정규표현식.md",
     "back-end/HTTP request types.md",
     "back-end/Deploying app to internet.md",
     "back-end/Middleware.md",
@@ -194,7 +197,6 @@
     "books/쏙쏙-들어오는-함수형-코딩/12.함수형반복.md",
     "books/FunctionalJavascript/8.비동기 이벤트와 데이터를 관리.md",
     "books/FunctionalJavascript/5.복잡성을 줄이는 디자인 패턴.md",
-    "books/FunctionalJavascript/3.자료구조는적게,일은더많이.md",
     "lecture/코드스쿼드-클린프론트엔드",
     "books/타입스크립트프로그래밍",
     "front-end/design-system",
