@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "front-end/자바스크립트/정규표현식.md",
+                "file": "books/Object/6.메시지와인터페이스/table.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "front-end/자바스크립트/정규표현식.md",
+                "file": "books/Object/6.메시지와인터페이스/table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "front-end/자바스크립트/정규표현식.md",
+                "file": "books/Object/6.메시지와인터페이스/table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "front-end/자바스크립트/정규표현식.md"
+                "file": "books/Object/6.메시지와인터페이스/table.md"
               }
             }
           }
@@ -170,6 +170,7 @@
   },
   "active": "af23ec2063f5a68b",
   "lastOpenFiles": [
+    "books/Object/5.책임할당하기/table.md",
     "front-end/자바스크립트/정규표현식.md",
     "back-end/HTTP request types.md",
     "back-end/Deploying app to internet.md",
@@ -196,7 +197,6 @@
     "lecture/함수형프로그래밍-유인동/지연성/각각의 함수들을 응용 사용해보며 차이점을 확인해보기.md",
     "books/쏙쏙-들어오는-함수형-코딩/12.함수형반복.md",
     "books/FunctionalJavascript/8.비동기 이벤트와 데이터를 관리.md",
-    "books/FunctionalJavascript/5.복잡성을 줄이는 디자인 패턴.md",
     "lecture/코드스쿼드-클린프론트엔드",
     "books/타입스크립트프로그래밍",
     "front-end/design-system",
