@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/2023-05-22.md",
+                "file": "daily-note/2023-05-23.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/2023-05-22.md",
+                "file": "daily-note/2023-05-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/2023-05-22.md",
+                "file": "daily-note/2023-05-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/2023-05-22.md"
+                "file": "daily-note/2023-05-23.md"
               }
             }
           }
@@ -169,8 +169,9 @@
   },
   "active": "fee5fc704daa22af",
   "lastOpenFiles": [
-    "daily-note/무제 파일.md",
     "daily-note/2023-05-22.md",
+    "daily-note/2023-05-23.md",
+    "daily-note/무제 파일.md",
     "template/TIL template.md",
     "daily-note/unsorted/2022.12.12-TIL.md",
     "books/Object/2.객체지향 프로그래밍/Summary.md",
@@ -195,7 +196,6 @@
     "back-end/Middleware.md",
     "books/타입스크립트프로그래밍/4.함수.md",
     "books/타입스크립트프로그래밍/5장.클래스와인터페이스.md",
-    "error-note/invalid next.config.js.md",
     "back-end",
     "lecture/코드스쿼드-클린프론트엔드",
     "books/타입스크립트프로그래밍",
