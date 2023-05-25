@@ -8,19 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fee5fc704daa22af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily-note/2023-05-23.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc39d4ba19ef2661",
+            "id": "af23ec2063f5a68b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "af23ec2063f5a68b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming-paradigm/object-orient-programming/개방폐쇄원칙.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,12 +155,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fc39d4ba19ef2661",
+  "active": "af23ec2063f5a68b",
   "lastOpenFiles": [
-    "daily-note/2023-05-24.md",
-    "daily-note/2023-05-25.md",
-    "daily-note/2023-05-22.md",
+    "2023-05-25.md",
     "daily-note/2023-05-23.md",
+    "daily-note/2023-05-25.md",
+    "daily-note/2023-05-24.md",
+    "daily-note/2023-05-22.md",
     "daily-note/무제 파일.md",
     "template/TIL template.md",
     "daily-note/unsorted/2022.12.12-TIL.md",
@@ -208,7 +184,6 @@
     "books/Object/5.책임할당하기/table.md",
     "front-end/자바스크립트/정규표현식.md",
     "back-end/HTTP request types.md",
-    "back-end/Middleware.md",
     "back-end",
     "lecture/코드스쿼드-클린프론트엔드",
     "books/타입스크립트프로그래밍",
