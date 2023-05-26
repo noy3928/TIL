@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/2023-05-25.md",
+                "file": "daily-note/2023-05-26.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/2023-05-25.md",
+                "file": "daily-note/2023-05-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/2023-05-25.md",
+                "file": "daily-note/2023-05-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/2023-05-25.md"
+                "file": "daily-note/2023-05-26.md"
               }
             }
           }
@@ -157,9 +157,10 @@
   },
   "active": "af23ec2063f5a68b",
   "lastOpenFiles": [
+    "daily-note/2023-05-25.md",
+    "daily-note/2023-05-26.md",
     "2023-05-25.md",
     "daily-note/2023-05-23.md",
-    "daily-note/2023-05-25.md",
     "daily-note/2023-05-24.md",
     "daily-note/2023-05-22.md",
     "daily-note/무제 파일.md",
@@ -183,7 +184,6 @@
     "books/Object/6.메시지와인터페이스/table.md",
     "books/Object/5.책임할당하기/table.md",
     "front-end/자바스크립트/정규표현식.md",
-    "back-end/HTTP request types.md",
     "back-end",
     "lecture/코드스쿼드-클린프론트엔드",
     "books/타입스크립트프로그래밍",
