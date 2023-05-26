@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f2b4a473fbdb3737",
+        "id": "271a7940576c051c",
         "type": "tabs",
         "children": [
           {
-            "id": "af23ec2063f5a68b",
+            "id": "afbd696c897025fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -155,14 +155,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "af23ec2063f5a68b",
+  "active": "afbd696c897025fc",
   "lastOpenFiles": [
-    "daily-note/2023-05-25.md",
+    "assets/스크린샷 2023-03-04 오후 11.10.47.png",
+    "assets/스크린샷 2023-03-04 오후 11.11.03.png",
     "daily-note/2023-05-26.md",
+    "daily-note/2023-05-25.md",
+    "daily-note/2023-05-22.md",
+    "assets/스크린샷 2023-05-26 오후 10.41.11.png",
     "2023-05-25.md",
     "daily-note/2023-05-23.md",
     "daily-note/2023-05-24.md",
-    "daily-note/2023-05-22.md",
     "daily-note/무제 파일.md",
     "template/TIL template.md",
     "daily-note/unsorted/2022.12.12-TIL.md",
@@ -183,7 +186,6 @@
     "programming-paradigm/object-orient-programming/개방폐쇄원칙.md",
     "books/Object/6.메시지와인터페이스/table.md",
     "books/Object/5.책임할당하기/table.md",
-    "front-end/자바스크립트/정규표현식.md",
     "back-end",
     "lecture/코드스쿼드-클린프론트엔드",
     "books/타입스크립트프로그래밍",
@@ -192,8 +194,6 @@
     "computer-science/Network/HTTP3/Connection-ID",
     "computer-science/Network/HTTP3/MultiPlexing",
     "computer-science/Network/HTTP3/Connection-Establish",
-    "computer-science/Network/TCP",
-    "스크린샷 2023-03-04 오후 11.11.03.png",
-    "스크린샷 2023-03-04 오후 11.10.47.png"
+    "computer-science/Network/TCP"
   ]
 }
