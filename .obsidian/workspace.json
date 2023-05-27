@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/2023-05-26.md",
+                "file": "daily-note/2023-05-27.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/2023-05-26.md",
+                "file": "daily-note/2023-05-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/2023-05-26.md",
+                "file": "daily-note/2023-05-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/2023-05-26.md"
+                "file": "daily-note/2023-05-27.md"
               }
             }
           }
@@ -157,9 +157,10 @@
   },
   "active": "afbd696c897025fc",
   "lastOpenFiles": [
+    "daily-note/2023-05-26.md",
+    "daily-note/2023-05-27.md",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
     "assets/스크린샷 2023-03-04 오후 11.11.03.png",
-    "daily-note/2023-05-26.md",
     "daily-note/2023-05-25.md",
     "daily-note/2023-05-22.md",
     "assets/스크린샷 2023-05-26 오후 10.41.11.png",
