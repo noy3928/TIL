@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0c673f7101fea0db",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.4"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +166,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "afbd696c897025fc",
+  "active": "0c673f7101fea0db",
   "lastOpenFiles": [
     "daily-note/2023-05-26.md",
     "daily-note/2023-05-27.md",
