@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "3a6f9d2101bd1772",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily-note/2023-05-30 테스트코드.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "afbd696c897025fc",
             "type": "leaf",
             "state": {
@@ -25,14 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/2023-05-30 테스트코드.md",
+                "file": "daily-note/unsorted/컴포넌트 테스트.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ce68c7b84345b01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily-note/unsorted/소프트웨어 품질과 테스트.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c46e3250f24c828",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily-note/unsorted/소프트웨어의 품질.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -106,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/2023-05-30 테스트코드.md",
+                "file": "daily-note/unsorted/소프트웨어의 품질.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/2023-05-30 테스트코드.md",
+                "file": "daily-note/unsorted/소프트웨어의 품질.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/2023-05-30 테스트코드.md"
+                "file": "daily-note/unsorted/소프트웨어의 품질.md"
               }
             }
           }
@@ -168,10 +204,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0c673f7101fea0db",
+  "active": "6c46e3250f24c828",
   "lastOpenFiles": [
-    "daily-note/2023-05-29 ISR, SEO.md",
+    "daily-note/unsorted/소프트웨어 품질과 테스트.md",
     "daily-note/2023-05-30 테스트코드.md",
+    "daily-note/unsorted/소프트웨어의 품질.md",
+    "daily-note/unsorted/컴포넌트 테스트.md",
+    "daily-note/2023-05-29 ISR, SEO.md",
     "daily-note/2023-05-26.md",
     "daily-note/2023-05-27.md",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
@@ -197,9 +236,6 @@
     "books/코어자바스크립트/5.클로저.md",
     "books/코어자바스크립트/1.데이터 타입.md",
     "books/코어자바스크립트/6.프로토타입.md",
-    "programming-paradigm/functional-programming/클로저 - 함수형 자바스크립트 프로그래밍.md",
-    "back-end/Deploying app to internet.md",
-    "programming-paradigm/object-orient-programming/개방폐쇄원칙.md",
     "back-end",
     "lecture/코드스쿼드-클린프론트엔드",
     "books/타입스크립트프로그래밍",
