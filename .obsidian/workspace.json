@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/unsorted/소프트웨어의 품질.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/unsorted/소프트웨어의 품질.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/unsorted/소프트웨어의 품질.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/unsorted/소프트웨어의 품질.md"
+                "file": "README.md"
               }
             }
           }
@@ -206,36 +206,36 @@
   },
   "active": "6c46e3250f24c828",
   "lastOpenFiles": [
-    "daily-note/unsorted/소프트웨어 품질과 테스트.md",
     "daily-note/2023-05-30 테스트코드.md",
+    "error-note/sitemap 동적으로 생성하기 안되는 문제.md",
+    "front-end/리액트/useSyncExternalStore-TheUnderratedReactAPI.md",
+    "front-end/리액트/useSyncExternalStore.md",
+    "front-end/리액트/Render-Props-Pattern(patterns.dev).md",
+    "front-end/리액트/react18-서버컴포넌트준비하기.md",
+    "front-end/리액트/react-render-props-in-typescript.md",
+    "front-end/리액트/Inside-react(동시성을구현하는기술).md",
+    "front-end/리액트/Guideline-from-the-70's-on-how-to-split-your-React-components.md",
+    "front-end/리액트/Build-your-own-react.md",
+    "front-end/리액트/넥스트Js에서-성능최적화를-위한-전략.md",
+    "front-end/리액트/10-Ways-to-Improve-Your-Next.JS-App-Performance.md",
+    "front-end/리액트/5-Advanced-React-Patterns.md",
+    "front-end/자바스크립트/고계함수와 클로저.md",
+    "front-end/자바스크립트/이벤트 루프에 대한 예시코드.md",
+    "front-end/자바스크립트/인사이드 자바스크립트에서 설명하는 클로저.md",
+    "front-end/자바스크립트/정규표현식.md",
+    "front-end/자바스크립트/제네레이터.md",
+    "front-end/자바스크립트/프로토타입과 dunder 프로토는 어떤 차이가 있는가?.md",
+    "front-end/자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
+    "front-end/자바스크립트/new 키워드를 통해서 인스턴스를 생성할 때 일어나는 일은 무엇인가?.md",
+    "front-end/자바스크립트/Object.create()를 통해서 새로운 객체를 생성하는 것과, constructure 함수를 통해서 생성하는 것은 어떤 차이가 존재하는가?.md",
+    "README.md",
     "daily-note/unsorted/소프트웨어의 품질.md",
+    "daily-note/unsorted/소프트웨어 품질과 테스트.md",
     "daily-note/unsorted/컴포넌트 테스트.md",
-    "daily-note/2023-05-29 ISR, SEO.md",
-    "daily-note/2023-05-26.md",
-    "daily-note/2023-05-27.md",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
     "assets/스크린샷 2023-03-04 오후 11.11.03.png",
-    "daily-note/2023-05-25.md",
-    "daily-note/2023-05-22.md",
     "assets/스크린샷 2023-05-26 오후 10.41.11.png",
-    "2023-05-25.md",
-    "daily-note/2023-05-23.md",
-    "daily-note/2023-05-24.md",
-    "daily-note/무제 파일.md",
-    "template/TIL template.md",
-    "daily-note/unsorted/2022.12.12-TIL.md",
-    "books/Object/2.객체지향 프로그래밍/Summary.md",
     "daily-note/unsorted",
-    "books/Object/2.객체지향 프로그래밍/table.md",
-    "books/FunctionalJavascript/1.함수형길들이기.md",
-    "books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
-    "books/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝.md",
-    "books/객체지향의-사실과-오해/1.협력하는 객체들의 공동체.md",
-    "books/객체지향자바스크립트의원리-니콜라스.C.자카스/2장.함수.md",
-    "books/객체지향자바스크립트의원리-니콜라스.C.자카스/1장.원시타입과 참조타입.md",
-    "books/코어자바스크립트/5.클로저.md",
-    "books/코어자바스크립트/1.데이터 타입.md",
-    "books/코어자바스크립트/6.프로토타입.md",
     "back-end",
     "lecture/코드스쿼드-클린프론트엔드",
     "books/타입스크립트프로그래밍",
