@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/2023-05-29.md",
+                "file": "daily-note/2023-05-30 테스트코드.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/2023-05-29.md",
+                "file": "daily-note/2023-05-30 테스트코드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/2023-05-29.md",
+                "file": "daily-note/2023-05-30 테스트코드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/2023-05-29.md"
+                "file": "daily-note/2023-05-30 테스트코드.md"
               }
             }
           }
@@ -170,7 +170,8 @@
   },
   "active": "0c673f7101fea0db",
   "lastOpenFiles": [
-    "daily-note/2023-05-29.md",
+    "daily-note/2023-05-29 ISR, SEO.md",
+    "daily-note/2023-05-30 테스트코드.md",
     "daily-note/2023-05-26.md",
     "daily-note/2023-05-27.md",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
@@ -199,7 +200,6 @@
     "programming-paradigm/functional-programming/클로저 - 함수형 자바스크립트 프로그래밍.md",
     "back-end/Deploying app to internet.md",
     "programming-paradigm/object-orient-programming/개방폐쇄원칙.md",
-    "books/Object/6.메시지와인터페이스/table.md",
     "back-end",
     "lecture/코드스쿼드-클린프론트엔드",
     "books/타입스크립트프로그래밍",
