@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/2023.06/2023-06-01 콜스택, 노드-논 블로킹, 이벤트 드리븐.md",
+                "file": "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "개방",
+                "query": "리스코프",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +122,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -142,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/2023.06/2023-06-01 콜스택, 노드-논 블로킹, 이벤트 드리븐.md",
+                "file": "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/2023.06/2023-06-01 콜스택, 노드-논 블로킹, 이벤트 드리븐.md",
+                "file": "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/2023.06/2023-06-01 콜스택, 노드-논 블로킹, 이벤트 드리븐.md"
+                "file": "lecture/객체지향자바스크립트-코드스피츠/1회차.md"
               }
             }
           }
@@ -206,13 +207,14 @@
   },
   "active": "6c46e3250f24c828",
   "lastOpenFiles": [
-    "daily-note/2023.05/2023-05-31.md",
+    "programming-paradigm/object-orient-programming/변경에 유연한 컴포넌트.md",
+    "daily-note/2023.05/2023-05-30 테스트코드, 스크롤 애니메이션.md",
     "daily-note/2023.06/2023-06-01 콜스택, 노드-논 블로킹, 이벤트 드리븐.md",
+    "daily-note/2023.05/2023-05-31.md",
     "daily-note/2023.05/2023-05-22.md",
     "daily-note/2023.06",
     "daily-note/2023.05",
     "README.md",
-    "daily-note/2023.05/2023-05-30 테스트코드, 스크롤 애니메이션.md",
     "error-note/sitemap 동적으로 생성하기 안되는 문제.md",
     "front-end/리액트/useSyncExternalStore-TheUnderratedReactAPI.md",
     "front-end/리액트/useSyncExternalStore.md",
@@ -233,7 +235,6 @@
     "front-end/자바스크립트/프로토타입과 dunder 프로토는 어떤 차이가 있는가?.md",
     "front-end/자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
     "front-end/자바스크립트/new 키워드를 통해서 인스턴스를 생성할 때 일어나는 일은 무엇인가?.md",
-    "front-end/자바스크립트/Object.create()를 통해서 새로운 객체를 생성하는 것과, constructure 함수를 통해서 생성하는 것은 어떤 차이가 존재하는가?.md",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
     "assets/스크린샷 2023-03-04 오후 11.11.03.png",
     "assets/스크린샷 2023-05-26 오후 10.41.11.png",
