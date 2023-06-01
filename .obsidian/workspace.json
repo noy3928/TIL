@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/2023.06/2023-06-01.md",
+                "file": "daily-note/2023.05/2023-05-31.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/2023.06/2023-06-01.md",
+                "file": "daily-note/2023.05/2023-05-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/2023.06/2023-06-01.md",
+                "file": "daily-note/2023.05/2023-05-31.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/2023.06/2023-06-01.md"
+                "file": "daily-note/2023.05/2023-05-31.md"
               }
             }
           }
@@ -206,8 +206,8 @@
   },
   "active": "6c46e3250f24c828",
   "lastOpenFiles": [
-    "daily-note/2023.05/2023-05-22.md",
     "daily-note/2023.06/2023-06-01.md",
+    "daily-note/2023.05/2023-05-22.md",
     "daily-note/2023.06",
     "daily-note/2023.05/2023-05-31.md",
     "daily-note/2023.05",
