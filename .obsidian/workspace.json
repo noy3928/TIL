@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
+                "file": "books/FunctionalJavascript/2.고계자바스크립트.Md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "함수형과 객체지",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
+                "file": "books/FunctionalJavascript/2.고계자바스크립트.Md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
+                "file": "books/FunctionalJavascript/2.고계자바스크립트.Md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md"
+                "file": "books/FunctionalJavascript/2.고계자바스크립트.Md"
               }
             }
           }
@@ -205,11 +205,13 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
-    "daily-note/2023.05/2023-05-30 테스트코드, 스크롤 애니메이션.md",
+    "books/FunctionalJavascript/1.함수형길들이기.md",
+    "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
+    "books/FunctionalJavascript/2.고계자바스크립트.Md",
     "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
+    "daily-note/2023.05/2023-05-30 테스트코드, 스크롤 애니메이션.md",
     "study/쏙쏙들어오는함수형코딩/1주차.md",
     "study/쏙쏙들어오는함수형코딩/2주차.md",
-    "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
     "programming-paradigm/object-orient-programming/변경에 유연한 컴포넌트.md",
     "daily-note/2023.06/2023-06-01 콜스택, 노드-논 블로킹, 이벤트 드리븐.md",
     "daily-note/2023.05/2023-05-31.md",
@@ -231,8 +233,6 @@
     "front-end/리액트/5-Advanced-React-Patterns.md",
     "front-end/자바스크립트/고계함수와 클로저.md",
     "front-end/자바스크립트/이벤트 루프에 대한 예시코드.md",
-    "front-end/자바스크립트/인사이드 자바스크립트에서 설명하는 클로저.md",
-    "front-end/자바스크립트/정규표현식.md",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
     "assets/스크린샷 2023-03-04 오후 11.11.03.png",
     "assets/스크린샷 2023-05-26 오후 10.41.11.png",
