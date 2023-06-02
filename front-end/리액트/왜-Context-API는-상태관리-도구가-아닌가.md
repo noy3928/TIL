@@ -40,3 +40,54 @@ React Context는 "상태 관리" 도구가 아니며 Redux를 대체하지 않�
 또한, 현재 애플리케이션에서 해결하려는 문제를 명확히 이해하고, 당신의 문제를 가장 잘 해결하는 도구를 선택하는 것이 중요합니다. 다른 사람이 사용하라고 말하거나 인기가 있는 도구를 선택하는 것이 아니라, 이 특정한 상황에서 당신에게 가장 적합한 도구를 선택해야 합니다.
 
 "Context vs Redux"에 대한 혼란은 이러한 도구가 실제로 무엇을 하는지와 어떤 문제를 해결하는지에 대한 이해의 부족에서 비롯됩니다. 따라서, 이 도구를 언제 사용해야 하는지 알기 위해선 먼저 그들이 무엇을 하고 어떤 문제를 해결하는지 명확히 정의해야 합니다.
+
+
+## React Context는 무엇인가요?
+
+먼저, React 문서에서 Context에 대한 실제 설명을 살펴보겠습니다.
+
+Context는 매번 수동으로 props를 각 레벨에서 전달하지 않고도 컴포넌트 트리를 통해 데이터를 전달하는 방법을 제공합니다.
+
+일반적인 React 애플리케이션에서 데이터는 상위에서 하위로 (부모에서 자식으로) props를 통해 전달되지만, 이는 애플리케이션 내 많은 컴포넌트에서 필요한 특정 유형의 props (예: 로캘 환경 설정, UI 테마)에 대해서는 불편할 수 있습니다. Context는 트리의 모든 레벨을 통해 명시적으로 prop을 전달하지 않고도 이러한 값들을 컴포넌트간에 공유하는 방법을 제공합니다.
+
+여기서 주목할 점은 "값을 관리한다"라고 말하지 않고 "값을 전달하고 공유한다"라고 언급한다는 것입니다.
+
+현재의 React Context API (React.createContext())는 React 16.3에서 처음으로 출시되었습니다. 이는 초기 버전의 React부터 사용 가능했던 레거시 컨텍스트 API를 대체하였으나, 주요한 설계 결함이 있었습니다. 레거시 컨텍스트의 주요 문제점은 컨텍스트를 통해 전달된 값의 업데이트가 shouldComponentUpdate를 통해 렌더링을 건너뛰는 경우 "차단"될 수 있다는 것입니다. 많은 컴포넌트가 성능 최적화를 위해 shouldComponentUpdate에 의존하기 때문에 이러한 문제로 인해 레거시 컨텍스트는 일반 데이터 전달에 쓸모없게 되었습니다. createContext()는 이러한 문제를 해결하기 위해 설계되었으며, 가운데 컴포넌트가 렌더링을 건너뛰어도 값의 업데이트가 자식 컴포넌트에서 볼 수 있도록 합니다.
+
+### Context 사용하기
+앱에서 React Context를 사용하기 위해서 몇 가지 단계가 필요합니다:
+
+먼저, const MyContext = React.createContext()를 호출하여 컨텍스트 객체 인스턴스를 생성합니다.
+부모 컴포넌트에서 <MyContext.Provider value={someValue}>를 렌더링합니다. 이렇게 하면 컨텍스트에 하나의 데이터가 들어갑니다. 그 값은 문자열, 숫자, 객체, 배열, 클래스 인스턴스, 이벤
+
+트 이밋터 등 아무 것이나 될 수 있습니다.
+그런 다음, 해당 제공자로 중첩된 모든 컴포넌트에서 const theContextValue = useContext(MyContext)를 호출합니다.
+부모 컴포넌트가 다시 렌더링되고, 제공자의 값으로 새로운 참조를 전달할 때마다 해당 컨텍스트를 읽는 모든 컴포넌트는 다시 렌더링됩니다.
+
+대부분의 경우, 컨텍스트의 값은 React 컴포넌트 상태에서 나오는 것입니다. 다음과 같은 방식으로 작성됩니다:
+
+function ParentComponent() {
+  const [counter, setCounter] = useState(0);
+
+  // 값을 및 설정자를 포함하는 객체 생성
+  const contextValue = {counter, setCounter};
+
+  return (
+    <MyContext.Provider value={contextValue}>
+      <SomeChildComponent />
+    </MyContext.Provider>
+  )
+}
+그런 다음 자식 컴포넌트에서 useContext를 호출하여 값을 읽을 수 있습니다:
+
+function NestedChildComponent() {
+  const { counter, setCounter } = useContext(MyContext);
+
+  // 카운터 값과 설정자를 사용하여 작업 수행
+}
+Context의 목적과 사용 사례
+이를 통해 Context가 사실상 아무것도 "관리"하지 않는다는 것을 알 수 있습니다. 대신, 파이프나 웜홀과 같습니다. <MyContext.Provider>를 사용하여 파이프의 상단에 무언가를 넣으면 (무엇이든 될 수 있음), 그 하나의 것이 파이프를 따라 내려가서 다른 컴포넌트에서 useContext(MyProvider)로 요청할 때까지 나옵니다.
+
+따라서, Context를 사용하는 주요 목적은 "prop drilling"을 피하는 것입니다. 이 값을 명시적으로 각 컴포넌트 트리의 모든 레벨을 통해 props로 전달하는 대신, <MyContext.Provider>로 중첩된 모든 컴포넌트는 필요에 따라 useContext(MyContext)를 사용하여 값을 가져올 수 있습니다. 이는 코드를 간소화시키는데 도움이 됩니다. 추가적인 prop 전달 로직을 작성할 필요가 없기 때문입니다.
+
+개념적으로, 이는 "의존성 주입"의 한 형태입니다. 자식 컴포넌트가 특정 유형의 값을 필요로 한다는 것을 알고 있지만, 해당 값을 자체적으로 생성하거나 설정하지 않습니다. 대신, 런타임에 어떤 부모 컴포넌트가 그 값을 전달할 것으로 가정합니다.
