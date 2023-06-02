@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/2023.05/2023-05-30 테스트코드, 스크롤 애니메이션.md",
+                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "리스코프",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,8 +121,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -143,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
+                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
+                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lecture/객체지향자바스크립트-코드스피츠/1회차.md"
+                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md"
               }
             }
           }
@@ -205,10 +203,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6c46e3250f24c828",
+  "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
-    "programming-paradigm/object-orient-programming/변경에 유연한 컴포넌트.md",
     "daily-note/2023.05/2023-05-30 테스트코드, 스크롤 애니메이션.md",
+    "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
+    "study/쏙쏙들어오는함수형코딩/1주차.md",
+    "study/쏙쏙들어오는함수형코딩/2주차.md",
+    "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
+    "programming-paradigm/object-orient-programming/변경에 유연한 컴포넌트.md",
     "daily-note/2023.06/2023-06-01 콜스택, 노드-논 블로킹, 이벤트 드리븐.md",
     "daily-note/2023.05/2023-05-31.md",
     "daily-note/2023.05/2023-05-22.md",
@@ -231,10 +233,6 @@
     "front-end/자바스크립트/이벤트 루프에 대한 예시코드.md",
     "front-end/자바스크립트/인사이드 자바스크립트에서 설명하는 클로저.md",
     "front-end/자바스크립트/정규표현식.md",
-    "front-end/자바스크립트/제네레이터.md",
-    "front-end/자바스크립트/프로토타입과 dunder 프로토는 어떤 차이가 있는가?.md",
-    "front-end/자바스크립트/js는 왜 프로토타입 시스템을 선택한 것일까?.md",
-    "front-end/자바스크립트/new 키워드를 통해서 인스턴스를 생성할 때 일어나는 일은 무엇인가?.md",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
     "assets/스크린샷 2023-03-04 오후 11.11.03.png",
     "assets/스크린샷 2023-05-26 오후 10.41.11.png",
