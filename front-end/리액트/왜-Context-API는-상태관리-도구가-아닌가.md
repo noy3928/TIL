@@ -66,6 +66,7 @@ Context는 매번 수동으로 props를 각 레벨에서 전달하지 않고도 
 
 대부분의 경우, 컨텍스트의 값은 React 컴포넌트 상태에서 나오는 것입니다. 다음과 같은 방식으로 작성됩니다:
 
+```js
 function ParentComponent() {
   const [counter, setCounter] = useState(0);
 
@@ -78,14 +79,19 @@ function ParentComponent() {
     </MyContext.Provider>
   )
 }
+```
+
 그런 다음 자식 컴포넌트에서 useContext를 호출하여 값을 읽을 수 있습니다:
+```js
 
 function NestedChildComponent() {
   const { counter, setCounter } = useContext(MyContext);
 
   // 카운터 값과 설정자를 사용하여 작업 수행
 }
-Context의 목적과 사용 사례
+```
+
+### Context의 목적과 사용 사례
 이를 통해 Context가 사실상 아무것도 "관리"하지 않는다는 것을 알 수 있습니다. 대신, 파이프나 웜홀과 같습니다. <MyContext.Provider>를 사용하여 파이프의 상단에 무언가를 넣으면 (무엇이든 될 수 있음), 그 하나의 것이 파이프를 따라 내려가서 다른 컴포넌트에서 useContext(MyProvider)로 요청할 때까지 나옵니다.
 
 따라서, Context를 사용하는 주요 목적은 "prop drilling"을 피하는 것입니다. 이 값을 명시적으로 각 컴포넌트 트리의 모든 레벨을 통해 props로 전달하는 대신, <MyContext.Provider>로 중첩된 모든 컴포넌트는 필요에 따라 useContext(MyContext)를 사용하여 값을 가져올 수 있습니다. 이는 코드를 간소화시키는데 도움이 됩니다. 추가적인 prop 전달 로직을 작성할 필요가 없기 때문입니다.
