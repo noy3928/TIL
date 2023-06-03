@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming-paradigm/object-orient-programming/의존성 역전 원칙.md",
+                "file": "books/Object/14.일관성있는협력/table.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "의존성 역전",
+                "query": "캡슐화",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming-paradigm/object-orient-programming/의존성 역전 원칙.md",
+                "file": "books/Object/14.일관성있는협력/table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming-paradigm/object-orient-programming/의존성 역전 원칙.md",
+                "file": "books/Object/14.일관성있는협력/table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming-paradigm/object-orient-programming/의존성 역전 원칙.md"
+                "file": "books/Object/14.일관성있는협력/table.md"
               }
             }
           }
@@ -206,34 +206,34 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
+    "books/Object/3.역할,책임,협력/table.md",
+    "books/Object/4.설계품질과트레이드오프/table.md",
+    "books/Object/5.책임할당하기/table.md",
+    "books/Object/6.메시지와인터페이스/table.md",
+    "books/Object/2.객체지향 프로그래밍/Summary.md",
+    "programming-paradigm/object-orient-programming/strategy pattern이란 무엇인가?.md",
+    "books/Object/README.md",
+    "books/객체지향의-사실과-오해/README.md",
+    "computer-science/DesignPattern/MediatorPattern/MediatorPattern.md",
+    "computer-science/DesignPattern/category.md",
+    "daily-note/unsorted/실무에서 바로쓰는 프론트엔드 클린코드.md",
+    "programming-paradigm/object-orient-programming/숨겨진 의존성은 나쁘다.md",
+    "programming-paradigm/object-orient-programming/객체지향에서 유연성의 의미는 무엇인가?.md",
+    "books/객체지향의-사실과-오해/5.책임과 메시지.md",
+    "books/객체지향의-사실과-오해/3.타입과 추상화.md",
+    "books/객체지향의-사실과-오해/2.이상한 나라의 객체.md",
+    "books/FunctionalJavascript/2.고계자바스크립트.Md",
+    "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
+    "books/객체지향의-사실과-오해/1.협력하는 객체들의 공동체.md",
+    "programming-paradigm/object-orient-programming/의존성 역전 원칙.md",
     "books/Object/15.디자인패턴과프레임워크/table.md",
     "daily-note/unsorted/SOLID 정리.md",
-    "programming-paradigm/object-orient-programming/의존성 역전 원칙.md",
-    "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
-    "books/FunctionalJavascript/2.고계자바스크립트.Md",
     "books/FunctionalJavascript/1.함수형길들이기.md",
     "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
     "daily-note/2023.05/2023-05-30 테스트코드, 스크롤 애니메이션.md",
     "study/쏙쏙들어오는함수형코딩/1주차.md",
-    "study/쏙쏙들어오는함수형코딩/2주차.md",
-    "programming-paradigm/object-orient-programming/변경에 유연한 컴포넌트.md",
-    "daily-note/2023.06/2023-06-01 콜스택, 노드-논 블로킹, 이벤트 드리븐.md",
-    "daily-note/2023.05/2023-05-31.md",
-    "daily-note/2023.05/2023-05-22.md",
     "daily-note/2023.06",
     "daily-note/2023.05",
-    "README.md",
-    "error-note/sitemap 동적으로 생성하기 안되는 문제.md",
-    "front-end/리액트/useSyncExternalStore-TheUnderratedReactAPI.md",
-    "front-end/리액트/useSyncExternalStore.md",
-    "front-end/리액트/Render-Props-Pattern(patterns.dev).md",
-    "front-end/리액트/react18-서버컴포넌트준비하기.md",
-    "front-end/리액트/react-render-props-in-typescript.md",
-    "front-end/리액트/Inside-react(동시성을구현하는기술).md",
-    "front-end/리액트/Guideline-from-the-70's-on-how-to-split-your-React-components.md",
-    "front-end/리액트/Build-your-own-react.md",
-    "front-end/리액트/넥스트Js에서-성능최적화를-위한-전략.md",
-    "front-end/리액트/10-Ways-to-Improve-Your-Next.JS-App-Performance.md",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
     "assets/스크린샷 2023-03-04 오후 11.11.03.png",
     "assets/스크린샷 2023-05-26 오후 10.41.11.png",
