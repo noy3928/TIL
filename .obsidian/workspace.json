@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/Object/14.일관성있는협력/table.md",
+                "file": "programming-paradigm/functional-programming/함수형의 맥락에서 클로저는 왜 중요한가?.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "캡슐화",
+                "query": "클로저",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/Object/14.일관성있는협력/table.md",
+                "file": "programming-paradigm/functional-programming/함수형의 맥락에서 클로저는 왜 중요한가?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/Object/14.일관성있는협력/table.md",
+                "file": "programming-paradigm/functional-programming/함수형의 맥락에서 클로저는 왜 중요한가?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/Object/14.일관성있는협력/table.md"
+                "file": "programming-paradigm/functional-programming/함수형의 맥락에서 클로저는 왜 중요한가?.md"
               }
             }
           }
@@ -206,6 +206,9 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
+    "books/코어자바스크립트/5.클로저.md",
+    "books/FunctionalJavascript/2.고계자바스크립트.Md",
+    "books/Object/14.일관성있는협력/table.md",
     "books/Object/3.역할,책임,협력/table.md",
     "books/Object/4.설계품질과트레이드오프/table.md",
     "books/Object/5.책임할당하기/table.md",
@@ -222,7 +225,6 @@
     "books/객체지향의-사실과-오해/5.책임과 메시지.md",
     "books/객체지향의-사실과-오해/3.타입과 추상화.md",
     "books/객체지향의-사실과-오해/2.이상한 나라의 객체.md",
-    "books/FunctionalJavascript/2.고계자바스크립트.Md",
     "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
     "books/객체지향의-사실과-오해/1.협력하는 객체들의 공동체.md",
     "programming-paradigm/object-orient-programming/의존성 역전 원칙.md",
@@ -230,8 +232,6 @@
     "daily-note/unsorted/SOLID 정리.md",
     "books/FunctionalJavascript/1.함수형길들이기.md",
     "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
-    "daily-note/2023.05/2023-05-30 테스트코드, 스크롤 애니메이션.md",
-    "study/쏙쏙들어오는함수형코딩/1주차.md",
     "daily-note/2023.06",
     "daily-note/2023.05",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
