@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming-paradigm/functional-programming/함수형의 맥락에서 클로저는 왜 중요한가?.md",
+                "file": "books/코어자바스크립트/2.실행 컨텍스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "클로저",
+                "query": "실행 컨텍스트",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming-paradigm/functional-programming/함수형의 맥락에서 클로저는 왜 중요한가?.md",
+                "file": "books/코어자바스크립트/2.실행 컨텍스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming-paradigm/functional-programming/함수형의 맥락에서 클로저는 왜 중요한가?.md",
+                "file": "books/코어자바스크립트/2.실행 컨텍스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming-paradigm/functional-programming/함수형의 맥락에서 클로저는 왜 중요한가?.md"
+                "file": "books/코어자바스크립트/2.실행 컨텍스트.md"
               }
             }
           }
@@ -206,6 +206,7 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
+    "programming-paradigm/functional-programming/함수형의 맥락에서 클로저는 왜 중요한가?.md",
     "books/코어자바스크립트/5.클로저.md",
     "books/FunctionalJavascript/2.고계자바스크립트.Md",
     "books/Object/14.일관성있는협력/table.md",
@@ -231,7 +232,6 @@
     "books/Object/15.디자인패턴과프레임워크/table.md",
     "daily-note/unsorted/SOLID 정리.md",
     "books/FunctionalJavascript/1.함수형길들이기.md",
-    "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
     "daily-note/2023.06",
     "daily-note/2023.05",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
