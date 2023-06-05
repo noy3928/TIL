@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
+                "file": "books/Object/13.서브클래싱과서브타이핑/table.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "실행 컨텍스트",
+                "query": "인터페이스 분리",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
+                "file": "books/Object/13.서브클래싱과서브타이핑/table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
+                "file": "books/Object/13.서브클래싱과서브타이핑/table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md"
+                "file": "books/Object/13.서브클래싱과서브타이핑/table.md"
               }
             }
           }
@@ -205,6 +205,12 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
+    "daily-note/unsorted/SOLID 정리.md",
+    "books/객체지향의-사실과-오해/5.책임과 메시지.md",
+    "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
+    "daily-note/unsorted/CORS는 왜 이렇게 우리를 힘들게 하는걸까?.md",
+    "daily-note/unsorted/CORS - MDN.md",
+    "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
     "daily-note/2023.05/2023-05-30 테스트코드, 스크롤 애니메이션.md",
     "daily-note/2023.05/2023-05-29 ISR, SEO.md",
     "daily-note/2023.05/2023-05-27.md",
@@ -225,12 +231,6 @@
     "books/Object/README.md",
     "books/객체지향의-사실과-오해/README.md",
     "computer-science/DesignPattern/MediatorPattern/MediatorPattern.md",
-    "computer-science/DesignPattern/category.md",
-    "daily-note/unsorted/실무에서 바로쓰는 프론트엔드 클린코드.md",
-    "programming-paradigm/object-orient-programming/숨겨진 의존성은 나쁘다.md",
-    "programming-paradigm/object-orient-programming/객체지향에서 유연성의 의미는 무엇인가?.md",
-    "books/객체지향의-사실과-오해/5.책임과 메시지.md",
-    "books/객체지향의-사실과-오해/3.타입과 추상화.md",
     "daily-note/2023.06",
     "daily-note/2023.05",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
