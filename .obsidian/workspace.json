@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/코어자바스크립트/2.실행 컨텍스트.md",
+                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,8 +121,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -142,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/코어자바스크립트/2.실행 컨텍스트.md",
+                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/코어자바스크립트/2.실행 컨텍스트.md",
+                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/코어자바스크립트/2.실행 컨텍스트.md"
+                "file": "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md"
               }
             }
           }
@@ -206,6 +205,13 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
+    "daily-note/2023.05/2023-05-30 테스트코드, 스크롤 애니메이션.md",
+    "daily-note/2023.05/2023-05-29 ISR, SEO.md",
+    "daily-note/2023.05/2023-05-27.md",
+    "daily-note/2023.05/2023-05-26.md",
+    "daily-note/2023.05/2023-05-31.md",
+    "daily-note/2023.06/2023-06-01 콜스택, 노드-논 블로킹, 이벤트 드리븐.md",
+    "books/코어자바스크립트/2.실행 컨텍스트.md",
     "programming-paradigm/functional-programming/함수형의 맥락에서 클로저는 왜 중요한가?.md",
     "books/코어자바스크립트/5.클로저.md",
     "books/FunctionalJavascript/2.고계자바스크립트.Md",
@@ -225,13 +231,6 @@
     "programming-paradigm/object-orient-programming/객체지향에서 유연성의 의미는 무엇인가?.md",
     "books/객체지향의-사실과-오해/5.책임과 메시지.md",
     "books/객체지향의-사실과-오해/3.타입과 추상화.md",
-    "books/객체지향의-사실과-오해/2.이상한 나라의 객체.md",
-    "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
-    "books/객체지향의-사실과-오해/1.협력하는 객체들의 공동체.md",
-    "programming-paradigm/object-orient-programming/의존성 역전 원칙.md",
-    "books/Object/15.디자인패턴과프레임워크/table.md",
-    "daily-note/unsorted/SOLID 정리.md",
-    "books/FunctionalJavascript/1.함수형길들이기.md",
     "daily-note/2023.06",
     "daily-note/2023.05",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
