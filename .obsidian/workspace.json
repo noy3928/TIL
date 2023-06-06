@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/객체지향의-사실과-오해/5.책임과 메시지.md",
+                "file": "books/FunctionalJavascript/1.함수형길들이기.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "다형성",
+                "query": "순수",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/객체지향의-사실과-오해/5.책임과 메시지.md",
+                "file": "books/FunctionalJavascript/1.함수형길들이기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/객체지향의-사실과-오해/5.책임과 메시지.md",
+                "file": "books/FunctionalJavascript/1.함수형길들이기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/객체지향의-사실과-오해/5.책임과 메시지.md"
+                "file": "books/FunctionalJavascript/1.함수형길들이기.md"
               }
             }
           }
@@ -206,6 +206,9 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
+    "books/Object/2.객체지향 프로그래밍/table.md",
+    "daily-note/2023.06/2023-06-06.md",
+    "books/객체지향의-사실과-오해/5.책임과 메시지.md",
     "lecture/오브젝트-코드스피츠/2회차.md",
     "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
     "books/객체지향의-사실과-오해/1.협력하는 객체들의 공동체.md",
@@ -220,18 +223,15 @@
     "books/객체지향자바스크립트의원리-니콜라스.C.자카스/5.상속.md",
     "books/객체지향자바스크립트의원리-니콜라스.C.자카스/4.생성자와 프로토타입.md",
     "books/객체지향자바스크립트의원리-니콜라스.C.자카스/3장.객체의 이해.md",
-    "daily-note/2023.06/2023-06-06.md",
     "daily-note/2023.06/2023-06-05.md",
     "books/Object/13.서브클래싱과서브타이핑/table.md",
     "daily-note/unsorted/SOLID 정리.md",
-    "books/객체지향의-사실과-오해/5.책임과 메시지.md",
     "daily-note/unsorted/CORS는 왜 이렇게 우리를 힘들게 하는걸까?.md",
     "daily-note/unsorted/CORS - MDN.md",
     "front-end/리액트/왜-Context-API는-상태관리-도구가-아닌가.md",
     "daily-note/2023.05/2023-05-30 테스트코드, 스크롤 애니메이션.md",
     "daily-note/2023.05/2023-05-29 ISR, SEO.md",
     "daily-note/2023.05/2023-05-27.md",
-    "daily-note/2023.05/2023-05-26.md",
     "daily-note/2023.06",
     "daily-note/2023.05",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
