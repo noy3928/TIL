@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/FunctionalJavascript/5.복잡성을 줄이는 디자인 패턴.md",
+                "file": "books/Object/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "함수자",
+                "query": "캡슐화",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/FunctionalJavascript/5.복잡성을 줄이는 디자인 패턴.md",
+                "file": "books/Object/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/FunctionalJavascript/5.복잡성을 줄이는 디자인 패턴.md",
+                "file": "books/Object/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/FunctionalJavascript/5.복잡성을 줄이는 디자인 패턴.md"
+                "file": "books/Object/README.md"
               }
             }
           }
@@ -206,6 +206,11 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
+    "books/Object/2.객체지향 프로그래밍/Summary.md",
+    "programming-paradigm/object-orient-programming/strategy pattern이란 무엇인가?.md",
+    "programming-paradigm/object-orient-programming/숨겨진 의존성은 나쁘다.md",
+    "books/객체지향의-사실과-오해/5.책임과 메시지.md",
+    "books/FunctionalJavascript/5.복잡성을 줄이는 디자인 패턴.md",
     "programming-paradigm/functional-programming/3분 모나드.md",
     "lecture/함수형프로그래밍-유인동/비동기-동시성1/합성 관점에서의 Promise와 모나드.md",
     "programming-paradigm/functional-programming/Functor의 정의.md",
@@ -213,7 +218,6 @@
     "programming-paradigm/functional-programming/JS개발자는 아직도 모나드를 모르겠어요.md",
     "books/FunctionalJavascript/8.비동기 이벤트와 데이터를 관리.md",
     "programming-paradigm/functional-programming/귀차니스트를 위한 펑터.md",
-    "books/FunctionalJavascript/5.복잡성을 줄이는 디자인 패턴.md",
     "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md",
     "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
     "books/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1).md",
@@ -227,11 +231,7 @@
     "books/FunctionalJavascript/1.함수형길들이기.md",
     "books/Object/2.객체지향 프로그래밍/table.md",
     "daily-note/2023.06/2023-06-06.md",
-    "books/객체지향의-사실과-오해/5.책임과 메시지.md",
     "lecture/오브젝트-코드스피츠/2회차.md",
-    "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
-    "books/객체지향의-사실과-오해/1.협력하는 객체들의 공동체.md",
-    "books/객체지향자바스크립트의원리-니콜라스.C.자카스/README.md",
     "daily-note/2023.06",
     "daily-note/2023.05",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
