@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/Object/README.md",
+                "file": "lecture/객체지향자바스크립트-코드스피츠/2회차.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "캡슐화",
+                "query": "MVC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/Object/README.md",
+                "file": "lecture/객체지향자바스크립트-코드스피츠/2회차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/Object/README.md",
+                "file": "lecture/객체지향자바스크립트-코드스피츠/2회차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/Object/README.md"
+                "file": "lecture/객체지향자바스크립트-코드스피츠/2회차.md"
               }
             }
           }
@@ -206,6 +206,9 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
+    "daily-note/unsorted/Model View ViewModel 패턴.md",
+    "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
+    "books/Object/README.md",
     "books/Object/2.객체지향 프로그래밍/Summary.md",
     "programming-paradigm/object-orient-programming/strategy pattern이란 무엇인가?.md",
     "programming-paradigm/object-orient-programming/숨겨진 의존성은 나쁘다.md",
@@ -229,9 +232,6 @@
     "books/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md",
     "books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
     "books/FunctionalJavascript/1.함수형길들이기.md",
-    "books/Object/2.객체지향 프로그래밍/table.md",
-    "daily-note/2023.06/2023-06-06.md",
-    "lecture/오브젝트-코드스피츠/2회차.md",
     "daily-note/2023.06",
     "daily-note/2023.05",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
