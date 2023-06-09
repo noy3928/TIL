@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/DataStructure/SinglyLinkedList/desc.md",
+                "file": "computer-science/DataStructure/BinarySearchTree/이진검색트리.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/DataStructure/SinglyLinkedList/desc.md",
+                "file": "computer-science/DataStructure/BinarySearchTree/이진검색트리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/DataStructure/SinglyLinkedList/desc.md",
+                "file": "computer-science/DataStructure/BinarySearchTree/이진검색트리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/DataStructure/SinglyLinkedList/desc.md"
+                "file": "computer-science/DataStructure/BinarySearchTree/이진검색트리.md"
               }
             }
           }
@@ -205,6 +205,10 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
+    "computer-science/DataStructure/SinglyLinkedList/desc.md",
+    "computer-science/DataStructure/BinarySearchTree/이진검색트리.md",
+    "computer-science/DataStructure/BinarySearchTree",
+    "computer-science/DataStructure/Graph",
     "lecture/객체지향자바스크립트-코드스피츠/2회차.md",
     "daily-note/unsorted/Model View ViewModel 패턴.md",
     "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
@@ -229,8 +233,6 @@
     "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
     "books/쏙쏙-들어오는-함수형-코딩/4.액션에서-계산-빼내기.md",
     "books/쏙쏙-들어오는-함수형-코딩/3.액션과계산,데이터의-차이를-알기.md",
-    "books/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md",
-    "books/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
     "daily-note/2023.06",
     "daily-note/2023.05",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
@@ -241,8 +243,6 @@
     "lecture/코드스쿼드-클린프론트엔드",
     "books/타입스크립트프로그래밍",
     "front-end/design-system",
-    "e2bN6glWoVbWIcwUF1uh.avif",
-    "computer-science/Network/HTTP3/Connection-ID",
-    "computer-science/Network/HTTP3/MultiPlexing"
+    "e2bN6glWoVbWIcwUF1uh.avif"
   ]
 }
