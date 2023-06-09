@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/DataStructure/BinarySearchTree/이진검색트리.md",
+                "file": "computer-science/DataStructure/Graph/그래프.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -141,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/DataStructure/BinarySearchTree/이진검색트리.md",
+                "file": "computer-science/DataStructure/Graph/그래프.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/DataStructure/BinarySearchTree/이진검색트리.md",
+                "file": "computer-science/DataStructure/Graph/그래프.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/DataStructure/BinarySearchTree/이진검색트리.md"
+                "file": "computer-science/DataStructure/Graph/그래프.md"
               }
             }
           }
@@ -205,8 +206,9 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
-    "computer-science/DataStructure/SinglyLinkedList/desc.md",
     "computer-science/DataStructure/BinarySearchTree/이진검색트리.md",
+    "computer-science/DataStructure/Graph/그래프.md",
+    "computer-science/DataStructure/SinglyLinkedList/desc.md",
     "computer-science/DataStructure/BinarySearchTree",
     "computer-science/DataStructure/Graph",
     "lecture/객체지향자바스크립트-코드스피츠/2회차.md",
@@ -232,7 +234,6 @@
     "books/쏙쏙-들어오는-함수형-코딩/6.변경-가능한-데이터구조를-가진-언어에서-불변성유지하기.md",
     "books/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
     "books/쏙쏙-들어오는-함수형-코딩/4.액션에서-계산-빼내기.md",
-    "books/쏙쏙-들어오는-함수형-코딩/3.액션과계산,데이터의-차이를-알기.md",
     "daily-note/2023.06",
     "daily-note/2023.05",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
