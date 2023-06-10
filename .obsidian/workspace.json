@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/DataStructure/Graph/그래프 순회.md",
+                "file": "computer-science/DataStructure/BinaryHeaps/이진 힙.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/DataStructure/Graph/그래프 순회.md",
+                "file": "computer-science/DataStructure/BinaryHeaps/이진 힙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/DataStructure/Graph/그래프 순회.md",
+                "file": "computer-science/DataStructure/BinaryHeaps/이진 힙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/DataStructure/Graph/그래프 순회.md"
+                "file": "computer-science/DataStructure/BinaryHeaps/이진 힙.md"
               }
             }
           }
@@ -158,8 +158,10 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
-    "daily-note/2023.06/2023-06-10 개발자의 기초.md",
     "computer-science/DataStructure/Graph/그래프 순회.md",
+    "computer-science/DataStructure/BinaryHeaps/이진 힙.md",
+    "computer-science/DataStructure/BinaryHeaps",
+    "daily-note/2023.06/2023-06-10 개발자의 기초.md",
     "daily-note/2023.05/2023-05-27.md",
     "daily-note/unsorted/컴포넌트 테스트.md",
     "daily-note/unsorted/소프트웨어 품질과 테스트.md",
@@ -185,7 +187,6 @@
     "books/FunctionalJavascript/8.비동기 이벤트와 데이터를 관리.md",
     "programming-paradigm/functional-programming/귀차니스트를 위한 펑터.md",
     "books/쏙쏙-들어오는-함수형-코딩/10.일급함수(1).md",
-    "books/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
     "daily-note/2023.06",
     "daily-note/2023.05",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
@@ -195,7 +196,6 @@
     "back-end",
     "lecture/코드스쿼드-클린프론트엔드",
     "books/타입스크립트프로그래밍",
-    "front-end/design-system",
-    "e2bN6glWoVbWIcwUF1uh.avif"
+    "front-end/design-system"
   ]
 }
