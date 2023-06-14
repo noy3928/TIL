@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/2023.06/2023-06-13.md",
+                "file": "daily-note/2023.06/2023-06-14.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/2023.06/2023-06-13.md",
+                "file": "daily-note/2023.06/2023-06-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/2023.06/2023-06-13.md",
+                "file": "daily-note/2023.06/2023-06-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/2023.06/2023-06-13.md"
+                "file": "daily-note/2023.06/2023-06-14.md"
               }
             }
           }
@@ -157,8 +157,9 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
-    "error-note/react native에서 env 파일 사용하기.md",
     "daily-note/2023.06/2023-06-13.md",
+    "daily-note/2023.06/2023-06-14.md",
+    "error-note/react native에서 env 파일 사용하기.md",
     "assets/스크린샷 2023-06-13 오전 11.52.47.png",
     "daily-note/2023.06/2023-06-12 VAC패턴.md",
     "daily-note/2023.06/2023-06-10 개발자의 기초.md",
@@ -186,7 +187,6 @@
     "lecture/함수형프로그래밍-유인동/비동기-동시성1/합성 관점에서의 Promise와 모나드.md",
     "programming-paradigm/functional-programming/Functor의 정의.md",
     "programming-paradigm/functional-programming/Monad의 정의.md",
-    "programming-paradigm/functional-programming/JS개발자는 아직도 모나드를 모르겠어요.md",
     "daily-note/2023.06",
     "daily-note/2023.05",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
