@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/2023.06/2023-06-14.md",
+                "file": "daily-note/2023.06/2023-06-12 VAC패턴.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/2023.06/2023-06-14.md",
+                "file": "daily-note/2023.06/2023-06-12 VAC패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/2023.06/2023-06-14.md",
+                "file": "daily-note/2023.06/2023-06-12 VAC패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/2023.06/2023-06-14.md"
+                "file": "daily-note/2023.06/2023-06-12 VAC패턴.md"
               }
             }
           }
@@ -157,8 +157,8 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
-    "daily-note/2023.06/2023-06-13.md",
     "daily-note/2023.06/2023-06-14.md",
+    "daily-note/2023.06/2023-06-13.md",
     "error-note/react native에서 env 파일 사용하기.md",
     "assets/스크린샷 2023-06-13 오전 11.52.47.png",
     "daily-note/2023.06/2023-06-12 VAC패턴.md",
