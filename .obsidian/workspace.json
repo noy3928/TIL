@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/2023.06/2023-06-12 VAC패턴.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/2023.06/2023-06-12 VAC패턴.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/2023.06/2023-06-12 VAC패턴.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/2023.06/2023-06-12 VAC패턴.md"
+                "file": "README.md"
               }
             }
           }
@@ -157,45 +157,45 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
-    "daily-note/2023.06/2023-06-14.md",
-    "daily-note/2023.06/2023-06-13.md",
-    "daily-note/2023.06/2023-06-12 VAC패턴.md",
-    "error-note/react native에서 env 파일 사용하기.md",
+    "front-end/리액트/강의/컴포넌트,다시생각하기-원지혁.md",
+    "web",
+    "soft-skills/start.md",
+    "front-end/리액트/강의/컴파운드컴포넌트패턴/3.how to implement the pattern.md",
+    "front-end/리액트/강의",
+    "front-end/리액트/강의/컴파운드컴포넌트패턴/2.why compound component?.md",
+    "front-end/리액트/강의/컴파운드컴포넌트패턴/1.compound components in plain approachable language.md",
+    "front-end/리액트/아티클/useSyncExternalStore-TheUnderratedReactAPI.md",
+    "books/캔트백의 구현패턴/Guard clause.md",
+    "front-end/CSS",
+    "front-end/타입스크립트",
+    "front-end/리액트/노트/useSyncExternalStore.md",
+    "front-end/리액트/아티클/Render-Props-Pattern(patterns.dev).md",
+    "front-end/리액트/아티클/react18-서버컴포넌트준비하기.md",
+    "front-end/리액트/아티클/react-render-props-in-typescript.md",
+    "front-end/리액트/아티클/Inside-react(동시성을구현하는기술).md",
+    "front-end/리액트/아티클/Build-your-own-react.md",
+    "front-end/리액트/아티클/왜-Context-API는-상태관리-도구가-아닌가.md",
+    "front-end/리액트/노트/넥스트Js에서-성능최적화를-위한-전략.md",
+    "front-end/리액트/아티클/10-Ways-to-Improve-Your-Next.JS-App-Performance.md",
+    "front-end/리액트/아티클/5-Advanced-React-Patterns.md",
+    "daily-note/unsorted/원티드프리온보딩-개발자 취업과정에서 기술과제가 가지는 의미.md",
+    "front-end/리액트/아티클",
+    "front-end/리액트/노트",
+    "soft-skills/책/소프트스킬/1.경력.md",
+    "soft-skills/노트/c언어를 공부해야하는이유.md",
+    "soft-skills/책",
+    "soft-skills/노트/개발자의 성장과 피드백.md",
+    "front-end/자바스크립트/노트/고계함수와 클로저.md",
+    "soft-skills/노트",
+    "programming-paradigm/object-orient-programming/책",
+    "programming-paradigm/functional-programming/책",
+    "lecture/img/reusable-component.png",
+    "programming-paradigm/functional-programming/노트/3분 모나드.md",
+    "lecture/코드스쿼드-클린프론트엔드/1주차 마스터 피어세션.md",
+    "lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/1.introduction/note.md",
     "assets/스크린샷 2023-06-13 오전 11.52.47.png",
-    "daily-note/2023.06/2023-06-10 개발자의 기초.md",
-    "computer-science/DataStructure/BinaryHeaps/이진 힙.md",
-    "computer-science/DataStructure/Graph/그래프 순회.md",
-    "computer-science/DataStructure/BinaryHeaps",
-    "daily-note/2023.05/2023-05-27.md",
-    "daily-note/unsorted/컴포넌트 테스트.md",
-    "daily-note/unsorted/소프트웨어 품질과 테스트.md",
-    "lecture/객체지향자바스크립트-코드스피츠/1회차.md",
-    "computer-science/DataStructure/Graph/그래프.md",
-    "computer-science/DataStructure/BinarySearchTree/이진검색트리.md",
-    "computer-science/DataStructure/SinglyLinkedList/desc.md",
-    "computer-science/DataStructure/BinarySearchTree",
-    "computer-science/DataStructure/Graph",
-    "lecture/객체지향자바스크립트-코드스피츠/2회차.md",
-    "daily-note/unsorted/Model View ViewModel 패턴.md",
-    "books/Object/README.md",
-    "books/Object/2.객체지향 프로그래밍/Summary.md",
-    "programming-paradigm/object-orient-programming/strategy pattern이란 무엇인가?.md",
-    "programming-paradigm/object-orient-programming/숨겨진 의존성은 나쁘다.md",
-    "books/객체지향의-사실과-오해/5.책임과 메시지.md",
-    "books/FunctionalJavascript/5.복잡성을 줄이는 디자인 패턴.md",
-    "programming-paradigm/functional-programming/3분 모나드.md",
-    "lecture/함수형프로그래밍-유인동/비동기-동시성1/합성 관점에서의 Promise와 모나드.md",
-    "programming-paradigm/functional-programming/Functor의 정의.md",
-    "programming-paradigm/functional-programming/Monad의 정의.md",
-    "daily-note/2023.06",
-    "daily-note/2023.05",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
     "assets/스크린샷 2023-03-04 오후 11.11.03.png",
-    "assets/스크린샷 2023-05-26 오후 10.41.11.png",
-    "daily-note/unsorted",
-    "back-end",
-    "lecture/코드스쿼드-클린프론트엔드",
-    "books/타입스크립트프로그래밍",
-    "front-end/design-system"
+    "assets/스크린샷 2023-05-26 오후 10.41.11.png"
   ]
 }
