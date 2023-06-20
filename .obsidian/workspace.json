@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "daily-note/2023.06/2023-06-20.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "daily-note/2023.06/2023-06-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "daily-note/2023.06/2023-06-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "daily-note/2023.06/2023-06-20.md"
               }
             }
           }
@@ -157,6 +158,8 @@
   },
   "active": "3a6f9d2101bd1772",
   "lastOpenFiles": [
+    "README.md",
+    "daily-note/2023.06/2023-06-20.md",
     "front-end/리액트/강의/컴포넌트,다시생각하기-원지혁.md",
     "web",
     "soft-skills/start.md",
@@ -192,7 +195,6 @@
     "lecture/img/reusable-component.png",
     "programming-paradigm/functional-programming/노트/3분 모나드.md",
     "lecture/코드스쿼드-클린프론트엔드/1주차 마스터 피어세션.md",
-    "lecture/TheCompleteGuidetoAdvancedReactComponentPatterns/1.introduction/note.md",
     "assets/스크린샷 2023-06-13 오전 11.52.47.png",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
     "assets/스크린샷 2023-03-04 오후 11.11.03.png",
