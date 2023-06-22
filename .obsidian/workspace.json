@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/2023.06/2023-06-22 패러다임.md",
+                "file": "front-end/자바스크립트/노트/정규표현식.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/2023.06/2023-06-22 패러다임.md",
+                "file": "front-end/자바스크립트/노트/정규표현식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/2023.06/2023-06-22 패러다임.md",
+                "file": "front-end/자바스크립트/노트/정규표현식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/2023.06/2023-06-22 패러다임.md"
+                "file": "front-end/자바스크립트/노트/정규표현식.md"
               }
             }
           }
@@ -157,8 +157,8 @@
   },
   "active": "0afc710c8a927050",
   "lastOpenFiles": [
-    "computer-science/DataStructure/BinaryHeaps/이진 힙.md",
     "daily-note/2023.06/2023-06-22 패러다임.md",
+    "computer-science/DataStructure/BinaryHeaps/이진 힙.md",
     "daily-note/2023.06/2023-06-20.md",
     "README.md",
     "front-end/리액트/강의/컴포넌트,다시생각하기-원지혁.md",
