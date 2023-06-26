@@ -45,4 +45,21 @@ module.exports = class User extends Sequelize.Model {
       }
     )
   }
+
+  // 각 모델간의 관계를 정의
+  static associate(db) {
+    // 1:N 관계
+    db.User.hasMany(db.Post)
+    // N:M 관계
+    db.User.belongsToMany(db.User, {
+      foreignKey: "followingId",
+      as: "Followers",
+      through: "Follow", // 같은 테이블 간 N:M 관계에서는 모델 이름과 컬럼 이름을 따로 정해야 한다. 모델 이름이 UserUser일 수는 없다. 따라서 through 옵션을 사용하여 중간 테이블의 이름을 Follow로 바꿔준다.
+    })
+    db.User.belongsToMany(db.User, {
+      foreignKey: "followerId",
+      as: "Followings",
+      through: "Follow",
+    })
+  }
 }
