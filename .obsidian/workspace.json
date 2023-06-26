@@ -157,6 +157,7 @@
   },
   "active": "0afc710c8a927050",
   "lastOpenFiles": [
+    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/models/user.js",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/public/main.css",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/views/profile.html",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/views/main.html",
@@ -168,7 +169,6 @@
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/nodemon/doc/cli/whoami.txt",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/nodemon/doc/cli/usage.txt",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/nodemon/doc/cli/topics.txt",
-    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/nodemon/doc/cli/options.txt",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/simple-update-notifier/node_modules/semver/README.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/simple-update-notifier/node_modules/semver/CHANGELOG.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/picomatch/README.md",
