@@ -58,3 +58,18 @@ https://legacy.reactjs.org/docs/error-decoder.html/?invariant=31&args%5B%5D=obje
 **Objects are not valid as a React child (found: object with keys {children}). If you meant to render a collection of children, use an array instead.**
 ```
 이런 에러이다. 근데 이 에러가 어디에서 발생하고 있다는 것일까. 
+
+---
+
+확인을 해보니, 서버에서 작성한 revalidate에서 에러가 있었다. 
+req.body에서 값을 받아올 때 이상한 방식으로 값을 가져오고 있는 것이 문제였다. 
+
+```js
+const { type, ...article } = req.body;
+```
+이런 식으로 값을 가져오고 있었는데, 이렇게하면 제대로 값을 받아서 revalidate할 수 없는 구조였던 것이다. 
+그래서 해당 부분을 수정했더니 일단 로컬에서 실행한 프로덕트 환경에선 제대로 수행되는 것을 확인했다. 
+이제 배포를 해서 배포한 환경에서도 제대로 동작하는지 확인이 필요하다. 
+
+--- 
+배포한 환경에서 제대로 실행되지 않는 것을 확인했다. 
