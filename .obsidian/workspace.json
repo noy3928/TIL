@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "74937e1240db2943",
+        "id": "62fc8b4a4f96a05d",
         "type": "tabs",
         "children": [
           {
-            "id": "0afc710c8a927050",
+            "id": "c3476af2063234ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily-note/unsorted/토스슬래시21-테스트커버리지100%.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -73,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -156,7 +151,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0afc710c8a927050",
+  "active": "45df47fa09589985",
   "lastOpenFiles": [
     "study/쏙쏙들어오는함수형코딩/2주차.md",
     "study/쏙쏙들어오는함수형코딩/1주차.md",
