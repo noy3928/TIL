@@ -89,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/unsorted/토스슬래시21-테스트커버리지100%.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/unsorted/토스슬래시21-테스트커버리지100%.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "daily-note/unsorted/토스슬래시21-테스트커버리지100%.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -151,8 +147,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "45df47fa09589985",
+  "active": "c3476af2063234ad",
   "lastOpenFiles": [
+    "daily-note/unsorted/토스슬래시21-테스트커버리지100%.md",
     "study/쏙쏙들어오는함수형코딩/2주차.md",
     "study/쏙쏙들어오는함수형코딩/1주차.md",
     "programming-paradigm/object-orient-programming/책/객체지향의-사실과-오해/2.이상한 나라의 객체.md",
@@ -188,7 +185,6 @@
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/is-binary-path/readme.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/fill-range/README.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/anymatch/README.md",
-    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/fsevents/README.md",
     "lecture/img/reusable-component.png",
     "assets/스크린샷 2023-06-13 오전 11.52.47.png",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
