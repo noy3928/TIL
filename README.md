@@ -17,9 +17,10 @@
 [책 : 함수형 자바스크립트](https://github.com/noy3928/TIL/tree/main/programming-paradigm/functional-programming/%EC%B1%85/FunctionalJavascript)   
 [책 : 쏙쏙 들어오는 함수형 코딩](https://github.com/noy3928/TIL/tree/main/programming-paradigm/functional-programming/%EC%B1%85/%EC%8F%99%EC%8F%99-%EB%93%A4%EC%96%B4%EC%98%A4%EB%8A%94-%ED%95%A8%EC%88%98%ED%98%95-%EC%BD%94%EB%94%A9)    
 [강의 : 함수형 프로그래밍 - 유인동](https://github.com/noy3928/TIL/tree/main/programming-paradigm/functional-programming/%EA%B0%95%EC%9D%98/%ED%95%A8%EC%88%98%ED%98%95%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9C%A0%EC%9D%B8%EB%8F%99)   
+[(번역)FP와 OOP는 가까운 형제입니다. (객체지향과 함수형)](https://recoen.vercel.app/programming/64a55393d6de47ede6a57514)
+
 
 <br>
-
 ## Computer Science
 
 [운영체제](https://github.com/noy3928/TIL/tree/main/computer-science/OperatingSystem)  
