@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "daily-note/2023.06/2023-06-20.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "이벤트",
+                "query": "MVC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "daily-note/2023.06/2023-06-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "daily-note/2023.06/2023-06-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "daily-note/2023.06/2023-06-20.md"
               }
             }
           }
@@ -157,6 +157,9 @@
   },
   "active": "c3476af2063234ad",
   "lastOpenFiles": [
+    "daily-note/2023.06/2023-06-22 패러다임.md",
+    "programming-paradigm/object-orient-programming/강의/객체지향자바스크립트-코드스피츠/2회차.md",
+    "README.md",
     "daily-note/2023.06/2023-06-01 콜스택, 노드-논 블로킹, 이벤트 드리븐.md",
     "daily-note/2023.05/2023-05-24.md",
     "daily-note/2023.05/2023-05-22.md",
@@ -190,9 +193,6 @@
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/chokidar/README.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/pstree.remy/README.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/picomatch/CHANGELOG.md",
-    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/undefsafe/README.md",
-    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/braces/README.md",
-    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/readdirp/README.md",
     "lecture/img/reusable-component.png",
     "assets/스크린샷 2023-06-13 오전 11.52.47.png",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
