@@ -10,6 +10,7 @@ dotenv.config() // .env 파일을 읽어서 process.env로 만듬
 const passport = require("passport")
 
 const pageRouter = require("./routes/page")
+const authRouter = require("./routes/auth")
 const { sequelize } = require("./models")
 const passportConfig = require("./passport")
 
@@ -58,6 +59,7 @@ app.use(passport.initialize())
 app.use(passport.session())
 
 app.use("/", pageRouter)
+app.use("/auth", authRouter)
 
 app.use((req, res, next) => {
   const error = new Error(`${req.method} ${req.url} 라우터가 없습니다.`)

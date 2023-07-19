@@ -155,8 +155,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c3476af2063234ad",
+  "active": "45df47fa09589985",
   "lastOpenFiles": [
+    "back-end/nodejs/책/노드교과서-조현영/10장.웹api서버만들기",
+    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/passport/kakaoStrategy.js",
+    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/passport/localStrategy.js",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/routes/auth.js",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/routes/middlewares.js",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/passport/index.js",
@@ -167,9 +170,6 @@
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/node-addon-api/README.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/node-addon-api/LICENSE.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/node-addon-api/package.json",
-    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/node-addon-api/package-support.json",
-    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/bcrypt/appveyor.yml",
-    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/node-addon-api/index.js",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/node-addon-api/tools/README.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/pause/Readme.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/README.md",
