@@ -7,9 +7,14 @@ const nunjucks = require("nunjucks") // 템플릿 엔진
 const dotenv = require("dotenv") // 환경변수 관리
 
 dotenv.config() // .env 파일을 읽어서 process.env로 만듬
+const passport = require("passport")
+
 const pageRouter = require("./routes/page")
+const { sequelize } = require("./models")
+const passportConfig = require("./passport")
 
 const app = express()
+passportConfig()
 app.set("port", process.env.PORT || 8001) // PORT 번호를 설정
 app.set("view engine", "html") // 템플릿 엔진을 html로 설정
 nunjucks.configure("views", {
@@ -17,6 +22,15 @@ nunjucks.configure("views", {
   express: app,
   watch: true,
 })
+
+sequelize
+  .sync({ force: false })
+  .then(() => {
+    console.log("데이터베이스 연결 성공")
+  })
+  .catch(err => {
+    console.error(err)
+  })
 
 app.use(morgan("dev")) // 로그를 남김
 app.use(express.static(path.join(__dirname, "public"))) // 정적 파일을 제공
@@ -35,6 +49,13 @@ app.use(
     },
   })
 ) // 세션을 암호화
+
+/*
+req.session 객체는 express-session 에서 생성하는 것이므로 
+passport 미들웨어는 express-session 미들웨어보다 뒤에 연결되어야 한다. 
+*/
+app.use(passport.initialize())
+app.use(passport.session())
 
 app.use("/", pageRouter)
 

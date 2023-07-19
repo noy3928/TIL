@@ -1,5 +1,6 @@
 const express = require("express")
 const router = express.Router() // 라우터 분리
+const { isLoggedIn, isNotLoggedIn } = require("./middlewares")
 
 /*
 res.locals란 응답에 대한 정보를 저장하는 객체 
@@ -14,11 +15,17 @@ router.use((req, res, next) => {
   next()
 })
 
-router.get("/profile", (req, res) => {
+/*
+자신의 프로필은 로그인을 해야 볼 수 있다. 
+때문에 isLoggedIn 미들웨어를 사용한다. 
+req.isAuthenticated() : 로그인 중이면 true가 되어 next()가 호출되고, 
+다음 미들웨어로 넘어가게 된다. 
+*/
+router.get("/profile", isLoggedIn, (req, res) => {
   res.render("profile", { title: "내 정보 - NodeBird" })
 })
 
-router.get("/join", (req, res) => {
+router.get("/join", isNotLoggedIn, (req, res) => {
   res.render("join", { title: "회원가입 - NodeBird" })
 })
 

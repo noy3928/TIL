@@ -30,7 +30,7 @@ module.exports = class Post extends Sequelize.Model {
     /*
     User와 Post는 1:N 관계이기 때문에 Post는 User에 belongTo로 연결되어있다. 
     */
-    db.Post.belongTo(db.User)
+    db.Post.belongsTo(db.User)
     db.Post.belongsToMany(db.Hashtag, { through: "PostHashtag" })
   }
 }
