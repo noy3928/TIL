@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/2023.06/2023-06-20.md",
+                "file": "back-end/JAVA/강의/스파르타코딩클럽JAVA종합반/1주차.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/2023.06/2023-06-20.md",
+                "file": "back-end/JAVA/강의/스파르타코딩클럽JAVA종합반/1주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/2023.06/2023-06-20.md",
+                "file": "back-end/JAVA/강의/스파르타코딩클럽JAVA종합반/1주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/2023.06/2023-06-20.md"
+                "file": "back-end/JAVA/강의/스파르타코딩클럽JAVA종합반/1주차.md"
               }
             }
           }
@@ -157,6 +157,11 @@
   },
   "active": "45df47fa09589985",
   "lastOpenFiles": [
+    "back-end/JAVA/강의",
+    "daily-note/2023.06/2023-06-20.md",
+    "back-end/JAVA/강의/스파르타코딩클럽JAVA종합반/1주차.md",
+    "back-end/JAVA/강의/스파르타코딩클럽JAVA종합반",
+    "back-end/JAVA",
     "back-end/nodejs/책/노드교과서-조현영/10장.웹api서버만들기",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/passport/kakaoStrategy.js",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/passport/localStrategy.js",
@@ -165,11 +170,8 @@
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/passport/index.js",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/bcrypt/lib/binding/napi-v3",
-    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/bcrypt/lib/binding",
-    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/bcrypt/lib",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/node-addon-api/README.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/node-addon-api/LICENSE.md",
-    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/node-addon-api/package.json",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/node-addon-api/tools/README.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/pause/Readme.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/README.md",
@@ -194,8 +196,6 @@
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/https-proxy-agent/README.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/agent-base/README.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/uid2/README.md",
-    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/npmlog/README.md",
-    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/aproba/README.md",
     "lecture/img/reusable-component.png",
     "assets/스크린샷 2023-06-13 오전 11.52.47.png",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
