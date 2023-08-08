@@ -11,12 +11,8 @@
             "id": "99e2d14c4dfed7ac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "back-end/JAVA/책/스프링부트와AWS로혼자구현하는웹서비스/1.인텔리제이로-스프링부트-시작하기.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/JAVA/책/스프링부트와AWS로혼자구현하는웹서비스/1.인텔리제이로-스프링부트-시작하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/JAVA/책/스프링부트와AWS로혼자구현하는웹서비스/1.인텔리제이로-스프링부트-시작하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "back-end/JAVA/책/스프링부트와AWS로혼자구현하는웹서비스/1.인텔리제이로-스프링부트-시작하기.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -156,9 +147,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "99e2d14c4dfed7ac",
+  "active": "45df47fa09589985",
   "lastOpenFiles": [
+    "back-end/JAVA/책/스프링부트3백엔드개발자되기",
     "back-end/JAVA/책/스프링부트와AWS로혼자구현하는웹서비스/1.인텔리제이로-스프링부트-시작하기.md",
+    "back-end/JAVA/책/스프링부트와AWS로혼자구현하는웹서비스/2.스프링부트에서-테스트코드를-작성하자.md",
     "back-end/JAVA/책/스프링부트와AWS로혼자구현하는웹서비스",
     "back-end/JAVA/책/스프링입문을위한자바객체지향의원리와이해/2.자바와절차적,구조적프로그래밍.md",
     "back-end/JAVA/책/스프링입문을위한자바객체지향의원리와이해/3.자바와객체지향.md",
@@ -195,8 +188,6 @@
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/node-fetch/LICENSE.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/oauth/Readme.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport-kakao/README.md",
-    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/detect-libc/README.md",
-    "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/gauge/README.md",
     "lecture/img/reusable-component.png",
     "assets/스크린샷 2023-06-13 오전 11.52.47.png",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
