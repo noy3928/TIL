@@ -54,4 +54,16 @@ return new Greeting(counter.incrementAndGet(), String.format(template, name));
 - @GetMapping 이라는 어노테이션은 `/greeting` 으로 들어온 요청에 대해서, `greeting()` 이라는 메서드가 매핑이 될 수 있도록 만들어 준다. 
 	- @PostMapping, @RequestMapping 등등의 다른 HTTP 요청에 대한 매핑 어노테이션도 존재한다. 
 - @RequestParam은 쿼리 스트링 파라미터로 들어온 name의 값을 greeting이라는 메서드의 name 파라미터에 바인딩한다. 만약에 name 파라미터가 요청에서 들어오지 않았다면, defaultValue 값이 사용될 것이다.(World)
-- 
+- Greeting 객체를 반환한다. 그리고 이 객체는 id와 cotent 속성을 가지고 있다. 이 속성들은 counter와 template에 의해서 만들어진 name이라는 값으로 부터 채워진다. 
+- 전통적인 MVC 와 restful 서비스는 HTTP 응답 바디가 만들어지는 방식에서 차이점이 존재한다. 
+	- 서버사이드에서 greeting 데이터를 HTML에 렌더링하는 것에 집중하기 보다는, RESTful 서비스의 컨트롤러는 오직 Greeting 객체를 채우고 반환하는 것에만 집중한다. 
+	- 그리고 이 객체는 HTTP 응답에 의해서 직접적으로 작성된다. 
+- @RestController 어노테이션은 뷰 보다는 도메인 객체를 반환하는 모든 컨트롤러 클래스를 마킹한다. 
+- Jackson2 덕분에 자동으로 JSON으로 변경해준다. Greeting에서 JSON으로 변경하기 위해서 별 다른 작업을 해주지 않아도 된다. 
+
+
+- 실행방법 : 
+```
+./gradlew bootRun
+```
+이 명령어를 통해서 실행가능하다. 
