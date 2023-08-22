@@ -42,3 +42,8 @@ public class MyBean {
 
 @Component 주석은 MyBean을 빈으로 취급하도록 스프링의 컴포넌트 스캐닝에 알려준다. 
 
+---
+
+- https://melonicedlatte.com/2021/07/11/232800.html
+- spring에서 관리하는 객체를 Bean이라고 부른다. 기존에는 new를 통해서 직접 객체를 생성해주었었다. 하지만, 스프링에서는 직접 객체를 생성하는 방법을 지양한다. 
+
