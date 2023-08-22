@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "back-end/JAVA/자습/AOT란-무엇인가?.md",
+                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해1-예제만들기.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/JAVA/자습/AOT란-무엇인가?.md",
+                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해1-예제만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/JAVA/자습/AOT란-무엇인가?.md",
+                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해1-예제만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "back-end/JAVA/자습/AOT란-무엇인가?.md"
+                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해1-예제만들기.md"
               }
             }
           }
@@ -157,9 +157,9 @@
   },
   "active": "453602025a304bfe",
   "lastOpenFiles": [
+    "back-end/JAVA/자습/AOT란-무엇인가?.md",
     "back-end/JAVA/아티클/스프링-공식문서/Ahead of Time Optimizations.md",
     "back-end/JAVA/아티클/스프링-공식문서/Accessing Relational Data using JDBC with Spring.md",
-    "back-end/JAVA/자습/AOT란-무엇인가?.md",
     "back-end/DevOps/Docker/유튜브/얄팍한코딩.md",
     "back-end/DevOps/Docker/유튜브/메타코딩",
     "back-end/DevOps/Docker/유튜브",
