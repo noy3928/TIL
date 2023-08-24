@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "back-end/JAVA/자습/AOT란-무엇인가?.md",
+                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링컨테이너와-스프링-빈.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/JAVA/자습/AOT란-무엇인가?.md",
+                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링컨테이너와-스프링-빈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/JAVA/자습/AOT란-무엇인가?.md",
+                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링컨테이너와-스프링-빈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "back-end/JAVA/자습/AOT란-무엇인가?.md"
+                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링컨테이너와-스프링-빈.md"
               }
             }
           }
@@ -158,12 +158,13 @@
   },
   "active": "453602025a304bfe",
   "lastOpenFiles": [
+    "back-end/JAVA/자습/AOT란-무엇인가?.md",
+    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링컨테이너와-스프링-빈.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해2.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해1-예제만들기.md",
     "soft-skills/책/TheNatureOfSoftwareDevelopment/1.가치를이루는것들.md",
     "soft-skills/책/TheNatureOfSoftwareDevelopment/0.들어가기앞서.md",
     "soft-skills/책/TheNatureOfSoftwareDevelopment",
-    "back-end/JAVA/자습/AOT란-무엇인가?.md",
     "back-end/JAVA/아티클/스프링-공식문서/Ahead of Time Optimizations.md",
     "back-end/JAVA/아티클/스프링-공식문서/Accessing Relational Data using JDBC with Spring.md",
     "back-end/DevOps/Docker/유튜브/얄팍한코딩.md",
@@ -193,7 +194,6 @@
     "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/스프링의핵심.md",
     "back-end/JAVA/아티클/스프링-공식문서/Consuming a RESTful Web Service.md",
     "back-end/HTTP request types.md",
-    "back-end/Deploying app to internet.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/workos.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/snyk.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/loginradius.png",
