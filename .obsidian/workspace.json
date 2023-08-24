@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해2.md",
+                "file": "back-end/JAVA/자습/AOT란-무엇인가?.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해2.md",
+                "file": "back-end/JAVA/자습/AOT란-무엇인가?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해2.md",
+                "file": "back-end/JAVA/자습/AOT란-무엇인가?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해2.md"
+                "file": "back-end/JAVA/자습/AOT란-무엇인가?.md"
               }
             }
           }
@@ -157,8 +158,8 @@
   },
   "active": "453602025a304bfe",
   "lastOpenFiles": [
-    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해1-예제만들기.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해2.md",
+    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해1-예제만들기.md",
     "soft-skills/책/TheNatureOfSoftwareDevelopment/1.가치를이루는것들.md",
     "soft-skills/책/TheNatureOfSoftwareDevelopment/0.들어가기앞서.md",
     "soft-skills/책/TheNatureOfSoftwareDevelopment",
