@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/JPA란?.md",
+                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링컨테이너와-스프링-빈.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/JPA란?.md",
+                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링컨테이너와-스프링-빈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/JPA란?.md",
+                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링컨테이너와-스프링-빈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/JPA란?.md"
+                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링컨테이너와-스프링-빈.md"
               }
             }
           }
@@ -157,8 +157,8 @@
   },
   "active": "453602025a304bfe",
   "lastOpenFiles": [
-    "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/MessageConverter&BufferReader.md",
     "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/JPA란?.md",
+    "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/MessageConverter&BufferReader.md",
     "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/필터와-어노테이션.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링컨테이너와-스프링-빈.md",
     "back-end/JAVA/자습/AOT란-무엇인가?.md",
