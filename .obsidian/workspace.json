@@ -11,8 +11,12 @@
             "id": "5ffebfcbfaaf234c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "front-end/리액트/강의/SSR의기쁨과슬픔(렌더링의변화의흐름을통해알아보는).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "front-end/리액트/강의/SSR의기쁨과슬픔(렌더링의변화의흐름을통해알아보는).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "front-end/리액트/강의/SSR의기쁨과슬픔(렌더링의변화의흐름을통해알아보는).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "front-end/리액트/강의/SSR의기쁨과슬픔(렌더링의변화의흐름을통해알아보는).md"
+              }
             }
           }
         ],
@@ -149,6 +157,8 @@
   },
   "active": "5ffebfcbfaaf234c",
   "lastOpenFiles": [
+    "front-end/리액트/강의/컴포넌트,다시생각하기-원지혁.md",
+    "front-end/리액트/강의/SSR의기쁨과슬픔(렌더링의변화의흐름을통해알아보는).md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/의존관계자동주입.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/컴포넌트스캔.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/싱글톤컨테이너.md",
@@ -181,9 +191,7 @@
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)",
     "test.json",
     "back-end/DevOps/Docker",
-    "back-end/JAVA/자습/스프링부트가-실행될때-어떤일이일어날까?.md",
     "back-end/JAVA/책/자바의정석-기본편",
-    "back-end/JAVA/자습/Bean이뭘까?.md",
     "back-end/JAVA/자습",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/workos.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/snyk.png",
