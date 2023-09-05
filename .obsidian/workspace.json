@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "46d8cea6c223bdac",
+        "id": "96a006ec04e07eb3",
         "type": "tabs",
         "children": [
           {
-            "id": "453602025a304bfe",
+            "id": "5ffebfcbfaaf234c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/의존관계자동주입.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/의존관계자동주입.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/의존관계자동주입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/의존관계자동주입.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -155,10 +147,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "453602025a304bfe",
+  "active": "5ffebfcbfaaf234c",
   "lastOpenFiles": [
-    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/컴포넌트스캔.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/의존관계자동주입.md",
+    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/컴포넌트스캔.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/싱글톤컨테이너.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링컨테이너와-스프링-빈.md",
     "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/JPA란?.md",
