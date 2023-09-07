@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "front-end/리액트/강의/SSR의기쁨과슬픔(렌더링의변화의흐름을통해알아보는).md",
+                "file": "front-end/리액트/노트/Headless UI란 무엇인가?.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "front-end/리액트/강의/SSR의기쁨과슬픔(렌더링의변화의흐름을통해알아보는).md",
+                "file": "front-end/리액트/노트/Headless UI란 무엇인가?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "front-end/리액트/강의/SSR의기쁨과슬픔(렌더링의변화의흐름을통해알아보는).md",
+                "file": "front-end/리액트/노트/Headless UI란 무엇인가?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "front-end/리액트/강의/SSR의기쁨과슬픔(렌더링의변화의흐름을통해알아보는).md"
+                "file": "front-end/리액트/노트/Headless UI란 무엇인가?.md"
               }
             }
           }
@@ -157,8 +157,9 @@
   },
   "active": "5ffebfcbfaaf234c",
   "lastOpenFiles": [
-    "front-end/리액트/강의/컴포넌트,다시생각하기-원지혁.md",
     "front-end/리액트/강의/SSR의기쁨과슬픔(렌더링의변화의흐름을통해알아보는).md",
+    "front-end/리액트/노트/Headless UI란 무엇인가?.md",
+    "front-end/리액트/강의/컴포넌트,다시생각하기-원지혁.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/의존관계자동주입.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/컴포넌트스캔.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/싱글톤컨테이너.md",
@@ -187,7 +188,6 @@
     "back-end/DevOps/Docker/유튜브/메타코딩/도커입문/2강-도커,도커컴포즈,도커허브.md",
     "back-end/DevOps/Docker/유튜브/메타코딩/도커입문/1강-개념.md",
     "back-end/DevOps/Docker/유튜브/메타코딩/도커입문",
-    "back-end/JAVA/책/자바의정석-기본편/객체지향프로그래밍1.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)",
     "test.json",
     "back-end/DevOps/Docker",
