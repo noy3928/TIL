@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/1.학습목표.md",
+                "file": "back-end/DevOps/AWS/메타코딩/3.aws의 탄생.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/1.학습목표.md",
+                "file": "back-end/DevOps/AWS/메타코딩/3.aws의 탄생.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/1.학습목표.md",
+                "file": "back-end/DevOps/AWS/메타코딩/3.aws의 탄생.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/1.학습목표.md"
+                "file": "back-end/DevOps/AWS/메타코딩/3.aws의 탄생.md"
               }
             }
           }
@@ -158,8 +157,10 @@
   },
   "active": "5ffebfcbfaaf234c",
   "lastOpenFiles": [
-    "front-end/리액트/노트/Headless UI란 무엇인가?.md",
+    "back-end/DevOps/AWS/메타코딩/2.전산실 구축시 고려사항.md",
+    "back-end/DevOps/AWS/메타코딩/3.aws의 탄생.md",
     "back-end/DevOps/AWS/메타코딩/1.학습목표.md",
+    "front-end/리액트/노트/Headless UI란 무엇인가?.md",
     "back-end/DevOps/AWS/메타코딩",
     "back-end/DevOps/AWS/유튜브/메타코딩",
     "back-end/DevOps/AWS/유튜브",
@@ -190,8 +191,6 @@
     "back-end/DevOps/Docker/유튜브/메타코딩/도커입문/5강-도커이미지삭제하기.md",
     "back-end/DevOps/Docker/유튜브/메타코딩/도커입문/4강-도커작동원리.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/객체지향설계와-스프링.md",
-    "back-end/DevOps/Docker/유튜브/메타코딩/도커입문/3강-도커설치.md",
-    "back-end/DevOps/Docker/유튜브/메타코딩/도커입문/2강-도커,도커컴포즈,도커허브.md",
     "back-end/DevOps/Docker/유튜브/메타코딩/도커입문",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/workos.png",
