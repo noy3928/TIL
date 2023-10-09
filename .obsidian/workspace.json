@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/3.aws의 탄생.md",
+                "file": "back-end/DevOps/AWS/메타코딩/8.ip주소,패킷,포트번호 이해하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/3.aws의 탄생.md",
+                "file": "back-end/DevOps/AWS/메타코딩/8.ip주소,패킷,포트번호 이해하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/3.aws의 탄생.md",
+                "file": "back-end/DevOps/AWS/메타코딩/8.ip주소,패킷,포트번호 이해하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/3.aws의 탄생.md"
+                "file": "back-end/DevOps/AWS/메타코딩/8.ip주소,패킷,포트번호 이해하기.md"
               }
             }
           }
@@ -157,8 +157,9 @@
   },
   "active": "5ffebfcbfaaf234c",
   "lastOpenFiles": [
-    "back-end/DevOps/AWS/메타코딩/2.전산실 구축시 고려사항.md",
     "back-end/DevOps/AWS/메타코딩/3.aws의 탄생.md",
+    "back-end/DevOps/AWS/메타코딩/8.ip주소,패킷,포트번호 이해하기.md",
+    "back-end/DevOps/AWS/메타코딩/2.전산실 구축시 고려사항.md",
     "back-end/DevOps/AWS/메타코딩/1.학습목표.md",
     "front-end/리액트/노트/Headless UI란 무엇인가?.md",
     "back-end/DevOps/AWS/메타코딩",
@@ -190,7 +191,6 @@
     "back-end/DevOps/Docker/유튜브/메타코딩/도커입문/6강-컨테이너실행하기.md",
     "back-end/DevOps/Docker/유튜브/메타코딩/도커입문/5강-도커이미지삭제하기.md",
     "back-end/DevOps/Docker/유튜브/메타코딩/도커입문/4강-도커작동원리.md",
-    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/객체지향설계와-스프링.md",
     "back-end/DevOps/Docker/유튜브/메타코딩/도커입문",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/workos.png",
