@@ -27,5 +27,9 @@
   "sync": false,
   "canvas": true,
   "bookmarks": true,
+<<<<<<< HEAD
   "properties": false
+=======
+  "properties": true
+>>>>>>> origin/main
 }
