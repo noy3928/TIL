@@ -13,7 +13,6 @@
   "command-palette": true,
   "slash-command": false,
   "editor-status": true,
-  "starred": true,
   "markdown-importer": false,
   "zk-prefixer": false,
   "random-note": false,
@@ -26,10 +25,6 @@
   "publish": false,
   "sync": false,
   "canvas": true,
-  "bookmarks": true,
-<<<<<<< HEAD
-  "properties": false
-=======
-  "properties": true
->>>>>>> origin/main
+  "properties": false,
+  "bookmarks": true
 }
