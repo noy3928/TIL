@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0b9284a3583fdf64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "back-end/DevOps/AWS/메타코딩/16.ppa저장소 사용.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/15.리눅스 명령어 apt 실습.md",
+                "file": "back-end/DevOps/AWS/메타코딩/16.ppa저장소 사용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/15.리눅스 명령어 apt 실습.md",
+                "file": "back-end/DevOps/AWS/메타코딩/16.ppa저장소 사용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/15.리눅스 명령어 apt 실습.md"
+                "file": "back-end/DevOps/AWS/메타코딩/16.ppa저장소 사용.md"
               }
             }
           }
@@ -168,14 +180,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c66195c66549e4d",
+  "active": "0b9284a3583fdf64",
   "lastOpenFiles": [
+    "back-end/DevOps/AWS/메타코딩/15.리눅스 명령어 apt 실습.md",
+    "back-end/DevOps/AWS/메타코딩/16.ppa저장소 사용.md",
     "back-end/DevOps/AWS/메타코딩/3.aws의 탄생.md",
     "back-end/DevOps/AWS/메타코딩/8.ip주소,패킷,포트번호 이해하기.md",
     "back-end/DevOps/AWS/메타코딩/9.EC2서버와 방화벽.md",
     "back-end/DevOps/AWS/메타코딩/10.RSA 인증방식.md",
     "back-end/DevOps/AWS/메타코딩/11-13.리눅스명령어1탄.md",
-    "back-end/DevOps/AWS/메타코딩/15.리눅스 명령어 apt 실습.md",
     "back-end/DevOps/AWS/메타코딩/14.리눅스명령어 apt이해.md",
     "conflict-files-obsidian-git.md",
     "back-end/JAVA/자습/AOT란-무엇인가?.md",
@@ -200,7 +213,6 @@
     "back-end/DevOps/Docker/유튜브",
     "back-end/DevOps",
     "back-end/DevOps/Docker/유튜브/메타코딩/도커입문/7강-포트포워딩-및-데몬으로실행.md",
-    "back-end/DevOps/Docker/유튜브/메타코딩/도커입문/6강-컨테이너실행하기.md",
     "back-end/DevOps/Docker/유튜브/메타코딩/도커입문",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)",
     "test.json",
