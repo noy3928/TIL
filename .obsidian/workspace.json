@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/16.ppa저장소 사용.md",
+                "file": "back-end/DevOps/AWS/메타코딩/18.리눅스 명령어 프로세스 실습.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/16.ppa저장소 사용.md",
+                "file": "back-end/DevOps/AWS/메타코딩/18.리눅스 명령어 프로세스 실습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/16.ppa저장소 사용.md",
+                "file": "back-end/DevOps/AWS/메타코딩/18.리눅스 명령어 프로세스 실습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/16.ppa저장소 사용.md"
+                "file": "back-end/DevOps/AWS/메타코딩/18.리눅스 명령어 프로세스 실습.md"
               }
             }
           }
@@ -182,8 +182,10 @@
   },
   "active": "0b9284a3583fdf64",
   "lastOpenFiles": [
-    "back-end/DevOps/AWS/메타코딩/15.리눅스 명령어 apt 실습.md",
+    "back-end/DevOps/AWS/메타코딩/17.프로세스.md",
+    "back-end/DevOps/AWS/메타코딩/18.리눅스 명령어 프로세스 실습.md",
     "back-end/DevOps/AWS/메타코딩/16.ppa저장소 사용.md",
+    "back-end/DevOps/AWS/메타코딩/15.리눅스 명령어 apt 실습.md",
     "back-end/DevOps/AWS/메타코딩/3.aws의 탄생.md",
     "back-end/DevOps/AWS/메타코딩/8.ip주소,패킷,포트번호 이해하기.md",
     "back-end/DevOps/AWS/메타코딩/9.EC2서버와 방화벽.md",
@@ -208,11 +210,9 @@
     "back-end/DevOps/AWS",
     "back-end/JAVA/아티클/스프링-공식문서/Ahead of Time Optimizations.md",
     "back-end/JAVA/아티클/스프링-공식문서/Accessing Relational Data using JDBC with Spring.md",
-    "back-end/DevOps/Docker/유튜브/얄팍한코딩.md",
     "back-end/DevOps/Docker/유튜브/메타코딩",
     "back-end/DevOps/Docker/유튜브",
     "back-end/DevOps",
-    "back-end/DevOps/Docker/유튜브/메타코딩/도커입문/7강-포트포워딩-및-데몬으로실행.md",
     "back-end/DevOps/Docker/유튜브/메타코딩/도커입문",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)",
     "test.json",
