@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "96a006ec04e07eb3",
+        "id": "46d8cea6c223bdac",
         "type": "tabs",
         "children": [
           {
-            "id": "5ffebfcbfaaf234c",
+            "id": "453602025a304bfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/11-13.리눅스명령어1탄.md",
+                "file": "back-end/JAVA/자습/AOT란-무엇인가?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c66195c66549e4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "back-end/DevOps/AWS/메타코딩/15.리눅스 명령어 apt 실습.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b9284a3583fdf64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "back-end/DevOps/AWS/메타코딩/18.리눅스 명령어 프로세스 실습.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/11-13.리눅스명령어1탄.md",
+                "file": "back-end/DevOps/AWS/메타코딩/18.리눅스 명령어 프로세스 실습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/11-13.리눅스명령어1탄.md",
+                "file": "back-end/DevOps/AWS/메타코딩/18.리눅스 명령어 프로세스 실습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/11-13.리눅스명령어1탄.md"
+                "file": "back-end/DevOps/AWS/메타코딩/18.리눅스 명령어 프로세스 실습.md"
               }
             }
           }
@@ -147,52 +172,52 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:새 캔버스 만들기": false,
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "5ffebfcbfaaf234c",
+  "active": "0b9284a3583fdf64",
   "lastOpenFiles": [
-    "back-end/DevOps/AWS/메타코딩/11-13.리눅스명령어1탄.md",
-    "back-end/DevOps/AWS/메타코딩/10.RSA 인증방식.md",
-    "back-end/DevOps/AWS/메타코딩/9.EC2서버와 방화벽.md",
-    "back-end/DevOps/AWS/메타코딩/8.ip주소,패킷,포트번호 이해하기.md",
+    "back-end/DevOps/AWS/메타코딩/17.프로세스.md",
+    "back-end/DevOps/AWS/메타코딩/18.리눅스 명령어 프로세스 실습.md",
+    "back-end/DevOps/AWS/메타코딩/16.ppa저장소 사용.md",
+    "back-end/DevOps/AWS/메타코딩/15.리눅스 명령어 apt 실습.md",
     "back-end/DevOps/AWS/메타코딩/3.aws의 탄생.md",
+    "back-end/DevOps/AWS/메타코딩/8.ip주소,패킷,포트번호 이해하기.md",
+    "back-end/DevOps/AWS/메타코딩/9.EC2서버와 방화벽.md",
+    "back-end/DevOps/AWS/메타코딩/10.RSA 인증방식.md",
+    "back-end/DevOps/AWS/메타코딩/11-13.리눅스명령어1탄.md",
+    "back-end/DevOps/AWS/메타코딩/14.리눅스명령어 apt이해.md",
+    "conflict-files-obsidian-git.md",
+    "back-end/JAVA/자습/AOT란-무엇인가?.md",
+    "front-end/리액트/노트/Headless UI란 무엇인가?.md",
+    "front-end/리액트/강의/SSR의기쁨과슬픔(렌더링의변화의흐름을통해알아보는).md",
+    "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/필터와-어노테이션.md",
+    "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/MessageConverter&BufferReader.md",
+    "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/JPA란?.md",
+    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/컴포넌트스캔.md",
+    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/의존관계자동주입.md",
+    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/싱글톤컨테이너.md",
+    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해2.md",
+    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링컨테이너와-스프링-빈.md",
     "back-end/DevOps/AWS/메타코딩/2.전산실 구축시 고려사항.md",
     "back-end/DevOps/AWS/메타코딩/1.학습목표.md",
-    "front-end/리액트/노트/Headless UI란 무엇인가?.md",
     "back-end/DevOps/AWS/메타코딩",
-    "back-end/DevOps/AWS/유튜브/메타코딩",
-    "back-end/DevOps/AWS/유튜브",
     "back-end/DevOps/AWS",
-    "front-end/리액트/강의/SSR의기쁨과슬픔(렌더링의변화의흐름을통해알아보는).md",
-    "front-end/리액트/강의/컴포넌트,다시생각하기-원지혁.md",
-    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/의존관계자동주입.md",
-    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/컴포넌트스캔.md",
-    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/싱글톤컨테이너.md",
-    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링컨테이너와-스프링-빈.md",
-    "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/JPA란?.md",
-    "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/MessageConverter&BufferReader.md",
-    "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/필터와-어노테이션.md",
-    "back-end/JAVA/자습/AOT란-무엇인가?.md",
-    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해2.md",
-    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해1-예제만들기.md",
-    "soft-skills/책/TheNatureOfSoftwareDevelopment/1.가치를이루는것들.md",
-    "soft-skills/책/TheNatureOfSoftwareDevelopment/0.들어가기앞서.md",
-    "soft-skills/책/TheNatureOfSoftwareDevelopment",
     "back-end/JAVA/아티클/스프링-공식문서/Ahead of Time Optimizations.md",
     "back-end/JAVA/아티클/스프링-공식문서/Accessing Relational Data using JDBC with Spring.md",
-    "back-end/DevOps/Docker/유튜브/얄팍한코딩.md",
     "back-end/DevOps/Docker/유튜브/메타코딩",
     "back-end/DevOps/Docker/유튜브",
     "back-end/DevOps",
-    "back-end/DevOps/Docker/유튜브/메타코딩/도커입문/7강-포트포워딩-및-데몬으로실행.md",
     "back-end/DevOps/Docker/유튜브/메타코딩/도커입문",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)",
+    "test.json",
+    "back-end/DevOps/Docker",
+    "back-end/JAVA/책/자바의정석-기본편",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/workos.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/snyk.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/loginradius.png",
