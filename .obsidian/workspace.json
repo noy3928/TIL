@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "96a006ec04e07eb3",
+        "id": "8aaa7c8cbe6ffac7",
         "type": "tabs",
         "children": [
           {
-            "id": "5ffebfcbfaaf234c",
+            "id": "33c3e1541ee7360f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/19.vim 사용법.md",
+                "file": "back-end/DevOps/AWS/메타코딩/20.리눅스 명령어 chmod.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/19.vim 사용법.md",
+                "file": "back-end/DevOps/AWS/메타코딩/20.리눅스 명령어 chmod.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/19.vim 사용법.md",
+                "file": "back-end/DevOps/AWS/메타코딩/20.리눅스 명령어 chmod.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/19.vim 사용법.md"
+                "file": "back-end/DevOps/AWS/메타코딩/20.리눅스 명령어 chmod.md"
               }
             }
           }
@@ -155,10 +155,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5ffebfcbfaaf234c",
+  "active": "33c3e1541ee7360f",
   "lastOpenFiles": [
-    "back-end/DevOps/AWS/메타코딩/18.리눅스 명령어 프로세스 실습.md",
+    "back-end/DevOps/AWS/메타코딩/21.그룹변경.md",
+    "back-end/DevOps/AWS/메타코딩/20.리눅스 명령어 chmod.md",
     "back-end/DevOps/AWS/메타코딩/19.vim 사용법.md",
+    "back-end/DevOps/AWS/메타코딩/18.리눅스 명령어 프로세스 실습.md",
     "back-end/DevOps/AWS/메타코딩/11-13.리눅스명령어1탄.md",
     "back-end/DevOps/AWS/메타코딩/17.프로세스.md",
     "back-end/DevOps/AWS/메타코딩/16.ppa저장소 사용.md",
@@ -185,8 +187,6 @@
     "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/MessageConverter&BufferReader.md",
     "back-end/JAVA/강의/유튜브/메타코딩/스프링개념정리/필터와-어노테이션.md",
     "back-end/JAVA/자습/AOT란-무엇인가?.md",
-    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해2.md",
-    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해1-예제만들기.md",
     "soft-skills/책/TheNatureOfSoftwareDevelopment",
     "back-end/DevOps/Docker/유튜브/메타코딩",
     "back-end/DevOps/Docker/유튜브",
