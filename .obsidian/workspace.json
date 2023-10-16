@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/23.리눅스명령어 표준입출력.md",
+                "file": "back-end/DevOps/AWS/메타코딩/26.고정IP설정.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/23.리눅스명령어 표준입출력.md",
+                "file": "back-end/DevOps/AWS/메타코딩/26.고정IP설정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/23.리눅스명령어 표준입출력.md",
+                "file": "back-end/DevOps/AWS/메타코딩/26.고정IP설정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "back-end/DevOps/AWS/메타코딩/23.리눅스명령어 표준입출력.md"
+                "file": "back-end/DevOps/AWS/메타코딩/26.고정IP설정.md"
               }
             }
           }
@@ -182,8 +182,10 @@
   },
   "active": "0b9284a3583fdf64",
   "lastOpenFiles": [
-    "back-end/DevOps/AWS/메타코딩/22.리눅스 명령어 find.md",
+    "back-end/DevOps/AWS/메타코딩/24.배포v1- 흐름 이해하기.md",
+    "back-end/DevOps/AWS/메타코딩/26.고정IP설정.md",
     "back-end/DevOps/AWS/메타코딩/23.리눅스명령어 표준입출력.md",
+    "back-end/DevOps/AWS/메타코딩/22.리눅스 명령어 find.md",
     "back-end/DevOps/AWS/메타코딩/20.리눅스 명령어 chmod.md",
     "back-end/DevOps/AWS/메타코딩/18.리눅스 명령어 프로세스 실습.md",
     "back-end/DevOps/AWS/메타코딩/19.vim 사용법.md",
@@ -206,8 +208,6 @@
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/컴포넌트스캔.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/의존관계자동주입.md",
     "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/싱글톤컨테이너.md",
-    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링핵심원리이해2.md",
-    "back-end/JAVA/강의/스프링핵심원리(기본편-김영한)/스프링컨테이너와-스프링-빈.md",
     "back-end/DevOps/AWS/메타코딩",
     "back-end/DevOps/AWS",
     "back-end/DevOps/Docker/유튜브/메타코딩",
