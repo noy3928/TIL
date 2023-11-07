@@ -37,15 +37,13 @@ function statement(invoice, plays) {
   }).format;
 
   for (let perf of invoice.performances) {
-    let thisAmount = amountFor(perf, playFor(perf));
-
     // 포인트를 적립한다.
     volumeCredits += Math.max(perf.audience - 30, 0);
     // 희극 관객 5명마다 추가 포인트를 제공한다.
     if ("comedy" === play.type) volumeCredits += Math.floor(perf.audience / 5);
 
     // 청구 내역을 출력한다.
-    result += `${play.name}: ${format(thisAmount / 100)} (${
+    result += `${play.name}: ${format(amountFor(perf) / 100)} (${
       perf.audience
     }석)\n`;
     totalAmount += thisAmount;
