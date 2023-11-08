@@ -47,8 +47,8 @@ function renderPlainText(data, plays) {
     totalAmount += thisAmount;
   }
 
-  result += `총액: ${usd(totalAmount())}\n`;
-  result += `적립 포인트: ${totalVolumeCredits()}점\n`;
+  result += `총액: ${usd(data.totalAmount)}\n`;
+  result += `적립 포인트: ${data.totalVolumeCredits}점\n`;
   return result;
 
   function totalAmount() {
@@ -62,7 +62,7 @@ function renderPlainText(data, plays) {
   function totalVolumeCredits() {
     let result = 0;
     for (let perf of data.performances) {
-      result += volumeCredits(perf);
+      result += perf.volumeCredits;
     }
     return result;
   }
@@ -72,12 +72,15 @@ function statement(invoice, plays) {
   const statementData = {};
   statement.customer = invoice.customer;
   statement.performances = invoice.performances.map(enrichPerformance);
+  statement.totalAmount = totalAmount(statementData);
+  statement.totalVolumeCredits = totalVolumeCredits(statementData);
   return renderPlainText(statementData, plays);
 
   function enrichPerformance(aPerformance) {
     const result = Object.assign({}, aPerformance);
     result.play = playFor(result);
     result.amount = amountFor(result);
+    result.volumeCredits = volumeCredits(result);
     return result;
   }
 
