@@ -17,7 +17,7 @@
 
 ## 7.3 기본형을 객체로 바꾸기
 
-- 문제의식 : 기본형 데이터를 묶어서 하나의 데이터구조로 만들고 싶다. / 기본형 데이터를 묶어서 하나의 데이터구조로 만들면, 그 데이터구조를 다루는 동작을 캡슐화할 수 있다.
+- 문제의식 : 기본형 데이터를 묶어서 하나의 데이터구조로 만들고 싶다. / 기본형 데이터를 묶어서 하나의 데이터구조로 만들면, 그 데이터구조를 다루는 동작을 캡슐화할 수 있다. / 필드가 변경되어도, 그 데이터를 사용하는 코드를 변경할 필요가 없다.
 - 해결방법 : 기본형 데이터를 감싼다. 그리고 그 데이터를 감싼 새 클래스를 만든다.
 
 ```js
@@ -61,3 +61,130 @@ class Priority {
 get priority() {return this._priority.toString();}
 set priority(aString) {this._priority = new Priority(aString);}
 ```
+
+<br>
+
+## 7.4 임시 변수를 질의 함수로 바꾸기
+
+- 문제의식 : 임시 변수를 만들어, 다시 참조하는 경우가 있다. 그런데 함수로 만들어버리면 더 나을 경우가 있다. / 임시 변수에 값을 여러변 대입하는 경우.
+- 해결방법 : 임시 변수를 질의 함수로 바꾼다.
+  - 이점 :
+    - 비슷한 계산을 하는 코드가 여러 곳에 있을 때, 질의 함수로 바꾸면 한 군데만 바꾸면 된다. (중복제거)
+
+<br>
+
+## 7.5 클래스 추출하기
+
+- 문제의식 : 클래스의 기능이 너무 많다. / 클래스의 책임이 너무 많다.
+- 해결방법 : 클래스를 쪼개라. 클래스를 쪼개면, 각 클래스는 자신만의 책임을 갖게 된다.
+- 포인트 : 1. 일부 데이터와 메서드를 따로 묶을 수 있다면 어서 분리하라는 신호. 2. 함께 변경되는 일이 많거나 서로 의존하는 데이터들도 분리.
+
+```js
+class Person {
+  get name() {
+    return this._name;
+  }
+  set name(arg) {
+    this._name = arg;
+  }
+  get telephoneNumber() {
+    return `(${this.officeAreaCode}) ${this.officeNumber}`;
+  }
+  get officeAreaCode() {
+    return this._officeAreaCode;
+  }
+  set officeAreaCode(arg) {
+    this._officeAreaCode = arg;
+  }
+  get officeNumber() {
+    return this._officeNumber;
+  }
+  set officeNumber(arg) {
+    this._officeNumber = arg;
+  }
+}
+```
+
+1. 위 코드에서 전화번호 관련 동작을 별로 클래스로 뽑아본다. (클래스 추출하기)
+2. 먼저 빈 전화번호를 표현하는 TelephoneNumber 클래스를 만든다.
+
+```js
+class TelephoneNumber {}
+```
+
+3. Person 클래스의 telephoneNumber 필드를 TelephoneNumber 클래스의 인스턴스로 바꾼다.
+
+```js
+constructor() {
+  this._telephoneNumber = new TelephoneNumber();
+}
+
+// telephoneNumber 필드의 게터와 세터를 수정한다.
+class TelephoneNumber {
+    get officeAreaCode() {
+        return this._officeAreaCode;
+    }
+
+    set officeAreaCode(arg) {
+        this._officeAreaCode = arg;
+    }
+}
+```
+
+4. 그런 다음 필드들을 하나씩 새 클래스로 옮긴다.
+
+```js
+// Person 클래스
+
+get officeAreaCode() { return this._telephoneNumber.officeAreaCode;}
+set officeAreaCode(arg) { this._telephoneNumber.officeAreaCode = arg;}
+```
+
+테스트 후 문제가 없으면 다른 필드도 옮긴다.
+
+```js
+class TelephoneNumber {
+  //... 생략
+  get officeNumber() {
+    return this._officeNumber;
+  }
+
+  set officeNumber(arg) {
+    this._officeNumber = arg;
+  }
+}
+
+class Person {
+  //... 생략
+  get officeNumber() {
+    return this._telephoneNumber.officeNumber;
+  }
+  set officeNumber(arg) {
+    this._telephoneNumber.officeNumber = arg;
+  }
+}
+```
+
+5. 이어서 telephoneNumber 메서드를 옮긴다.
+
+```js
+// TelephoneNumber 클래스
+get telephoneNumber() {return `(${this.officeAreaCode}) ${this.officeNumber}`;}
+```
+
+```js
+// Person 클래스
+get telephoneNumber() {return this._telephoneNumber.telephoneNumber;}
+```
+
+이런 수정을 통해서, 거대해진 클래스를 작고 명확한 책임을 가진 클래스로 분리할 수 있다.
+
+<br>
+
+## 7.6 클래스 인라인하기
+
+- 문제의식 : 클래스에 기능이 너무 적다. / 클래스의 책임이 너무 적다. / 제 역할을 못해서 그대로 두면 안 되는 클래스는 합쳐버린다.
+
+<br>
+
+## 7.7 위임 숨기기
