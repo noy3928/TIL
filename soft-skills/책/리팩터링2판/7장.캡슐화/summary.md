@@ -12,3 +12,52 @@
 <br>
 
 ## 7.2 컬렉션 캡슐화하기
+
+<br>
+
+## 7.3 기본형을 객체로 바꾸기
+
+- 문제의식 : 기본형 데이터를 묶어서 하나의 데이터구조로 만들고 싶다. / 기본형 데이터를 묶어서 하나의 데이터구조로 만들면, 그 데이터구조를 다루는 동작을 캡슐화할 수 있다.
+- 해결방법 : 기본형 데이터를 감싼다. 그리고 그 데이터를 감싼 새 클래스를 만든다.
+
+```js
+// Order 클래스
+constructor(data){
+    this.priority = data.priority;
+}
+```
+
+```js
+highPriorityCount = orders.filter(
+  o => "high" === o.priority || "rush" === o.priority
+).length;
+```
+
+1. 변수부터 캡슐화한다.
+   이렇게 바꾸고나면, 필드의 이름이 바뀌어도, 클라이언트쪽 코드는 유지할 수 있다.
+
+```js
+// Order 클래스
+get priority() {return this._priority;}
+set priority(aString) {this._priority = aString;}
+```
+
+2. 값 클래스 Priority를 만든다.
+
+```js
+class Priority {
+  constructor(value) {
+    this._value = value;
+  }
+  toString() {
+    return this._value;
+  }
+}
+```
+
+3. Order 클래스의 priority 필드를 Priority 클래스의 인스턴스로 바꾼다.
+
+```js
+get priority() {return this._priority.toString();}
+set priority(aString) {this._priority = new Priority(aString);}
+```
