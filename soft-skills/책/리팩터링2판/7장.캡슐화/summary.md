@@ -188,3 +188,43 @@ get telephoneNumber() {return this._telephoneNumber.telephoneNumber;}
 <br>
 
 ## 7.7 위임 숨기기
+
+- 캡슐화는 필드만 감추는 것이 아니다. 캡슐화는 그보다 더 많은 역할을 한다. 본 파트에서는 위임 숨기기 기법을 통해서, 캡슐화가 하는 역할을 알아본다.
+
+```js
+// Person
+constructor(name) {
+    this._name = name;
+}
+get name() {return this._name;}
+get department() {return this._department;}
+set department(arg) {this._department = arg;}
+```
+
+```js
+// Department
+get chargeCode() {return this._chargeCode;}
+set chargeCode(arg) {this._chargeCode = arg;}
+get manager() {return this._manager;}
+set manager(arg) {this._manager = arg;}
+```
+
+어떤 부서의 관리자를 알고 싶다.
+부서를 찾는다 -> 부서의 관리자를 찾는다.
+
+```js
+manager = aPerson.department.manager;
+```
+
+현재 상황에서는 클라이언트 코드가 부서가 관리자 정보를 제공한다는 것을 알고 있어야만 하는 상황이다. 클라이언트에 불필요한 의존성이 생겼다. 이것을 제거하려면 사람 클래스에 간단한 위임 메서드를 만들면 된다.
+
+```js
+// Person
+get manager() {return this._department.manager;}
+```
+
+그리고 모든 클라이언트가 이 메서드를 사용하도록 고친다.
+
+```js
+manager = aPerson.manager;
+```
