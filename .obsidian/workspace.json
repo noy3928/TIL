@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "soft-skills/책/리팩터링2판/10장.조건부로직간소화/summary.md",
+                "file": "computer-science/Database/SQL/codacademy/5.select.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "soft-skills/책/리팩터링2판/10장.조건부로직간소화/summary.md",
+                "file": "computer-science/Database/SQL/codacademy/5.select.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "soft-skills/책/리팩터링2판/10장.조건부로직간소화/summary.md",
+                "file": "computer-science/Database/SQL/codacademy/5.select.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "soft-skills/책/리팩터링2판/10장.조건부로직간소화/summary.md"
+                "file": "computer-science/Database/SQL/codacademy/5.select.md"
               }
             }
           }
@@ -158,6 +157,17 @@
   },
   "active": "868e70da941366cb",
   "lastOpenFiles": [
+    "computer-science/Database/SQL/codacademy/4.insert.md",
+    "computer-science/Database/SQL/codacademy/5.select.md",
+    "computer-science/Database/SQL/codacademy/create.md",
+    "computer-science/Database/SQL/codacademy/statement.md",
+    "computer-science/Database/SQL/codacademy/introduction to sql.md",
+    "back-end/DevOps/Docker/fullstackopen/introduction to containers.md",
+    "computer-science/Database/SQL/codacademy",
+    "computer-science/Database/SQL",
+    "back-end/DevOps/Docker/fullstackopen/intro.md",
+    "soft-skills/책/리팩터링2판/10장.조건부로직간소화/summary.md",
+    "back-end/DevOps/Docker/fullstackopen",
     "soft-skills/책/리팩터링2판/6장.기본적인리팩터링/summary.md",
     "soft-skills/책/리팩터링2판/6장.기본적인리팩터링",
     "soft-skills/책/리팩터링2판/7장.캡슐화/summary.md",
@@ -170,11 +180,8 @@
     "soft-skills/책/리팩터링2판/8장/8.1.함수옮기기",
     "soft-skills/책/리팩터링2판/8장",
     "soft-skills/책/리팩터링2판/4장/summary.md",
-    "soft-skills/책/리팩터링2판/4장",
     "soft-skills/책/리팩터링2판/3장/summary.md",
-    "soft-skills/책/리팩터링2판/3장",
     "soft-skills/책/리팩터링2판/2장/summary.md",
-    "soft-skills/책/리팩터링2판/2장",
     "conflict-files-obsidian-git.md",
     "soft-skills/책/리팩터링2판/1장/summary.md",
     "back-end/DevOps/엘라스틱서치/엘라스틱서치란 무엇인가.md",
@@ -186,14 +193,6 @@
     "back-end/DevOps/엘라스틱서치 인덱스 설계 실전기법(1편. 인덱스란 무엇인가).md",
     "back-end/DevOps/엘라스틱서치가볍게 살펴보는 개념.md",
     "back-end/DevOps/AWS/SES vs SQS vs SNS 정리.md",
-    "back-end/DevOps/AWS/메타코딩/20.리눅스 명령어 chmod.md",
-    "back-end/DevOps/AWS/메타코딩/21.그룹변경.md",
-    "back-end/DevOps/AWS/메타코딩/19.vim 사용법.md",
-    "back-end/DevOps/AWS/메타코딩/18.리눅스 명령어 프로세스 실습.md",
-    "back-end/DevOps/AWS/메타코딩/11-13.리눅스명령어1탄.md",
-    "back-end/DevOps/AWS/메타코딩/17.프로세스.md",
-    "back-end/DevOps/AWS/메타코딩/16.ppa저장소 사용.md",
-    "back-end/DevOps/AWS/메타코딩/15.리눅스 명령어 apt 실습.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/workos.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/snyk.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/loginradius.png",
