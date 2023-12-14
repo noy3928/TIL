@@ -44,4 +44,121 @@ function getPayAmount() {
 
 ## 10.5 특이 케이스 추가하기
 
-- 특정 조건에서 동작이 달라지는 코드가 여러 곳에 있을 땐, 그 조건을 캡슐화하자.
+- 특정 조건에서 동작이 달라지는 코드가 여러 곳에 있을 땐, 그 조건을 캡슐화하자. 이 패턴을 활용하면 특이 케이스를 확인하는 코드 대부분을 단순한 함수 호출로 바꿀 수 있다.
+- 방식은 리터럴 객체, 메서드를 담은 객체, 클래스 등등 다양하게 구현할 수 있다.
+
+```js
+// site 클래스
+class Site {
+  get customer() {
+    return this._customer;
+  }
+}
+```
+
+```js
+class Customer {
+  get name() {}
+  get billingPlan() {}
+  set billingPlan(arg) {}
+  ...
+}
+```
+
+미확인 고객을 처리해야함.
+
+```js
+const aCustomer = site.customer;
+// ... 수많은 코드...
+let customerName;
+if (aCustomer === "미확인 고객") customerName = "거주자";
+else customerName = aCustomer.name;
+```
+
+사이트에 방문한 사람이 미확인 고객인지 확인해서, 미확인 고객이면 거주자로 처리한다. 이런 방식으로 미확인 고객을 처리해야하는 로직이 많다. 이런 경우에 특이 케이스를 추가하는 것이다.
+
+```js
+class Customer {
+  get isUnknown() {
+    return false;
+  }
+}
+// 미확인 고객 클래스
+class UnknownCustomer {
+  get isUnknown() {
+    return true;
+  }
+}
+```
+
+여러 곳에서 수정해야만하는 코드를 별도 함수로 추출하여 한데로 모은다.
+
+```js
+function isUnknown(arg) {
+  if (!(arg instanceof Customer || arg instanceof UnknownCustomer)) {
+    throw new Error(`잘못된 값과 비교: <${arg}>`);
+  }
+  return arg === "미확인 고객";
+}
+```
+
+그리고 이 함수를 이용해 미확인 고객인지를 확인할 수 있다.
+
+```js
+let customerName;
+if (isUnknown(aCustomer)) customerName = "거주자";
+else customerName = aCustomer.name;
+```
+
+이 상태에서 특이 케이스일 때 Site클래스가 UnknownCustomer를 반환하도록 수정한다.
+
+```js
+class Site {
+  get customer() {
+    return this._customer === "미확인 고객"
+      ? new UnknownCustomer()
+      : this._customer;
+  }
+}
+```
+
+그리고 기존의 isUnknown 함수를 수정하여 고객 객체의 속성을 사용하도록 한다.
+
+```js
+function isUnknown(arg) {
+  if (!(arg instanceof Customer || arg instanceof UnknownCustomer)) {
+    throw new Error(`잘못된 값과 비교: <${arg}>`);
+  }
+  return arg.isUnknown;
+}
+```
+
+그리고 UnKnownCustomer 클래스에는 name 속성을 추가한다.
+
+```js
+class UnknownCustomer {
+  get name() {
+    return "거주자";
+  }
+  get isUnknown() {
+    return true;
+  }
+}
+```
+
+이렇게 된다면, 조건부 코드는 아예 지워도 된다.
+
+```js
+let customerName = aCustomer.name;
+```
+
+## 10.6 어서션 추가하기
+
+- 어서션은 항상 참이라고 가정하는 조건부 문장이다. 만약 이게 실패하면 개발자가 뭔가 잘못했다는 뜻이다.
+- 어서션은 프로그램이 어떤 상태라고 가정한 채 실행하는 것이다. 이것을 다른 개발자에게 알려주는 훌륭한 소통 도구이다.
+
+## 10.7 제어 플래그를 탈출문으로 바꾸기
+
+- 제어 플래그란, 변수를 사용해 프로그램의 제어 흐름을 바꾸는 것이다.
+- 제어 플래그는 프로그램의 복잡도를 높이고, 버그를 발생시키기 쉽게 만든다.
+- 함수에서 할 일을 다 마쳤으면 바로 return문으로 명확히 알리는 편이 낫다.
