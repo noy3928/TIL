@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7dfa857b6422392d",
+        "id": "60685644e31840bf",
         "type": "tabs",
         "children": [
           {
-            "id": "9558c8f143efa283",
+            "id": "8201e0366a8e06a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "soft-skills/책/리팩터링2판/10장.조건부로직간소화/summary.md",
+                "file": "computer-science/Database/데이터베이스첫걸음-한빛미디어/2장.관계형-데이터베이스란.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,12 +73,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "soft-skills/책/리팩터링2판/10장.조건부로직간소화/summary.md",
+                "file": "computer-science/Database/데이터베이스첫걸음-한빛미디어/2장.관계형-데이터베이스란.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "soft-skills/책/리팩터링2판/10장.조건부로직간소화/summary.md",
+                "file": "computer-science/Database/데이터베이스첫걸음-한빛미디어/2장.관계형-데이터베이스란.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "soft-skills/책/리팩터링2판/10장.조건부로직간소화/summary.md"
+                "file": "computer-science/Database/데이터베이스첫걸음-한빛미디어/2장.관계형-데이터베이스란.md"
               }
             }
           }
@@ -156,8 +156,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9558c8f143efa283",
+  "active": "8201e0366a8e06a3",
   "lastOpenFiles": [
+    "computer-science/Database/데이터베이스첫걸음-한빛미디어/1장.데이터베이스란.md",
+    "computer-science/Database/데이터베이스첫걸음-한빛미디어/2장.관계형-데이터베이스란.md",
+    "computer-science/Database/외래키이해하기.md",
+    "computer-science/Database/데이터베이스첫걸음-한빛미디어",
+    "computer-science/Database/소프트웨어 세상을 여는 컴퓨터과학.md",
+    "back-end/DevOps/엘라스틱서치가볍게 살펴보는 개념.md",
+    "back-end/DevOps/엘라스틱서치 인덱스 설계 실전기법(1편. 인덱스란 무엇인가).md",
+    "무제 파일.canvas",
+    "soft-skills/책/리팩터링2판/10장.조건부로직간소화/summary.md",
     "back-end/DevOps/Docker/fullstackopen/introduction to containers.md",
     "soft-skills/책/리팩터링2판/11장.api리팩터링/summary.md",
     "soft-skills/책/리팩터링2판/11장.api리팩터링",
@@ -169,7 +178,6 @@
     "computer-science/Database/SQL/codacademy",
     "computer-science/Database/SQL",
     "back-end/DevOps/Docker/fullstackopen/intro.md",
-    "soft-skills/책/리팩터링2판/10장.조건부로직간소화/summary.md",
     "back-end/DevOps/Docker/fullstackopen",
     "soft-skills/책/리팩터링2판/6장.기본적인리팩터링/summary.md",
     "soft-skills/책/리팩터링2판/6장.기본적인리팩터링",
@@ -180,7 +188,6 @@
     "soft-skills/책/리팩터링2판/8장/8.1.함수옮기기/v2.js",
     "soft-skills/책/리팩터링2판/8장/8.1.함수옮기기/v1.js",
     "soft-skills/책/리팩터링2판/8장/summary.md",
-    "soft-skills/책/리팩터링2판/8장/8.1.함수옮기기",
     "soft-skills/책/리팩터링2판/4장/summary.md",
     "soft-skills/책/리팩터링2판/3장/summary.md",
     "soft-skills/책/리팩터링2판/2장/summary.md",
@@ -188,12 +195,6 @@
     "soft-skills/책/리팩터링2판/1장/summary.md",
     "back-end/DevOps/엘라스틱서치/엘라스틱서치란 무엇인가.md",
     "back-end/DevOps/AWS/메타코딩/26.고정IP설정.md",
-    "back-end/DevOps/AWS/메타코딩/24.배포v1- 흐름 이해하기.md",
-    "back-end/DevOps/AWS/메타코딩/23.리눅스명령어 표준입출력.md",
-    "back-end/DevOps/AWS/메타코딩/22.리눅스 명령어 find.md",
-    "back-end/DevOps/엘라스틱서치/엘라스틱서치 인덱스.md",
-    "back-end/DevOps/엘라스틱서치 인덱스 설계 실전기법(1편. 인덱스란 무엇인가).md",
-    "back-end/DevOps/엘라스틱서치가볍게 살펴보는 개념.md",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/workos.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/snyk.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/loginradius.png",
