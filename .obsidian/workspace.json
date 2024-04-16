@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/2024/2024.04.14 - 일.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/2024/2024.04.14 - 일.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/2024/2024.04.14 - 일.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/2024/2024.04.14 - 일.md"
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md"
               }
             }
           }
@@ -157,10 +157,11 @@
   },
   "active": "8201e0366a8e06a3",
   "lastOpenFiles": [
+    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
+    "daily-note/2024/2024.04.14 - 일.md",
     "assets/스크린샷 2024-04-14 오후 10.26.53.png",
     "assets/스크린샷 2024-04-14 오후 10.23.16.png",
     "daily-note/2024/2024.04.13 - 토.md",
-    "daily-note/2024/2024.04.14 - 일.md",
     "assets/스크린샷 2024-04-13 오후 1.58.26.png",
     "computer-science/Database/데이터베이스첫걸음-한빛미디어/6장.SQL문의기본.md",
     "daily-note/2024",
@@ -202,7 +203,6 @@
     "lecture/img/reusable-component.png",
     "assets/스크린샷 2023-06-13 오전 11.52.47.png",
     "assets/스크린샷 2023-03-04 오후 11.10.47.png",
-    "assets/스크린샷 2023-03-04 오후 11.11.03.png",
-    "assets/스크린샷 2023-05-26 오후 10.41.11.png"
+    "assets/스크린샷 2023-03-04 오후 11.11.03.png"
   ]
 }
