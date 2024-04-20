@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션1.쿠버네티스알아보기.md",
+                "file": "daily-note/2024/2024.04.20 - 토.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61fb335c15cc4bb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션1.쿠버네티스알아보기.md",
+                "file": "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션1.쿠버네티스알아보기.md",
+                "file": "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션1.쿠버네티스알아보기.md"
+                "file": "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md"
               }
             }
           }
@@ -156,10 +169,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8201e0366a8e06a3",
+  "active": "61fb335c15cc4bb4",
   "lastOpenFiles": [
-    "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션0.시작하기.md",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션1.쿠버네티스알아보기.md",
+    "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
+    "daily-note/2024/2024.04.20 - 토.md",
+    "assets/스크린샷 2024-04-20 오후 5.17.06.png",
+    "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션0.시작하기.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)",
     "back-end/DevOps/쿠버네티스",
@@ -193,9 +209,7 @@
     "computer-science/Database/SQL/codacademy/introduction to sql.md",
     "computer-science/Database/SQL/codacademy",
     "computer-science/Database/SQL",
-    "back-end/DevOps/Docker/fullstackopen/intro.md",
     "back-end/DevOps/Docker/fullstackopen",
-    "soft-skills/책/리팩터링2판/6장.기본적인리팩터링/summary.md",
     "soft-skills/책/리팩터링2판/6장.기본적인리팩터링",
     "soft-skills/책/리팩터링2판/7장.캡슐화",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/workos.png",
@@ -203,7 +217,6 @@
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/loginradius.png",
     "lecture/img/reusable-component.png",
     "assets/스크린샷 2023-06-13 오전 11.52.47.png",
-    "assets/스크린샷 2023-03-04 오후 11.10.47.png",
-    "assets/스크린샷 2023-03-04 오후 11.11.03.png"
+    "assets/스크린샷 2023-03-04 오후 11.10.47.png"
   ]
 }
