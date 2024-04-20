@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
+                "file": "daily-note/2024/2024.04.20 - 토.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
+                "file": "daily-note/2024/2024.04.20 - 토.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md"
+                "file": "daily-note/2024/2024.04.20 - 토.md"
               }
             }
           }
@@ -169,10 +168,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "61fb335c15cc4bb4",
+  "active": "8201e0366a8e06a3",
   "lastOpenFiles": [
-    "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션1.쿠버네티스알아보기.md",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
+    "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션1.쿠버네티스알아보기.md",
     "daily-note/2024/2024.04.20 - 토.md",
     "assets/스크린샷 2024-04-20 오후 5.17.06.png",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션0.시작하기.md",
