@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-note/2024/2024.04.20 - 토.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-note/2024/2024.04.20 - 토.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-note/2024/2024.04.20 - 토.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-note/2024/2024.04.20 - 토.md"
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md"
               }
             }
           }
@@ -170,12 +169,16 @@
   },
   "active": "8201e0366a8e06a3",
   "lastOpenFiles": [
+    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/4.액션에서-계산-빼내기.md",
+    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/3.액션과계산,데이터의-차이를-알기.md",
+    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
+    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md",
+    "e2bN6glWoVbWIcwUF1uh.avif",
+    "daily-note/2024/2024.04.20 - 토.md",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션1.쿠버네티스알아보기.md",
-    "daily-note/2024/2024.04.20 - 토.md",
     "assets/스크린샷 2024-04-20 오후 5.17.06.png",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션0.시작하기.md",
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)",
     "back-end/DevOps/쿠버네티스",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
@@ -203,9 +206,6 @@
     "soft-skills/책/리팩터링2판/11장.api리팩터링",
     "computer-science/Database/SQL/codacademy/4.insert.md",
     "computer-science/Database/SQL/codacademy/5.select.md",
-    "computer-science/Database/SQL/codacademy/create.md",
-    "computer-science/Database/SQL/codacademy/statement.md",
-    "computer-science/Database/SQL/codacademy/introduction to sql.md",
     "computer-science/Database/SQL/codacademy",
     "computer-science/Database/SQL",
     "back-end/DevOps/Docker/fullstackopen",
@@ -215,7 +215,6 @@
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/snyk.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/loginradius.png",
     "lecture/img/reusable-component.png",
-    "assets/스크린샷 2023-06-13 오전 11.52.47.png",
-    "assets/스크린샷 2023-03-04 오후 11.10.47.png"
+    "assets/스크린샷 2023-06-13 오전 11.52.47.png"
   ]
 }
