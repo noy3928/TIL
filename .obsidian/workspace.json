@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2)-new.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2)-new.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2)-new.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2)-new.md"
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md"
               }
             }
           }
@@ -158,8 +158,9 @@
   },
   "active": "8201e0366a8e06a3",
   "lastOpenFiles": [
-    "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2)-new.md",
+    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md",
+    "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1)-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
@@ -193,7 +194,6 @@
     "back-end/DevOps/엘라스틱서치 인덱스 설계 실전기법(1편. 인덱스란 무엇인가).md",
     "무제 파일.canvas",
     "soft-skills/책/리팩터링2판/10장.조건부로직간소화/summary.md",
-    "back-end/DevOps/Docker/fullstackopen/introduction to containers.md",
     "soft-skills/책/리팩터링2판/11장.api리팩터링",
     "computer-science/Database/SQL/codacademy",
     "computer-science/Database/SQL",
