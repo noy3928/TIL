@@ -18,18 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "61fb335c15cc4bb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -89,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -169,16 +158,16 @@
   },
   "active": "8201e0366a8e06a3",
   "lastOpenFiles": [
+    "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
+    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2)-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1)-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2)-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/4.액션에서-계산-빼내기.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/3.액션과계산,데이터의-차이를-알기.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md",
     "e2bN6glWoVbWIcwUF1uh.avif",
     "daily-note/2024/2024.04.20 - 토.md",
-    "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션1.쿠버네티스알아보기.md",
     "assets/스크린샷 2024-04-20 오후 5.17.06.png",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션0.시작하기.md",
