@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/11.일급함수(2)-new.md",
+                "file": "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/1.도커란-무엇인가?.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/11.일급함수(2)-new.md",
+                "file": "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/1.도커란-무엇인가?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/11.일급함수(2)-new.md",
+                "file": "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/1.도커란-무엇인가?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/11.일급함수(2)-new.md"
+                "file": "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/1.도커란-무엇인가?.md"
               }
             }
           }
@@ -158,8 +158,11 @@
   },
   "active": "8201e0366a8e06a3",
   "lastOpenFiles": [
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md",
+    "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/README.md.md",
+    "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/1.도커란-무엇인가?.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/11.일급함수(2)-new.md",
+    "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스",
+    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2)-new.md",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1)-new.md",
@@ -191,15 +194,12 @@
     "computer-science/Database/외래키이해하기.md",
     "computer-science/Database/데이터베이스첫걸음-한빛미디어",
     "computer-science/Database/소프트웨어 세상을 여는 컴퓨터과학.md",
-    "back-end/DevOps/엘라스틱서치가볍게 살펴보는 개념.md",
-    "back-end/DevOps/엘라스틱서치 인덱스 설계 실전기법(1편. 인덱스란 무엇인가).md",
     "무제 파일.canvas",
     "soft-skills/책/리팩터링2판/11장.api리팩터링",
     "computer-science/Database/SQL/codacademy",
     "computer-science/Database/SQL",
     "back-end/DevOps/Docker/fullstackopen",
     "soft-skills/책/리팩터링2판/6장.기본적인리팩터링",
-    "soft-skills/책/리팩터링2판/7장.캡슐화",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/workos.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/snyk.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/loginradius.png",
