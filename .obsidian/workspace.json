@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "60685644e31840bf",
+        "id": "acec1230e28335f4",
         "type": "tabs",
         "children": [
           {
-            "id": "8201e0366a8e06a3",
+            "id": "19b1fd61abb6a4c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/1.도커란-무엇인가?.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c57533eecf277f9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/11.일급함수(2)-new.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/1.도커란-무엇인가?.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/1.도커란-무엇인가?.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/1.도커란-무엇인가?.md"
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md"
               }
             }
           }
@@ -156,17 +168,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8201e0366a8e06a3",
+  "active": "19b1fd61abb6a4c3",
   "lastOpenFiles": [
+    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/11.일급함수(2)-new.md",
+    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md",
+    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1)-new.md",
+    "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/1.도커란-무엇인가?.md",
     "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/README.md",
     "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/README.md.md",
-    "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/1.도커란-무엇인가?.md",
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/11.일급함수(2)-new.md",
     "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스",
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2)-new.md",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1)-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/4.액션에서-계산-빼내기.md",
