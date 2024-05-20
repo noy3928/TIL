@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "acec1230e28335f4",
+        "id": "6a78eae704c4166c",
         "type": "tabs",
         "children": [
           {
-            "id": "19b1fd61abb6a4c3",
+            "id": "52ba1316322d5248",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c57533eecf277f9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/11.일급함수(2)-new.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/14.중첩된-데이터에-함수형도구-사용하기-new.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/11.일급함수(2)-new.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/14.중첩된-데이터에-함수형도구-사용하기-new.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/11.일급함수(2)-new.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/14.중첩된-데이터에-함수형도구-사용하기-new.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/11.일급함수(2)-new.md"
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/14.중첩된-데이터에-함수형도구-사용하기-new.md"
               }
             }
           }
@@ -169,8 +156,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c57533eecf277f9f",
+  "active": "52ba1316322d5248",
   "lastOpenFiles": [
+    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/14.중첩된-데이터에-함수형도구-사용하기-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/11.일급함수(2)-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1)-new.md",
@@ -205,7 +193,6 @@
     "computer-science/Database/데이터베이스첫걸음-한빛미디어/3장.데이터베이스에-얽힌-돈-이야기.md",
     "computer-science/Database/데이터베이스첫걸음-한빛미디어/2장.관계형-데이터베이스란.md",
     "computer-science/Database/데이터베이스첫걸음-한빛미디어/1장.데이터베이스란.md",
-    "computer-science/Database/외래키이해하기.md",
     "computer-science/Database/데이터베이스첫걸음-한빛미디어",
     "무제 파일.canvas",
     "soft-skills/책/리팩터링2판/11장.api리팩터링",
