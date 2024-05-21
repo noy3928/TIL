@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/14.중첩된-데이터에-함수형도구-사용하기-new.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝-new.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/14.중첩된-데이터에-함수형도구-사용하기-new.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝-new.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/14.중첩된-데이터에-함수형도구-사용하기-new.md",
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝-new.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/14.중첩된-데이터에-함수형도구-사용하기-new.md"
+                "file": "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝-new.md"
               }
             }
           }
@@ -157,9 +158,9 @@
   },
   "active": "52ba1316322d5248",
   "lastOpenFiles": [
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/12.함수형반복.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/14.중첩된-데이터에-함수형도구-사용하기-new.md",
+    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/10.일급함수(1)-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/11.일급함수(2)-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1)-new.md",
