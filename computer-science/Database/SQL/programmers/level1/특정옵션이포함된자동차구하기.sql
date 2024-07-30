@@ -1,0 +1,5 @@
+-- 코드를 입력하세요
+SELECT * 
+FROM CAR_RENTAL_COMPANY_CAR as c
+WHERE c.OPTIONS LIKE "%네비게이션%"
+ORDER BY c.CAR_ID desc;
