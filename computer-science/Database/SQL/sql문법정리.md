@@ -4,7 +4,7 @@
 
 ## 프로그래머스 LEVEL 1에서 알게된 문법
 
-- level 1에서는 아래의 문법만 이해하고 있으면 대부분의 문제를 풀 수 있다.
+level 1에서는 아래의 문법만 이해하고 있으면 대부분의 문제를 풀 수 있다.
 
 ### COALESCE
 
@@ -45,3 +45,19 @@
 ### Sub Query
 
 - Sub Query 함수는 쿼리 내부에 쿼리를 중첩하는 함수이다. [예시](./programmers/level1/잡은물고기의평균길이구하기.sql)
+
+<br/>
+
+---
+
+<br/>
+
+## 프로그래머스 LEVEL 2에서 알게된 문법
+
+### GROUP BY
+
+- GROUP BY 함수는 데이터를 그룹화하는 함수이다. [예시](./programmers/level2/동명동물수구하기.sql)
+
+### HAVING
+
+- HAVING 함수는 그룹화된 데이터에 대한 조건을 지정하는 함수이다. [예시](./programmers/level2/동명동물수구하기.sql)
