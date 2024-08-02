@@ -4,6 +4,8 @@
 
 ## 프로그래머스 LEVEL 1에서 알게된 문법
 
+- level 1에서는 아래의 문법만 이해하고 있으면 대부분의 문제를 풀 수 있다.
+
 ### COALESCE
 
 - COALESCE 함수는 인수로 지정된 값들 중에서 NULL이 아닌 첫 번째 값을 반환하는 함수이다. [예시](./programmers/level1/12세이하인여자환자목록구하기.sql)
@@ -35,3 +37,11 @@
 ### AVG
 
 - AVG 함수는 숫자의 평균값을 계산하는 함수이다. [예시](./programmers/level1/잡은물고기의평균길이구하기.sql)
+
+### JOIN
+
+- JOIN 함수는 두 개 이상의 테이블을 연결하는 함수이다. [예시1](./programmers/level1/과일로만든아이스크림구하기.sql) [예시2](./programmers/level1/조건에부합하는중고거래댓글구하기.sql)
+
+### Sub Query
+
+- Sub Query 함수는 쿼리 내부에 쿼리를 중첩하는 함수이다. [예시](./programmers/level1/잡은물고기의평균길이구하기.sql)
