@@ -65,3 +65,9 @@ level 1에서는 아래의 문법만 이해하고 있으면 대부분의 문제�
 ### LOWER
 
 - LOWER 함수는 문자열을 소문자로 변환하는 함수이다. [예시](./programmers/level2/이름에el이들어가는동물찾기.sql)
+
+### SET
+
+- SET 함수는 변수를 설정하는 함수이다. [예시](./programmers/level2/가격이제일비싼식품의정보구하기.sql)
+  - 설정된 변수는 다음 쿼리부터 사용 가능하다.
+  - 사용방법은 `SET @변수명 := (SELECT 값 FROM 테이블 WHERE 조건)` 이다.

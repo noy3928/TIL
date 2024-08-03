@@ -1,0 +1,12 @@
+-- 가장 비싼 제품의 PRODUCT_ID를 변수에 저장
+SET @max_product_id := (
+    SELECT PRODUCT_ID
+    FROM FOOD_PRODUCT
+    ORDER BY PRICE DESC
+    LIMIT 1
+);
+
+-- 저장된 변수를 활용하여 데이터 조회
+SELECT PRODUCT_ID, PRODUCT_NAME, PRODUCT_CD, CATEGORY, PRICE
+FROM FOOD_PRODUCT
+WHERE PRODUCT_ID = @max_product_id;
