@@ -61,3 +61,7 @@ level 1에서는 아래의 문법만 이해하고 있으면 대부분의 문제�
 ### HAVING
 
 - HAVING 함수는 그룹화된 데이터에 대한 조건을 지정하는 함수이다. [예시](./programmers/level2/동명동물수구하기.sql)
+
+### LOWER
+
+- LOWER 함수는 문자열을 소문자로 변환하는 함수이다. [예시](./programmers/level2/이름에el이들어가는동물찾기.sql)
