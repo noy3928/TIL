@@ -64,7 +64,10 @@ level 1에서는 아래의 문법만 이해하고 있으면 대부분의 문제�
 
 ### GROUP BY
 
-- GROUP BY 함수는 데이터를 그룹화하는 함수이다. [예시](./programmers/level2/동명동물수구하기.sql)
+- GROUP BY 함수는 데이터를 그룹화하는 함수이다.
+  - [예시](./programmers/level2/동명동물수구하기.sql),
+  - [예시2](./programmers/level2/입양시각구하기.sql)
+  - [예시3](./programmers/level2/진료과별초예약수조회하기.sql)
 
 ### HAVING
 
@@ -83,3 +86,7 @@ level 1에서는 아래의 문법만 이해하고 있으면 대부분의 문제�
 ### SUBSTRING
 
 - SUBSTRING 함수는 문자열의 일부를 추출하는 함수이다. [예시](./programmers/level2/카테고리별상품갯수구하기.sql)
+
+### EXTRACT
+
+- EXTRACT 함수는 날짜의 년, 월, 일 등을 추출하는 함수이다. [예시](./programmers/level2/진료과별초예약수조회하기.sql)
