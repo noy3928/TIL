@@ -46,6 +46,11 @@ level 1에서는 아래의 문법만 이해하고 있으면 대부분의 문제�
 
 - Sub Query 함수는 쿼리 내부에 쿼리를 중첩하는 함수이다. [예시](./programmers/level1/잡은물고기의평균길이구하기.sql)
 
+### CASE
+
+- CASE 함수는 조건에 따라 값을 반환하는 함수이다. [예시](./programmers/level1/자동차대여기록에서장기단기구분하기.sql) [예시2](./programmers/level2/중성화여부파악하기.sql)
+  - 사용방법은 `CASE WHEN 조건 THEN 값 ELSE 값 END` 이다.
+
 <br/>
 
 ---
@@ -53,6 +58,9 @@ level 1에서는 아래의 문법만 이해하고 있으면 대부분의 문제�
 <br/>
 
 ## 프로그래머스 LEVEL 2에서 알게된 문법
+
+- 느낀점 :
+  - level2 부터는 GROUP BY 문법이 많이 나온다.
 
 ### GROUP BY
 
