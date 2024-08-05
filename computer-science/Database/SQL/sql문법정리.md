@@ -40,7 +40,10 @@ level 1에서는 아래의 문법만 이해하고 있으면 대부분의 문제�
 
 ### JOIN
 
-- JOIN 함수는 두 개 이상의 테이블을 연결하는 함수이다. [예시1](./programmers/level1/과일로만든아이스크림구하기.sql) [예시2](./programmers/level1/조건에부합하는중고거래댓글구하기.sql)
+- JOIN 함수는 두 개 이상의 테이블을 연결하는 함수이다.
+  - [예시1](./programmers/level1/과일로만든아이스크림구하기.sql)
+  - [예시2](./programmers/level1/조건에부합하는중고거래댓글구하기.sql)
+  - [예시3](./programmers/level2/조건에맞는저자와도서리스트찾기.sql)
 
 ### Sub Query
 
@@ -90,3 +93,7 @@ level 1에서는 아래의 문법만 이해하고 있으면 대부분의 문제�
 ### EXTRACT
 
 - EXTRACT 함수는 날짜의 년, 월, 일 등을 추출하는 함수이다. [예시](./programmers/level2/진료과별초예약수조회하기.sql)
+
+### LIKE
+
+- LIKE 함수는 문자열을 검색하는 함수이다. [예시](./programmers/level2/자동차종류별특정옵션이포함된자동차수구하기.sql)
