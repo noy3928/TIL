@@ -29,6 +29,7 @@
 ## 아키텍처
 
 - ddd에는 3가지 아키텍처가 존재한다.
+
   - 레이어드 아키텍처 :
     - ui / application / domain / infrastructure 로 구성된다.
   - 클린 아키텍처
@@ -39,3 +40,76 @@
   - 헥사고날 아키텍처
     - ports & adapters 패턴을 사용한다.
     - port에 맞는 adapter를 사용하여 소프트웨어를 구성한다.
+
+- 적용 예시 :
+  - 파트너 사이트에서 유저가 특정 작품을 통해 controller를 통해 service라는 포트를 통해 인입된다. 이것에 대해 application 및 domain 레이어에서 처리를 하게 된다.
+  - 이렇게 처리를 하게 되면, repository레이어에서 persistent adapter쪽으로 데이터 변경에 대한 처리를 하게 된다.
+  - 그리고 해당 처리를 받아서 notification adapter를 통해 외부 시스템에 데이터를 전달하게 된다.
+
+```java
+public class Product {
+  private ProductSalesInfo productSalesInfo;
+  private ProductMetaInfo productMetaInfo;
+  private Content content;
+
+  public void startSale(LocalDate startSaleDt) {
+    validateProduct();
+    productSalesInfo = ProductSalesInfo.startSale(startSaleDt);
+  }
+}
+```
+
+유저는 컨트롤러를 통해서 작품 판매시작 요청을 하게 된다.
+이 api에서는 UseCase에 정의된 작품 판매를 시작하게 된다.
+이렇게 세일하는 코드는 또 SaleService에서 구현된다.
+
+```java
+@PostMapping(path = "/product/{productId}")
+public void saleProduct(@PathVariable("productId") Long productId) {
+  productUseCase.saleProduct(ProductSaleCommand
+    .builder()
+    .productId(new ProductId(productId))
+    .build());
+}
+
+public interface ProductUseCase {
+  void saleProduct(ProductSaleCommand command);
+}
+```
+
+```java
+public class SaleService implements ProductUseCase {
+  private final LoadProductPort loadProductPort;
+  private final SaveProductPort saveProductPort;
+  private final EventPublishPort eventPublishPort;
+
+  @Override
+  public void saleProduct(ProductSaleCommand command) {
+    Product product = loadProductPort.loadProduct(command.getProductId());
+    product.startSale(LocalDateTime.now());
+
+    saveProductPort.saveProduct(product);
+    eventPublishPort.publsherEvent(product);
+  }
+}
+```
+
+여기서 load 포트와 save포트는 persistent adapter에 해당한다.
+
+```java
+class ProductPersistenceAdapter implements LoadProductPort, SaveProductPort {
+  ...
+
+  @Override
+  public Product loadProduct(ProductId productId) {
+    ProductJpaEntity productJpaEntity = productRepository.findById(productId.getValue())
+    ContentJpaEntity contentJpaEntity = contentRepository.findByProductID(productId.getValue())
+    return mapper.mapToDomainEntity(...);
+  }
+
+  @Override
+  public void saveProduct(Product product) {
+    productRepository.save(mapper.mapToJpaEntity(product));
+  }
+}
+```
