@@ -170,8 +170,283 @@ AcceptOffer(offerId: OfferId)
 
 유스케이스 설계를 통해 서브도메인의 역할을 더 잘 이해할 수 있으며, 기능을 잘 정의하고 조직하는 데 도움이 됩니다.
 
+## 2. The Role of the Application Layer
+
+Enterprise Node.js + TypeScript 시리즈를 따라오셨다면, 도메인 계층(Domain Layer)은 모든 엔터티와 값 객체를 포함하며, 외부 계층에 의존하지 않고, 비즈니스 로직(특히 특정 엔터티와 관련된 로직)을 가장 먼저 배치하는 계층이라는 것을 기억하실 겁니다.
+
+예를 들어, White Label에서 Vinyl이 최대 3개의 다른 장르만 가질 수 있도록 보장하는 불변 로직을 어디에 배치해야 할지 고민한다면, 이 로직은 Vinyl 클래스(애그리게이트 루트)에 포함되어야 합니다.
+
+```ts
+class Vinyl extends AggregateRoot<VinylProps> {
+  ...
+
+  addGenre (genre: Genre): Result<any> {
+    if (this.props.genres.length >= MAX_NUMBER_OF_GENRES_PER_VINYL) {
+      return Result.fail<any>('Max number of genres reached')
+    }
+
+    if (!this.genreAlreadyExists(genre)) {
+      this.props.genres.push(genre)
+    }
+
+    return Result.ok<any>();
+  }
+}
+```
+
+위의 코드에서 우리는 도메인 모델 자체에 검증 로직을 배치함으로써 도메인 모델의 무결성을 보장하고 있습니다.
+
+Vinyl은 Catalog 서브도메인의 도메인 계층에서 많은 도메인 모델 중 하나에 불과합니다.
+
+> 도메인 계층과 인프라 계층 복습
+>
+> - 도메인 계층: 비즈니스 로직을 포함하고, 외부 계층에 의존하지 않습니다.
+> - 인프라 계층: 컨트롤러, 데이터베이스, 캐시 등 외부 서비스와 관련된 요소를 포함합니다.
+
+애플리케이션 계층은 애플리케이션의 특정 서브도메인에 대한 유스케이스를 포함합니다.
+
+유스케이스는 애플리케이션의 기능을 설명하며, 독립적으로 배포되거나 모놀리식 형태로 배포될 수 있습니다. 유스케이스를 서브도메인에 직접 포함하면 해당 서브도메인의 기능을 바로 이해할 수 있습니다. DDD 용어로, 유스케이스는 애플리케이션 서비스입니다. **애플리케이션 서비스는 도메인 로직을 실행하기 위해 필요한 도메인 엔터티와 정보를 검색하는 역할을 담당합니다.**
+
+예를 들어, AcceptOffer(offerId: OfferId) 유스케이스를 고려해 봅시다.
+
+이 유스케이스에서는 OfferId만 가지고 시작합니다. 하지만, 단순히 OfferId만으로는 accept 작업을 수행할 수 없습니다. OfferId를 통해 전체 Offer 엔터티를 가져와야 합니다. 그런 다음 offer.accept()를 저장하고, OfferAcceptedEvent라는 도메인 이벤트를 디스패치해야 합니다. Offer 엔터티를 검색하고 저장하기 위해 리포지토리를 사용해야 합니다. 이렇게 애플리케이션 서비스는 도메인 엔터티를 검색하고 실행 환경을 설정하는 책임을 갖습니다.
+
+프로젝트를 유스케이스 중심으로 구조화하는 방법을 아래에서 살펴보겠습니다. 애플리케이션 계층은 유스케이스를 포함하여 애플리케이션의 기능을 명확히 정의하고 서브도메인 간의 책임을 분리합니다. 😊
+
+## 3. 프로젝트 구조화 예시
+
+로버트 마틴(일명 Uncle Bob)은 **"Screaming Architecture"**라는 패턴을 제안했습니다.
+이 패턴은 프로젝트의 구조만 보아도 우리가 어떤 프로젝트를 작업하고 있는지, 그리고 시스템의 기능이 무엇인지가 명확히 드러나야 한다는 것을 의미합니다.
+
+White Label 프로젝트에서 서브도메인 => 유스케이스 + 엔터티 구조로 나누었을 때의 예시는 다음과 같습니다.
+
+프로젝트 구조를 보면 Users 서브도메인이 무엇인지, 어떤 기능을 하는지, 그리고 Catalog 서브도메인의 역할이 무엇인지 바로 알 수 있습니다.
+
+## 4. A Use Case interface
+
+유스케이스는 원칙적으로 단순합니다. **요청(request)**과 **응답(response)**이 옵션으로 포함됩니다.
+
+```ts
+export interface UseCase<IRequest, IResponse> {
+  execute(request?: IRequest): Promise<IResponse> | IResponse;
+}
+```
+
+"항상 구현이 아닌 인터페이스에 의존해서 프로그래밍해야 한다"는 설계 원칙을 적용하여, 위와 같이 유스케이스를 표현하는 인터페이스를 정의할 수 있습니다.
+단순하면서도 효과적이죠.
+
+## 5. Implementing a Use Case
+
+이제 유스케이스를 구현해봅시다. AddVinylToCatalogUseCase를 Catalog 서브도메인에서 구현해 보겠습니다.
+
+먼저, 클래스를 생성하고 제네릭 DTO(데이터 전송 객체)로 any를 사용하여 인터페이스를 구현합니다.
+
+```ts
+export class AddVinylToCatalogUseCase implements UseCase<any, any> {
+  public async execute(request: any): Promise<any> {
+    return null;
+  }
+}
+```
+
+Vinyl을 추가하려면, 이를 생성하는 데 필요한 모든 정보와 함께 추가할 Trader의 id를 제공해야 합니다.
+이 정보를 요청 DTO에 담아보겠습니다.
+
+```ts
+interface AddVinylToCatalogUseCaseRequestDTO {
+  vinylName: string;
+  artistNameOrId: string;
+  traderId: string;
+  genresArray?: string | string[];
+}
+
+export class AddVinylToCatalogUseCase
+  implements UseCase<AddVinylToCatalogUseCaseRequestDTO, any>
+{
+  async execute(request: AddVinylToCatalogUseCaseRequestDTO): Promise<any> {
+    return null;
+  }
+}
+```
+
+### 의존성 주입을 통한 리포지토리 연결
+
+Vinyl 애그리게이트 루트 클래스는 Artist의 실제 인스턴스가 필요합니다.
+
+요청에서 제공된 artistNameOrId가 ID인지 이름인지에 따라 적절히 가져와야 합니다. 요청 실패 시 안전하게 오류를 반환하기 위해 Result 클래스를 사용합니다. 성공 시 VinylRepo를 사용하여 Vinyl을 영속화해야 합니다. 이를 위해 **의존성 주입(DI)**을 사용해 VinylRepo와 ArtistRepo를 클래스의 생성자에서 주입합니다.
+
+```ts
+interface AddVinylToCatalogUseCaseRequestDTO {
+  vinylName: string;
+  artistNameOrId: string;
+  traderId: string;
+  genresArray?: string | string[];
+}
+
+export class AddVinylToCatalogUseCase
+  implements UseCase<AddVinylToCatalogUseCaseRequestDTO, Result<Vinyl>>
+{
+  private vinylRepo: IVinylRepo;
+  private artistRepo: IArtistRepo;
+
+  constructor(vinylRepo: IVinylRepo, artistRepo: IArtistRepo) {
+    this.vinylRepo = vinylRepo;
+    this.artistRepo = artistRepo;
+  }
+
+  public async execute(
+    request: AddVinylToCatalogUseCaseRequestDTO
+  ): Promise<Result<Vinyl>> {
+    return null;
+  }
+}
+```
+
+다음으로 유스케이스 로직을 구현합니다.
+
+- Artist 확인 및 생성
+  - 요청에서 받은 artistNameOrId가 UUID인지 이름인지 확인 후 적절히 처리합니다.
+- Vinyl 생성
+  - Vinyl.create() 메서드를 사용해 Vinyl 객체를 생성합니다.
+- Vinyl 저장
+  - 생성된 Vinyl 객체를 VinylRepo.save()를 통해 영속화합니다.
+
+```ts
+export interface AddVinylToCatalogUseCaseRequestDTO {
+  vinylName: string;
+  artistNameOrId: string;
+  traderId: string;
+  genresArray?: string | string[];
+}
+
+export class AddVinylToCatalogUseCase
+  implements UseCase<AddVinylToCatalogUseCaseRequestDTO, Result<Vinyl>>
+{
+  private vinylRepo: IVinylRepo;
+  private artistRepo: IArtistRepo;
+
+  constructor(vinylRepo: IVinylRepo, artistRepo: IArtistRepo) {
+    this.vinylRepo = vinylRepo;
+    this.artistRepo = artistRepo;
+  }
+
+  public async execute(
+    request: AddVinylToCatalogUseCaseRequestDTO
+  ): Promise<Result<Vinyl>> {
+    const { vinylName, artistNameOrId, traderId, genresArray } = request;
+    let artist: Artist;
+
+    const isArtistId = TextUtil.isUUID(artistNameOrId);
+
+    if (isArtistId) {
+      artist = await this.artistRepo.findById(artistNameOrId);
+    } else {
+      artist = await this.artistRepo.findByArtistName(artistNameOrId);
+    }
+
+    if (!!artist === false) {
+      artist = Artist.create({
+        name: ArtistName.create(artistNameOrId).getValue(),
+        genres: [],
+      }).getValue();
+    }
+
+    const vinylOrError = Vinyl.create({
+      title: vinylName,
+      artist: artist,
+      traderId: TraderId.create(new UniqueEntityID(traderId)),
+      genres: [],
+    });
+
+    if (vinylOrError.isFailure) {
+      return Result.fail<Vinyl>(vinylOrError.error);
+    }
+
+    const vinyl = vinylOrError.getValue();
+
+    await this.vinylRepo.save(vinyl);
+    return Result.ok<Vinyl>(vinyl);
+  }
+}
+```
+
+## 유스케이스는 인프라 계층에 종속되지 않음
+
+유스케이스는 어떻게 연결되는지와 무관합니다.
+
+입력값만 제공되면, 시스템에서 명령과 쿼리를 실행할 수 있습니다.
+즉, 유스케이스는 Express.js 컨트롤러나 인프라 계층의 다른 외부 서비스로 연결될 수 있습니다.
+
+```ts
+import { BaseController } from "../../../../../infra/http/BaseController";
+import { AddVinylToCatalogUseCase } from "./CreateJobUseCase";
+import { DecodedExpressRequest } from "../../../../../domain/types";
+import { AddVinylToCatalogUseCaseRequestDTO } from "./AddVinylToCatalogUseCaseRequestDTO";
+
+export class AddVinylToCatalogUseCaseController extends BaseController {
+  private useCase: AddVinylToCatalogUseCase;
+
+  public constructor(useCase: AddVinylToCatalogUseCase) {
+    super();
+    this.useCase = useCase;
+  }
+
+  public async executeImpl(): Promise<any> {
+    const req = this.req as DecodedExpressRequest;
+    const { traderId } = req.decoded;
+    const requestDetails = req.body as AddVinylToCatalogUseCaseRequestDTO;
+    const resultOrError = await this.useCase.execute({
+      ...requestDetails,
+      traderId,
+    });
+    if (resultOrError.isSuccess) {
+      return this.ok(this.res, resultOrError.getValue());
+    } else {
+      return this.fail(resultOrError.error);
+    }
+  }
+}
+```
+
+다른 유스케이스와 연결
+**유스케이스는 애플리케이션 계층 내에서 다른 유스케이스에 의해 실행될 수도 있습니다.**
+하지만 도메인 계층에서는 실행될 수 없습니다(Uncle Bob의 의존성 규칙에 따름).
+
+이러한 구조는 매우 유용하며, 애플리케이션을 확장하는 데 유연성을 제공합니다.
+
+도메인 이벤트와의 우아한 유스케이스 사용
+유스케이스를 체인으로 연결하는 우아한 방법이 있습니다.
+
+특정 이벤트가 발생했을 때, 다른 유스케이스가 실행되도록 연결하고 싶을 때 체인을 사용할 수 있습니다.
+도메인 주도 설계(DDD)에서는 이벤트 스토밍(Event Storming) 기법을 통해 이러한 동작을 식별하고, 옵저버 패턴을 사용하여 도메인 이벤트를 방출합니다.
+
+## 위시리스트에 있는 항목 추가 시 트레이더 알림
+
+White Label에서는 트레이더가 특정 아티스트나 바이닐을 위시리스트에 추가할 수 있습니다.
+누군가 새로운 바이닐을 컬렉션에 추가하면, 해당 아티스트나 바이닐에 관심이 있는 트레이더들에게 알림이 전송됩니다.
+이를 통해 트레이더는 관심 있는 바이닐의 소유자에게 제안을 보낼 수 있습니다.
+
+레이어와 유스케이스 간의 통신 다이어그램
+다음 다이어그램은 레이어와 유스케이스 간의 통신을 단순화한 예시입니다.
+
+유스케이스 간의 체인 연결은 이벤트 기반 알림과 같은 복잡한 동작을 설계할 때 매우 강력한 패턴을 제공합니다. 😊
+
+### 확장성을 고려한 마이크로서비스 전환
+
+애플리케이션을 하나의 프로세스에서 실행되는 모놀리식 구조로 유지하는 대신, 서브도메인을 마이크로서비스로 배포하고 싶다면, RabbitMQ나 Amazon MQ와 같은 메시지 브로커를 활용할 수 있습니다.
+
+### 도메인 이벤트와 유스케이스 체인의 비동기 연결
+
+향후 기사에서 옵저버 패턴을 사용하여 도메인 이벤트를 체인으로 연결하고, 이를 통해 유스케이스를 디커플링된 방식으로 실행하는 방법에 대해 자세히 다룰 예정입니다.
+
+코드베이스
+이 글에 소개된 모든 코드는 White Label에서 가져왔습니다. White Label은 Node.js와 TypeScript를 사용해 도메인 주도 설계(DDD) 방식으로 구축된 바이닐 거래 엔터프라이즈 애플리케이션입니다.
+
 ---
 
 - 주요 포인트
+
   - CQS에서 명령(COMMANDS)은 시스템을 변경하지만 값을 반환하지 않으며, 조회(QUERIES)는 시스템에서 데이터를 가져오지만 부작용이 없습니다.
   - 유스케이스의 3가지 기본 개념: 명령, 조회, 서브도메인
+
+- 애플리케이션 서비스는 도메인 로직을 실행하기 위해 필요한 도메인 엔터티와 정보를 검색하는 역할을 담당한다.
