@@ -11,8 +11,14 @@
             "id": "5301938e69ca8d17",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "language/kotlin/코틀린완벽가이드/3장. 함수 정의하기.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3장. 함수 정의하기"
             }
           }
         ]
@@ -34,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
@@ -50,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
@@ -58,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
             }
           },
           {
@@ -66,7 +79,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
             }
           }
         ]
@@ -90,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "language/kotlin/코틀린완벽가이드/3장. 함수 정의하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +113,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "3장. 함수 정의하기 의 백링크"
             }
           },
           {
@@ -106,9 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "language/kotlin/코틀린완벽가이드/3장. 함수 정의하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "3장. 함수 정의하기 의 나가는 링크"
             }
           },
           {
@@ -118,8 +139,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
             }
           },
           {
@@ -127,7 +152,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "language/kotlin/코틀린완벽가이드/3장. 함수 정의하기.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "3장. 함수 정의하기 의 개요"
             }
           }
         ],
@@ -140,16 +172,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false
     }
   },
   "active": "5301938e69ca8d17",
   "lastOpenFiles": [
+    "programming-paradigm/domain-driven-design/Decoupling-Logic-with-Domain-Events.md",
+    "programming-paradigm/domain-driven-design/conway's-law.md",
+    "daily-note/2024/2024.04.20 - 토.md",
+    "daily-note/2024/2024.04.14 - 일.md",
+    "template/TIL template.md",
+    "template/제텔카스텐.md",
+    "language/kotlin/코틀린완벽가이드/3장. 함수 정의하기.md",
+    "무제.canvas",
+    "무제 파일.canvas",
+    "README.md",
+    "e2bN6glWoVbWIcwUF1uh.avif",
+    "language/kotlin/코틀린완벽가이드",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/14.중첩된-데이터에-함수형도구-사용하기-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/12.함수형반복.md",
@@ -167,31 +211,20 @@
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/4.액션에서-계산-빼내기.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/3.액션과계산,데이터의-차이를-알기.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md",
-    "e2bN6glWoVbWIcwUF1uh.avif",
-    "daily-note/2024/2024.04.20 - 토.md",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션1.쿠버네티스알아보기.md",
     "assets/스크린샷 2024-04-20 오후 5.17.06.png",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션0.시작하기.md",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)",
     "back-end/DevOps/쿠버네티스",
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/1.쏙쏙-들어오는-함수형코딩에-오신-것을-환영합니다..md",
-    "daily-note/2024/2024.04.14 - 일.md",
     "assets/스크린샷 2024-04-14 오후 10.26.53.png",
     "assets/스크린샷 2024-04-14 오후 10.23.16.png",
-    "daily-note/2024/2024.04.13 - 토.md",
     "assets/스크린샷 2024-04-13 오후 1.58.26.png",
-    "computer-science/Database/데이터베이스첫걸음-한빛미디어/6장.SQL문의기본.md",
     "daily-note/2024",
-    "computer-science/Database/데이터베이스첫걸음-한빛미디어/5장.DBMS를조작할때필요한기본지식.md",
-    "computer-science/Database/데이터베이스첫걸음-한빛미디어/4장.데이터베이스와-아키텍처-구성.md",
-    "computer-science/Database/데이터베이스첫걸음-한빛미디어/3장.데이터베이스에-얽힌-돈-이야기.md",
     "computer-science/Database/데이터베이스첫걸음-한빛미디어",
-    "무제 파일.canvas",
     "soft-skills/책/리팩터링2판/11장.api리팩터링",
     "computer-science/Database/SQL/codacademy",
     "computer-science/Database/SQL",
     "back-end/DevOps/Docker/fullstackopen",
-    "soft-skills/책/리팩터링2판/6장.기본적인리팩터링",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/workos.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/snyk.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/loginradius.png",
