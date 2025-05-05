@@ -11,10 +11,14 @@
             "id": "db972a777ae7fac8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "unsorted/쉬운코드/BJ.5 프로세스,스레드,멀티태스킹,멀티스레딩,멀티프로세싱,멀티프로그래밍.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "BJ.5 프로세스,스레드,멀티태스킹,멀티스레딩,멀티프로세싱,멀티프로그래밍"
             }
           }
         ]
@@ -178,6 +182,7 @@
   },
   "active": "db972a777ae7fac8",
   "lastOpenFiles": [
+    "unsorted/쉬운코드/BJ.5 프로세스,스레드,멀티태스킹,멀티스레딩,멀티프로세싱,멀티프로그래밍.md",
     "language/kotlin/코틀린완벽가이드/3장. 함수 정의하기.md",
     "soft-skills/개발자로 성장하기.md",
     "unsorted/쉬운코드/BJ.1 객체와 클래스는 무슨 차이일까.md",
@@ -209,7 +214,6 @@
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/4.액션에서-계산-빼내기.md",
     "assets/스크린샷 2024-04-20 오후 5.17.06.png",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)",
     "back-end/DevOps/쿠버네티스",
