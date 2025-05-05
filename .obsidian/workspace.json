@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f456e8bd0f3ecdf0",
+        "id": "a27a2ec156ac2787",
         "type": "tabs",
         "children": [
           {
-            "id": "5301938e69ca8d17",
+            "id": "db972a777ae7fac8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "language/kotlin/코틀린완벽가이드/3장. 함수 정의하기.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "3장. 함수 정의하기"
+              "title": "새 탭"
             }
           }
         ]
@@ -180,15 +176,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5301938e69ca8d17",
+  "active": "db972a777ae7fac8",
   "lastOpenFiles": [
+    "language/kotlin/코틀린완벽가이드/3장. 함수 정의하기.md",
+    "soft-skills/개발자로 성장하기.md",
+    "unsorted/쉬운코드/BJ.1 객체와 클래스는 무슨 차이일까.md",
+    "unsorted/쉬운코드/BJ.2 변수와 값.md",
+    "unsorted/쉬운코드/BJ.3 함수란 무엇인가.md",
+    "unsorted/쉬운코드",
     "programming-paradigm/domain-driven-design/Decoupling-Logic-with-Domain-Events.md",
     "programming-paradigm/domain-driven-design/conway's-law.md",
     "daily-note/2024/2024.04.20 - 토.md",
     "daily-note/2024/2024.04.14 - 일.md",
     "template/TIL template.md",
     "template/제텔카스텐.md",
-    "language/kotlin/코틀린완벽가이드/3장. 함수 정의하기.md",
     "무제.canvas",
     "무제 파일.canvas",
     "README.md",
@@ -209,11 +210,7 @@
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/5.더-좋은-액션-만들기.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/4.액션에서-계산-빼내기.md",
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/3.액션과계산,데이터의-차이를-알기.md",
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/2.현실에서의-함수형-사고.md",
-    "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션1.쿠버네티스알아보기.md",
     "assets/스크린샷 2024-04-20 오후 5.17.06.png",
-    "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션0.시작하기.md",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)",
     "back-end/DevOps/쿠버네티스",
     "assets/스크린샷 2024-04-14 오후 10.26.53.png",
@@ -224,7 +221,6 @@
     "soft-skills/책/리팩터링2판/11장.api리팩터링",
     "computer-science/Database/SQL/codacademy",
     "computer-science/Database/SQL",
-    "back-end/DevOps/Docker/fullstackopen",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/workos.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/snyk.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/loginradius.png",
