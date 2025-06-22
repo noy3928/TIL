@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c37ae369a9d1ccc2",
+        "id": "9f62e8ef8afbb449",
         "type": "tabs",
         "children": [
           {
-            "id": "1b997813f161955f",
+            "id": "4130f243c9f9837b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer-science/DesignPattern/쉽게배워바로써먹는디자인패턴/1.팩토리패턴.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1.팩토리패턴"
+              "title": "새 탭"
             }
           }
         ]
@@ -180,7 +176,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1b997813f161955f",
+  "active": "4130f243c9f9837b",
   "lastOpenFiles": [
     "computer-science/DesignPattern/쉽게배워바로써먹는디자인패턴/1.팩토리패턴.md",
     "unsorted/쉬운코드/BJ.5 프로세스,스레드,멀티태스킹,멀티스레딩,멀티프로세싱,멀티프로그래밍.md",
