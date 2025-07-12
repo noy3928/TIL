@@ -11,10 +11,14 @@
             "id": "4130f243c9f9837b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "articles/프론트엔드와 백엔드가 소통하는 엔드포인트, RESTful API.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "프론트엔드와 백엔드가 소통하는 엔드포인트, RESTful API"
             }
           }
         ]
@@ -177,6 +181,13 @@
   },
   "active": "4130f243c9f9837b",
   "lastOpenFiles": [
+    "articles/README.md",
+    "articles/프론트엔드와 백엔드가 소통하는 엔드포인트, RESTful API.md",
+    "back-end/patch api 설계하기.md",
+    "articles",
+    "back-end/fundamentals/request-response.md",
+    "back-end/restful",
+    "README.md",
     "computer-science/DesignPattern/쉽게배워바로써먹는디자인패턴/1.팩토리패턴.md",
     "unsorted/쉬운코드/BJ.5 프로세스,스레드,멀티태스킹,멀티스레딩,멀티프로세싱,멀티프로그래밍.md",
     "computer-science/DesignPattern/쉽게배워바로써먹는디자인패턴",
@@ -194,7 +205,6 @@
     "template/제텔카스텐.md",
     "무제.canvas",
     "무제 파일.canvas",
-    "README.md",
     "e2bN6glWoVbWIcwUF1uh.avif",
     "language/kotlin/코틀린완벽가이드",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/14.중첩된-데이터에-함수형도구-사용하기-new.md",
@@ -205,11 +215,7 @@
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1)-new.md",
     "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/1.도커란-무엇인가?.md",
     "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/README.md",
-    "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/README.md.md",
     "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스",
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2)-new.md",
-    "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)/섹션2.쿠버네티스실습준비.md",
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/9.계층형설계(2).md",
     "assets/스크린샷 2024-04-20 오후 5.17.06.png",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)",
     "back-end/DevOps/쿠버네티스",
@@ -218,8 +224,6 @@
     "assets/스크린샷 2024-04-13 오후 1.58.26.png",
     "daily-note/2024",
     "computer-science/Database/데이터베이스첫걸음-한빛미디어",
-    "soft-skills/책/리팩터링2판/11장.api리팩터링",
-    "computer-science/Database/SQL/codacademy",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/workos.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/snyk.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/loginradius.png",

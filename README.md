@@ -42,7 +42,7 @@
 
 ## Articles : 읽고 정돈한 아티클
 
-| 제목                                                                                                                                                                                                                                                                                         | 분류   |
+|                                                                                                                                                                                                                                                                                              | 분류   |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
 | [js개발자는 아직도 모나드를 모르겠어요](https://github.com/noy3928/TIL/blob/main/programming-paradigm/functional-programming/JS%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%8A%94%20%EC%95%84%EC%A7%81%EB%8F%84%20%EB%AA%A8%EB%82%98%EB%93%9C%EB%A5%BC%20%EB%AA%A8%EB%A5%B4%EA%B2%A0%EC%96%B4%EC%9A%94.md) | 함수형 |
 | [build your own react](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/Build-your-own-react.md)                                                                                                                                                               | 리액트 |
@@ -51,6 +51,8 @@
 | [Guideline from the 70's on how to split your React components](https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/Guideline-from-the-70's-on-how-to-split-your-React-components.md)                                                                             | 리액트 |
 | [5 Advanced React Patterns]()                                                                                                                                                                                                                                                                | 리액트 |
 | [개발자의 평생공부](https://github.com/noy3928/TIL/blob/main/soft-skills/%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%ED%8F%89%EC%83%9D%EA%B3%B5%EB%B6%80.md)                                                                                                                                        | 커리어 |
+
+| [프론트엔드와 백엔드가 소통하는 엔드포인트, RESTful API](./articles/프론트엔드와 백엔드가 소통하는 엔드포인트, RESTful API.md) | restful api , 프론트엔드, 백엔드 |
 
 <br>
 
