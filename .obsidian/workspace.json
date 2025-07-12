@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "articles/프론트엔드와 백엔드가 소통하는 엔드포인트, RESTful API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "프론트엔드와 백엔드가 소통하는 엔드포인트, RESTful API"
             }
           }
         ]
@@ -181,6 +181,7 @@
   },
   "active": "4130f243c9f9837b",
   "lastOpenFiles": [
+    "README.md",
     "articles/Roy Thomas Fielding - Representational State Transfer (REST).md",
     "articles/README.md",
     "articles/프론트엔드와 백엔드가 소통하는 엔드포인트, RESTful API.md",
@@ -188,7 +189,6 @@
     "articles",
     "back-end/fundamentals/request-response.md",
     "back-end/restful",
-    "README.md",
     "computer-science/DesignPattern/쉽게배워바로써먹는디자인패턴/1.팩토리패턴.md",
     "unsorted/쉬운코드/BJ.5 프로세스,스레드,멀티태스킹,멀티스레딩,멀티프로세싱,멀티프로그래밍.md",
     "computer-science/DesignPattern/쉽게배워바로써먹는디자인패턴",
