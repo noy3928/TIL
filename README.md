@@ -14,7 +14,8 @@
 | [5 Advanced React Patterns]()                                                                                                                                                                                                                                                                       | 리액트                      |
 | [개발자의 평생공부](https://github.com/noy3928/TIL/blob/main/soft-skills/%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%ED%8F%89%EC%83%9D%EA%B3%B5%EB%B6%80.md)                                                                                                                                                       | 커리어                      |
 | [프론트엔드와 백엔드가 소통하는 엔드포인트, RESTful API](https://github.com/noy3928/TIL/blob/main/articles/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%99%80%20%EB%B0%B1%EC%97%94%EB%93%9C%EA%B0%80%20%EC%86%8C%ED%86%B5%ED%95%98%EB%8A%94%20%EC%97%94%EB%93%9C%ED%8F%AC%EC%9D%B8%ED%8A%B8%2C%20RESTful%20API.md) | restful api , 프론트엔드, 백엔드 |
-| # HATEOAS를 모르면 당신이 알고 있는 REST API는 REST API가 아니라고 장담할게요.                                                                                                                                                                                                                                            |                          |
+| HATEOAS를 모르면 당신이 알고 있는 REST API는 REST API가 아니라고 장담할게요.                                                                                                                                                                                                                                              | restful api              |
+|                                                                                                                                                                                                                                                                                                     |                          |
 
 
 ## Programming Paradigm
@@ -58,11 +59,18 @@
 <br>
 
 ## Sessions
+|                                                                                                                                                                                                                                                                                                           | 분류  |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| [카카오 2022 if : Sentry를 이용한 에러 추적기, React의 선언적 에러 처리](https://github.com/noy3928/TIL/blob/main/daily-note/Sentry%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%97%90%EB%9F%AC%20%EC%B6%94%EC%A0%81%EA%B8%B0%2C%20React%EC%9D%98%20%EC%84%A0%EC%96%B8%EC%A0%81%20%EC%97%90%EB%9F%AC%20%EC%B2%98%EB%A6%AC.md) |     |
+| [FECONF 2021 : 컴포넌트, 다시생각하기 ](./Lecture/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%2C%EB%8B%A4%EC%8B%9C%EC%83%9D%EA%B0%81%ED%95%98%EA%B8%B0-%EC%9B%90%EC%A7%80%ED%98%81.md)                                                                                                                                     |     |
+| [DEVIEW. 2021 : Inside React 동시성을 구현하는 기술](<https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/Inside-react(%EB%8F%99%EC%8B%9C%EC%84%B1%EC%9D%84%EA%B5%AC%ED%98%84%ED%95%98%EB%8A%94%EA%B8%B0%EC%88%A0).md>)                                                                  |     |
+| [토스SLASH 21 : 테스트 커버리지 100%](https://github.com/noy3928/TIL/blob/main/daily-note/%ED%86%A0%EC%8A%A4%EC%8A%AC%EB%9E%98%EC%8B%9C21-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BB%A4%EB%B2%84%EB%A6%AC%EC%A7%80100%25.md)                                                                                                |     |
+| 그런 REST API로 괜찮은가                                                                                                                                                                                                                                                                                         |     |
 
-[카카오 2022 if : Sentry를 이용한 에러 추적기, React의 선언적 에러 처리](https://github.com/noy3928/TIL/blob/main/daily-note/Sentry%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%97%90%EB%9F%AC%20%EC%B6%94%EC%A0%81%EA%B8%B0%2C%20React%EC%9D%98%20%EC%84%A0%EC%96%B8%EC%A0%81%20%EC%97%90%EB%9F%AC%20%EC%B2%98%EB%A6%AC.md)  
-[FECONF 2021 : 컴포넌트, 다시생각하기 ](./Lecture/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%2C%EB%8B%A4%EC%8B%9C%EC%83%9D%EA%B0%81%ED%95%98%EA%B8%B0-%EC%9B%90%EC%A7%80%ED%98%81.md)  
-[DEVIEW. 2021 : Inside React 동시성을 구현하는 기술](<https://github.com/noy3928/TIL/blob/main/front-end/%EB%A6%AC%EC%95%A1%ED%8A%B8/Inside-react(%EB%8F%99%EC%8B%9C%EC%84%B1%EC%9D%84%EA%B5%AC%ED%98%84%ED%95%98%EB%8A%94%EA%B8%B0%EC%88%A0).md>)  
-[토스SLASH 21 : 테스트 커버리지 100%](https://github.com/noy3928/TIL/blob/main/daily-note/%ED%86%A0%EC%8A%A4%EC%8A%AC%EB%9E%98%EC%8B%9C21-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BB%A4%EB%B2%84%EB%A6%AC%EC%A7%80100%25.md)  
+
+
+
+
 <br>
 
 ## Study
