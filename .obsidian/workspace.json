@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/프론트엔드와 백엔드가 소통하는 엔드포인트, RESTful API.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "프론트엔드와 백엔드가 소통하는 엔드포인트, RESTful API"
+              "title": "README"
             }
           }
         ]
@@ -181,6 +181,7 @@
   },
   "active": "4130f243c9f9837b",
   "lastOpenFiles": [
+    "articles/Roy Thomas Fielding - Representational State Transfer (REST).md",
     "articles/README.md",
     "articles/프론트엔드와 백엔드가 소통하는 엔드포인트, RESTful API.md",
     "back-end/patch api 설계하기.md",
@@ -214,7 +215,6 @@
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/11.일급함수(2)-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/8.계층형설계(1)-new.md",
     "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/1.도커란-무엇인가?.md",
-    "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스/README.md",
     "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스",
     "assets/스크린샷 2024-04-20 오후 5.17.06.png",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)",
