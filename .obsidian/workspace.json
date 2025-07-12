@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -182,12 +181,13 @@
   },
   "active": "4130f243c9f9837b",
   "lastOpenFiles": [
-    "README.md",
     "articles/How to understand \"RESTful API is stateless\"?.md",
-    "articles/Roy Thomas Fielding - Representational State Transfer (REST).md",
-    "back-end/그런 REST API로 괜찮은가.md",
-    "articles/HATEOAS를 모르면 당신이 알고 있는 REST API는 REST API가 아니라고 장담할게요..md",
     "articles/Understanding RESTful API design principles.md",
+    "articles/Roy Thomas Fielding - Representational State Transfer (REST).md",
+    "articles/REST APIs must be hypertext-driven.md",
+    "articles/HATEOAS를 모르면 당신이 알고 있는 REST API는 REST API가 아니라고 장담할게요..md",
+    "README.md",
+    "back-end/그런 REST API로 괜찮은가.md",
     "articles/프론트엔드와 백엔드가 소통하는 엔드포인트, RESTful API.md",
     "articles/README.md",
     "back-end/patch api 설계하기.md",
@@ -215,7 +215,6 @@
     "language/kotlin/코틀린완벽가이드",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/14.중첩된-데이터에-함수형도구-사용하기-new.md",
     "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝-new.md",
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/12.함수형반복.md",
     "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스",
     "assets/스크린샷 2024-04-20 오후 5.17.06.png",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)",
