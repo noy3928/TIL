@@ -20,6 +20,13 @@
 - self-descriptive message
 	- 메시지 스스로가 자신에 대한 설명을 할 수 있어야 한다.
 
+- hypermerdia as the engine of application state
+	- 링크를 통해서 상태 전이가 가능해야한다. 
+	- 링크에 자기 자신에 대한 정보가 담겨야 한다.
+	- 이 원칙을 잘 지키기 위해서 활용할 수 있는 방법은 HAL JSON이다.
+		- 
+
+
 
 ---
 
