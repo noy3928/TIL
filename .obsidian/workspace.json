@@ -11,10 +11,14 @@
             "id": "897ca9a8e8fab971",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "programming-paradigm/domain-driven-design/도메인주도개발시작하기/1.도메인모델시작하기.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "1.도메인모델시작하기"
             }
           }
         ]
@@ -178,12 +182,17 @@
   },
   "active": "897ca9a8e8fab971",
   "lastOpenFiles": [
+    "programming-paradigm/domain-driven-design/도메인주도개발시작하기/무제.md",
+    "programming-paradigm/domain-driven-design/도메인주도개발시작하기/1.도메인모델시작하기.md",
+    "programming-paradigm/domain-driven-design/도메인주도개발시작하기/1.도메인모델시작하기",
+    "README.md",
+    "programming-paradigm/domain-driven-design/도메인주도개발시작하기",
+    "articles/Event-driven architectures-Eventarc.md",
     "articles/HATEOAS를 모르면 당신이 알고 있는 REST API는 REST API가 아니라고 장담할게요..md",
     "articles/How to understand \"RESTful API is stateless\"?.md",
     "articles/Understanding RESTful API design principles.md",
     "articles/Roy Thomas Fielding - Representational State Transfer (REST).md",
     "articles/REST APIs must be hypertext-driven.md",
-    "README.md",
     "back-end/그런 REST API로 괜찮은가.md",
     "articles/프론트엔드와 백엔드가 소통하는 엔드포인트, RESTful API.md",
     "articles/README.md",
@@ -205,13 +214,10 @@
     "daily-note/2024/2024.04.20 - 토.md",
     "daily-note/2024/2024.04.14 - 일.md",
     "template/TIL template.md",
-    "template/제텔카스텐.md",
     "무제.canvas",
     "무제 파일.canvas",
     "e2bN6glWoVbWIcwUF1uh.avif",
     "language/kotlin/코틀린완벽가이드",
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/14.중첩된-데이터에-함수형도구-사용하기-new.md",
-    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝-new.md",
     "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스",
     "assets/스크린샷 2024-04-20 오후 5.17.06.png",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)",
@@ -219,8 +225,6 @@
     "assets/스크린샷 2024-04-14 오후 10.26.53.png",
     "assets/스크린샷 2024-04-14 오후 10.23.16.png",
     "assets/스크린샷 2024-04-13 오후 1.58.26.png",
-    "daily-note/2024",
-    "computer-science/Database/데이터베이스첫걸음-한빛미디어",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/workos.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/snyk.png",
     "back-end/nodejs/책/노드교과서-조현영/9장.익스프레스로SNS서비스만들기/node_modules/passport/sponsors/loginradius.png",
