@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming-paradigm/domain-driven-design/도메인주도개발시작하기/1.도메인모델시작하기.md",
+                "file": "back-end/fundamentals/쉬운코드/bj.5 프로세스,스레드,멀티태스킹,멀티스레딩,멀티프로세싱,멀티프로그래밍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.도메인모델시작하기"
+              "title": "bj.5 프로세스,스레드,멀티태스킹,멀티스레딩,멀티프로세싱,멀티프로그래밍"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "unknown",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,8 +182,12 @@
   },
   "active": "897ca9a8e8fab971",
   "lastOpenFiles": [
-    "programming-paradigm/domain-driven-design/도메인주도개발시작하기/무제.md",
+    "programming-paradigm/functional-programming/책/쏙쏙-들어오는-함수형-코딩/13.함수형도구체이닝-new.md",
+    "back-end/fundamentals/쉬운코드/bj.5 프로세스,스레드,멀티태스킹,멀티스레딩,멀티프로세싱,멀티프로그래밍.md",
+    "back-end/fundamentals/쉬운코드",
+    "programming-paradigm/functional-programming/책/FunctionalJavascript/1.함수형길들이기.md",
     "programming-paradigm/domain-driven-design/도메인주도개발시작하기/1.도메인모델시작하기.md",
+    "programming-paradigm/domain-driven-design/도메인주도개발시작하기/무제.md",
     "programming-paradigm/domain-driven-design/도메인주도개발시작하기/1.도메인모델시작하기",
     "README.md",
     "programming-paradigm/domain-driven-design/도메인주도개발시작하기",
@@ -211,9 +215,6 @@
     "unsorted/쉬운코드",
     "programming-paradigm/domain-driven-design/Decoupling-Logic-with-Domain-Events.md",
     "programming-paradigm/domain-driven-design/conway's-law.md",
-    "daily-note/2024/2024.04.20 - 토.md",
-    "daily-note/2024/2024.04.14 - 일.md",
-    "template/TIL template.md",
     "무제.canvas",
     "무제 파일.canvas",
     "e2bN6glWoVbWIcwUF1uh.avif",
@@ -221,7 +222,6 @@
     "back-end/DevOps/Docker/그림과실습으로배우는도커쿠버네티스",
     "assets/스크린샷 2024-04-20 오후 5.17.06.png",
     "back-end/DevOps/쿠버네티스/초보를위한쿠버네티스입문서(인프런)",
-    "back-end/DevOps/쿠버네티스",
     "assets/스크린샷 2024-04-14 오후 10.26.53.png",
     "assets/스크린샷 2024-04-14 오후 10.23.16.png",
     "assets/스크린샷 2024-04-13 오후 1.58.26.png",
