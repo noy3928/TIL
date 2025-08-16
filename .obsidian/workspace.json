@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/DesignPattern/BuilderPattern.md",
+                "file": "articles/The Benefits of Using UUIDs for Unique Identification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BuilderPattern"
+              "title": "The Benefits of Using UUIDs for Unique Identification"
             }
           }
         ]
@@ -181,9 +181,10 @@
   },
   "active": "897ca9a8e8fab971",
   "lastOpenFiles": [
+    "computer-science/DesignPattern/BuilderPattern.md",
+    "articles/The Benefits of Using UUIDs for Unique Identification.md",
     "computer-science/DesignPattern/ProxyPattern.md",
     "computer-science/DesignPattern/category.md",
-    "computer-science/DesignPattern/BuilderPattern.md",
     "computer-science/DesignPattern/Observer Pattern/Advantage.md",
     "computer-science/DesignPattern/Observer Pattern/Applicability.md",
     "computer-science/DesignPattern/Observer Pattern/example.md",
@@ -209,7 +210,6 @@
     "back-end/그런 REST API로 괜찮은가.md",
     "articles/프론트엔드와 백엔드가 소통하는 엔드포인트, RESTful API.md",
     "articles/README.md",
-    "back-end/patch api 설계하기.md",
     "articles",
     "back-end/restful",
     "computer-science/DesignPattern/쉽게배워바로써먹는디자인패턴",
