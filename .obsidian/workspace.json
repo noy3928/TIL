@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "본질 기반 해석 - 소프트웨어 설계의 기본"
             }
+          },
+          {
+            "id": "101c171bf51a75d1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.9.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,8 +83,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화돼있지 않음"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -88,8 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "7325769067e5cdd8",
@@ -172,6 +184,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:새 베이스 생성하기": false,
       "switcher:빠른 전환기 열기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -180,7 +193,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "897ca9a8e8fab971",
+  "active": "101c171bf51a75d1",
   "lastOpenFiles": [
     "articles/The Benefits of Using UUIDs for Unique Identification.md",
     "back-end/아키텍처/본질 기반 해석 - 소프트웨어 설계의 기본.md",
